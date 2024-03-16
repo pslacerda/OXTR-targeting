@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "yadt"
+version = "0.0.1"
+description = ""
+authors = ["Pedro Sousa Lacerda <pslacerda@gmail.com>"]
+packages = [{include = "yadt"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

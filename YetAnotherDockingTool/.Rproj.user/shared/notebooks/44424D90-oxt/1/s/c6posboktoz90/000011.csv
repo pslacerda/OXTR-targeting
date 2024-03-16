@@ -1,0 +1,10 @@
+"0","bbb = read.csv('bbb_vina8.csv', sep = ""\t"") %>%
+  mutate(
+    Permeable = Permeability == ""Permeable""
+  ) %>%
+  filter(Permeable) %>%
+  pull(Name)
+"
+"2","Warning: cannot open file 'bbb_vina8.csv': No such file or directory"
+"2","Error in file(file, ""rt"") : cannot open the connection
+"
