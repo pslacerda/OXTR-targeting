@@ -169,6 +169,7 @@ fieldnames = set(
         "DCE",
         "Model",
         "NumAtoms",
+        "Molecular.Weight"
     ]
 )
 
@@ -248,6 +249,8 @@ def calc_fpts(hs_file, output_file, hotspot_program, docking_wildcards):
 
             sel = " or ".join(hs.selection for hs in atlas)
             S = sum([hs.strength for hs in atlas])
+            S0 = next(hs.strength for hs in atlas)
+            
             import numpy as np
 
             CD = np.average([hs.center_center for hs in atlas])
@@ -259,6 +262,7 @@ def calc_fpts(hs_file, output_file, hotspot_program, docking_wildcards):
                     {
                         "Name": pdb,
                         "S": S,
+                        "S0": S0,
                         "MD": MD,
                         "CD": CD,
                         "FO1": fo(sel, "PEP", state2=1, verbose=False),

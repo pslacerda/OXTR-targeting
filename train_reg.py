@@ -61,7 +61,7 @@ df = pd.DataFrame.merge(chembl, fpts, on="Name", how="inner").drop(
     axis=1,
 )
 
-
+df = df.drop("Molecular.Weight_x", axis=1)
 df = df.sample(frac=1).fillna(0)
 
 df = df[df.groupby(by="Name")["S"].transform("max") == df.S].drop(
@@ -79,11 +79,12 @@ X_train, X_test, y_train, y_test = train_test_split(
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
- 
 joblib.dump(scaler, "data/scaler.joblib")
 
+breakpoint( )
 models = []
- 
+
+
 for model_klass, params in [
     # (MLPRegressor, {
     #     # 'hidden_layer_sizes': [(100,), (50, 50), (100, 50)],

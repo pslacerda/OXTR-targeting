@@ -9,6 +9,7 @@ import seaborn as sb
 
 chembl = pd.read_csv("data/chembl.csv", na_values=["NA", "None"])
 est = joblib.load("data/regressor.joblib")
+scaler = joblib.load('data/scaler.joblib')
 
 names = []
 exp = []
@@ -19,6 +20,7 @@ with pd.read_csv(f"data/fingerprints_chembl.csv", chunksize=5000) as reader:
     for index, chunk in enumerate(reader):
         chunk = chunk.reset_index().drop("index", axis=1)
         chunk = chunk.fillna(0)
+
         # chunk = chunk[~chunk['Mol ecule.ChEMBL.ID'].str.upper().isin(bbb)]
         idx = chunk.groupby("Name")["S"].transform("max") == chunk["S"]
         chunk = chunk[idx]
@@ -27,7 +29,10 @@ with pd.read_csv(f"data/fingerprints_chembl.csv", chunksize=5000) as reader:
             num_atoms = row["NumAtoms"]
 
             del row["Name"]
-            score = est.predict([row])
+
+            chunk = scaler.transform([row])
+            score = est.predict(chunk)
+
             if len(score) != 1:
                 continue
             if np.all(score < 0 or score > 12):
@@ -35,6 +40,8 @@ with pd.read_csv(f"data/fingerprints_chembl.csv", chunksize=5000) as reader:
             xp = chembl[chembl["Name"] == name]["Affinity"]
             if len(xp) != 1:
                 continue
+            
+
             names.append(name)
             scores1.append(float(score[0]))
             scores2.append(float(row["Dg"]))
