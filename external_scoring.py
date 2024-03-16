@@ -20,11 +20,7 @@ scores = []
 with pd.read_csv(f"data/fingerprints_{VERSION}.csv", chunksize=5000) as reader:
     for idx, chunk in enumerate(reader):
         chunk = chunk.fillna(0)
-        idx = (
-            chunk["Name"]
-            .str.rsplit("_", n=2)
-            .apply(lambda n: n[0] in bbb)
-        )
+        idx = chunk["Name"].str.rsplit("_", n=2).apply(lambda n: n[0] in bbb)
         names.extend(chunk[idx]["Name"])
 
         chunk = chunk[idx].drop("Name", axis=1)

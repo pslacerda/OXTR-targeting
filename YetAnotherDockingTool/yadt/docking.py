@@ -156,14 +156,14 @@ class DockingEngine:
         if "log" in options or "out" in options:
             raise DockingError('Options "--log" or "--out" cannot be set.')
         self.options = options
-    
+
     def run(self, cmd):
         try:
             check_call(cmd)
         except CalledProcessError as exc:
             print(f'Command "{cmd}" failed.')
             raise InternalDockingError from exc
-    
+
     def _get_options(self, name):
         return " ".join(
             "--%s %s" % (k, v)
@@ -307,13 +307,13 @@ class DockingAnalyzer:
             ligand_data = parse_pdbqt_poses(poses_pdbqt)
             ligands.append(ligand_data)
         ligands.sort(key=lambda l: l["Dg"])
-        
+
         max_ligands = int(max_ligands)
         for idx, ligand in enumerate(ligands):
             if idx >= max_ligands:
                 break
             dg = ligand["Dg"]
-            model_name = basename(ligand['Filename']).rsplit(".", 2)[0]
+            model_name = basename(ligand["Filename"]).rsplit(".", 2)[0]
             model_name = f"{group}.rank.{model_name}_{-dg}"
             pm.group(f"{group}.rank")
             pm.load(poses_pdbqt, model_name)

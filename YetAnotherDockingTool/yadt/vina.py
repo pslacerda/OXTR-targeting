@@ -283,13 +283,13 @@ def load_vina_results(project_file, group, max_load, max_rank, interactions_chec
         # Ignore poses which mode is greater than max
         if pose["mode"] > max_rank:
             continue
-        
+
         # Load molecule into cache
         cache_name = cmd.get_legal_name(pose["filename"].replace(".", "_"))
-        if cache_name not in cache: 
+        if cache_name not in cache:
             cmd.load(pose["filename"], cache_name)
             cache.add(cache_name)
-        
+
         # Compute object names
         score = int(-10 * pose["affinity"])
         state = pose["mode"]
@@ -308,28 +308,28 @@ def load_vina_results(project_file, group, max_load, max_rank, interactions_chec
             from plip.structure.preparation import PDBComplex
             from plip.visualization.visualize import visualize_in_pymol
             from plip.basic.remote import VisualizerData
-            
+
             breakpoint()
 
             cmd.alter(obj_name, 'type="HETATM"')
             cmd.alter(obj_name, 'resn="LIG"')
             cmd.alter(obj_name, 'chain="z"')
-            
-            lig_filename = pose['filename'][:-5] + str(pose['mode']) + '.pdb'
+
+            lig_filename = pose["filename"][:-5] + str(pose["mode"]) + ".pdb"
             cmd.save(lig_filename, obj_name, state=1)
 
             with open(project_data["target_pdbqt"][:-2]) as file:
-                target = ''.join(file.readlines()[:-1]) + '\n'
+                target = "".join(file.readlines()[:-1]) + "\n"
             with open(lig_filename) as file:
-                ligand = ''.join(file.readlines())
-            
+                ligand = "".join(file.readlines())
+
             complex = PDBComplex()
             complex.load_pdb(target + ligand, True)
             complex.analyze()
-            print(complex.interaction_sets['LIG:z:1'])
+            print(complex.interaction_sets["LIG:z:1"])
             cmd.reinitialize()
-            visualize_in_pymol(VisualizerData(complex, 'LIG:z:1'))
-    
+            visualize_in_pymol(VisualizerData(complex, "LIG:z:1"))
+
         objects.add(obj_name)
         count += 1
         if count >= max_load:
@@ -837,8 +837,7 @@ class VinaThread(BaseThread):
             output_pdbqt = f"{output_dir}/{name}.out.pdbqt"
 
             command = base_command + (
-                f' --ligand "{ligand_pdbqt}"'
-                f' --out "{output_pdbqt}"'
+                f' --ligand "{ligand_pdbqt}"' f' --out "{output_pdbqt}"'
             )
             if project_data["flexible"]:
                 rigid_pdbqt = project_data["rigid_pdbqt"]
@@ -1106,7 +1105,6 @@ def __init_plugin__(app=None):
     # Default preferences
     #
 
-
     DEFAULT_PREFS = {
         "DOCKING_VINA": "vina",
         "DOCKING_OBABEL": "obabel",
@@ -1119,7 +1117,7 @@ def __init_plugin__(app=None):
         if not pymol.plugins.pref_get(pref):
             pymol.plugins.pref_set(pref, DEFAULT_PREFS[pref])
     pymol.plugins.pref_save()
-    
+
     window = pymol.gui.get_qtwindow()
     menu_bar = window.menuBar()
     vina_menu = menu_bar.addMenu("Vina")
@@ -1142,12 +1140,7 @@ def __init_plugin__(app=None):
     def toggle():
         load_results_widget.show()
 
+
 window = pymol.gui.get_qtwindow()
-window.addDockWidget(
-    LeftDockWidgetArea,
-    new_run_docking_widget()
-)
-window.addDockWidget(
-    LeftDockWidgetArea,
-    new_load_results_widget()
-)
+window.addDockWidget(LeftDockWidgetArea, new_run_docking_widget())
+window.addDockWidget(LeftDockWidgetArea, new_load_results_widget())

@@ -9,7 +9,7 @@ import seaborn as sb
 
 chembl = pd.read_csv("data/chembl.csv", na_values=["NA", "None"])
 est = joblib.load("data/regressor.joblib")
-scaler = joblib.load('data/scaler.joblib')
+scaler = joblib.load("data/scaler.joblib")
 
 names = []
 exp = []
@@ -40,7 +40,6 @@ with pd.read_csv(f"data/fingerprints_chembl.csv", chunksize=5000) as reader:
             xp = chembl[chembl["Name"] == name]["Affinity"]
             if len(xp) != 1:
                 continue
-            
 
             names.append(name)
             scores1.append(float(score[0]))

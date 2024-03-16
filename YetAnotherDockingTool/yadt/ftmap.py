@@ -17,17 +17,23 @@ def get_kozakov2015_class(combination):
     return (
         "D"
         if (s0 >= 16 and cd < 8 and md >= 10)
-        else "Dl"
-        if (s0 >= 16 and cd >= 8 and md >= 10)
-        else "Ds"
-        if (s0 >= 16 and cd < 8 and md < 10)
-        else "B"
-        if (s0 < 16 and cd < 8 and md >= 10)
-        else "Bl"
-        if (s0 < 16 and cd >= 8 and md >= 10)
-        else "Bs"
-        if (s0 < 16 and cd < 8 and md < 10)
-        else None
+        else (
+            "Dl"
+            if (s0 >= 16 and cd >= 8 and md >= 10)
+            else (
+                "Ds"
+                if (s0 >= 16 and cd < 8 and md < 10)
+                else (
+                    "B"
+                    if (s0 < 16 and cd < 8 and md >= 10)
+                    else (
+                        "Bl"
+                        if (s0 < 16 and cd >= 8 and md >= 10)
+                        else "Bs" if (s0 < 16 and cd < 8 and md < 10) else None
+                    )
+                )
+            )
+        )
     )
 
 

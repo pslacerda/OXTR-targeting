@@ -18,7 +18,7 @@ df = pd.DataFrame.merge(chembl, fpts, on="Name", how="inner").drop(
         "Compound.Key",
         "Standard.Type",
         "Standard.Relation",
-        "Standard.Value", 
+        "Standard.Value",
         "Standard.Units",
         "Data.Validity.Comment",
         "Comment",
@@ -49,7 +49,7 @@ df = pd.DataFrame.merge(chembl, fpts, on="Name", how="inner").drop(
         "Source.ID",
         "Source.Description",
         "Document.Journal",
-        "Document.Year",  
+        "Document.Year",
         "Cell.ChEMBL.ID",
         "Properties",
         "Action.Type",
@@ -74,14 +74,14 @@ del df["Affinity"]
 X_train, X_test, y_train, y_test = train_test_split(
     df, y, test_size=0.2, random_state=0
 )
- 
+
 
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 joblib.dump(scaler, "data/scaler.joblib")
 
-breakpoint( )
+breakpoint()
 models = []
 
 

@@ -62,7 +62,7 @@ SKIP = [
     "4Q4I",
     "4ZHM",
     "2EAX",
-    "3AFK0"
+    "3AFK0",
 ]
 
 
@@ -86,7 +86,7 @@ for idx, atlas_pdb in enumerate(glob("*_atlas.pdb")):
         (sx, sy, sz), (cx, cy, cz) = box("*.D.*", 5)
     except:
         continue
-    
+
     try:
         if not exists(pept_pdb + "qt"):
             run(f"{ADT_PYTHONSH} {ADT_PREPARE_LIGAND} -l {pept_pdb} -o {pept_pdb}qt")

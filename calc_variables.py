@@ -20,10 +20,11 @@ def parse_pdbqt_poses(fname):
                     "Dg": dg,
                 }
 
+
 fieldnames = set(
     [
         "Molecule.ChEMBL.ID",
-         "Dg",
+        "Dg",
         # "S",
         # "S0",
         # "MD",
@@ -70,18 +71,19 @@ def parse_fpt(smi):
         fieldnames.update(fpt.keys())
     return res
 
-parse_fpt("C")
 
+parse_fpt("C")
 
 
 feats = []
 cnt = 0
 
+
 @cli.command()
-@click.option('-p', '--hotspot-program', type=click.Choice(['ftmap', 'atlas']))
-@click.argument('hs_file')
-@click.argument('output_file')
-@click.argument('docking_wildcards', n=-10)
+@click.option("-p", "--hotspot-program", type=click.Choice(["ftmap", "atlas"]))
+@click.argument("hs_file")
+@click.argument("output_file")
+@click.argument("docking_wildcards", n=-10)
 def run_fpts(hs_file, output_file, hotspot_program, docking_wildcards):
     hs = load_ftmap(hs_file, origin=hotspot_program)
 

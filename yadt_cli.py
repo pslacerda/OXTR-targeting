@@ -258,8 +258,7 @@ def calc_fpts(hs_file, output_file, hotspot_program, docking_wildcards):
 
             model = parse_pdbqt_poses(poses_pdbqt)
             if model is not None:
-                writer.writerow(
-                    {
+                row = {
                         "Name": pdb,
                         "S": S,
                         "S0": S0,
@@ -273,9 +272,11 @@ def calc_fpts(hs_file, output_file, hotspot_program, docking_wildcards):
                         **fpt,
                         **model,
                     }
-                )
+                writer.writerow(row)
                 file.flush()
 
+def train_regressor():
+    pass
 
 if __name__ == "__main__":
     cli()

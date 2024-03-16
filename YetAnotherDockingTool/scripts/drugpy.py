@@ -6,6 +6,7 @@ conda = "conda"
 if which(conda) is None:
     conda = "micromamba"
 
+
 def require(cmd, repo, *pkg):
     try:
         assert which(cmd)

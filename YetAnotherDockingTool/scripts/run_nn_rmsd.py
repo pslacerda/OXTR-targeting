@@ -21,26 +21,37 @@ real_rmsd = {}
 peptibase = pd.read_csv("tests/peptibase.csv", sep=";").sample(frac=1)
 with pd.read_csv("tests/fingerprints.csv", chunksize=CHUNKSIZE) as reader:
     for idx, chunk in enumerate(reader):
-        assert 'Model' in chunk.columns
-        assert 'Pdb' in peptibase.columns
-        df = pd.DataFrame.merge(chunk, peptibase,
-            on="Pdb").drop([
-                'Pdb', 'Affinity_Log', 'Affinity',
-                'Sequence1', 'Sequence3', 'Smiles', 'Chain', 'Resid', 'Eq',
-                'Uniprot', 'Ecnumber', 'Constant'],
-                axis=1)
-        
+        assert "Model" in chunk.columns
+        assert "Pdb" in peptibase.columns
+        df = pd.DataFrame.merge(chunk, peptibase, on="Pdb").drop(
+            [
+                "Pdb",
+                "Affinity_Log",
+                "Affinity",
+                "Sequence1",
+                "Sequence3",
+                "Smiles",
+                "Chain",
+                "Resid",
+                "Eq",
+                "Uniprot",
+                "Ecnumber",
+                "Constant",
+            ],
+            axis=1,
+        )
+
         df = df.sample(frac=1).fillna(0)
-        
+
         train_x, test_x = train_test_split(df, test_size=0.2)
 
         train_x = train_x
         train_y = np.array(train_x.RMSD < 2, dtype=bool)
-        
+
         test_x = test_x
         test_y = test_x.RMSD < 2
-        
-        del train_x['RMSD'], test_x['RMSD']
+
+        del train_x["RMSD"], test_x["RMSD"]
 
         Test_rmsd_x = pd.concat([Test_rmsd_x, test_x])
         Test_rmsd_y.extend(test_y)
@@ -51,14 +62,15 @@ with pd.read_csv("tests/fingerprints.csv", chunksize=CHUNKSIZE) as reader:
             x_res, y_res = s.fit_resample(train_x, train_y)
         except:
             continue
-        
+
         est_rmsd.partial_fit(x_res, y_res, classes=(True, False))
         print(confusion_matrix(y_res, est_rmsd.predict(x_res)))
 
-        rmsd = pd.DataFrame.merge(chunk[chunk.Model == 1].drop_duplicates('Pdb'), peptibase,
-                                 on="Pdb").RMSD
-        
-        print(sum(rmsd <= 2)/len(rmsd))
+        rmsd = pd.DataFrame.merge(
+            chunk[chunk.Model == 1].drop_duplicates("Pdb"), peptibase, on="Pdb"
+        ).RMSD
+
+        print(sum(rmsd <= 2) / len(rmsd))
 
 
 s = RandomUnderSampler(random_state=SEED)
@@ -68,4 +80,4 @@ print(confusion_matrix(y_res, est_rmsd.predict(x_res), normalize="all"))
 ConfusionMatrixDisplay.from_estimator(est_rmsd, x_res, y_res, normalize="all")
 plt.show()
 
-print(sum(real_rmsd)/len(real_rmsd))
+print(sum(real_rmsd) / len(real_rmsd))
