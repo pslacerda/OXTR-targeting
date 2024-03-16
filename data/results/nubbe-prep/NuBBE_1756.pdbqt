@@ -1,0 +1,29 @@
+REMARK  Name = NuBBE_1756
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_6  and  C_7
+REMARK    4  A    between atoms: C_7  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LIG A   1      -0.386   1.751   0.904  0.00  0.00    +0.120 A 
+ATOM      2  C   LIG A   1       0.623   1.913  -0.047  0.00  0.00    +0.046 A 
+ATOM      3  C   LIG A   1       1.225   0.801  -0.644  0.00  0.00    +0.007 A 
+ATOM      4  C   LIG A   1       0.828  -0.494  -0.290  0.00  0.00    -0.043 A 
+ATOM      5  C   LIG A   1      -0.191  -0.651   0.658  0.00  0.00    +0.007 A 
+ATOM      6  C   LIG A   1      -0.790   0.463   1.255  0.00  0.00    +0.046 A 
+ENDROOT
+BRANCH   1   8
+ATOM      7  C   LIG A   1      -1.940   2.787   2.368  0.00  0.00    +0.277 C 
+ATOM      8  O   LIG A   1      -0.894   2.916   1.413  0.00  0.00    -0.495 OA
+ENDBRANCH   1   8
+BRANCH   4   9
+ATOM      9  C   LIG A   1       1.476  -1.702  -0.923  0.00  0.00    +0.061 C 
+BRANCH   9  10
+ATOM     10  C   LIG A   1       0.786  -2.144  -2.184  0.00  0.00    -0.030 C 
+ATOM     11  C   LIG A   1       0.243  -3.353  -2.365  0.00  0.00    +0.004 C 
+ENDBRANCH   9  10
+ENDBRANCH   4   9
+TORSDOF 3

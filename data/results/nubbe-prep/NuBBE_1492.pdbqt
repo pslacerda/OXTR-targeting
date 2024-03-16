@@ -1,0 +1,49 @@
+REMARK  Name = NuBBE_1492
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: O_1  and  C_3
+REMARK    3  A    between atoms: C_5  and  C_11
+REMARK    4  A    between atoms: C_8  and  O_9
+REMARK    5  A    between atoms: O_9  and  C_10
+REMARK    6  A    between atoms: C_19  and  C_23
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LIG A   1      -0.144   0.232  -0.448  0.00  0.00    +0.154 C 
+ATOM      2  C   LIG A   1      -0.969   0.447  -1.723  0.00  0.00    +0.056 C 
+ATOM      3  C   LIG A   1      -1.646   1.777  -1.505  0.00  0.00    +0.056 C 
+ATOM      4  C   LIG A   1      -0.652   2.514  -0.651  0.00  0.00    +0.167 C 
+ATOM      5  O   LIG A   1      -0.033   1.534   0.181  0.00  0.00    -0.371 OA
+ATOM      6  C   LIG A   1      -3.018   1.411  -0.933  0.00  0.00    +0.154 C 
+ATOM      7  O   LIG A   1      -3.318   0.102  -1.453  0.00  0.00    -0.371 OA
+ATOM      8  C   LIG A   1      -2.111  -0.526  -1.906  0.00  0.00    +0.167 C 
+ENDROOT
+BRANCH   6   9
+ATOM      9  C   LIG A   1      -3.240   1.435   0.572  0.00  0.00    -0.015 A 
+ATOM     10  C   LIG A   1      -3.145   0.263   1.347  0.00  0.00    +0.055 A 
+ATOM     11  C   LIG A   1      -3.365   0.354   2.708  0.00  0.00    +0.167 A 
+ATOM     12  C   LIG A   1      -3.694   1.534   3.312  0.00  0.00    +0.166 A 
+ATOM     13  C   LIG A   1      -3.821   2.707   2.593  0.00  0.00    +0.050 A 
+ATOM     14  C   LIG A   1      -3.586   2.647   1.212  0.00  0.00    +0.010 A 
+ATOM     15  O   LIG A   1      -3.881   1.400   4.652  0.00  0.00    -0.453 OA
+ATOM     16  C   LIG A   1      -3.614  -0.008   4.818  0.00  0.00    +0.466 C 
+ATOM     17  O   LIG A   1      -3.293  -0.684   3.586  0.00  0.00    -0.453 OA
+ENDBRANCH   6   9
+BRANCH   1  20
+ATOM     18  C   LIG A   1       2.893  -1.796  -1.735  0.00  0.00    +0.162 A 
+ATOM     19  C   LIG A   1       1.586  -1.279  -1.623  0.00  0.00    +0.055 A 
+ATOM     20  C   LIG A   1       1.247  -0.361  -0.615  0.00  0.00    -0.015 A 
+ATOM     21  C   LIG A   1       2.236  -0.034   0.325  0.00  0.00    +0.010 A 
+ATOM     22  C   LIG A   1       3.524  -0.564   0.245  0.00  0.00    +0.050 A 
+ATOM     23  C   LIG A   1       3.861  -1.450  -0.778  0.00  0.00    +0.162 A 
+BRANCH  18  24
+ATOM     24  O   LIG A   1       3.068  -2.661  -2.791  0.00  0.00    -0.491 OA
+ATOM     25  C   LIG A   1       4.386  -2.744  -3.332  0.00  0.00    +0.277 C 
+ENDBRANCH  18  24
+BRANCH  23  26
+ATOM     26  O   LIG A   1       5.127  -1.947  -0.909  0.00  0.00    -0.491 OA
+ATOM     27  C   LIG A   1       5.844  -2.214   0.287  0.00  0.00    +0.277 C 
+ENDBRANCH  23  26
+ENDBRANCH   1  20
+TORSDOF 4

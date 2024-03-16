@@ -1,0 +1,360 @@
+MODEL 1
+REMARK VINA RESULT:      -6.2      0.000      0.000
+REMARK  Name = NuBBE_869
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_7  and  OD_10
+REMARK    2  A    between atoms: CA_11  and  CB_16
+REMARK    3  A    between atoms: CB_16  and  CG_17
+REMARK    4  A    between atoms: CG_17  and  CD1_18
+REMARK    5  A    between atoms: CG_17  and  CD2_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   LEU A   2     -12.349   6.718 132.179  0.00  0.00    -0.274 OA
+ATOM      2  C   LEU A   2     -11.682   6.583 131.155  0.00  0.00    +0.237 C 
+ATOM      3  N   HYP A   1     -11.805   7.417 130.065  0.00  0.00    -0.286 N 
+ATOM      4  CA  HYP A   1     -11.432   6.975 128.738  0.00  0.00    +0.164 C 
+ATOM      5  CB  HYP A   1     -11.486   8.260 127.925  0.00  0.00    +0.064 C 
+ATOM      6  CG  HYP A   1     -12.725   8.947 128.509  0.00  0.00    +0.134 C 
+ATOM      7  CD  HYP A   1     -12.733   8.532 129.992  0.00  0.00    +0.140 C 
+ATOM      8  CA  LEU A   2     -10.402   5.704 131.112  0.00  0.00    +0.159 C 
+ATOM      9  N   LEU A   2      -9.961   5.344 129.760  0.00  0.00    -0.302 N 
+ATOM     10  C   HYP A   1     -10.106   6.225 128.707  0.00  0.00    +0.234 C 
+ATOM     11  O   HYP A   1      -9.360   6.180 127.736  0.00  0.00    -0.274 OA
+ATOM     12  H   LEU A   2      -9.137   4.762 129.681  0.00  0.00    +0.149 HD
+ENDROOT
+BRANCH   6  13
+ATOM     13  OD  HYP A   1     -13.887   8.440 127.855  0.00  0.00    -0.390 OA
+ATOM     14  HD  HYP A   1     -14.468   9.198 127.657  0.00  0.00    +0.210 HD
+ENDBRANCH   6  13
+BRANCH   8  15
+ATOM     15  CB  LEU A   2      -9.302   6.478 131.866  0.00  0.00    +0.034 C 
+BRANCH  15  16
+ATOM     16  CG  LEU A   2      -7.879   5.888 131.776  0.00  0.00    -0.015 C 
+ATOM     17  CD1 LEU A   2      -6.945   6.906 131.116  0.00  0.00    +0.007 C 
+ATOM     18  CD2 LEU A   2      -7.323   5.483 133.140  0.00  0.00    +0.007 C 
+ENDBRANCH  15  16
+ENDBRANCH   8  15
+TORSDOF 3
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.1      2.091      3.341
+REMARK  Name = NuBBE_869
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_7  and  OD_10
+REMARK    2  A    between atoms: CA_11  and  CB_16
+REMARK    3  A    between atoms: CB_16  and  CG_17
+REMARK    4  A    between atoms: CG_17  and  CD1_18
+REMARK    5  A    between atoms: CG_17  and  CD2_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   LEU A   2      -8.279   5.622 129.577  0.00  0.00    -0.274 OA
+ATOM      2  C   LEU A   2      -9.354   5.921 130.091  0.00  0.00    +0.237 C 
+ATOM      3  N   HYP A   1     -10.390   6.494 129.385  0.00  0.00    -0.286 N 
+ATOM      4  CA  HYP A   1     -11.401   7.289 130.050  0.00  0.00    +0.164 C 
+ATOM      5  CB  HYP A   1     -12.445   7.489 128.961  0.00  0.00    +0.064 C 
+ATOM      6  CG  HYP A   1     -11.568   7.701 127.723  0.00  0.00    +0.134 C 
+ATOM      7  CD  HYP A   1     -10.331   6.819 127.971  0.00  0.00    +0.140 C 
+ATOM      8  CA  LEU A   2      -9.791   5.370 131.477  0.00  0.00    +0.159 C 
+ATOM      9  N   LEU A   2     -10.889   6.112 132.105  0.00  0.00    -0.302 N 
+ATOM     10  C   HYP A   1     -11.903   6.660 131.344  0.00  0.00    +0.234 C 
+ATOM     11  O   HYP A   1     -13.020   6.843 131.813  0.00  0.00    -0.274 OA
+ATOM     12  H   LEU A   2     -11.201   5.798 133.014  0.00  0.00    +0.149 HD
+ENDROOT
+BRANCH   6  13
+ATOM     13  OD  HYP A   1     -11.183   9.074 127.658  0.00  0.00    -0.390 OA
+ATOM     14  HD  HYP A   1     -10.493   9.218 128.331  0.00  0.00    +0.210 HD
+ENDBRANCH   6  13
+BRANCH   8  15
+ATOM     15  CB  LEU A   2     -10.168   3.889 131.272  0.00  0.00    +0.034 C 
+BRANCH  15  16
+ATOM     16  CG  LEU A   2      -9.289   2.860 132.012  0.00  0.00    -0.015 C 
+ATOM     17  CD1 LEU A   2      -9.155   3.268 133.483  0.00  0.00    +0.007 C 
+ATOM     18  CD2 LEU A   2      -9.841   1.439 131.918  0.00  0.00    +0.007 C 
+ENDBRANCH  15  16
+ENDBRANCH   8  15
+TORSDOF 3
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -5.7      1.993      5.641
+REMARK  Name = NuBBE_869
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_7  and  OD_10
+REMARK    2  A    between atoms: CA_11  and  CB_16
+REMARK    3  A    between atoms: CB_16  and  CG_17
+REMARK    4  A    between atoms: CG_17  and  CD1_18
+REMARK    5  A    between atoms: CG_17  and  CD2_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   LEU A   2      -8.824   5.281 127.972  0.00  0.00    -0.274 OA
+ATOM      2  C   LEU A   2      -9.167   5.537 129.125  0.00  0.00    +0.237 C 
+ATOM      3  N   HYP A   1      -8.331   5.379 130.208  0.00  0.00    -0.286 N 
+ATOM      4  CA  HYP A   1      -8.860   5.183 131.541  0.00  0.00    +0.164 C 
+ATOM      5  CB  HYP A   1      -7.626   5.315 132.420  0.00  0.00    +0.064 C 
+ATOM      6  CG  HYP A   1      -6.566   4.596 131.580  0.00  0.00    +0.134 C 
+ATOM      7  CD  HYP A   1      -6.967   4.887 130.122  0.00  0.00    +0.140 C 
+ATOM      8  CA  LEU A   2     -10.426   6.389 129.443  0.00  0.00    +0.159 C 
+ATOM      9  N   LEU A   2     -10.902   6.273 130.825  0.00  0.00    -0.302 N 
+ATOM     10  C   HYP A   1     -10.014   6.121 131.872  0.00  0.00    +0.234 C 
+ATOM     11  O   HYP A   1     -10.300   6.494 133.004  0.00  0.00    -0.274 OA
+ATOM     12  H   LEU A   2     -11.727   6.801 131.078  0.00  0.00    +0.149 HD
+ENDROOT
+BRANCH   6  13
+ATOM     13  OD  HYP A   1      -6.644   3.194 131.836  0.00  0.00    -0.390 OA
+ATOM     14  HD  HYP A   1      -6.198   2.736 131.101  0.00  0.00    +0.210 HD
+ENDBRANCH   6  13
+BRANCH   8  15
+ATOM     15  CB  LEU A   2     -10.077   7.851 129.097  0.00  0.00    +0.034 C 
+BRANCH  15  16
+ATOM     16  CG  LEU A   2     -10.996   8.539 128.067  0.00  0.00    -0.015 C 
+ATOM     17  CD1 LEU A   2     -11.039   7.704 126.783  0.00  0.00    +0.007 C 
+ATOM     18  CD2 LEU A   2     -12.415   8.749 128.593  0.00  0.00    +0.007 C 
+ENDBRANCH  15  16
+ENDBRANCH   8  15
+TORSDOF 3
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.7      8.456     10.051
+REMARK  Name = NuBBE_869
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_7  and  OD_10
+REMARK    2  A    between atoms: CA_11  and  CB_16
+REMARK    3  A    between atoms: CB_16  and  CG_17
+REMARK    4  A    between atoms: CG_17  and  CD1_18
+REMARK    5  A    between atoms: CG_17  and  CD2_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   LEU A   2      -6.133   0.041 125.487  0.00  0.00    -0.274 OA
+ATOM      2  C   LEU A   2      -7.109   0.157 124.749  0.00  0.00    +0.237 C 
+ATOM      3  N   HYP A   1      -7.424   1.332 124.102  0.00  0.00    -0.286 N 
+ATOM      4  CA  HYP A   1      -8.780   1.616 123.682  0.00  0.00    +0.164 C 
+ATOM      5  CB  HYP A   1      -8.615   2.853 122.812  0.00  0.00    +0.064 C 
+ATOM      6  CG  HYP A   1      -7.555   3.641 123.590  0.00  0.00    +0.134 C 
+ATOM      7  CD  HYP A   1      -6.659   2.560 124.222  0.00  0.00    +0.140 C 
+ATOM      8  CA  LEU A   2      -7.874  -1.074 124.189  0.00  0.00    +0.159 C 
+ATOM      9  N   LEU A   2      -9.209  -0.769 123.663  0.00  0.00    -0.302 N 
+ATOM     10  C   HYP A   1      -9.463   0.425 123.019  0.00  0.00    +0.234 C 
+ATOM     11  O   HYP A   1     -10.355   0.517 122.184  0.00  0.00    -0.274 OA
+ATOM     12  H   LEU A   2      -9.751  -1.541 123.298  0.00  0.00    +0.149 HD
+ENDROOT
+BRANCH   6  13
+ATOM     13  OD  HYP A   1      -8.199   4.400 124.612  0.00  0.00    -0.390 OA
+ATOM     14  HD  HYP A   1      -8.342   3.807 125.373  0.00  0.00    +0.210 HD
+ENDBRANCH   6  13
+BRANCH   8  15
+ATOM     15  CB  LEU A   2      -6.979  -1.699 123.100  0.00  0.00    +0.034 C 
+BRANCH  15  16
+ATOM     16  CG  LEU A   2      -6.426  -3.106 123.407  0.00  0.00    -0.015 C 
+ATOM     17  CD1 LEU A   2      -4.965  -2.994 123.855  0.00  0.00    +0.007 C 
+ATOM     18  CD2 LEU A   2      -7.239  -3.836 124.475  0.00  0.00    +0.007 C 
+ENDBRANCH  15  16
+ENDBRANCH   8  15
+TORSDOF 3
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.6      8.192      9.740
+REMARK  Name = NuBBE_869
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_7  and  OD_10
+REMARK    2  A    between atoms: CA_11  and  CB_16
+REMARK    3  A    between atoms: CB_16  and  CG_17
+REMARK    4  A    between atoms: CG_17  and  CD1_18
+REMARK    5  A    between atoms: CG_17  and  CD2_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   LEU A   2      -5.178   1.161 126.420  0.00  0.00    -0.274 OA
+ATOM      2  C   LEU A   2      -6.180   0.655 125.919  0.00  0.00    +0.237 C 
+ATOM      3  N   HYP A   1      -7.053   1.358 125.117  0.00  0.00    -0.286 N 
+ATOM      4  CA  HYP A   1      -8.431   0.942 124.966  0.00  0.00    +0.164 C 
+ATOM      5  CB  HYP A   1      -8.929   1.822 123.829  0.00  0.00    +0.064 C 
+ATOM      6  CG  HYP A   1      -8.249   3.157 124.148  0.00  0.00    +0.134 C 
+ATOM      7  CD  HYP A   1      -6.902   2.763 124.782  0.00  0.00    +0.140 C 
+ATOM      8  CA  LEU A   2      -6.377  -0.884 125.836  0.00  0.00    +0.159 C 
+ATOM      9  N   LEU A   2      -7.758  -1.304 125.576  0.00  0.00    -0.302 N 
+ATOM     10  C   HYP A   1      -8.585  -0.560 124.759  0.00  0.00    +0.234 C 
+ATOM     11  O   HYP A   1      -9.512  -1.083 124.151  0.00  0.00    -0.274 OA
+ATOM     12  H   LEU A   2      -7.939  -2.298 125.525  0.00  0.00    +0.149 HD
+ENDROOT
+BRANCH   6  13
+ATOM     13  OD  HYP A   1      -9.044   3.868 125.096  0.00  0.00    -0.390 OA
+ATOM     14  HD  HYP A   1      -8.649   3.728 125.975  0.00  0.00    +0.210 HD
+ENDBRANCH   6  13
+BRANCH   8  15
+ATOM     15  CB  LEU A   2      -5.424  -1.399 124.738  0.00  0.00    +0.034 C 
+BRANCH  15  16
+ATOM     16  CG  LEU A   2      -5.949  -2.575 123.888  0.00  0.00    -0.015 C 
+ATOM     17  CD1 LEU A   2      -6.132  -2.116 122.438  0.00  0.00    +0.007 C 
+ATOM     18  CD2 LEU A   2      -5.023  -3.790 123.932  0.00  0.00    +0.007 C 
+ENDBRANCH  15  16
+ENDBRANCH   8  15
+TORSDOF 3
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -5.5      7.982      9.556
+REMARK  Name = NuBBE_869
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_7  and  OD_10
+REMARK    2  A    between atoms: CA_11  and  CB_16
+REMARK    3  A    between atoms: CB_16  and  CG_17
+REMARK    4  A    between atoms: CG_17  and  CD1_18
+REMARK    5  A    between atoms: CG_17  and  CD2_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   LEU A   2      -9.646  -0.772 123.523  0.00  0.00    -0.274 OA
+ATOM      2  C   LEU A   2      -8.627  -0.383 124.089  0.00  0.00    +0.237 C 
+ATOM      3  N   HYP A   1      -8.404   0.939 124.408  0.00  0.00    -0.286 N 
+ATOM      4  CA  HYP A   1      -7.062   1.452 124.582  0.00  0.00    +0.164 C 
+ATOM      5  CB  HYP A   1      -7.301   2.839 125.161  0.00  0.00    +0.064 C 
+ATOM      6  CG  HYP A   1      -8.522   3.304 124.363  0.00  0.00    +0.134 C 
+ATOM      7  CD  HYP A   1      -9.329   2.018 124.108  0.00  0.00    +0.140 C 
+ATOM      8  CA  LEU A   2      -7.660  -1.358 124.815  0.00  0.00    +0.159 C 
+ATOM      9  N   LEU A   2      -6.331  -0.802 125.089  0.00  0.00    -0.302 N 
+ATOM     10  C   HYP A   1      -6.171   0.532 125.408  0.00  0.00    +0.234 C 
+ATOM     11  O   HYP A   1      -5.222   0.912 126.084  0.00  0.00    -0.274 OA
+ATOM     12  H   LEU A   2      -5.661  -1.404 125.550  0.00  0.00    +0.149 HD
+ENDROOT
+BRANCH   6  13
+ATOM     13  OD  HYP A   1      -8.083   3.857 123.123  0.00  0.00    -0.390 OA
+ATOM     14  HD  HYP A   1      -8.847   3.869 122.519  0.00  0.00    +0.210 HD
+ENDBRANCH   6  13
+BRANCH   8  15
+ATOM     15  CB  LEU A   2      -8.358  -1.792 126.120  0.00  0.00    +0.034 C 
+BRANCH  15  16
+ATOM     16  CG  LEU A   2      -8.959  -3.213 126.123  0.00  0.00    -0.015 C 
+ATOM     17  CD1 LEU A   2      -8.260  -4.066 125.060  0.00  0.00    +0.007 C 
+ATOM     18  CD2 LEU A   2      -8.850  -3.894 127.486  0.00  0.00    +0.007 C 
+ENDBRANCH  15  16
+ENDBRANCH   8  15
+TORSDOF 3
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -5.5      2.109      3.368
+REMARK  Name = NuBBE_869
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_7  and  OD_10
+REMARK    2  A    between atoms: CA_11  and  CB_16
+REMARK    3  A    between atoms: CB_16  and  CG_17
+REMARK    4  A    between atoms: CG_17  and  CD1_18
+REMARK    5  A    between atoms: CG_17  and  CD2_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   LEU A   2      -9.270   5.936 127.535  0.00  0.00    -0.274 OA
+ATOM      2  C   LEU A   2      -9.657   6.104 128.690  0.00  0.00    +0.237 C 
+ATOM      3  N   HYP A   1     -10.854   6.714 128.998  0.00  0.00    -0.286 N 
+ATOM      4  CA  HYP A   1     -11.060   7.356 130.279  0.00  0.00    +0.164 C 
+ATOM      5  CB  HYP A   1     -12.553   7.649 130.275  0.00  0.00    +0.064 C 
+ATOM      6  CG  HYP A   1     -12.784   8.076 128.822  0.00  0.00    +0.134 C 
+ATOM      7  CD  HYP A   1     -11.783   7.234 128.010  0.00  0.00    +0.140 C 
+ATOM      8  CA  LEU A   2      -9.031   5.346 129.892  0.00  0.00    +0.159 C 
+ATOM      9  N   LEU A   2      -9.328   5.935 131.201  0.00  0.00    -0.302 N 
+ATOM     10  C   HYP A   1     -10.549   6.529 131.452  0.00  0.00    +0.234 C 
+ATOM     11  O   HYP A   1     -11.004   6.587 132.589  0.00  0.00    -0.274 OA
+ATOM     12  H   LEU A   2      -8.932   5.483 132.015  0.00  0.00    +0.149 HD
+ENDROOT
+BRANCH   6  13
+ATOM     13  OD  HYP A   1     -12.473   9.463 128.691  0.00  0.00    -0.390 OA
+ATOM     14  HD  HYP A   1     -11.515   9.535 128.530  0.00  0.00    +0.210 HD
+ENDBRANCH   6  13
+BRANCH   8  15
+ATOM     15  CB  LEU A   2      -9.532   3.889 129.813  0.00  0.00    +0.034 C 
+BRANCH  15  16
+ATOM     16  CG  LEU A   2      -8.439   2.803 129.741  0.00  0.00    -0.015 C 
+ATOM     17  CD1 LEU A   2      -8.654   1.942 128.492  0.00  0.00    +0.007 C 
+ATOM     18  CD2 LEU A   2      -7.028   3.389 129.728  0.00  0.00    +0.007 C 
+ENDBRANCH  15  16
+ENDBRANCH   8  15
+TORSDOF 3
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -5.5      7.523      9.283
+REMARK  Name = NuBBE_869
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_7  and  OD_10
+REMARK    2  A    between atoms: CA_11  and  CB_16
+REMARK    3  A    between atoms: CB_16  and  CG_17
+REMARK    4  A    between atoms: CG_17  and  CD1_18
+REMARK    5  A    between atoms: CG_17  and  CD2_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   LEU A   2      -8.681  -0.564 126.236  0.00  0.00    -0.274 OA
+ATOM      2  C   LEU A   2      -8.781   0.216 125.291  0.00  0.00    +0.237 C 
+ATOM      3  N   HYP A   1      -8.283   1.500 125.323  0.00  0.00    -0.286 N 
+ATOM      4  CA  HYP A   1      -8.828   2.537 124.472  0.00  0.00    +0.164 C 
+ATOM      5  CB  HYP A   1      -7.836   3.677 124.649  0.00  0.00    +0.064 C 
+ATOM      6  CG  HYP A   1      -7.519   3.586 126.144  0.00  0.00    +0.134 C 
+ATOM      7  CD  HYP A   1      -7.599   2.082 126.465  0.00  0.00    +0.140 C 
+ATOM      8  CA  LEU A   2      -9.149  -0.262 123.859  0.00  0.00    +0.159 C 
+ATOM      9  N   LEU A   2      -9.601   0.806 122.962  0.00  0.00    -0.302 N 
+ATOM     10  C   HYP A   1      -9.060   2.075 123.039  0.00  0.00    +0.234 C 
+ATOM     11  O   HYP A   1      -9.039   2.814 122.062  0.00  0.00    -0.274 OA
+ATOM     12  H   LEU A   2      -9.863   0.543 122.021  0.00  0.00    +0.149 HD
+ENDROOT
+BRANCH   6  13
+ATOM     13  OD  HYP A   1      -8.521   4.294 126.875  0.00  0.00    -0.390 OA
+ATOM     14  HD  HYP A   1      -9.189   3.645 127.161  0.00  0.00    +0.210 HD
+ENDBRANCH   6  13
+BRANCH   8  15
+ATOM     15  CB  LEU A   2      -7.905  -0.974 123.291  0.00  0.00    +0.034 C 
+BRANCH  15  16
+ATOM     16  CG  LEU A   2      -7.986  -2.513 123.211  0.00  0.00    -0.015 C 
+ATOM     17  CD1 LEU A   2      -7.054  -3.129 124.259  0.00  0.00    +0.007 C 
+ATOM     18  CD2 LEU A   2      -9.408  -3.037 123.410  0.00  0.00    +0.007 C 
+ENDBRANCH  15  16
+ENDBRANCH   8  15
+TORSDOF 3
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -5.4      7.659      9.453
+REMARK  Name = NuBBE_869
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CG_7  and  OD_10
+REMARK    2  A    between atoms: CA_11  and  CB_16
+REMARK    3  A    between atoms: CB_16  and  CG_17
+REMARK    4  A    between atoms: CG_17  and  CD1_18
+REMARK    5  A    between atoms: CG_17  and  CD2_19
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   LEU A   2      -6.821  -0.865 123.418  0.00  0.00    -0.274 OA
+ATOM      2  C   LEU A   2      -7.303  -0.240 124.361  0.00  0.00    +0.237 C 
+ATOM      3  N   HYP A   1      -7.760   1.055 124.247  0.00  0.00    -0.286 N 
+ATOM      4  CA  HYP A   1      -7.834   1.927 125.400  0.00  0.00    +0.164 C 
+ATOM      5  CB  HYP A   1      -8.612   3.123 124.871  0.00  0.00    +0.064 C 
+ATOM      6  CG  HYP A   1      -8.035   3.271 123.460  0.00  0.00    +0.134 C 
+ATOM      7  CD  HYP A   1      -7.717   1.830 123.020  0.00  0.00    +0.140 C 
+ATOM      8  CA  LEU A   2      -7.775  -0.943 125.664  0.00  0.00    +0.159 C 
+ATOM      9  N   LEU A   2      -7.953  -0.042 126.807  0.00  0.00    -0.302 N 
+ATOM     10  C   HYP A   1      -8.420   1.245 126.630  0.00  0.00    +0.234 C 
+ATOM     11  O   HYP A   1      -9.018   1.831 127.526  0.00  0.00    -0.274 OA
+ATOM     12  H   LEU A   2      -8.248  -0.455 127.682  0.00  0.00    +0.149 HD
+ENDROOT
+BRANCH   6  13
+ATOM     13  OD  HYP A   1      -6.832   4.037 123.529  0.00  0.00    -0.390 OA
+ATOM     14  HD  HYP A   1      -6.512   3.999 124.449  0.00  0.00    +0.210 HD
+ENDBRANCH   6  13
+BRANCH   8  15
+ATOM     15  CB  LEU A   2      -9.088  -1.678 125.326  0.00  0.00    +0.034 C 
+BRANCH  15  16
+ATOM     16  CG  LEU A   2      -9.110  -3.191 125.625  0.00  0.00    -0.015 C 
+ATOM     17  CD1 LEU A   2      -8.059  -3.898 124.762  0.00  0.00    +0.007 C 
+ATOM     18  CD2 LEU A   2      -8.862  -3.503 127.100  0.00  0.00    +0.007 C 
+ENDBRANCH  15  16
+ENDBRANCH   8  15
+TORSDOF 3
+ENDMDL

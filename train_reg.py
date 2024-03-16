@@ -3,23 +3,22 @@ import pandas as pd
 from scipy.stats import pearsonr
 import joblib
 from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import mean_squared_error 
+from sklearn.metrics import mean_squared_error
 from sklearn.ensemble import HistGradientBoostingRegressor
 
 
-chembl = pd.read_csv("chembl.csv", na_values=["NA", "None"]).sample(frac=1)
-fpts = pd.read_csv(f"fingerprints_vina8.csv")
+chembl = pd.read_csv("data/chembl.csv", na_values=["NA", "None"]).sample(frac=1)
+fpts = pd.read_csv(f"data/fingerprints_chembl.csv")
 fpts = fpts[fpts.Model == 1].sample(frac=1)
 
-df = pd.DataFrame.merge(chembl, fpts, on="Molecule.ChEMBL.ID", how="inner").drop(
+
+df = pd.DataFrame.merge(chembl, fpts, on="Name", how="inner").drop(
     [
-        "Molecule.Name",
         "Molecule.Max.Phase",
-        "Molecular.Weight",
         "Compound.Key",
         "Standard.Type",
         "Standard.Relation",
-        "Standard.Value",
+        "Standard.Value", 
         "Standard.Units",
         "Data.Validity.Comment",
         "Comment",
@@ -50,7 +49,7 @@ df = pd.DataFrame.merge(chembl, fpts, on="Molecule.ChEMBL.ID", how="inner").drop
         "Source.ID",
         "Source.Description",
         "Document.Journal",
-        "Document.Year",
+        "Document.Year",  
         "Cell.ChEMBL.ID",
         "Properties",
         "Action.Type",
@@ -63,27 +62,28 @@ df = pd.DataFrame.merge(chembl, fpts, on="Molecule.ChEMBL.ID", how="inner").drop
 )
 
 
-
-
 df = df.sample(frac=1).fillna(0)
 
-df = df[df.groupby(by='Molecule.ChEMBL.ID')['S'].transform('max') == df.S].drop(["Molecule.ChEMBL.ID"], axis=1)
-y = df['Affinity']
-del df['Affinity']
+df = df[df.groupby(by="Name")["S"].transform("max") == df.S].drop(
+    ["Name", "Name_"], axis=1
+)
+y = df["Affinity"]
+del df["Affinity"]
 
 
-
-X_train, X_test, y_train, y_test = train_test_split(df, y, test_size=0.2, random_state=0)
-
+X_train, X_test, y_train, y_test = train_test_split(
+    df, y, test_size=0.2, random_state=0
+)
+ 
 
 scaler = StandardScaler()
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
-
-joblib.dump(scaler, 'scaler.joblib')
+ 
+joblib.dump(scaler, "data/scaler.joblib")
 
 models = []
-
+ 
 for model_klass, params in [
     # (MLPRegressor, {
     #     # 'hidden_layer_sizes': [(100,), (50, 50), (100, 50)],
@@ -115,4 +115,4 @@ for model_klass, params in [
 
 models = sorted(models, key=lambda m: -m[2].statistic)
 (reg, _, _, _) = models[0]
-joblib.dump(reg, 'regressor.joblib')
+joblib.dump(reg, "data/regressor.joblib")

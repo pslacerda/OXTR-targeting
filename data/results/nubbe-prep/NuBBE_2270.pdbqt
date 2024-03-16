@@ -1,0 +1,36 @@
+REMARK  Name = NuBBE_2270
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_19
+REMARK    2  A    between atoms: C_4  and  C_7
+REMARK    3  A    between atoms: C_11  and  C_14
+REMARK    4  A    between atoms: C_14  and  C_15
+REMARK    5  A    between atoms: C_14  and  C_16
+REMARK    6  A    between atoms: C_14  and  O_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LIG A   1       2.504  -0.820  -0.169  0.00  0.00    +0.000 A 
+ATOM      2  C   LIG A   1       1.258  -0.136  -0.117  0.00  0.00    +0.000 A 
+ATOM      3  C   LIG A   1       1.236   1.291  -0.031  0.00  0.00    +0.000 A 
+ATOM      4  C   LIG A   1       2.478   2.004   0.047  0.00  0.00    +0.000 A 
+ATOM      5  C   LIG A   1       3.679   1.286   0.024  0.00  0.00    +0.000 A 
+ATOM      6  C   LIG A   1       3.692  -0.095  -0.090  0.00  0.00    +0.000 A 
+ATOM      7  C   LIG A   1       2.616   3.510   0.116  0.00  0.00    +0.000 C 
+ATOM      8  C   LIG A   1      -0.102   1.962  -0.041  0.00  0.00    +0.000 C 
+ATOM      9  O   LIG A   1      -0.261   3.095   0.378  0.00  0.00    +0.000 OA
+ATOM     10  C   LIG A   1      -1.299   1.195  -0.520  0.00  0.00    +0.000 C 
+ATOM     11  C   LIG A   1      -1.325  -0.142   0.218  0.00  0.00    +0.000 C 
+ATOM     12  C   LIG A   1      -0.043  -0.939  -0.149  0.00  0.00    +0.000 C 
+ATOM     13  C   LIG A   1       2.619  -2.322  -0.297  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH  11  14
+ATOM     14  C   LIG A   1      -2.664  -0.935  -0.004  0.00  0.00    +0.000 C 
+ATOM     15  C   LIG A   1      -2.692  -2.285   0.741  0.00  0.00    +0.000 C 
+ATOM     16  C   LIG A   1      -3.875  -0.088   0.428  0.00  0.00    +0.000 C 
+BRANCH  14  17
+ATOM     17  O   LIG A   1      -2.787  -1.188  -1.378  0.00  0.00    +0.000 OA
+ATOM     18 AC   LIG A   1      -4.892  -2.426  -1.668  0.00  0.00    +0.000 Ac
+ENDBRANCH  14  17
+ENDBRANCH  11  14
+TORSDOF 2

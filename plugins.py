@@ -10,7 +10,7 @@ def jaccard_similarity(sel1, sel2):
         s1.add((atom.chain, atom.resi))
     for atom in pm.get_model(sel2).atom:
         s2.add((atom.chain, atom.resi))
-    ret =  len(s1.intersection(s2)) / len(s1.union(s2))
+    ret = len(s1.intersection(s2)) / len(s1.union(s2))
     print(ret)
     return ret
 

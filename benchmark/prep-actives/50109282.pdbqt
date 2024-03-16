@@ -1,0 +1,41 @@
+REMARK  Name = 50109282
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_6  and  C_9
+REMARK    4  A    between atoms: C_9  and  C_11
+REMARK    5  A    between atoms: C_11  and  C_13
+REMARK    6  A    between atoms: C_13  and  C_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       7.399   4.202   6.383  0.00  0.00    +0.000 C 
+ATOM      2  O   UNL     1       8.175   4.178   7.358  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   6
+ATOM      3  C   UNL     1       9.354   5.641   2.783  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      10.077   5.442   3.959  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1       9.441   4.925   5.103  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1       8.061   4.626   5.102  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1       7.389   4.780   3.899  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1       8.007   5.314   2.770  0.00  0.00    +0.000 A 
+BRANCH   3  10
+ATOM      9  C   UNL     1       9.299   6.774   0.709  0.00  0.00    +0.000 C 
+ATOM     10  O   UNL     1      10.049   6.045   1.678  0.00  0.00    +0.000 OA
+ENDBRANCH   3  10
+ENDBRANCH   1   6
+BRANCH   1  11
+ATOM     11  C   UNL     1       5.934   3.776   6.587  0.00  0.00    +0.000 C 
+ATOM     12 BR   UNL     1       4.572   4.593   5.454  0.00  0.00    +0.000 Br
+BRANCH  11  13
+ATOM     13  C   UNL     1       5.828   2.275   6.827  0.00  0.00    +0.000 C 
+ATOM     14 BR   UNL     1       4.809   1.233   5.522  0.00  0.00    +0.000 Br
+BRANCH  13  15
+ATOM     15  C   UNL     1       5.327   2.070   8.266  0.00  0.00    +0.000 C 
+ATOM     16  O   UNL     1       4.234   1.468   8.438  0.00  0.00    +0.000 OA
+ATOM     17  O   UNL     1       6.090   2.551   9.157  0.00  0.00    +0.000 OA
+ENDBRANCH  13  15
+ENDBRANCH  11  13
+ENDBRANCH   1  11
+TORSDOF 5

@@ -1,0 +1,73 @@
+REMARK  Name = 24802119
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_5  and  S_8
+REMARK    3  A    between atoms: S_8  and  O_11
+REMARK    4  A    between atoms: O_11  and  C_12
+REMARK    5  A    between atoms: C_15  and  C_16
+REMARK    6  A    between atoms: C_17  and  N_18
+REMARK    7  A    between atoms: C_17  and  C_27
+REMARK    8  A    between atoms: C_19  and  C_21
+REMARK    9  A    between atoms: N_29  and  CA_30
+REMARK   10  A    between atoms: CA_30  and  C_31
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK A   1      -9.652   2.597  -0.013  0.00  0.00    +0.000 C 
+ATOM      2  C   UNK A   1     -10.620   1.944   0.706  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   6
+ATOM      3  C   UNK A   1      -5.370   1.934  -0.168  0.00  0.00    +0.000 A 
+ATOM      4  C   UNK A   1      -6.209   1.228   0.648  0.00  0.00    +0.000 A 
+ATOM      5  C   UNK A   1      -7.563   1.361   0.481  0.00  0.00    +0.000 A 
+ATOM      6  C   UNK A   1      -8.180   2.416  -0.153  0.00  0.00    +0.000 A 
+ATOM      7  C   UNK A   1      -7.333   3.177  -0.972  0.00  0.00    +0.000 A 
+ATOM      8  C   UNK A   1      -5.931   2.916  -0.998  0.00  0.00    +0.000 A 
+BRANCH   3   9
+ATOM      9  O   UNK A   1      -4.036   1.613  -0.197  0.00  0.00    +0.000 OA
+BRANCH   9  10
+ATOM     10  S   UNK A   1      -3.593   0.016  -0.101  0.00  0.00    +0.000 S 
+ATOM     11  O   UNK A   1      -3.953  -0.631  -1.355  0.00  0.00    +0.000 OA
+ATOM     12  O   UNK A   1      -3.963  -0.558   1.174  0.00  0.00    +0.000 OA
+BRANCH  10  17
+ATOM     13  C   UNK A   1       2.468   0.001  -0.012  0.00  0.00    +0.000 C 
+ATOM     14  C   UNK A   1       0.967  -0.003  -0.001  0.00  0.00    +0.000 A 
+ATOM     15  C   UNK A   1       0.251  -1.208  -0.000  0.00  0.00    +0.000 A 
+ATOM     16  C   UNK A   1      -1.144  -1.196  -0.022  0.00  0.00    +0.000 A 
+ATOM     17  C   UNK A   1      -1.820   0.029  -0.054  0.00  0.00    +0.000 A 
+ATOM     18  C   UNK A   1      -1.125   1.234  -0.019  0.00  0.00    +0.000 A 
+ATOM     19  C   UNK A   1       0.268   1.213   0.001  0.00  0.00    +0.000 A 
+ENDBRANCH  10  17
+ENDBRANCH   9  10
+ENDBRANCH   3   9
+ENDBRANCH   1   6
+BRANCH   2  20
+ATOM     20  N   UNK A   1     -11.979   2.189   0.481  0.00  0.00    +0.000 N 
+ATOM     21  C   UNK A   0     -12.602   3.034  -0.435  0.00  0.00    +0.000 C 
+ATOM     22  O   UNK A   0     -13.567   3.715  -0.087  0.00  0.00    +0.000 OA
+ATOM     23  H   UNK A   1     -12.604   1.858   1.211  0.00  0.00    +0.000 HD
+BRANCH  21  24
+ATOM     24  C   UNK A   0     -12.171   3.069  -1.877  0.00  0.00    +0.000 A 
+ATOM     25  C   UNK A   0     -12.656   4.064  -2.742  0.00  0.00    +0.000 A 
+ATOM     26  C   UNK A   0     -12.221   4.111  -4.075  0.00  0.00    +0.000 A 
+ATOM     27  C   UNK A   0     -11.274   3.197  -4.540  0.00  0.00    +0.000 A 
+ATOM     28  C   UNK A   0     -10.797   2.206  -3.694  0.00  0.00    +0.000 A 
+ATOM     29  C   UNK A   0     -11.300   2.106  -2.401  0.00  0.00    +0.000 A 
+ENDBRANCH  21  24
+ENDBRANCH   2  20
+BRANCH   2  30
+ATOM     30  C   UNK A   1     -10.258   0.972   1.859  0.00  0.00    +0.000 C 
+ATOM     31  O   UNK A   1      -9.175   1.014   2.410  0.00  0.00    +0.000 OA
+ATOM     32  N   GLY A   2     -11.164   0.076   2.368  0.00  0.00    +0.000 N 
+ATOM     33  H   GLY A   2     -12.171   0.177   2.395  0.00  0.00    +0.000 HD
+BRANCH  32  34
+ATOM     34  CA  GLY A   2     -10.642  -0.879   3.383  0.00  0.00    +0.000 C 
+BRANCH  34  35
+ATOM     35  C   GLY A   2     -11.706  -1.574   4.238  0.00  0.00    +0.000 C 
+ATOM     36  O   GLY A   2     -12.891  -1.189   4.000  0.00  0.00    +0.000 OA
+ATOM     37  OXT GLY A   2     -11.274  -2.424   5.067  0.00  0.00    +0.000 OA
+ENDBRANCH  34  35
+ENDBRANCH  32  34
+ENDBRANCH   2  30
+TORSDOF 9

@@ -1,0 +1,35 @@
+REMARK  Name = NuBBE_10
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_3  and  C_4
+REMARK    3  A    between atoms: C_7  and  C_9
+REMARK    4  A    between atoms: C_9  and  C_11
+REMARK    5  A    between atoms: C_9  and  C_12
+REMARK    6  A    between atoms: C_15  and  C_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LIG A   1      -3.021  -0.469  -0.396  0.00  0.00    +0.120 A 
+ATOM      2  C   LIG A   1      -2.296  -1.651  -0.255  0.00  0.00    -0.009 A 
+ATOM      3  C   LIG A   1      -2.956  -2.995  -0.161  0.00  0.00    +0.048 C 
+ATOM      4  C   LIG A   1      -0.896  -1.564  -0.201  0.00  0.00    +0.011 A 
+ATOM      5  C   LIG A   1      -0.216  -0.330  -0.275  0.00  0.00    -0.040 A 
+ATOM      6  C   LIG A   1       1.309  -0.319  -0.178  0.00  0.00    +0.022 C 
+ATOM      7  C   LIG A   1       1.927   1.041  -0.564  0.00  0.00    +0.009 C 
+ATOM      8  C   LIG A   1       1.108   2.236  -0.092  0.00  0.00    +0.008 C 
+ATOM      9  C   LIG A   1      -0.323   2.202  -0.635  0.00  0.00    +0.016 C 
+ATOM     10  C   LIG A   1      -0.372   2.618  -2.111  0.00  0.00    +0.012 C 
+ATOM     11  C   LIG A   1      -0.969   0.845  -0.448  0.00  0.00    -0.038 A 
+ATOM     12  C   LIG A   1      -2.371   0.759  -0.496  0.00  0.00    +0.049 A 
+ENDROOT
+BRANCH   6  13
+ATOM     13  C   LIG A   1       1.824  -0.901   1.181  0.00  0.00    -0.010 C 
+ATOM     14  C   LIG A   1       3.310  -1.277   1.111  0.00  0.00    +0.008 C 
+ATOM     15  C   LIG A   1       1.578  -0.002   2.393  0.00  0.00    +0.008 C 
+ENDBRANCH   6  13
+BRANCH   1  16
+ATOM     16  O   LIG A   1      -4.385  -0.434  -0.457  0.00  0.00    -0.506 OA
+ATOM     17  H   LIG A   1      -4.731  -1.334  -0.364  0.00  0.00    +0.292 HD
+ENDBRANCH   1  16
+TORSDOF 2

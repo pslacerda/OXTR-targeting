@@ -1,0 +1,113 @@
+REMARK  Name = NuBBE_303
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_4  and  O_28
+REMARK    3  A    between atoms: C_8  and  C_13
+REMARK    4  A    between atoms: N_10  and  C_12
+REMARK    5  A    between atoms: C_13  and  C_14
+REMARK    6  A    between atoms: C_14  and  C_15
+REMARK    7  A    between atoms: C_15  and  C_16
+REMARK    8  A    between atoms: C_16  and  C_17
+REMARK    9  A    between atoms: C_17  and  C_18
+REMARK   10  A    between atoms: C_18  and  C_19
+REMARK   11  A    between atoms: C_19  and  C_20
+REMARK   12  A    between atoms: C_20  and  C_21
+REMARK   13  A    between atoms: C_21  and  C_22
+REMARK   14  A    between atoms: C_22  and  C_23
+REMARK   15  A    between atoms: C_23  and  C_24
+REMARK   16  A    between atoms: C_24  and  C_25
+REMARK   17  A    between atoms: C_25  and  C_26
+REMARK   18  A    between atoms: O_28  and  C_29
+REMARK   19  A    between atoms: C_29  and  C_30
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LIG A   1       0.110   3.804   0.565  0.00  0.00    +0.054 C 
+ENDROOT
+BRANCH   1   7
+ATOM      2  C   LIG A   1      -4.409   6.274   1.111  0.00  0.00    +0.067 C 
+ATOM      3  C   LIG A   1      -2.887   6.206   1.417  0.00  0.00    +0.103 C 
+ATOM      4  C   LIG A   1      -2.229   7.426   0.728  0.00  0.00    +0.224 C 
+ATOM      5  C   LIG A   1      -0.763   7.471   1.161  0.00  0.00    +0.056 C 
+ATOM      6  C   LIG A   1      -0.082   6.221   0.671  0.00  0.00    +0.058 C 
+ATOM      7  C   LIG A   1      -0.739   4.937   1.235  0.00  0.00    +0.065 C 
+ATOM      8  N   LIG A   1      -2.236   4.904   1.009  0.00  0.00    +0.240 N 
+ATOM      9  H   LIG A   1      -2.428   4.731  -0.006  0.00  0.00    +0.204 HD
+ATOM     10  C   LIG A   1      -2.856   3.820   1.823  0.00  0.00    +0.191 C 
+BRANCH   4  11
+ATOM     11  O   LIG A   1      -2.366   7.291  -0.649  0.00  0.00    -0.456 OA
+BRANCH  11  12
+ATOM     12  C   LIG A   1      -1.620   6.530  -1.498  0.00  0.00    +0.304 C 
+ATOM     13  C   LIG A   1      -2.204   5.438  -2.352  0.00  0.00    +0.136 C 
+ATOM     14  O   LIG A   1      -0.423   6.748  -1.575  0.00  0.00    -0.251 OA
+ENDBRANCH  11  12
+ENDBRANCH   4  11
+ENDBRANCH   1   7
+BRANCH   1  15
+ATOM     15  C   LIG A   1      -0.228   2.359   0.872  0.00  0.00    +0.005 C 
+BRANCH  15  16
+ATOM     16  C   LIG A   1       0.700   1.402   0.134  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C   LIG A   1       0.308  -0.026   0.485  0.00  0.00    -0.000 C 
+BRANCH  17  18
+ATOM     18  C   LIG A   1       1.202  -1.028  -0.225  0.00  0.00    -0.000 C 
+BRANCH  18  19
+ATOM     19  C   LIG A   1       0.772  -2.438   0.157  0.00  0.00    -0.000 C 
+BRANCH  19  20
+ATOM     20  C   LIG A   1       1.649  -3.465  -0.539  0.00  0.00    -0.000 C 
+BRANCH  20  21
+ATOM     21  C   LIG A   1       1.211  -4.872  -0.150  0.00  0.00    -0.000 C 
+BRANCH  21  22
+ATOM     22  C   LIG A   1       2.094  -5.893  -0.851  0.00  0.00    +0.000 C 
+BRANCH  22  23
+ATOM     23  C   LIG A   1       1.683  -7.316  -0.485  0.00  0.00    +0.000 C 
+BRANCH  23  24
+ATOM     24  C   LIG A   1       2.597  -8.298  -1.211  0.00  0.00    +0.007 C 
+BRANCH  24  25
+ATOM     25  C   LIG A   1       2.244  -9.750  -0.891  0.00  0.00    +0.074 C 
+BRANCH  25  26
+ATOM     26  C   LIG A   1       3.119 -10.774  -1.586  0.00  0.00    +0.130 C 
+ATOM     27  C   LIG A   1       4.400 -11.321  -0.999  0.00  0.00    +0.086 C 
+ATOM     28  O   LIG A   1       2.770 -11.181  -2.683  0.00  0.00    -0.298 OA
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH   1  15
+TORSDOF 15
+REMARK  Name = NuBBE_303
+REMARK  19 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_4  and  O_28
+REMARK    3  A    between atoms: C_8  and  C_13
+REMARK    4  A    between atoms: N_10  and  C_12
+REMARK    5  A    between atoms: C_13  and  C_14
+REMARK    6  A    between atoms: C_14  and  C_15
+REMARK    7  A    between atoms: C_15  and  C_16
+REMARK    8  A    between atoms: C_16  and  C_17
+REMARK    9  A    between atoms: C_17  and  C_18
+REMARK   10  A    between atoms: C_18  and  C_19
+REMARK   11  A    between atoms: C_19  and  C_20
+REMARK   12  A    between atoms: C_20  and  C_21
+REMARK   13  A    between atoms: C_21  and  C_22
+REMARK   14  A    between atoms: C_22  and  C_23
+REMARK   15  A    between atoms: C_23  and  C_24
+REMARK   16  A    between atoms: C_24  and  C_25
+REMARK   17  A    between atoms: C_25  and  C_26
+REMARK   18  A    between atoms: O_28  and  C_29
+REMARK   19  A    between atoms: C_29  and  C_30
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  I   LIG A   2      -5.654   3.454   0.250  0.00  0.00    +0.000 I 
+ENDROOT
+TORSDOF 0
