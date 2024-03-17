@@ -4,7 +4,7 @@ from scipy.stats import pearsonr
 import joblib
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import mean_squared_error
-from sklearn.ensemble import HistGradientBoostingRegressor
+from sklearn.ensemble import HistGradientBoostingRegressor, RandomForestRegressor
 
 
 chembl = pd.read_csv("data/chembl.csv", na_values=["NA", "None"]).sample(frac=1)
@@ -15,6 +15,8 @@ fpts = fpts[fpts.Model == 1].sample(frac=1)
 df = pd.DataFrame.merge(chembl, fpts, on="Name", how="inner").drop(
     [
         "Molecule.Max.Phase",
+        "Molecular.Weight",
+        "X.RO5.Violations",
         "Compound.Key",
         "Standard.Type",
         "Standard.Relation",
@@ -56,12 +58,10 @@ df = pd.DataFrame.merge(chembl, fpts, on="Name", how="inner").drop(
         "Permeable",
         "Smiles",
         "AlogP",
-        "X.RO5.Violations",
     ],
     axis=1,
 )
 
-df = df.drop("Molecular.Weight_x", axis=1)
 df = df.sample(frac=1).fillna(0)
 
 df = df[df.groupby(by="Name")["S"].transform("max") == df.S].drop(
@@ -81,7 +81,6 @@ X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 joblib.dump(scaler, "data/scaler.joblib")
 
-breakpoint()
 models = []
 
 
@@ -93,10 +92,10 @@ for model_klass, params in [
     #     # 'max_iter': [500]
     # }),
     # (RandomForestRegressor, {
-    #     # "n_estimators": [100, 200, 500],
-    #     # "max_depth": [3, 5, 10],
-    #     # "min_samples_split": [2, 5, 10],
-    #     # "min_samples_leaf": [1, 2, 4],
+    #     "n_estimators": [100, 200, 500],
+    #     "max_depth": [3, 5, 10],
+    #     "min_samples_split": [2, 5, 10],
+    #     "min_samples_leaf": [1, 2, 4],
     # }),
     (HistGradientBoostingRegressor, {})
 ]:

@@ -24,6 +24,8 @@ from os.path import basename
 from pymol import cmd as pm
 from yadt.ftmap import load_ftmap, dce, dc, fo
 import click
+from rdkit import Chem
+from rdkit.Chem import Descriptors, QED
 
 
 @contextmanager
@@ -74,13 +76,14 @@ def cli():
 def dock(engine, config, prepared_ligands, output_directory):
     for ligand in prepared_ligands:
         try:
+
             ofname = os.path.basename(ligand)
             ofname = os.path.splitext(ofname)[0]
             print(ofname)
             ofname = f"{output_directory}/{ofname}.pdbqt"
             if os.path.exists(ofname):
                 continue
-            run(f"{engine} --config {config} --ligand {ligand} --out {ofname}")
+            run(f'{engine} --config "{config}" --ligand "{ligand}" --out "{ofname}"')
         except Exception as exc:
             print(exc)
 
@@ -91,10 +94,11 @@ def dock(engine, config, prepared_ligands, output_directory):
 @click.option("--overwrite/--no-overwrite", default=False)
 @click.option("--names-from-filename", is_flag=True, default=False)
 @click.option('--mwt', nargs=2, type=float, default=None)
+@click.option('--multiple/--no-multiple', default=False)
 @click.argument("output-directory")
 @click.argument("input-wildcard", nargs=-1)
 def prepare_compounds(
-    mgltools, method, overwrite, output_directory, input_wildcard, names_from_filename, mwt
+    mgltools, method, overwrite, output_directory, input_wildcard, names_from_filename, mwt, multiple
 ):
     filenames = flatten_files(input_wildcard)
     for fname in filenames:
@@ -130,7 +134,8 @@ def prepare_compounds(
                         click.echo(f"Failed on {fname}")
             else:
                 raise Exception("unexpected error")
-            break
+            if not multiple:
+                break
             
 
 @cli.command()
@@ -169,7 +174,28 @@ fieldnames = set(
         "DCE",
         "Model",
         "NumAtoms",
-        "Molecular.Weight"
+        'abonds',
+        'atoms',
+        'bonds',
+        'cansmi',
+        'cansmiNS',
+        'dbonds',
+        'formula',
+        'HBA1',
+        'HBA2',
+        'HBD',
+        'L5',
+        'logP',
+        'MP',
+        'MR',
+        'MW',
+        'nF',
+        'rotors',
+        's',
+        'sbonds',
+        'smarts',
+        'tbonds',
+        'TPSA'
     ]
 )
 
@@ -217,10 +243,11 @@ def parse_pdbqt_poses(fname):
             elif "VINA RESULT" in line:
                 dg = -float(line.split()[3])
                 return {
-                    "Model": model,
+                     "Model": model,
                     "Dg": dg,
                 }
-            
+
+
 @cli.command()
 @click.option('-p', '--hotspot-program', default='ftmap', type=click.Choice(['ftmap', 'atlas']))
 @click.argument('hs_file')
@@ -238,12 +265,13 @@ def calc_fpts(hs_file, output_file, hotspot_program, docking_wildcards):
 
         for idx, poses_pdbqt in enumerate(flatten_files(docking_wildcards)):
             pdb = basename(poses_pdbqt).split(".", 1)[0]
-            
+
             print(cnt, pdb)
             cnt += 1
             mol = next(ob.readfile(filename=poses_pdbqt, format="pdbqt"))
-            fpt = parse_fpt(mol.write())
 
+            fpt = parse_fpt(mol.write())
+            
             pm.delete("PEP")
             pm.load(poses_pdbqt, "PEP")
 
@@ -269,14 +297,13 @@ def calc_fpts(hs_file, output_file, hotspot_program, docking_wildcards):
                         "DC": dc("PEP", sel, state1=1, verbose=False),
                         "DCE": dce("PEP", sel, state1=1, verbose=False),
                         "NumAtoms": pm.count_atoms("PEP"),
+                        **mol.calcdesc(),
                         **fpt,
                         **model,
                     }
                 writer.writerow(row)
                 file.flush()
 
-def train_regressor():
-    pass
 
 if __name__ == "__main__":
     cli()

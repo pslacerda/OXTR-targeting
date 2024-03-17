@@ -1,0 +1,12 @@
+[project]
+name = "yadt"
+version = "2024.03.17.0"
+dependencies = [
+    'click',
+    'numpy',
+    'scikit-learn',
+    'matplotlib'
+]
+
+[project.scripts]
+yadt-cli = "yadt_cli:cli"
