@@ -1,12 +1,12 @@
-[project]
+[tool.poetry]
 name = "yadt"
-version = "2024.03.17.0"
-dependencies = [
-    'click',
-    'numpy',
-    'scikit-learn',
-    'matplotlib'
-]
+version = "0.0.1"
+description = ""
+authors = ["Pedro Sousa Lacerda <pslacerda@gmail.com>"]
+packages = [{include = "yadt"}]
 
-[project.scripts]
-yadt-cli = "yadt_cli:cli"
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.scripts]
+yadt-cli = "yadt.yadt_cli:cli"
