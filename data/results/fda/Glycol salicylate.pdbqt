@@ -1,0 +1,396 @@
+MODEL 1
+REMARK VINA RESULT:      -5.7      0.000      0.000
+REMARK  Name = Glycol salicylate
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  O_4
+REMARK    4  A    between atoms: O_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_7
+REMARK    6  A    between atoms: C_12  and  O_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.725   7.016 130.487  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -9.405   7.237 130.056  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -8.322   6.841 130.848  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -8.548   6.200 132.065  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -9.856   5.961 132.495  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -10.942   6.372 131.710  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1     -11.839   7.389 129.575  0.00  0.00    +0.000 C 
+ATOM      8  O   UNL     1     -12.608   8.307 129.832  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1     -11.924   6.557 128.503  0.00  0.00    +0.000 OA
+BRANCH   9  10
+ATOM     10  C   UNL     1     -12.267   7.208 127.266  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   UNL     1     -10.999   7.572 126.490  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  O   UNL     1     -10.254   6.399 126.171  0.00  0.00    +0.000 OA
+ATOM     13  H   UNL     1      -9.325   6.667 126.065  0.00  0.00    +0.000 HD
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   6  14
+ATOM     14  O   UNL     1     -12.216   6.103 132.122  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1     -12.836   6.241 131.390  0.00  0.00    +0.000 HD
+ENDBRANCH   6  14
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -5.6      2.013      4.288
+REMARK  Name = Glycol salicylate
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  O_4
+REMARK    4  A    between atoms: O_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_7
+REMARK    6  A    between atoms: C_12  and  O_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -11.003   6.706 129.764  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -10.903   7.627 128.706  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -11.779   8.715 128.625  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     -12.744   8.907 129.611  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     -12.841   8.007 130.676  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -11.975   6.908 130.750  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1     -10.001   5.611 129.844  0.00  0.00    +0.000 C 
+ATOM      8  O   UNL     1     -10.332   4.432 129.886  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1      -8.729   6.083 129.938  0.00  0.00    +0.000 OA
+BRANCH   9  10
+ATOM     10  C   UNL     1      -8.442   6.791 131.157  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   UNL     1      -8.524   5.840 132.353  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  O   UNL     1      -9.501   6.293 133.287  0.00  0.00    +0.000 OA
+ATOM     13  H   UNL     1      -9.875   7.120 132.936  0.00  0.00    +0.000 HD
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   6  14
+ATOM     14  O   UNL     1     -12.053   6.053 131.813  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1     -11.167   5.740 132.052  0.00  0.00    +0.000 HD
+ENDBRANCH   6  14
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -5.5      1.189      2.123
+REMARK  Name = Glycol salicylate
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  O_4
+REMARK    4  A    between atoms: O_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_7
+REMARK    6  A    between atoms: C_12  and  O_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.542   6.436 131.069  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -10.271   5.835 132.311  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -8.961   5.772 132.800  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -7.917   6.330 132.065  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -8.178   6.944 130.837  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -9.487   6.993 130.339  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1     -11.959   6.542 130.630  0.00  0.00    +0.000 C 
+ATOM      8  O   UNL     1     -12.843   6.934 131.382  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1     -12.138   6.091 129.360  0.00  0.00    +0.000 OA
+BRANCH   9  10
+ATOM     10  C   UNL     1     -13.206   6.736 128.642  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   UNL     1     -12.748   7.104 127.229  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  O   UNL     1     -11.409   6.668 127.008  0.00  0.00    +0.000 OA
+ATOM     13  H   UNL     1     -11.106   6.239 127.827  0.00  0.00    +0.000 HD
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   6  14
+ATOM     14  O   UNL     1      -9.739   7.627 129.155  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1     -10.658   7.931 129.132  0.00  0.00    +0.000 HD
+ENDBRANCH   6  14
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.5      2.266      4.655
+REMARK  Name = Glycol salicylate
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  O_4
+REMARK    4  A    between atoms: O_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_7
+REMARK    6  A    between atoms: C_12  and  O_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -11.026   6.988 130.552  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -10.133   7.373 129.535  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -10.550   8.229 128.509  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     -11.851   8.726 128.504  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     -12.741   8.363 129.518  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -12.330   7.493 130.537  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1     -10.512   6.137 131.658  0.00  0.00    +0.000 C 
+ATOM      8  O   UNL     1     -10.435   6.548 132.809  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1     -10.089   4.922 131.217  0.00  0.00    +0.000 OA
+BRANCH   9  10
+ATOM     10  C   UNL     1      -8.911   4.424 131.876  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   UNL     1      -9.282   3.298 132.844  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  O   UNL     1      -9.815   3.833 134.053  0.00  0.00    +0.000 OA
+ATOM     13  H   UNL     1     -10.011   3.082 134.640  0.00  0.00    +0.000 HD
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   6  14
+ATOM     14  O   UNL     1     -13.195   7.172 131.545  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1     -13.465   7.974 132.018  0.00  0.00    +0.000 HD
+ENDBRANCH   6  14
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.4      2.078      3.732
+REMARK  Name = Glycol salicylate
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  O_4
+REMARK    4  A    between atoms: O_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_7
+REMARK    6  A    between atoms: C_12  and  O_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.564   7.117 130.284  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -10.403   7.934 129.151  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -11.519   8.456 128.486  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     -12.800   8.185 128.960  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     -12.970   7.388 130.095  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -11.855   6.852 130.753  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1      -9.345   6.650 130.996  0.00  0.00    +0.000 C 
+ATOM      8  O   UNL     1      -9.313   6.528 132.214  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1      -8.297   6.461 130.151  0.00  0.00    +0.000 OA
+BRANCH   9  10
+ATOM     10  C   UNL     1      -7.748   5.131 130.167  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   UNL     1      -8.360   4.292 129.044  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  O   UNL     1      -8.632   5.103 127.905  0.00  0.00    +0.000 OA
+ATOM     13  H   UNL     1      -8.135   4.727 127.157  0.00  0.00    +0.000 HD
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   6  14
+ATOM     14  O   UNL     1     -12.028   6.103 131.882  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1     -12.519   6.613 132.545  0.00  0.00    +0.000 HD
+ENDBRANCH   6  14
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -5.3      9.322     10.544
+REMARK  Name = Glycol salicylate
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  O_4
+REMARK    4  A    between atoms: O_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_7
+REMARK    6  A    between atoms: C_12  and  O_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.217  -1.448 123.604  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -6.868  -1.222 123.275  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -5.899  -2.199 123.533  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -6.273  -3.417 124.098  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -7.613  -3.658 124.413  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -8.581  -2.674 124.171  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1      -9.216  -0.409 123.242  0.00  0.00    +0.000 C 
+ATOM      8  O   UNL     1     -10.121  -0.629 122.447  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1      -8.949   0.788 123.832  0.00  0.00    +0.000 OA
+BRANCH   9  10
+ATOM     10  C   UNL     1      -9.417   1.933 123.097  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   UNL     1      -8.231   2.748 122.576  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  O   UNL     1      -8.682   3.806 121.734  0.00  0.00    +0.000 OA
+ATOM     13  H   UNL     1      -9.654   3.765 121.714  0.00  0.00    +0.000 HD
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   6  14
+ATOM     14  O   UNL     1      -9.894  -2.932 124.449  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1     -10.464  -2.425 123.852  0.00  0.00    +0.000 HD
+ENDBRANCH   6  14
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -5.2      1.440      2.553
+REMARK  Name = Glycol salicylate
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  O_4
+REMARK    4  A    between atoms: O_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_7
+REMARK    6  A    between atoms: C_12  and  O_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.650   6.946 130.441  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -9.332   7.240 130.046  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -8.253   6.937 130.884  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -8.478   6.318 132.111  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -9.782   6.006 132.507  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -10.865   6.323 131.675  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1     -11.753   7.219 129.483  0.00  0.00    +0.000 C 
+ATOM      8  O   UNL     1     -12.274   6.329 128.823  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1     -12.036   8.546 129.391  0.00  0.00    +0.000 OA
+BRANCH   9  10
+ATOM     10  C   UNL     1     -12.842   9.062 130.466  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   UNL     1     -13.427  10.423 130.083  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  O   UNL     1     -13.435  10.584 128.668  0.00  0.00    +0.000 OA
+ATOM     13  H   UNL     1     -13.177   9.730 128.278  0.00  0.00    +0.000 HD
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   6  14
+ATOM     14  O   UNL     1     -12.133   5.982 132.054  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1     -12.209   6.014 133.020  0.00  0.00    +0.000 HD
+ENDBRANCH   6  14
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -4.9     11.020     11.802
+REMARK  Name = Glycol salicylate
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  O_4
+REMARK    4  A    between atoms: O_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_7
+REMARK    6  A    between atoms: C_12  and  O_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.207  -2.485 126.383  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -6.489  -2.270 127.574  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -7.000  -2.707 128.801  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -8.218  -3.382 128.847  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -8.931  -3.616 127.668  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -8.428  -3.165 126.440  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1      -6.585  -2.068 125.099  0.00  0.00    +0.000 C 
+ATOM      8  O   UNL     1      -7.143  -1.295 124.330  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1      -5.400  -2.695 124.874  0.00  0.00    +0.000 OA
+BRANCH   9  10
+ATOM     10  C   UNL     1      -5.439  -3.695 123.839  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   UNL     1      -4.129  -4.484 123.816  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  O   UNL     1      -4.262  -5.651 123.008  0.00  0.00    +0.000 OA
+ATOM     13  H   UNL     1      -3.364  -5.964 122.803  0.00  0.00    +0.000 HD
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   6  14
+ATOM     14  O   UNL     1      -9.114  -3.429 125.288  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1      -8.540  -3.895 124.661  0.00  0.00    +0.000 HD
+ENDBRANCH   6  14
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -4.7      8.503      9.815
+REMARK  Name = Glycol salicylate
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  O_4
+REMARK    4  A    between atoms: O_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_7
+REMARK    6  A    between atoms: C_12  and  O_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.968  -0.778 123.851  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -9.187  -1.881 123.007  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -9.298  -3.171 123.536  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -9.215  -3.367 124.913  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -9.014  -2.276 125.763  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -8.886  -0.985 125.232  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1      -8.932   0.580 123.245  0.00  0.00    +0.000 C 
+ATOM      8  O   UNL     1      -9.913   1.075 122.705  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      9  O   UNL     1      -7.692   1.136 123.305  0.00  0.00    +0.000 OA
+BRANCH   9  10
+ATOM     10  C   UNL     1      -7.685   2.556 123.540  0.00  0.00    +0.000 C 
+BRANCH  10  11
+ATOM     11  C   UNL     1      -7.441   3.308 122.230  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  O   UNL     1      -8.672   3.775 121.684  0.00  0.00    +0.000 OA
+ATOM     13  H   UNL     1      -8.903   4.596 122.152  0.00  0.00    +0.000 HD
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   6  14
+ATOM     14  O   UNL     1      -8.726   0.081 126.072  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1      -8.266  -0.200 126.878  0.00  0.00    +0.000 HD
+ENDBRANCH   6  14
+TORSDOF 6
+ENDMDL

@@ -1,0 +1,35 @@
+REMARK  Name = Triclofos
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  P_2
+REMARK    2  A    between atoms: P_2  and  O_3
+REMARK    3  A    between atoms: P_2  and  O_5
+REMARK    4  A    between atoms: O_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  C_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  P   UNL     1       2.797  -0.049   0.056  0.00  0.00    +0.000 P 
+ATOM      2  O   UNL     1       2.689   0.604   1.428  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  O   UNL     1       1.067  -0.049   0.056  0.00  0.00    +0.000 OA
+ATOM      4  H   UNL     1       0.730  -0.893  -0.294  0.00  0.00    +0.000 HD
+ENDBRANCH   1   3
+BRANCH   1   5
+ATOM      5  O   UNL     1       2.678   1.073  -1.110  0.00  0.00    +0.000 OA
+ATOM      6  H   UNL     1       2.033   1.711  -0.816  0.00  0.00    +0.000 HD
+ENDBRANCH   1   5
+BRANCH   1   7
+ATOM      7  O   UNL     1       4.527  -0.049   0.056  0.00  0.00    +0.000 OA
+BRANCH   7   8
+ATOM      8  C   UNL     1       5.137   0.711   1.118  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  C   UNL     1       6.662   0.710   1.100  0.00  0.00    +0.000 C 
+ATOM     10 CL   UNL     1       7.285  -0.962   1.253  0.00  0.00    +0.000 Cl
+ATOM     11 CL   UNL     1       7.285   1.449  -0.399  0.00  0.00    +0.000 Cl
+ATOM     12 CL   UNL     1       7.259   1.664   2.504  0.00  0.00    +0.000 Cl
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   1   7
+TORSDOF 5

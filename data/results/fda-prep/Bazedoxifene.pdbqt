@@ -1,0 +1,73 @@
+REMARK  Name = Bazedoxifene
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_3  and  C_29
+REMARK    3  A    between atoms: N_4  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_9  and  O_10
+REMARK    6  A    between atoms: O_10  and  C_11
+REMARK    7  A    between atoms: C_11  and  C_12
+REMARK    8  A    between atoms: C_12  and  N_13
+REMARK    9  A    between atoms: C_25  and  O_26
+REMARK   10  A    between atoms: C_32  and  O_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       0.999   0.029   0.099  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1       2.488  -0.001   0.103  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1       3.311  -1.124   0.117  0.00  0.00    +0.000 A 
+ATOM      4  N   UNL     1       4.636  -0.673   0.084  0.00  0.00    +0.000 N 
+ATOM      5  C   UNL     1       4.641   0.719  -0.005  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1       3.316   1.157   0.087  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1       3.050   2.551   0.091  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1       4.104   3.463   0.079  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1       5.406   3.031  -0.022  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1       5.658   1.674  -0.160  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   3  11
+ATOM     11  C   UNL     1       2.897  -2.535   0.090  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1       3.269  -3.432   1.104  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1       2.940  -4.787   1.003  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1       2.147  -5.225  -0.048  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1       1.659  -4.328  -0.992  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1       2.075  -2.997  -0.944  0.00  0.00    +0.000 A 
+BRANCH  14  17
+ATOM     17  O   UNL     1       1.819  -6.538  -0.202  0.00  0.00    +0.000 OA
+ATOM     18  H   UNL     1       2.350  -7.063   0.422  0.00  0.00    +0.000 HD
+ENDBRANCH  14  17
+ENDBRANCH   3  11
+BRANCH   8  19
+ATOM     19  O   UNL     1       3.909   4.810   0.119  0.00  0.00    +0.000 OA
+ATOM     20  H   UNL     1       2.954   4.980   0.094  0.00  0.00    +0.000 HD
+ENDBRANCH   8  19
+BRANCH   4  21
+ATOM     21  C   UNL     1       5.797  -1.598   0.129  0.00  0.00    +0.000 C 
+BRANCH  21  22
+ATOM     22  C   UNL     1       7.167  -0.968   0.212  0.00  0.00    +0.000 A 
+ATOM     23  C   UNL     1       7.514  -0.134   1.292  0.00  0.00    +0.000 A 
+ATOM     24  C   UNL     1       8.571   0.771   1.152  0.00  0.00    +0.000 A 
+ATOM     25  C   UNL     1       9.380   0.734   0.020  0.00  0.00    +0.000 A 
+ATOM     26  C   UNL     1       9.177  -0.266  -0.938  0.00  0.00    +0.000 A 
+ATOM     27  C   UNL     1       8.050  -1.083  -0.867  0.00  0.00    +0.000 A 
+BRANCH  25  28
+ATOM     28  O   UNL     1      10.277   1.768  -0.089  0.00  0.00    +0.000 OA
+BRANCH  28  29
+ATOM     29  C   UNL     1      11.149   1.655  -1.209  0.00  0.00    +0.000 C 
+BRANCH  29  30
+ATOM     30  C   UNL     1      12.211   2.760  -1.184  0.00  0.00    +0.000 C 
+BRANCH  30  31
+ATOM     31  N   UNL     1      13.218   2.634  -2.264  0.00  0.00    +0.000 NA
+ATOM     32  C   UNL     1      14.278   3.630  -2.083  0.00  0.00    +0.000 C 
+ATOM     33  C   UNL     1      14.884   4.069  -3.419  0.00  0.00    +0.000 C 
+ATOM     34  C   UNL     1      15.865   3.088  -4.052  0.00  0.00    +0.000 C 
+ATOM     35  C   UNL     1      15.307   1.689  -4.279  0.00  0.00    +0.000 C 
+ATOM     36  C   UNL     1      15.057   0.963  -2.970  0.00  0.00    +0.000 C 
+ATOM     37  C   UNL     1      13.688   1.246  -2.373  0.00  0.00    +0.000 C 
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  25  28
+ENDBRANCH  21  22
+ENDBRANCH   4  21
+TORSDOF 9

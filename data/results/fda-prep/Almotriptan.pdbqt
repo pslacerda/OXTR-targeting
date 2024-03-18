@@ -1,0 +1,52 @@
+REMARK  Name = Almotriptan
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_6
+REMARK    6  A    between atoms: C_12  and  C_13
+REMARK    7  A    between atoms: C_13  and  S_14
+REMARK    8  A    between atoms: S_14  and  N_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       4.861   2.138  -1.868  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1       4.597   3.486  -1.740  0.00  0.00    +0.000 A 
+ATOM      3  N   UNL     1       5.070   4.117  -2.849  0.00  0.00    +0.000 N 
+ATOM      4  C   UNL     1       5.622   3.202  -3.707  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1       5.539   1.948  -3.109  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1       6.048   0.827  -3.804  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1       6.583   0.999  -5.098  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1       6.617   2.286  -5.643  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1       6.161   3.405  -4.965  0.00  0.00    +0.000 A 
+ATOM     10  H   UNL     1       4.988   5.103  -3.047  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   1  11
+ATOM     11  C   UNL     1       4.415   1.085  -0.919  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  C   UNL     1       2.879   1.003  -0.895  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1       0.905   0.018   0.036  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1       2.369  -0.019   0.033  0.00  0.00    +0.000 NA
+ATOM     15  C   UNL     1       2.826  -1.353  -0.357  0.00  0.00    +0.000 C 
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+BRANCH   7  16
+ATOM     16  C   UNL     1       7.069  -0.219  -5.849  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  S   UNL     1       7.674   0.195  -7.518  0.00  0.00    +0.000 S 
+ATOM     18  O   UNL     1       6.533   0.512  -8.360  0.00  0.00    +0.000 OA
+ATOM     19  O   UNL     1       8.784   1.116  -7.399  0.00  0.00    +0.000 OA
+BRANCH  17  20
+ATOM     20  N   UNL     1       8.350  -1.238  -8.092  0.00  0.00    +0.000 NA
+ATOM     21  C   UNL     1       7.502  -2.427  -8.302  0.00  0.00    +0.000 C 
+ATOM     22  C   UNL     1       7.687  -3.199  -7.011  0.00  0.00    +0.000 C 
+ATOM     23  C   UNL     1       9.164  -2.988  -6.696  0.00  0.00    +0.000 C 
+ATOM     24  C   UNL     1       9.552  -1.666  -7.345  0.00  0.00    +0.000 C 
+ENDBRANCH  17  20
+ENDBRANCH  16  17
+ENDBRANCH   7  16
+TORSDOF 6

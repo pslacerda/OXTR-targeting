@@ -1,0 +1,342 @@
+MODEL 1
+REMARK VINA RESULT:      -5.9      0.000      0.000
+REMARK  Name = Sulfacetamide
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: N_4  and  S_5
+REMARK    3  A    between atoms: S_5  and  C_8
+REMARK    4  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -11.260   6.256 129.935  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -10.805   7.032 128.865  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -11.383   8.286 128.617  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     -12.393   8.794 129.440  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     -12.799   8.033 130.540  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -12.225   6.780 130.803  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  S   UNL     1     -10.496   4.667 130.269  0.00  0.00    +0.000 S 
+ATOM      8  O   UNL     1      -9.288   4.619 129.471  0.00  0.00    +0.000 OA
+ATOM      9  O   UNL     1     -11.549   3.686 130.139  0.00  0.00    +0.000 OA
+BRANCH   7  13
+ATOM     10  C   UNL     1      -8.971   3.805 133.944  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1      -9.342   3.664 132.487  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1      -9.041   2.648 131.871  0.00  0.00    +0.000 OA
+ATOM     13  N   UNL     1     -10.040   4.742 131.890  0.00  0.00    +0.000 N 
+ATOM     14  H   UNL     1     -10.283   5.577 132.410  0.00  0.00    +0.000 HD
+ENDBRANCH   7  13
+ENDBRANCH   1   7
+BRANCH   4  15
+ATOM     15  N   UNL     1     -13.036   9.977 129.120  0.00  0.00    +0.000 N 
+ATOM     16  H   UNL     1     -13.657  10.420 129.784  0.00  0.00    +0.000 HD
+ATOM     17  H   UNL     1     -13.065  10.304 128.163  0.00  0.00    +0.000 HD
+ENDBRANCH   4  15
+TORSDOF 3
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -5.9      0.183      1.295
+REMARK  Name = Sulfacetamide
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: N_4  and  S_5
+REMARK    3  A    between atoms: S_5  and  C_8
+REMARK    4  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -11.286   6.414 129.930  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -12.216   6.940 130.831  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -12.822   8.178 130.565  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     -12.537   8.888 129.394  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     -11.649   8.323 128.475  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -11.040   7.084 128.726  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  S   UNL     1     -10.537   4.817 130.257  0.00  0.00    +0.000 S 
+ATOM      8  O   UNL     1      -9.321   4.768 129.470  0.00  0.00    +0.000 OA
+ATOM      9  O   UNL     1     -11.595   3.844 130.108  0.00  0.00    +0.000 OA
+BRANCH   7  13
+ATOM     10  C   UNL     1      -9.041   3.916 133.935  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1      -9.397   3.791 132.473  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1      -9.086   2.784 131.847  0.00  0.00    +0.000 OA
+ATOM     13  N   UNL     1     -10.095   4.874 131.884  0.00  0.00    +0.000 N 
+ATOM     14  H   UNL     1     -10.347   5.701 132.411  0.00  0.00    +0.000 HD
+ENDBRANCH   7  13
+ENDBRANCH   1   7
+BRANCH   4  15
+ATOM     15  N   UNL     1     -13.050  10.158 129.197  0.00  0.00    +0.000 N 
+ATOM     16  H   UNL     1     -12.742  10.720 128.415  0.00  0.00    +0.000 HD
+ATOM     17  H   UNL     1     -13.571  10.622 129.929  0.00  0.00    +0.000 HD
+ENDBRANCH   4  15
+TORSDOF 3
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -5.7      1.634      2.319
+REMARK  Name = Sulfacetamide
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: N_4  and  S_5
+REMARK    3  A    between atoms: S_5  and  C_8
+REMARK    4  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.491   6.951 130.668  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -11.838   7.040 131.029  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -12.712   7.837 130.275  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     -12.268   8.526 129.141  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     -10.932   8.384 128.758  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -10.049   7.585 129.501  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  S   UNL     1      -9.383   5.906 131.616  0.00  0.00    +0.000 S 
+ATOM      8  O   UNL     1      -9.495   6.337 132.995  0.00  0.00    +0.000 OA
+ATOM      9  O   UNL     1      -8.125   5.911 130.904  0.00  0.00    +0.000 OA
+BRANCH   7  13
+ATOM     10  C   UNL     1     -10.032   1.898 131.922  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1      -9.374   3.249 132.067  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1      -8.300   3.352 132.650  0.00  0.00    +0.000 OA
+ATOM     13  N   UNL     1     -10.048   4.360 131.504  0.00  0.00    +0.000 N 
+ATOM     14  H   UNL     1     -10.935   4.263 131.024  0.00  0.00    +0.000 HD
+ENDBRANCH   7  13
+ENDBRANCH   1   7
+BRANCH   4  15
+ATOM     15  N   UNL     1     -13.108   9.400 128.473  0.00  0.00    +0.000 N 
+ATOM     16  H   UNL     1     -13.869   9.049 127.907  0.00  0.00    +0.000 HD
+ATOM     17  H   UNL     1     -12.858  10.374 128.367  0.00  0.00    +0.000 HD
+ENDBRANCH   4  15
+TORSDOF 3
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.6      2.780      5.542
+REMARK  Name = Sulfacetamide
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: N_4  and  S_5
+REMARK    3  A    between atoms: S_5  and  C_8
+REMARK    4  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -9.996   6.611 130.621  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -8.612   6.788 130.551  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -7.809   6.450 131.652  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -8.365   5.907 132.815  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -9.744   5.683 132.849  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -10.557   6.011 131.754  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  S   UNL     1     -11.016   7.014 129.201  0.00  0.00    +0.000 S 
+ATOM      8  O   UNL     1     -12.016   5.970 129.106  0.00  0.00    +0.000 OA
+ATOM      9  O   UNL     1     -10.099   7.307 128.123  0.00  0.00    +0.000 OA
+BRANCH   7  13
+ATOM     10  C   UNL     1     -13.474  10.260 129.247  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1     -12.820   8.975 128.798  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1     -13.170   8.438 127.753  0.00  0.00    +0.000 OA
+ATOM     13  N   UNL     1     -11.803   8.443 129.628  0.00  0.00    +0.000 N 
+ATOM     14  H   UNL     1     -11.522   8.896 130.489  0.00  0.00    +0.000 HD
+ENDBRANCH   7  13
+ENDBRANCH   1   7
+BRANCH   4  15
+ATOM     15  N   UNL     1      -7.582   5.686 133.934  0.00  0.00    +0.000 N 
+ATOM     16  H   UNL     1      -7.540   6.373 134.675  0.00  0.00    +0.000 HD
+ATOM     17  H   UNL     1      -6.888   4.950 133.940  0.00  0.00    +0.000 HD
+ENDBRANCH   4  15
+TORSDOF 3
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.6      2.505      2.888
+REMARK  Name = Sulfacetamide
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: N_4  and  S_5
+REMARK    3  A    between atoms: S_5  and  C_8
+REMARK    4  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.692   7.275 130.387  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -11.985   7.428 130.894  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -12.915   8.222 130.206  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     -12.584   8.845 128.999  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     -11.305   8.638 128.474  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -10.368   7.842 129.149  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  S   UNL     1      -9.515   6.233 131.252  0.00  0.00    +0.000 S 
+ATOM      8  O   UNL     1      -9.573   4.934 130.614  0.00  0.00    +0.000 OA
+ATOM      9  O   UNL     1      -9.783   6.416 132.660  0.00  0.00    +0.000 OA
+BRANCH   7  13
+ATOM     10  C   UNL     1      -5.518   6.987 131.075  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1      -6.828   6.322 131.425  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1      -6.840   5.319 132.129  0.00  0.00    +0.000 OA
+ATOM     13  N   UNL     1      -8.009   6.909 130.908  0.00  0.00    +0.000 N 
+ATOM     14  H   UNL     1      -7.986   7.738 130.327  0.00  0.00    +0.000 HD
+ENDBRANCH   7  13
+ENDBRANCH   1   7
+BRANCH   4  15
+ATOM     15  N   UNL     1     -13.467   9.718 128.389  0.00  0.00    +0.000 N 
+ATOM     16  H   UNL     1     -13.745  10.574 128.851  0.00  0.00    +0.000 HD
+ATOM     17  H   UNL     1     -14.006   9.427 127.584  0.00  0.00    +0.000 HD
+ENDBRANCH   4  15
+TORSDOF 3
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -5.5     10.256     12.005
+REMARK  Name = Sulfacetamide
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: N_4  and  S_5
+REMARK    3  A    between atoms: S_5  and  C_8
+REMARK    4  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.477  -2.293 123.873  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -6.392  -1.848 123.112  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -5.226  -2.624 123.040  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -5.134  -3.858 123.692  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -6.246  -4.317 124.402  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -7.421  -3.554 124.478  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  S   UNL     1      -8.979  -1.314 123.938  0.00  0.00    +0.000 S 
+ATOM      8  O   UNL     1      -9.319  -1.180 125.340  0.00  0.00    +0.000 OA
+ATOM      9  O   UNL     1      -9.881  -1.906 122.976  0.00  0.00    +0.000 OA
+BRANCH   7  13
+ATOM     10  C   UNL     1      -9.001   2.577 122.739  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1      -9.485   1.244 123.258  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1     -10.663   1.092 123.561  0.00  0.00    +0.000 OA
+ATOM     13  N   UNL     1      -8.526   0.208 123.370  0.00  0.00    +0.000 N 
+ATOM     14  H   UNL     1      -7.554   0.346 123.118  0.00  0.00    +0.000 HD
+ENDBRANCH   7  13
+ENDBRANCH   1   7
+BRANCH   4  15
+ATOM     15  N   UNL     1      -3.942  -4.560 123.710  0.00  0.00    +0.000 N 
+ATOM     16  H   UNL     1      -3.939  -5.570 123.661  0.00  0.00    +0.000 HD
+ATOM     17  H   UNL     1      -3.080  -4.104 123.980  0.00  0.00    +0.000 HD
+ENDBRANCH   4  15
+TORSDOF 3
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -5.4      8.969      9.896
+REMARK  Name = Sulfacetamide
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: N_4  and  S_5
+REMARK    3  A    between atoms: S_5  and  C_8
+REMARK    4  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.659   3.161 122.528  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -8.721   3.348 121.639  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -8.473   3.849 120.352  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -7.174   4.139 119.925  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -6.116   3.895 120.804  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -6.348   3.389 122.091  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  S   UNL     1      -7.974   2.490 124.162  0.00  0.00    +0.000 S 
+ATOM      8  O   UNL     1      -8.885   3.411 124.813  0.00  0.00    +0.000 OA
+ATOM      9  O   UNL     1      -6.679   2.163 124.714  0.00  0.00    +0.000 OA
+BRANCH   7  13
+ATOM     10  C   UNL     1      -8.946  -1.333 123.154  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1      -8.128  -0.084 123.381  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1      -6.929  -0.080 123.131  0.00  0.00    +0.000 OA
+ATOM     13  N   UNL     1      -8.809   1.052 123.883  0.00  0.00    +0.000 N 
+ATOM     14  H   UNL     1      -9.802   1.037 124.086  0.00  0.00    +0.000 HD
+ENDBRANCH   7  13
+ENDBRANCH   1   7
+BRANCH   4  15
+ATOM     15  N   UNL     1      -6.952   4.741 118.698  0.00  0.00    +0.000 N 
+ATOM     16  H   UNL     1      -6.640   4.194 117.907  0.00  0.00    +0.000 HD
+ATOM     17  H   UNL     1      -6.894   5.748 118.622  0.00  0.00    +0.000 HD
+ENDBRANCH   4  15
+TORSDOF 3
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -5.4      9.333     10.907
+REMARK  Name = Sulfacetamide
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: N_4  and  S_5
+REMARK    3  A    between atoms: S_5  and  C_8
+REMARK    4  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.537  -2.266 126.489  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -9.007  -3.461 127.042  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -8.728  -3.766 128.383  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -8.012  -2.880 129.194  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -7.597  -1.664 128.644  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -7.874  -1.344 127.306  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  S   UNL     1      -8.922  -1.865 124.783  0.00  0.00    +0.000 S 
+ATOM      8  O   UNL     1      -9.494  -0.533 124.796  0.00  0.00    +0.000 OA
+ATOM      9  O   UNL     1      -9.633  -3.007 124.257  0.00  0.00    +0.000 OA
+BRANCH   7  13
+ATOM     10  C   UNL     1      -5.287  -2.767 123.184  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1      -6.617  -2.930 123.882  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1      -6.957  -4.028 124.308  0.00  0.00    +0.000 OA
+ATOM     13  N   UNL     1      -7.424  -1.774 124.014  0.00  0.00    +0.000 N 
+ATOM     14  H   UNL     1      -7.132  -0.872 123.657  0.00  0.00    +0.000 HD
+ENDBRANCH   7  13
+ENDBRANCH   1   7
+BRANCH   4  15
+ATOM     15  N   UNL     1      -7.643  -3.240 130.478  0.00  0.00    +0.000 N 
+ATOM     16  H   UNL     1      -8.071  -4.036 130.931  0.00  0.00    +0.000 HD
+ATOM     17  H   UNL     1      -7.107  -2.606 131.057  0.00  0.00    +0.000 HD
+ENDBRANCH   4  15
+TORSDOF 3
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -5.2      2.625      5.452
+REMARK  Name = Sulfacetamide
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: N_4  and  S_5
+REMARK    3  A    between atoms: S_5  and  C_8
+REMARK    4  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -9.594   5.784 131.742  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -8.425   6.380 131.261  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -7.248   6.323 132.021  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -7.209   5.650 133.247  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -8.369   5.010 133.690  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -9.552   5.055 132.937  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  S   UNL     1     -11.090   5.832 130.753  0.00  0.00    +0.000 S 
+ATOM      8  O   UNL     1     -12.136   6.336 131.619  0.00  0.00    +0.000 OA
+ATOM      9  O   UNL     1     -11.178   4.544 130.103  0.00  0.00    +0.000 OA
+BRANCH   7  13
+ATOM     10  C   UNL     1     -11.312   8.193 127.443  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1     -11.650   7.125 128.457  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1     -12.631   6.410 128.293  0.00  0.00    +0.000 OA
+ATOM     13  N   UNL     1     -10.789   7.000 129.575  0.00  0.00    +0.000 N 
+ATOM     14  H   UNL     1      -9.981   7.598 129.699  0.00  0.00    +0.000 HD
+ENDBRANCH   7  13
+ENDBRANCH   1   7
+BRANCH   4  15
+ATOM     15  N   UNL     1      -6.077   5.698 134.042  0.00  0.00    +0.000 N 
+ATOM     16  H   UNL     1      -5.528   4.864 134.205  0.00  0.00    +0.000 HD
+ATOM     17  H   UNL     1      -5.898   6.498 134.634  0.00  0.00    +0.000 HD
+ENDBRANCH   4  15
+TORSDOF 3
+ENDMDL

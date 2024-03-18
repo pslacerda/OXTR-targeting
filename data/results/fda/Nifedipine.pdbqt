@@ -1,0 +1,531 @@
+MODEL 1
+REMARK VINA RESULT:      -6.8      0.000      0.000
+REMARK  Name = Nifedipine
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_5
+REMARK    4  A    between atoms: C_6  and  C_7
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: C_11  and  C_22
+REMARK    7  A    between atoms: C_12  and  C_13
+REMARK    8  A    between atoms: C_18  and  N_19
+REMARK    9  A    between atoms: C_22  and  O_24
+REMARK   10  A    between atoms: O_24  and  C_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -6.199   0.309 125.636  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -6.975   0.844 124.664  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -7.608   2.219 124.705  0.00  0.00    +0.000 C 
+ATOM      4  N   UNL     1      -7.470   0.028 123.639  0.00  0.00    +0.000 N 
+ATOM      5  C   UNL     1      -7.169  -1.324 123.490  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -7.882  -1.995 122.337  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -6.352  -1.952 124.372  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -5.975  -1.220 125.680  0.00  0.00    +0.000 C 
+ATOM      9  H   UNL     1      -8.468   0.209 123.484  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   8  10
+ATOM     10  C   UNL     1      -6.743  -1.881 126.876  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -5.963  -2.219 128.019  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      -6.489  -2.980 129.078  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1      -7.823  -3.347 129.090  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      -8.622  -3.006 128.019  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      -8.118  -2.284 126.918  0.00  0.00    +0.000 A 
+BRANCH  15  16
+ATOM     16  N   UNL     1      -9.192  -1.999 125.944  0.00  0.00    +0.000 N 
+ATOM     17  O   UNL     1      -9.723  -2.938 125.349  0.00  0.00    +0.000 OA
+ATOM     18  O   UNL     1      -9.611  -0.858 125.808  0.00  0.00    +0.000 OA
+ENDBRANCH  15  16
+ENDBRANCH   8  10
+BRANCH   1  19
+ATOM     19  C   UNL     1      -5.512   1.130 126.669  0.00  0.00    +0.000 C 
+ATOM     20  O   UNL     1      -6.006   1.310 127.774  0.00  0.00    +0.000 OA
+BRANCH  19  22
+ATOM     21  C   UNL     1      -4.222   3.072 126.318  0.00  0.00    +0.000 C 
+ATOM     22  O   UNL     1      -4.316   1.637 126.264  0.00  0.00    +0.000 OA
+ENDBRANCH  19  22
+ENDBRANCH   1  19
+BRANCH   7  23
+ATOM     23  C   UNL     1      -5.835  -3.322 124.037  0.00  0.00    +0.000 C 
+ATOM     24  O   UNL     1      -6.459  -4.357 124.238  0.00  0.00    +0.000 OA
+BRANCH  23  25
+ATOM     25  O   UNL     1      -4.623  -3.310 123.417  0.00  0.00    +0.000 OA
+ATOM     26  C   UNL     1      -3.937  -4.577 123.493  0.00  0.00    +0.000 C 
+ENDBRANCH  23  25
+ENDBRANCH   7  23
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.7      2.230      5.962
+REMARK  Name = Nifedipine
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_5
+REMARK    4  A    between atoms: C_6  and  C_7
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: C_11  and  C_22
+REMARK    7  A    between atoms: C_12  and  C_13
+REMARK    8  A    between atoms: C_18  and  N_19
+REMARK    9  A    between atoms: C_22  and  O_24
+REMARK   10  A    between atoms: O_24  and  C_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.217  -0.750 124.550  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -8.104  -1.206 125.465  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -8.957  -2.448 125.316  0.00  0.00    +0.000 C 
+ATOM      4  N   UNL     1      -8.490  -0.384 126.532  0.00  0.00    +0.000 N 
+ATOM      5  C   UNL     1      -7.972   0.885 126.780  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -8.602   1.592 127.959  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -7.032   1.420 125.962  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -6.739   0.719 124.616  0.00  0.00    +0.000 C 
+ATOM      9  H   UNL     1      -9.509  -0.403 126.651  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   8  10
+ATOM     10  C   UNL     1      -7.343   1.575 123.450  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -6.446   2.454 122.780  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      -6.896   3.405 121.847  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1      -8.229   3.454 121.475  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      -9.124   2.593 122.074  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      -8.716   1.658 123.047  0.00  0.00    +0.000 A 
+BRANCH  15  16
+ATOM     16  N   UNL     1      -9.856   0.822 123.478  0.00  0.00    +0.000 N 
+ATOM     17  O   UNL     1     -10.465   1.127 124.505  0.00  0.00    +0.000 OA
+ATOM     18  O   UNL     1     -10.247  -0.097 122.772  0.00  0.00    +0.000 OA
+ENDBRANCH  15  16
+ENDBRANCH   8  10
+BRANCH   1  19
+ATOM     19  C   UNL     1      -6.642  -1.608 123.479  0.00  0.00    +0.000 C 
+ATOM     20  O   UNL     1      -7.233  -1.794 122.424  0.00  0.00    +0.000 OA
+BRANCH  19  22
+ATOM     21  C   UNL     1      -5.434  -3.566 123.996  0.00  0.00    +0.000 C 
+ATOM     22  O   UNL     1      -5.430  -2.141 123.792  0.00  0.00    +0.000 OA
+ENDBRANCH  19  22
+ENDBRANCH   1  19
+BRANCH   7  23
+ATOM     23  C   UNL     1      -6.304   2.658 126.402  0.00  0.00    +0.000 C 
+ATOM     24  O   UNL     1      -6.671   3.797 126.139  0.00  0.00    +0.000 OA
+BRANCH  23  25
+ATOM     25  O   UNL     1      -5.223   2.404 127.188  0.00  0.00    +0.000 OA
+ATOM     26  C   UNL     1      -3.970   2.731 126.550  0.00  0.00    +0.000 C 
+ENDBRANCH  23  25
+ENDBRANCH   7  23
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.5      7.334      9.752
+REMARK  Name = Nifedipine
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_5
+REMARK    4  A    between atoms: C_6  and  C_7
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: C_11  and  C_22
+REMARK    7  A    between atoms: C_12  and  C_13
+REMARK    8  A    between atoms: C_18  and  N_19
+REMARK    9  A    between atoms: C_22  and  O_24
+REMARK   10  A    between atoms: O_24  and  C_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -9.896   5.686 131.317  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -9.094   6.678 130.864  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -9.363   7.536 129.646  0.00  0.00    +0.000 C 
+ATOM      4  N   UNL     1      -7.791   6.804 131.363  0.00  0.00    +0.000 N 
+ATOM      5  C   UNL     1      -7.249   6.008 132.370  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -5.800   6.304 132.684  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -7.984   5.020 132.940  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -9.324   4.622 132.282  0.00  0.00    +0.000 C 
+ATOM      9  H   UNL     1      -7.123   6.944 130.597  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   8  10
+ATOM     10  C   UNL     1      -9.155   3.234 131.574  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -9.615   2.096 132.296  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      -9.356   0.785 131.859  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1      -8.721   0.555 130.650  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      -8.294   1.632 129.902  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      -8.495   2.960 130.331  0.00  0.00    +0.000 A 
+BRANCH  15  16
+ATOM     16  N   UNL     1      -7.999   3.917 129.320  0.00  0.00    +0.000 N 
+ATOM     17  O   UNL     1      -6.856   4.365 129.433  0.00  0.00    +0.000 OA
+ATOM     18  O   UNL     1      -8.677   4.180 128.338  0.00  0.00    +0.000 OA
+ENDBRANCH  15  16
+ENDBRANCH   8  10
+BRANCH   1  19
+ATOM     19  C   UNL     1     -11.334   5.577 130.953  0.00  0.00    +0.000 C 
+ATOM     20  O   UNL     1     -11.701   4.916 129.991  0.00  0.00    +0.000 OA
+BRANCH  19  22
+ATOM     21  C   UNL     1     -12.817   7.396 131.174  0.00  0.00    +0.000 C 
+ATOM     22  O   UNL     1     -12.166   6.266 131.781  0.00  0.00    +0.000 OA
+ENDBRANCH  19  22
+ENDBRANCH   1  19
+BRANCH   7  23
+ATOM     23  C   UNL     1      -7.475   4.366 134.193  0.00  0.00    +0.000 C 
+ATOM     24  O   UNL     1      -6.825   3.328 134.208  0.00  0.00    +0.000 OA
+BRANCH  23  25
+ATOM     25  O   UNL     1      -7.745   5.074 135.324  0.00  0.00    +0.000 OA
+ATOM     26  C   UNL     1      -6.583   5.268 136.160  0.00  0.00    +0.000 C 
+ENDBRANCH  23  25
+ENDBRANCH   7  23
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -6.5      6.727      9.284
+REMARK  Name = Nifedipine
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_5
+REMARK    4  A    between atoms: C_6  and  C_7
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: C_11  and  C_22
+REMARK    7  A    between atoms: C_12  and  C_13
+REMARK    8  A    between atoms: C_18  and  N_19
+REMARK    9  A    between atoms: C_22  and  O_24
+REMARK   10  A    between atoms: O_24  and  C_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.586   5.424 132.136  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -8.369   5.645 133.218  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -8.023   5.268 134.642  0.00  0.00    +0.000 C 
+ATOM      4  N   UNL     1      -9.708   6.018 133.044  0.00  0.00    +0.000 N 
+ATOM      5  C   UNL     1     -10.310   6.253 131.810  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1     -11.785   6.581 131.891  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -9.604   6.119 130.660  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -8.210   5.454 130.722  0.00  0.00    +0.000 C 
+ATOM      9  H   UNL     1     -10.318   5.469 133.660  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   8  10
+ATOM     10  C   UNL     1      -8.300   4.018 130.100  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -8.720   2.975 130.975  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      -8.665   1.622 130.596  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1      -8.287   1.261 129.314  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      -7.909   2.245 128.425  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      -7.907   3.608 128.784  0.00  0.00    +0.000 A 
+BRANCH  15  16
+ATOM     16  N   UNL     1      -7.521   4.451 127.633  0.00  0.00    +0.000 N 
+ATOM     17  O   UNL     1      -6.325   4.608 127.382  0.00  0.00    +0.000 OA
+ATOM     18  O   UNL     1      -8.378   4.902 126.886  0.00  0.00    +0.000 OA
+ENDBRANCH  15  16
+ENDBRANCH   8  10
+BRANCH   1  19
+ATOM     19  C   UNL     1      -6.122   5.175 132.231  0.00  0.00    +0.000 C 
+ATOM     20  O   UNL     1      -5.311   6.081 132.103  0.00  0.00    +0.000 OA
+BRANCH  19  22
+ATOM     21  C   UNL     1      -4.960   3.269 131.473  0.00  0.00    +0.000 C 
+ATOM     22  O   UNL     1      -5.799   3.875 132.472  0.00  0.00    +0.000 OA
+ENDBRANCH  19  22
+ENDBRANCH   1  19
+BRANCH   7  23
+ATOM     23  C   UNL     1     -10.195   6.636 129.379  0.00  0.00    +0.000 C 
+ATOM     24  O   UNL     1     -11.013   6.021 128.706  0.00  0.00    +0.000 OA
+BRANCH  23  25
+ATOM     25  O   UNL     1      -9.788   7.895 129.061  0.00  0.00    +0.000 OA
+ATOM     26  C   UNL     1     -10.631   8.529 128.076  0.00  0.00    +0.000 C 
+ENDBRANCH  23  25
+ENDBRANCH   7  23
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -6.4      1.677      4.923
+REMARK  Name = Nifedipine
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_5
+REMARK    4  A    between atoms: C_6  and  C_7
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: C_11  and  C_22
+REMARK    7  A    between atoms: C_12  and  C_13
+REMARK    8  A    between atoms: C_18  and  N_19
+REMARK    9  A    between atoms: C_22  and  O_24
+REMARK   10  A    between atoms: O_24  and  C_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -6.530  -2.444 124.800  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -7.678  -3.128 125.015  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -8.645  -3.576 123.940  0.00  0.00    +0.000 C 
+ATOM      4  N   UNL     1      -8.190  -3.242 126.314  0.00  0.00    +0.000 N 
+ATOM      5  C   UNL     1      -7.563  -2.750 127.457  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -8.353  -2.946 128.731  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -6.377  -2.098 127.368  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -5.865  -1.683 125.970  0.00  0.00    +0.000 C 
+ATOM      9  H   UNL     1      -9.196  -3.043 126.324  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   8  10
+ATOM     10  C   UNL     1      -6.018  -0.131 125.809  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -4.865   0.652 126.102  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      -4.920   2.055 126.176  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1      -6.087   2.734 125.871  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      -7.217   2.013 125.545  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      -7.211   0.604 125.505  0.00  0.00    +0.000 A 
+BRANCH  15  16
+ATOM     16  N   UNL     1      -8.526   0.088 125.072  0.00  0.00    +0.000 N 
+ATOM     17  O   UNL     1      -9.353  -0.235 125.927  0.00  0.00    +0.000 OA
+ATOM     18  O   UNL     1      -8.821   0.077 123.885  0.00  0.00    +0.000 OA
+ENDBRANCH  15  16
+ENDBRANCH   8  10
+BRANCH   1  19
+ATOM     19  C   UNL     1      -5.843  -2.405 123.482  0.00  0.00    +0.000 C 
+ATOM     20  O   UNL     1      -6.372  -1.903 122.500  0.00  0.00    +0.000 OA
+BRANCH  19  22
+ATOM     21  C   UNL     1      -4.595  -4.401 123.617  0.00  0.00    +0.000 C 
+ATOM     22  O   UNL     1      -4.604  -2.968 123.490  0.00  0.00    +0.000 OA
+ENDBRANCH  19  22
+ENDBRANCH   1  19
+BRANCH   7  23
+ATOM     23  C   UNL     1      -5.602  -1.822 128.625  0.00  0.00    +0.000 C 
+ATOM     24  O   UNL     1      -5.840  -0.890 129.385  0.00  0.00    +0.000 OA
+BRANCH  23  25
+ATOM     25  O   UNL     1      -4.644  -2.751 128.889  0.00  0.00    +0.000 OA
+ATOM     26  C   UNL     1      -4.936  -3.550 130.056  0.00  0.00    +0.000 C 
+ENDBRANCH  23  25
+ENDBRANCH   7  23
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -6.3      2.318      4.411
+REMARK  Name = Nifedipine
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_5
+REMARK    4  A    between atoms: C_6  and  C_7
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: C_11  and  C_22
+REMARK    7  A    between atoms: C_12  and  C_13
+REMARK    8  A    between atoms: C_18  and  N_19
+REMARK    9  A    between atoms: C_22  and  O_24
+REMARK   10  A    between atoms: O_24  and  C_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -6.800   0.829 126.689  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -5.715   1.477 127.175  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -5.023   2.648 126.509  0.00  0.00    +0.000 C 
+ATOM      4  N   UNL     1      -4.984   0.919 128.231  0.00  0.00    +0.000 N 
+ATOM      5  C   UNL     1      -5.327  -0.257 128.895  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -4.338  -0.680 129.958  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -6.429  -0.960 128.533  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -7.145  -0.583 127.216  0.00  0.00    +0.000 C 
+ATOM      9  H   UNL     1      -3.978   0.959 128.034  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   8  10
+ATOM     10  C   UNL     1      -6.854  -1.686 126.141  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -5.595  -1.608 125.478  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      -5.288  -2.418 124.371  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1      -6.170  -3.395 123.943  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      -7.384  -3.529 124.583  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      -7.746  -2.704 125.667  0.00  0.00    +0.000 A 
+BRANCH  15  16
+ATOM     16  N   UNL     1      -9.066  -3.095 126.205  0.00  0.00    +0.000 N 
+ATOM     17  O   UNL     1      -9.116  -3.739 127.255  0.00  0.00    +0.000 OA
+ATOM     18  O   UNL     1     -10.090  -2.700 125.667  0.00  0.00    +0.000 OA
+ENDBRANCH  15  16
+ENDBRANCH   8  10
+BRANCH   1  19
+ATOM     19  C   UNL     1      -7.714   1.423 125.677  0.00  0.00    +0.000 C 
+ATOM     20  O   UNL     1      -8.723   2.031 126.007  0.00  0.00    +0.000 OA
+BRANCH  19  22
+ATOM     21  C   UNL     1      -8.272   0.537 123.565  0.00  0.00    +0.000 C 
+ATOM     22  O   UNL     1      -7.316   1.224 124.392  0.00  0.00    +0.000 OA
+ENDBRANCH  19  22
+ENDBRANCH   1  19
+BRANCH   7  23
+ATOM     23  C   UNL     1      -6.918  -2.061 129.430  0.00  0.00    +0.000 C 
+ATOM     24  O   UNL     1      -7.770  -1.909 130.298  0.00  0.00    +0.000 OA
+BRANCH  23  25
+ATOM     25  O   UNL     1      -6.374  -3.276 129.146  0.00  0.00    +0.000 OA
+ATOM     26  C   UNL     1      -6.147  -4.082 130.322  0.00  0.00    +0.000 C 
+ENDBRANCH  23  25
+ENDBRANCH   7  23
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -6.3      6.936      9.484
+REMARK  Name = Nifedipine
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_5
+REMARK    4  A    between atoms: C_6  and  C_7
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: C_11  and  C_22
+REMARK    7  A    between atoms: C_12  and  C_13
+REMARK    8  A    between atoms: C_18  and  N_19
+REMARK    9  A    between atoms: C_22  and  O_24
+REMARK   10  A    between atoms: O_24  and  C_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.531   5.487 132.235  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -8.433   5.477 133.246  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -8.215   4.854 134.608  0.00  0.00    +0.000 C 
+ATOM      4  N   UNL     1      -9.765   5.828 132.995  0.00  0.00    +0.000 N 
+ATOM      5  C   UNL     1     -10.249   6.268 131.764  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1     -11.740   6.523 131.739  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -9.422   6.374 130.694  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -8.008   5.758 130.790  0.00  0.00    +0.000 C 
+ATOM      9  H   UNL     1     -10.404   5.154 133.430  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   8  10
+ATOM     10  C   UNL     1      -7.955   4.460 129.913  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -6.863   4.354 129.004  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      -6.800   3.336 128.036  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1      -7.757   2.337 127.996  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      -8.811   2.383 128.884  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      -8.933   3.413 129.838  0.00  0.00    +0.000 A 
+BRANCH  15  16
+ATOM     16  N   UNL     1     -10.113   3.191 130.700  0.00  0.00    +0.000 N 
+ATOM     17  O   UNL     1      -9.941   2.852 131.872  0.00  0.00    +0.000 OA
+ATOM     18  O   UNL     1     -11.235   3.437 130.281  0.00  0.00    +0.000 OA
+ENDBRANCH  15  16
+ENDBRANCH   8  10
+BRANCH   1  19
+ATOM     19  C   UNL     1      -6.074   5.276 132.446  0.00  0.00    +0.000 C 
+ATOM     20  O   UNL     1      -5.590   4.153 132.477  0.00  0.00    +0.000 OA
+BRANCH  19  22
+ATOM     21  C   UNL     1      -4.176   6.306 133.392  0.00  0.00    +0.000 C 
+ATOM     22  O   UNL     1      -5.366   6.428 132.592  0.00  0.00    +0.000 OA
+ENDBRANCH  19  22
+ENDBRANCH   1  19
+BRANCH   7  23
+ATOM     23  C   UNL     1      -9.905   7.099 129.471  0.00  0.00    +0.000 C 
+ATOM     24  O   UNL     1      -9.566   8.237 129.171  0.00  0.00    +0.000 OA
+BRANCH  23  25
+ATOM     25  O   UNL     1     -10.711   6.344 128.675  0.00  0.00    +0.000 OA
+ATOM     26  C   UNL     1     -11.725   7.119 128.000  0.00  0.00    +0.000 C 
+ENDBRANCH  23  25
+ENDBRANCH   7  23
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -6.0      3.369      5.675
+REMARK  Name = Nifedipine
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_5
+REMARK    4  A    between atoms: C_6  and  C_7
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: C_11  and  C_22
+REMARK    7  A    between atoms: C_12  and  C_13
+REMARK    8  A    between atoms: C_18  and  N_19
+REMARK    9  A    between atoms: C_22  and  O_24
+REMARK   10  A    between atoms: O_24  and  C_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.237   1.755 128.956  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -7.895   0.753 129.801  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -7.518   0.925 131.257  0.00  0.00    +0.000 C 
+ATOM      4  N   UNL     1      -7.609  -0.521 129.293  0.00  0.00    +0.000 N 
+ATOM      5  C   UNL     1      -7.713  -0.878 127.950  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -7.285  -2.298 127.652  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -8.104   0.029 127.022  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -8.179   1.518 127.429  0.00  0.00    +0.000 C 
+ATOM      9  H   UNL     1      -6.752  -0.893 129.715  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   8  10
+ATOM     10  C   UNL     1      -6.984   2.290 126.771  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -5.679   1.788 127.044  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      -4.520   2.491 126.671  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1      -4.609   3.660 125.934  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      -5.854   4.159 125.616  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      -7.039   3.506 126.013  0.00  0.00    +0.000 A 
+BRANCH  15  16
+ATOM     16  N   UNL     1      -8.226   4.215 125.494  0.00  0.00    +0.000 N 
+ATOM     17  O   UNL     1      -8.946   3.651 124.668  0.00  0.00    +0.000 OA
+ATOM     18  O   UNL     1      -8.541   5.304 125.953  0.00  0.00    +0.000 OA
+ENDBRANCH  15  16
+ENDBRANCH   8  10
+BRANCH   1  19
+ATOM     19  C   UNL     1      -8.701   3.088 129.424  0.00  0.00    +0.000 C 
+ATOM     20  O   UNL     1      -7.922   4.020 129.570  0.00  0.00    +0.000 OA
+BRANCH  19  22
+ATOM     21  C   UNL     1     -10.444   4.223 130.534  0.00  0.00    +0.000 C 
+ATOM     22  O   UNL     1     -10.039   3.153 129.661  0.00  0.00    +0.000 OA
+ENDBRANCH  19  22
+ENDBRANCH   1  19
+BRANCH   7  23
+ATOM     23  C   UNL     1      -8.464  -0.449 125.644  0.00  0.00    +0.000 C 
+ATOM     24  O   UNL     1      -9.601  -0.747 125.298  0.00  0.00    +0.000 OA
+BRANCH  23  25
+ATOM     25  O   UNL     1      -7.413  -0.457 124.779  0.00  0.00    +0.000 OA
+ATOM     26  C   UNL     1      -7.627   0.379 123.622  0.00  0.00    +0.000 C 
+ENDBRANCH  23  25
+ENDBRANCH   7  23
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -6.0      5.992      8.610
+REMARK  Name = Nifedipine
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_5
+REMARK    4  A    between atoms: C_6  and  C_7
+REMARK    5  A    between atoms: C_9  and  C_10
+REMARK    6  A    between atoms: C_11  and  C_22
+REMARK    7  A    between atoms: C_12  and  C_13
+REMARK    8  A    between atoms: C_18  and  N_19
+REMARK    9  A    between atoms: C_22  and  O_24
+REMARK   10  A    between atoms: O_24  and  C_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.745   3.111 128.815  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -8.075   1.856 128.429  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -8.426   1.436 127.018  0.00  0.00    +0.000 C 
+ATOM      4  N   UNL     1      -8.375   0.886 129.395  0.00  0.00    +0.000 N 
+ATOM      5  C   UNL     1      -8.297   1.088 130.771  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -8.735  -0.099 131.599  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -7.918   2.291 131.272  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -7.831   3.497 130.310  0.00  0.00    +0.000 C 
+ATOM      9  H   UNL     1      -9.226   0.374 129.139  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   8  10
+ATOM     10  C   UNL     1      -9.035   4.462 130.587  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1     -10.338   3.919 130.399  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1     -11.490   4.724 130.434  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1     -11.403   6.069 130.750  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1     -10.162   6.626 130.978  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      -8.981   5.859 130.906  0.00  0.00    +0.000 A 
+BRANCH  15  16
+ATOM     16  N   UNL     1      -7.803   6.682 131.250  0.00  0.00    +0.000 N 
+ATOM     17  O   UNL     1      -7.134   6.382 132.241  0.00  0.00    +0.000 OA
+ATOM     18  O   UNL     1      -7.443   7.582 130.505  0.00  0.00    +0.000 OA
+ENDBRANCH  15  16
+ENDBRANCH   8  10
+BRANCH   1  19
+ATOM     19  C   UNL     1      -7.268   4.152 127.866  0.00  0.00    +0.000 C 
+ATOM     20  O   UNL     1      -6.076   4.386 127.722  0.00  0.00    +0.000 OA
+BRANCH  19  22
+ATOM     21  C   UNL     1      -8.105   4.835 125.771  0.00  0.00    +0.000 C 
+ATOM     22  O   UNL     1      -8.268   4.790 127.200  0.00  0.00    +0.000 OA
+ENDBRANCH  19  22
+ENDBRANCH   1  19
+BRANCH   7  23
+ATOM     23  C   UNL     1      -7.585   2.398 132.732  0.00  0.00    +0.000 C 
+ATOM     24  O   UNL     1      -6.444   2.373 133.178  0.00  0.00    +0.000 OA
+BRANCH  23  25
+ATOM     25  O   UNL     1      -8.673   2.598 133.526  0.00  0.00    +0.000 OA
+ATOM     26  C   UNL     1      -8.667   3.885 134.180  0.00  0.00    +0.000 C 
+ENDBRANCH  23  25
+ENDBRANCH   7  23
+TORSDOF 6
+ENDMDL

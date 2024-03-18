@@ -1,0 +1,387 @@
+MODEL 1
+REMARK VINA RESULT:      -7.5      0.000      0.000
+REMARK  Name = Naproxen
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_10  and  C_13
+REMARK    4  A    between atoms: C_13  and  C_14
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_15  and  O_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.418   5.738 132.923  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -9.800   5.794 132.725  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -10.339   6.406 131.580  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -9.466   6.962 130.628  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -8.083   6.909 130.840  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -7.560   6.286 131.973  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      -9.990   7.561 129.474  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1     -11.374   7.665 129.243  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1     -12.221   7.063 130.184  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1     -11.718   6.465 131.345  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  12
+ATOM     11  C   UNL     1      -8.504   3.727 134.140  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1      -7.992   5.053 134.027  0.00  0.00    +0.000 OA
+ENDBRANCH   1  12
+BRANCH   8  13
+ATOM     13  C   UNL     1     -11.935   8.368 127.997  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1     -13.435   8.677 128.134  0.00  0.00    +0.000 C 
+BRANCH  13  15
+ATOM     15  C   UNL     1     -11.617   7.624 126.682  0.00  0.00    +0.000 C 
+ATOM     16  O   UNL     1     -10.801   8.028 125.856  0.00  0.00    +0.000 OA
+BRANCH  15  17
+ATOM     17  O   UNL     1     -12.292   6.482 126.430  0.00  0.00    +0.000 OA
+ATOM     18  H   UNL     1     -12.821   6.094 127.148  0.00  0.00    +0.000 HD
+ENDBRANCH  15  17
+ENDBRANCH  13  15
+ENDBRANCH   8  13
+TORSDOF 4
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.6      1.326      6.582
+REMARK  Name = Naproxen
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_10  and  C_13
+REMARK    4  A    between atoms: C_13  and  C_14
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_15  and  O_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -11.345   7.873 129.298  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -9.983   7.688 129.552  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -9.552   6.984 130.690  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     -10.512   6.462 131.574  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     -11.874   6.660 131.317  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -12.289   7.348 130.176  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1     -10.096   5.744 132.705  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      -8.737   5.554 133.016  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1      -7.801   6.045 132.095  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1      -8.196   6.768 130.964  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  12
+ATOM     11  C   UNL     1     -10.990   7.992 126.977  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1     -11.662   8.501 128.126  0.00  0.00    +0.000 OA
+ENDBRANCH   1  12
+BRANCH   8  13
+ATOM     13  C   UNL     1      -8.295   4.809 134.284  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1      -7.331   5.645 135.141  0.00  0.00    +0.000 C 
+BRANCH  13  15
+ATOM     15  C   UNL     1      -7.735   3.398 133.998  0.00  0.00    +0.000 C 
+ATOM     16  O   UNL     1      -6.568   3.077 134.211  0.00  0.00    +0.000 OA
+BRANCH  15  17
+ATOM     17  O   UNL     1      -8.578   2.487 133.467  0.00  0.00    +0.000 OA
+ATOM     18  H   UNL     1      -8.334   2.074 132.622  0.00  0.00    +0.000 HD
+ENDBRANCH  15  17
+ENDBRANCH  13  15
+ENDBRANCH   8  13
+TORSDOF 4
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.6      1.647      6.260
+REMARK  Name = Naproxen
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_10  and  C_13
+REMARK    4  A    between atoms: C_13  and  C_14
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_15  and  O_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -12.464   8.713 128.784  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -12.677   8.057 130.000  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -11.633   7.363 130.634  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     -10.363   7.338 130.031  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     -10.162   7.991 128.808  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -11.203   8.689 128.196  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      -9.308   6.662 130.661  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      -9.479   5.966 131.872  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1     -10.742   6.044 132.476  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1     -11.808   6.709 131.860  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  12
+ATOM     11  C   UNL     1     -13.847  10.600 129.027  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1     -13.521   9.426 128.288  0.00  0.00    +0.000 OA
+ENDBRANCH   1  12
+BRANCH   8  13
+ATOM     13  C   UNL     1      -8.327   5.189 132.527  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1      -7.389   4.558 131.485  0.00  0.00    +0.000 C 
+BRANCH  13  15
+ATOM     15  C   UNL     1      -8.804   4.157 133.572  0.00  0.00    +0.000 C 
+ATOM     16  O   UNL     1      -9.241   3.047 133.277  0.00  0.00    +0.000 OA
+BRANCH  15  17
+ATOM     17  O   UNL     1      -8.754   4.516 134.873  0.00  0.00    +0.000 OA
+ATOM     18  H   UNL     1      -7.987   5.030 135.177  0.00  0.00    +0.000 HD
+ENDBRANCH  15  17
+ENDBRANCH  13  15
+ENDBRANCH   8  13
+TORSDOF 4
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -6.3      1.765      2.302
+REMARK  Name = Naproxen
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_10  and  C_13
+REMARK    4  A    between atoms: C_13  and  C_14
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_15  and  O_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -6.995   5.663 133.607  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -8.392   5.638 133.593  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -9.108   6.077 132.466  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -8.398   6.541 131.344  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -6.998   6.570 131.371  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -6.299   6.119 132.490  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      -9.100   6.967 130.207  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1     -10.506   6.984 130.155  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1     -11.189   6.474 131.269  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1     -10.507   6.051 132.414  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  12
+ATOM     11  C   UNL     1      -7.025   5.474 135.951  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1      -6.391   5.142 134.719  0.00  0.00    +0.000 OA
+ENDBRANCH   1  12
+BRANCH   8  13
+ATOM     13  C   UNL     1     -11.262   7.499 128.921  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1     -10.464   8.570 128.158  0.00  0.00    +0.000 C 
+BRANCH  13  15
+ATOM     15  C   UNL     1     -12.699   7.968 129.238  0.00  0.00    +0.000 C 
+ATOM     16  O   UNL     1     -13.698   7.290 129.010  0.00  0.00    +0.000 OA
+BRANCH  15  17
+ATOM     17  O   UNL     1     -12.851   9.198 129.775  0.00  0.00    +0.000 OA
+ATOM     18  H   UNL     1     -12.089   9.600 130.224  0.00  0.00    +0.000 HD
+ENDBRANCH  15  17
+ENDBRANCH  13  15
+ENDBRANCH   8  13
+TORSDOF 4
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -6.3      9.585     10.578
+REMARK  Name = Naproxen
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_10  and  C_13
+REMARK    4  A    between atoms: C_13  and  C_14
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_15  and  O_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -6.942  -2.687 130.077  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -6.124  -2.188 129.060  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -6.507  -2.294 127.712  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -7.731  -2.910 127.396  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -8.540  -3.415 128.422  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -8.156  -3.290 129.757  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      -8.133  -3.008 126.056  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      -7.333  -2.544 124.996  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1      -6.138  -1.894 125.340  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1      -5.718  -1.791 126.670  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  12
+ATOM     11  C   UNL     1      -6.384  -1.089 131.710  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1      -6.519  -2.464 131.358  0.00  0.00    +0.000 OA
+ENDBRANCH   1  12
+BRANCH   8  13
+ATOM     13  C   UNL     1      -7.762  -2.703 123.529  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1      -6.882  -1.878 122.576  0.00  0.00    +0.000 C 
+BRANCH  13  15
+ATOM     15  C   UNL     1      -9.266  -2.436 123.302  0.00  0.00    +0.000 C 
+ATOM     16  O   UNL     1      -9.727  -1.321 123.068  0.00  0.00    +0.000 OA
+BRANCH  15  17
+ATOM     17  O   UNL     1     -10.108  -3.487 123.389  0.00  0.00    +0.000 OA
+ATOM     18  H   UNL     1     -10.296  -3.992 122.580  0.00  0.00    +0.000 HD
+ENDBRANCH  15  17
+ENDBRANCH  13  15
+ENDBRANCH   8  13
+TORSDOF 4
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -6.2     10.104     10.549
+REMARK  Name = Naproxen
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_10  and  C_13
+REMARK    4  A    between atoms: C_13  and  C_14
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_15  and  O_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -6.507  -2.564 130.357  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -7.628  -3.083 129.703  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -7.717  -3.058 128.301  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -6.658  -2.506 127.558  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -5.543  -1.981 128.223  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -5.461  -2.024 129.615  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      -6.728  -2.491 126.157  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      -7.845  -2.977 125.455  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1      -8.867  -3.564 126.216  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1      -8.819  -3.584 127.614  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  12
+ATOM     11  C   UNL     1      -5.672  -3.780 132.188  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1      -6.481  -2.705 131.717  0.00  0.00    +0.000 OA
+ENDBRANCH   1  12
+BRANCH   8  13
+ATOM     13  C   UNL     1      -7.929  -2.909 123.923  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1      -6.851  -1.991 123.324  0.00  0.00    +0.000 C 
+BRANCH  13  15
+ATOM     15  C   UNL     1      -9.340  -2.555 123.405  0.00  0.00    +0.000 C 
+ATOM     16  O   UNL     1      -9.696  -1.408 123.142  0.00  0.00    +0.000 OA
+BRANCH  15  17
+ATOM     17  O   UNL     1     -10.224  -3.564 123.257  0.00  0.00    +0.000 OA
+ATOM     18  H   UNL     1     -10.069  -4.385 123.753  0.00  0.00    +0.000 HD
+ENDBRANCH  15  17
+ENDBRANCH  13  15
+ENDBRANCH   8  13
+TORSDOF 4
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -6.2      3.213      5.953
+REMARK  Name = Naproxen
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_10  and  C_13
+REMARK    4  A    between atoms: C_13  and  C_14
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_15  and  O_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.984   6.525 131.432  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -10.037   6.031 132.334  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -8.662   6.198 132.095  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -8.247   6.873 130.933  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -9.203   7.356 130.032  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -10.565   7.197 130.287  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      -6.878   7.060 130.691  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      -5.887   6.560 131.555  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1      -6.327   5.930 132.729  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1      -7.687   5.729 132.985  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  12
+ATOM     11  C   UNL     1     -13.136   7.472 131.426  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1     -12.295   6.382 131.793  0.00  0.00    +0.000 OA
+ENDBRANCH   1  12
+BRANCH   8  13
+ATOM     13  C   UNL     1      -4.390   6.729 131.253  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1      -3.595   7.166 132.493  0.00  0.00    +0.000 C 
+BRANCH  13  15
+ATOM     15  C   UNL     1      -4.113   7.642 130.039  0.00  0.00    +0.000 C 
+ATOM     16  O   UNL     1      -3.882   8.846 130.136  0.00  0.00    +0.000 OA
+BRANCH  15  17
+ATOM     17  O   UNL     1      -4.151   7.081 128.812  0.00  0.00    +0.000 OA
+ATOM     18  H   UNL     1      -3.708   6.226 128.685  0.00  0.00    +0.000 HD
+ENDBRANCH  15  17
+ENDBRANCH  13  15
+ENDBRANCH   8  13
+TORSDOF 4
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -6.1      1.750      6.208
+REMARK  Name = Naproxen
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_10  and  C_13
+REMARK    4  A    between atoms: C_13  and  C_14
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_15  and  O_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -12.177   7.338 129.568  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -11.890   6.695 130.775  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -10.563   6.542 131.211  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -9.520   7.048 130.415  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -9.817   7.683 129.203  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -11.139   7.842 128.789  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      -8.191   6.916 130.846  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      -7.851   6.255 132.041  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1      -8.912   5.800 132.838  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1     -10.242   5.917 132.423  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  12
+ATOM     11  C   UNL     1     -13.803   7.514 127.879  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1     -13.501   7.506 129.272  0.00  0.00    +0.000 OA
+ENDBRANCH   1  12
+BRANCH   8  13
+ATOM     13  C   UNL     1      -6.389   6.074 132.476  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1      -5.404   6.678 131.461  0.00  0.00    +0.000 C 
+BRANCH  13  15
+ATOM     15  C   UNL     1      -6.034   4.613 132.826  0.00  0.00    +0.000 C 
+ATOM     16  O   UNL     1      -5.662   4.256 133.942  0.00  0.00    +0.000 OA
+BRANCH  15  17
+ATOM     17  O   UNL     1      -6.120   3.695 131.840  0.00  0.00    +0.000 OA
+ATOM     18  H   UNL     1      -6.377   2.789 132.079  0.00  0.00    +0.000 HD
+ENDBRANCH  15  17
+ENDBRANCH  13  15
+ENDBRANCH   8  13
+TORSDOF 4
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -6.0      7.759     10.431
+REMARK  Name = Naproxen
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  O_2
+REMARK    2  A    between atoms: O_2  and  C_3
+REMARK    3  A    between atoms: C_10  and  C_13
+REMARK    4  A    between atoms: C_13  and  C_14
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_15  and  O_16
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -6.699   4.357 119.857  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -7.849   3.814 120.437  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -7.820   3.295 121.743  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -6.614   3.332 122.466  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -5.465   3.869 121.873  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -5.510   4.394 120.582  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      -6.575   2.832 123.776  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      -7.699   2.253 124.392  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1      -8.900   2.270 123.668  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1      -8.958   2.759 122.358  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  12
+ATOM     11  C   UNL     1      -5.920   5.941 118.304  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1      -6.850   4.906 118.614  0.00  0.00    +0.000 OA
+ENDBRANCH   1  12
+BRANCH   8  13
+ATOM     13  C   UNL     1      -7.630   1.665 125.810  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1      -8.233   0.252 125.880  0.00  0.00    +0.000 C 
+BRANCH  13  15
+ATOM     15  C   UNL     1      -8.222   2.599 126.887  0.00  0.00    +0.000 C 
+ATOM     16  O   UNL     1      -8.163   3.825 126.827  0.00  0.00    +0.000 OA
+BRANCH  15  17
+ATOM     17  O   UNL     1      -8.816   2.024 127.955  0.00  0.00    +0.000 OA
+ATOM     18  H   UNL     1      -9.786   1.969 127.966  0.00  0.00    +0.000 HD
+ENDBRANCH  15  17
+ENDBRANCH  13  15
+ENDBRANCH   8  13
+TORSDOF 4
+ENDMDL

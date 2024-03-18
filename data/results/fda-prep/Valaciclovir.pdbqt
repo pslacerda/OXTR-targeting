@@ -1,0 +1,65 @@
+REMARK  Name = Valaciclovir
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_4  and  N_5
+REMARK    5  A    between atoms: C_4  and  C_6
+REMARK    6  A    between atoms: C_6  and  O_8
+REMARK    7  A    between atoms: O_8  and  C_9
+REMARK    8  A    between atoms: C_9  and  C_10
+REMARK    9  A    between atoms: C_10  and  O_11
+REMARK   10  A    between atoms: O_11  and  C_12
+REMARK   11  A    between atoms: C_12  and  N_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       9.134   2.744   4.598  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1      10.580   2.711   4.572  0.00  0.00    +0.000 N 
+ATOM      3  C   UNL     1      11.400   3.814   4.517  0.00  0.00    +0.000 A 
+ATOM      4  N   UNL     1      12.678   3.486   4.562  0.00  0.00    +0.000 NA
+ATOM      5  C   UNL     1      12.687   2.110   4.650  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      11.402   1.634   4.674  0.00  0.00    +0.000 A 
+ATOM      7  N   UNL     1      11.121   0.326   4.775  0.00  0.00    +0.000 N 
+ATOM      8  C   UNL     1      12.194  -0.531   4.824  0.00  0.00    +0.000 A 
+ATOM      9  N   UNL     1      11.855  -1.835   4.919  0.00  0.00    +0.000 N 
+ATOM     10  N   UNL     1      13.450  -0.186   4.805  0.00  0.00    +0.000 NA
+ATOM     11  C   UNL     1      13.807   1.164   4.720  0.00  0.00    +0.000 A 
+ATOM     12  O   UNL     1      14.980   1.535   4.707  0.00  0.00    +0.000 OA
+ATOM     13  H   UNL     1      10.185  -0.050   4.720  0.00  0.00    +0.000 HD
+ATOM     14  H   UNL     1      10.912  -2.184   4.901  0.00  0.00    +0.000 HD
+ATOM     15  H   UNL     1      12.610  -2.511   4.942  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1  16
+ATOM     16  O   UNL     1       8.634   2.046   3.456  0.00  0.00    +0.000 OA
+BRANCH  16  17
+ATOM     17  C   UNL     1       7.205   2.057   3.431  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  C   UNL     1       6.685   1.326   2.191  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O   UNL     1       5.243   1.339   2.182  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  C   UNL     1       4.682   0.699   1.111  0.00  0.00    +0.000 C 
+ATOM     21  O   UNL     1       5.326   0.171   0.210  0.00  0.00    +0.000 OA
+BRANCH  20  22
+ATOM     22  C   UNL     1       3.129   0.713   1.165  0.00  0.00    +0.000 C 
+BRANCH  22  24
+ATOM     23  C   UNL     1       2.899  -1.525   2.349  0.00  0.00    +0.000 C 
+ATOM     24  C   UNL     1       2.616  -0.019   2.429  0.00  0.00    +0.000 C 
+ATOM     25  C   UNL     1       1.123   0.200   2.696  0.00  0.00    +0.000 C 
+ENDBRANCH  22  24
+BRANCH  22  26
+ATOM     26  N   UNL     1       2.575   0.086  -0.067  0.00  0.00    +0.000 NA
+ATOM     27  H   UNL     1       2.947  -0.866  -0.130  0.00  0.00    +0.000 HD
+ATOM     28  H   UNL     1       2.989   0.541  -0.883  0.00  0.00    +0.000 HD
+ENDBRANCH  22  26
+ENDBRANCH  20  22
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 9

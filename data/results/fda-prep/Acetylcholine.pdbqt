@@ -1,0 +1,34 @@
+REMARK  Name = Acetylcholine
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  O_4
+REMARK    3  A    between atoms: O_4  and  C_5
+REMARK    4  A    between atoms: C_5  and  C_6
+REMARK    5  A    between atoms: C_6  and  N_7
+REMARK    6  A    between atoms: N_7  and  C_8
+REMARK    7  A    between atoms: N_7  and  C_9
+REMARK    8  A    between atoms: N_7  and  C_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       4.485   1.164   0.555  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  O   UNL     1       3.055   1.194   0.568  0.00  0.00    +0.000 OA
+BRANCH   2   4
+ATOM      3  C   UNL     1       1.023   0.090   0.083  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1       2.517   0.042   0.062  0.00  0.00    +0.000 C 
+ATOM      5  O   UNL     1       3.179  -0.902  -0.352  0.00  0.00    +0.000 OA
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   UNL     1       5.068   2.465   1.125  0.00  0.00    +0.000 C 
+BRANCH   6   7
+ATOM      7  N   UNL     1       6.617   2.482   1.133  0.00  0.00    +0.000 N 
+ATOM      8  C   UNL     1       7.165   1.355   2.002  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1       7.165   2.359  -0.286  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1       7.102   3.811   1.716  0.00  0.00    +0.000 C 
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 4

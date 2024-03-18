@@ -1,0 +1,24 @@
+REMARK  Name = Amantadine
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       2.390   0.075  -0.033  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1       2.917   0.950   1.126  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1       4.456   0.953   1.129  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1       4.964  -0.488   1.302  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1       4.457  -1.369   0.147  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1       4.965  -0.798  -1.187  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1       4.456   0.642  -1.373  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1       4.964   1.512  -0.211  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1       2.917   0.640  -1.370  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1       2.917  -1.366   0.147  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1  11
+ATOM     11  N   UNL     1       0.928   0.067  -0.042  0.00  0.00    +0.000 NA
+ATOM     12  H   UNL     1       0.578   1.020  -0.132  0.00  0.00    +0.000 HD
+ATOM     13  H   UNL     1       0.578  -0.279   0.851  0.00  0.00    +0.000 HD
+ENDBRANCH   1  11
+TORSDOF 1

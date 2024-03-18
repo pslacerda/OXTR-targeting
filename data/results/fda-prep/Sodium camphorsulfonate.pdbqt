@@ -1,0 +1,44 @@
+REMARK  Name = Sodium camphorsulfonate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_6  and  C_7
+REMARK    2  A    between atoms: C_7  and  S_8
+REMARK    3  A    between atoms: C_15  and  C_16
+REMARK    4  A    between atoms: C_15  and  C_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1 NA   UNL     1      -0.207   1.033   1.177  0.00  0.00    +0.000 Na
+ENDROOT
+TORSDOF 0
+REMARK  Name = Sodium camphorsulfonate
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_6  and  C_7
+REMARK    2  A    between atoms: C_7  and  S_8
+REMARK    3  A    between atoms: C_15  and  C_16
+REMARK    4  A    between atoms: C_15  and  C_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     2       2.180  -0.033   0.079  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     2       2.829   1.223   0.592  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     2       4.200   1.160  -0.103  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     2       4.099  -0.189  -1.077  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     2       4.202  -1.168   0.087  0.00  0.00    +0.000 C 
+ATOM      6  O   UNL     2       5.218  -1.524   0.676  0.00  0.00    +0.000 OA
+ATOM      7  C   UNL     2       2.838  -1.309   0.685  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     2       2.505  -0.101  -1.416  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     2       2.664   0.773  -2.622  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     2       1.131  -0.649  -1.923  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   4  11
+ATOM     11  C   UNL     2       5.328  -0.158  -2.130  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  S   UNL     2       5.077  -0.265  -4.003  0.00  0.00    +0.000 S 
+ATOM     13  O   UNL     2       4.281  -1.470  -4.152  0.00  0.00    +0.000 OA
+ATOM     14  O   UNL     2       4.437   0.969  -4.455  0.00  0.00    +0.000 OA
+ATOM     15  O   UNL     2       6.438  -0.364  -4.570  0.00  0.00    +0.000 OA
+ENDBRANCH  11  12
+ENDBRANCH   4  11
+TORSDOF 2

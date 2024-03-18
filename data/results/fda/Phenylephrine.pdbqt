@@ -1,0 +1,378 @@
+MODEL 1
+REMARK VINA RESULT:      -5.6      0.000      0.000
+REMARK  Name = Phenylephrine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_4  and  O_5
+REMARK    5  A    between atoms: C_4  and  C_6
+REMARK    6  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -12.405   6.998 129.812  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -12.378   8.389 130.022  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -13.009   9.247 129.127  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     -13.664   8.749 128.015  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     -13.686   7.376 127.779  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -13.055   6.506 128.671  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  O   UNL     1     -12.992  10.598 129.318  0.00  0.00    +0.000 OA
+ATOM      8  H   UNL     1     -13.384  11.032 128.544  0.00  0.00    +0.000 HD
+ENDBRANCH   3   7
+BRANCH   1   9
+ATOM      9  C   UNL     1     -11.704   6.015 130.725  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  O   UNL     1     -11.511   4.819 129.966  0.00  0.00    +0.000 OA
+ATOM     11  H   UNL     1     -12.086   4.890 129.186  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+BRANCH   9  12
+ATOM     12  C   UNL     1     -10.372   6.538 131.320  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1      -8.969   5.780 133.107  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1     -10.268   6.333 132.767  0.00  0.00    +0.000 NA
+ATOM     15  H   UNL     1     -10.433   7.212 133.256  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   9  12
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -5.6      1.622      1.716
+REMARK  Name = Phenylephrine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_4  and  O_5
+REMARK    5  A    between atoms: C_4  and  C_6
+REMARK    6  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -12.273   7.244 129.803  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -12.410   8.644 129.779  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -13.205   9.255 128.814  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     -13.865   8.500 127.861  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     -13.727   7.113 127.857  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -12.930   6.489 128.821  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  O   UNL     1     -13.348  10.611 128.779  0.00  0.00    +0.000 OA
+ATOM      8  H   UNL     1     -12.576  11.022 129.198  0.00  0.00    +0.000 HD
+ENDBRANCH   3   7
+BRANCH   1   9
+ATOM      9  C   UNL     1     -11.392   6.521 130.799  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  O   UNL     1     -12.242   6.100 131.868  0.00  0.00    +0.000 OA
+ATOM     11  H   UNL     1     -11.964   5.201 132.106  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+BRANCH   9  12
+ATOM     12  C   UNL     1     -10.594   5.335 130.200  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1     -10.161   3.058 130.805  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1     -11.194   4.031 130.494  0.00  0.00    +0.000 NA
+ATOM     15  H   UNL     1     -11.859   4.118 131.261  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   9  12
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -5.2      2.219      2.426
+REMARK  Name = Phenylephrine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_4  and  O_5
+REMARK    5  A    between atoms: C_4  and  C_6
+REMARK    6  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -11.013   6.771 129.113  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -10.506   7.238 127.886  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -11.365   7.488 126.821  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     -12.726   7.275 126.946  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     -13.245   6.796 128.147  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -12.392   6.540 129.223  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  O   UNL     1     -10.888   7.942 125.626  0.00  0.00    +0.000 OA
+ATOM      8  H   UNL     1     -11.470   7.633 124.915  0.00  0.00    +0.000 HD
+ENDBRANCH   3   7
+BRANCH   1   9
+ATOM      9  C   UNL     1     -10.129   6.441 130.296  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  O   UNL     1      -9.068   7.398 130.293  0.00  0.00    +0.000 OA
+ATOM     11  H   UNL     1      -9.355   8.129 129.722  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+BRANCH   9  12
+ATOM     12  C   UNL     1     -10.871   6.411 131.656  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1      -9.414   4.974 132.902  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1      -9.965   6.314 132.804  0.00  0.00    +0.000 NA
+ATOM     15  H   UNL     1      -9.226   7.011 132.725  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   9  12
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.2      2.218      2.707
+REMARK  Name = Phenylephrine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_4  and  O_5
+REMARK    5  A    between atoms: C_4  and  C_6
+REMARK    6  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.613   6.843 130.905  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -10.191   7.505 129.737  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -11.113   8.174 128.937  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     -12.455   8.191 129.271  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     -12.895   7.525 130.413  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -11.979   6.850 131.223  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  O   UNL     1     -10.719   8.822 127.803  0.00  0.00    +0.000 OA
+ATOM      8  H   UNL     1     -10.657   8.180 127.078  0.00  0.00    +0.000 HD
+ENDBRANCH   3   7
+BRANCH   1   9
+ATOM      9  C   UNL     1      -9.668   6.063 131.794  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  O   UNL     1      -9.994   6.412 133.141  0.00  0.00    +0.000 OA
+ATOM     11  H   UNL     1      -9.624   7.296 133.296  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+BRANCH   9  12
+ATOM     12  C   UNL     1      -9.707   4.530 131.574  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1      -9.445   2.372 132.580  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1      -9.757   3.769 132.825  0.00  0.00    +0.000 NA
+ATOM     15  H   UNL     1      -9.117   4.175 133.506  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   9  12
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.2      2.492      5.117
+REMARK  Name = Phenylephrine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_4  and  O_5
+REMARK    5  A    between atoms: C_4  and  C_6
+REMARK    6  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -11.022   6.885 130.960  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -10.829   6.191 132.169  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -9.543   5.891 132.609  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -8.438   6.261 131.863  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -8.609   6.932 130.654  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -9.895   7.237 130.202  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  O   UNL     1      -9.341   5.221 133.779  0.00  0.00    +0.000 OA
+ATOM      8  H   UNL     1      -9.117   4.298 133.581  0.00  0.00    +0.000 HD
+ENDBRANCH   3   7
+BRANCH   1   9
+ATOM      9  C   UNL     1     -12.393   7.205 130.405  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  O   UNL     1     -13.285   7.249 131.521  0.00  0.00    +0.000 OA
+ATOM     11  H   UNL     1     -12.763   7.005 132.303  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+BRANCH   9  12
+ATOM     12  C   UNL     1     -12.454   8.510 129.572  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1     -13.443   7.083 127.921  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1     -13.394   8.435 128.450  0.00  0.00    +0.000 NA
+ATOM     15  H   UNL     1     -14.317   8.746 128.748  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   9  12
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -5.1      1.594      1.858
+REMARK  Name = Phenylephrine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_4  and  O_5
+REMARK    5  A    between atoms: C_4  and  C_6
+REMARK    6  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -11.598   6.829 130.267  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -11.050   7.158 129.013  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -11.463   8.307 128.346  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     -12.422   9.137 128.897  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     -12.990   8.819 130.129  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -12.584   7.667 130.808  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  O   UNL     1     -10.939   8.639 127.131  0.00  0.00    +0.000 OA
+ATOM      8  H   UNL     1      -9.974   8.545 127.166  0.00  0.00    +0.000 HD
+ENDBRANCH   3   7
+BRANCH   1   9
+ATOM      9  C   UNL     1     -11.223   5.574 131.025  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  O   UNL     1     -11.375   4.484 130.113  0.00  0.00    +0.000 OA
+ATOM     11  H   UNL     1     -10.899   3.731 130.499  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+BRANCH   9  12
+ATOM     12  C   UNL     1      -9.804   5.607 131.648  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1      -8.524   5.811 133.662  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1      -9.788   6.123 133.019  0.00  0.00    +0.000 NA
+ATOM     15  H   UNL     1      -9.960   7.127 133.015  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   9  12
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -5.0      9.622     10.184
+REMARK  Name = Phenylephrine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_4  and  O_5
+REMARK    5  A    between atoms: C_4  and  C_6
+REMARK    6  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -6.137   3.747 122.899  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -5.135   4.713 122.688  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -4.814   5.121 121.397  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -5.464   4.580 120.303  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -6.445   3.608 120.490  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -6.775   3.190 121.781  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  O   UNL     1      -3.847   6.058 121.178  0.00  0.00    +0.000 OA
+ATOM      8  H   UNL     1      -3.934   6.763 121.839  0.00  0.00    +0.000 HD
+ENDBRANCH   3   7
+BRANCH   1   9
+ATOM      9  C   UNL     1      -6.505   3.230 124.273  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  O   UNL     1      -5.286   3.136 125.014  0.00  0.00    +0.000 OA
+ATOM     11  H   UNL     1      -5.291   3.871 125.649  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+BRANCH   9  12
+ATOM     12  C   UNL     1      -7.561   4.088 125.013  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1      -8.885   2.109 124.748  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1      -8.920   3.553 124.900  0.00  0.00    +0.000 NA
+ATOM     15  H   UNL     1      -9.470   3.824 125.714  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   9  12
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -4.5      2.644      5.504
+REMARK  Name = Phenylephrine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_4  and  O_5
+REMARK    5  A    between atoms: C_4  and  C_6
+REMARK    6  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -9.473   6.931 130.670  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -8.069   7.007 130.713  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -7.368   6.456 131.781  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -8.038   5.834 132.819  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -9.429   5.765 132.804  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -10.143   6.316 131.737  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  O   UNL     1      -6.006   6.521 131.835  0.00  0.00    +0.000 OA
+ATOM      8  H   UNL     1      -5.741   6.899 132.688  0.00  0.00    +0.000 HD
+ENDBRANCH   3   7
+BRANCH   1   9
+ATOM      9  C   UNL     1     -10.297   7.546 129.558  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  O   UNL     1      -9.842   6.956 128.339  0.00  0.00    +0.000 OA
+ATOM     11  H   UNL     1      -9.114   7.512 128.016  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+BRANCH   9  12
+ATOM     12  C   UNL     1     -11.828   7.386 129.738  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1     -13.068   9.112 128.633  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1     -12.525   8.663 129.904  0.00  0.00    +0.000 NA
+ATOM     15  H   UNL     1     -13.259   8.571 130.605  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   9  12
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -4.5      2.155      2.893
+REMARK  Name = Phenylephrine
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_4  and  O_5
+REMARK    5  A    between atoms: C_4  and  C_6
+REMARK    6  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.128   6.866 130.589  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -11.330   6.738 131.309  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -12.487   7.368 130.861  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     -12.473   8.135 129.710  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     -11.288   8.289 128.993  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1     -10.120   7.662 129.434  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  O   UNL     1     -13.660   7.251 131.548  0.00  0.00    +0.000 OA
+ATOM      8  H   UNL     1     -14.013   8.138 131.722  0.00  0.00    +0.000 HD
+ENDBRANCH   3   7
+BRANCH   1   9
+ATOM      9  C   UNL     1      -8.826   6.242 131.044  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  O   UNL     1      -7.788   7.162 130.699  0.00  0.00    +0.000 OA
+ATOM     11  H   UNL     1      -7.880   7.921 131.298  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+BRANCH   9  12
+ATOM     12  C   UNL     1      -8.789   5.874 132.549  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1      -8.875   3.522 132.104  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1      -9.473   4.614 132.851  0.00  0.00    +0.000 NA
+ATOM     15  H   UNL     1      -9.444   4.433 133.853  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   9  12
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL

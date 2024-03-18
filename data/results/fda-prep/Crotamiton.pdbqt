@@ -1,0 +1,35 @@
+REMARK  Name = Crotamiton
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  N_3
+REMARK    3  A    between atoms: N_3  and  C_9
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK    5  A    between atoms: C_7  and  C_8
+REMARK    6  A    between atoms: C_14  and  C_15
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1       2.882   1.201   0.624  0.00  0.00    +0.000 N 
+ATOM      2  C   UNL     1       2.065   2.198   1.217  0.00  0.00    +0.000 C 
+ATOM      3  O   UNL     1       2.513   3.220   1.760  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   4
+ATOM      4  C   UNL     1       4.346   1.370   0.714  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1       4.912   1.797   1.934  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1       6.290   2.016   2.084  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1       7.148   1.808   1.016  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1       6.628   1.370  -0.195  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1       5.242   1.141  -0.366  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1       4.827   0.739  -1.753  0.00  0.00    +0.000 C 
+ENDBRANCH   1   4
+BRANCH   2  11
+ATOM     11  C   UNL     1       0.576   2.100   1.169  0.00  0.00    +0.000 C 
+ATOM     12  C   UNL     1      -0.345   2.953   1.638  0.00  0.00    +0.000 C 
+ATOM     13  C   UNL     1      -1.808   2.639   1.454  0.00  0.00    +0.000 C 
+ENDBRANCH   2  11
+BRANCH   1  15
+ATOM     14  C   UNL     1       1.004  -0.412  -0.182  0.00  0.00    +0.000 C 
+ATOM     15  C   UNL     1       2.462  -0.075  -0.029  0.00  0.00    +0.000 C 
+ENDBRANCH   1  15
+TORSDOF 3

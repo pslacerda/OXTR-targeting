@@ -1,0 +1,30 @@
+REMARK  Name = Aminobenzoic acid
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_5  and  C_8
+REMARK    3  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       0.942  -0.004   0.007  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1       0.238  -1.208  -0.001  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -1.163  -1.233  -0.001  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -1.890  -0.038   0.005  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -1.181   1.175   0.004  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1       0.220   1.188  -0.006  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  N   UNL     1       2.322   0.002  -0.044  0.00  0.00    +0.000 N 
+ATOM      8  H   UNL     1       2.844  -0.861   0.029  0.00  0.00    +0.000 HD
+ATOM      9  H   UNL     1       2.834   0.872   0.013  0.00  0.00    +0.000 HD
+ENDBRANCH   1   7
+BRANCH   4  10
+ATOM     10  C   UNL     1      -3.383   0.032   0.011  0.00  0.00    +0.000 C 
+ATOM     11  O   UNL     1      -3.979   1.101   0.019  0.00  0.00    +0.000 OA
+BRANCH  10  12
+ATOM     12  O   UNL     1      -4.051  -1.139   0.008  0.00  0.00    +0.000 OA
+ATOM     13  H   UNL     1      -3.539  -1.963   0.002  0.00  0.00    +0.000 HD
+ENDBRANCH  10  12
+ENDBRANCH   4  10
+TORSDOF 3

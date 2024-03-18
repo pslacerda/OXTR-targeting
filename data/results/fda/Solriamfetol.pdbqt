@@ -1,0 +1,423 @@
+MODEL 1
+REMARK VINA RESULT:      -5.8      0.000      0.000
+REMARK  Name = Solriamfetol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_8
+REMARK    4  A    between atoms: C_3  and  O_4
+REMARK    5  A    between atoms: O_4  and  C_5
+REMARK    6  A    between atoms: C_8  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.612   6.617 131.379  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     -10.150   6.250 132.731  0.00  0.00    +0.000 NA
+ATOM      3  H   UNL     1     -10.970   6.255 133.346  0.00  0.00    +0.000 HD
+ATOM      4  H   UNL     1      -9.544   6.984 133.094  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1      -9.985   5.671 130.335  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  O   UNL     1     -10.762   4.507 130.047  0.00  0.00    +0.000 OA
+BRANCH   6   7
+ATOM      7  C   UNL     1     -10.216   3.285 130.312  0.00  0.00    +0.000 C 
+ATOM      8  N   UNL     1     -10.464   2.709 131.525  0.00  0.00    +0.000 N 
+ATOM      9  O   UNL     1      -9.493   2.712 129.499  0.00  0.00    +0.000 OA
+ATOM     10  H   UNL     1     -11.040   3.083 132.261  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -9.989   1.834 131.709  0.00  0.00    +0.000 HD
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   1  12
+ATOM     12  C   UNL     1     -12.171   6.576 131.333  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1     -12.777   7.472 130.270  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1     -13.340   6.947 129.098  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1     -13.568   7.745 127.986  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1     -13.510   9.122 128.124  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1     -13.131   9.679 129.345  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1     -12.732   8.860 130.404  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -5.6      2.316      2.773
+REMARK  Name = Solriamfetol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_8
+REMARK    4  A    between atoms: C_3  and  O_4
+REMARK    5  A    between atoms: O_4  and  C_5
+REMARK    6  A    between atoms: C_8  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.411   6.512 131.380  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     -10.497   6.092 132.791  0.00  0.00    +0.000 NA
+ATOM      3  H   UNL     1      -9.894   6.719 133.333  0.00  0.00    +0.000 HD
+ATOM      4  H   UNL     1     -10.078   5.169 132.897  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1      -9.068   6.055 130.776  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  O   UNL     1      -8.134   7.110 130.541  0.00  0.00    +0.000 OA
+BRANCH   6   7
+ATOM      7  C   UNL     1      -6.873   6.981 131.048  0.00  0.00    +0.000 C 
+ATOM      8  N   UNL     1      -6.702   6.258 132.194  0.00  0.00    +0.000 N 
+ATOM      9  O   UNL     1      -5.906   7.517 130.513  0.00  0.00    +0.000 OA
+ATOM     10  H   UNL     1      -7.418   5.775 132.711  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -5.764   6.239 132.573  0.00  0.00    +0.000 HD
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   1  12
+ATOM     12  C   UNL     1     -11.627   5.935 130.590  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1     -12.418   6.983 129.830  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1     -13.204   6.649 128.718  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1     -13.636   7.618 127.822  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1     -13.537   8.952 128.177  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1     -12.920   9.306 129.377  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1     -12.331   8.330 130.185  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -5.5      2.944      5.295
+REMARK  Name = Solriamfetol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_8
+REMARK    4  A    between atoms: C_3  and  O_4
+REMARK    5  A    between atoms: O_4  and  C_5
+REMARK    6  A    between atoms: C_8  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -11.033   5.501 130.209  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     -11.416   4.083 130.348  0.00  0.00    +0.000 NA
+ATOM      3  H   UNL     1     -10.625   3.520 130.019  0.00  0.00    +0.000 HD
+ATOM      4  H   UNL     1     -12.175   3.871 129.702  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1     -12.153   6.280 129.490  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  O   UNL     1     -11.875   6.592 128.124  0.00  0.00    +0.000 OA
+BRANCH   6   7
+ATOM      7  C   UNL     1     -10.684   7.187 127.827  0.00  0.00    +0.000 C 
+ATOM      8  N   UNL     1     -10.534   8.518 128.097  0.00  0.00    +0.000 N 
+ATOM      9  O   UNL     1      -9.763   6.562 127.305  0.00  0.00    +0.000 OA
+ATOM     10  H   UNL     1     -11.216   9.123 128.524  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -9.661   8.937 127.804  0.00  0.00    +0.000 HD
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   1  12
+ATOM     12  C   UNL     1     -10.725   6.098 131.617  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1      -9.244   6.239 131.914  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      -8.364   6.838 131.001  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      -6.991   6.658 131.098  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      -6.464   6.125 132.261  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1      -7.320   5.689 133.273  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1      -8.705   5.712 133.088  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.4      9.250     10.217
+REMARK  Name = Solriamfetol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_8
+REMARK    4  A    between atoms: C_3  and  O_4
+REMARK    5  A    between atoms: O_4  and  C_5
+REMARK    6  A    between atoms: C_8  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -6.479   3.862 123.720  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1      -7.876   4.113 124.120  0.00  0.00    +0.000 NA
+ATOM      3  H   UNL     1      -7.857   4.802 124.879  0.00  0.00    +0.000 HD
+ATOM      4  H   UNL     1      -8.267   3.271 124.539  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1      -5.737   3.114 124.846  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  O   UNL     1      -4.901   3.943 125.657  0.00  0.00    +0.000 OA
+BRANCH   6   7
+ATOM      7  C   UNL     1      -3.859   3.359 126.316  0.00  0.00    +0.000 C 
+ATOM      8  N   UNL     1      -3.902   2.013 126.543  0.00  0.00    +0.000 N 
+ATOM      9  O   UNL     1      -2.905   4.018 126.725  0.00  0.00    +0.000 OA
+ATOM     10  H   UNL     1      -4.627   1.379 126.251  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -3.143   1.629 127.091  0.00  0.00    +0.000 HD
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   1  12
+ATOM     12  C   UNL     1      -6.456   3.061 122.381  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1      -6.457   3.936 121.142  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      -7.540   3.948 120.251  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      -7.411   4.455 118.965  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      -6.296   5.214 118.652  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1      -5.280   5.375 119.594  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1      -5.342   4.711 120.822  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.4      1.815      2.233
+REMARK  Name = Solriamfetol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_8
+REMARK    4  A    between atoms: C_3  and  O_4
+REMARK    5  A    between atoms: O_4  and  C_5
+REMARK    6  A    between atoms: C_8  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.179   6.035 130.840  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1      -9.148   6.723 131.638  0.00  0.00    +0.000 NA
+ATOM      3  H   UNL     1      -9.071   7.680 131.278  0.00  0.00    +0.000 HD
+ATOM      4  H   UNL     1      -8.238   6.301 131.456  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1     -10.197   4.532 131.188  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  O   UNL     1      -9.005   4.055 131.816  0.00  0.00    +0.000 OA
+BRANCH   6   7
+ATOM      7  C   UNL     1      -9.120   3.412 133.014  0.00  0.00    +0.000 C 
+ATOM      8  N   UNL     1      -9.958   3.934 133.957  0.00  0.00    +0.000 N 
+ATOM      9  O   UNL     1      -8.472   2.398 133.265  0.00  0.00    +0.000 OA
+ATOM     10  H   UNL     1     -10.536   4.753 133.859  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -9.967   3.466 134.854  0.00  0.00    +0.000 HD
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   1  12
+ATOM     12  C   UNL     1     -11.566   6.703 131.092  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1     -12.215   7.262 129.840  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1     -12.197   8.634 129.552  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1     -13.068   9.188 128.624  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1     -13.761   8.348 127.769  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1     -13.650   6.966 127.915  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1     -12.908   6.423 128.968  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -5.3      8.648      9.842
+REMARK  Name = Solriamfetol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_8
+REMARK    4  A    between atoms: C_3  and  O_4
+REMARK    5  A    between atoms: O_4  and  C_5
+REMARK    6  A    between atoms: C_8  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.475   2.343 123.987  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1      -9.047   3.383 124.862  0.00  0.00    +0.000 NA
+ATOM      3  H   UNL     1      -9.991   3.587 124.518  0.00  0.00    +0.000 HD
+ATOM      4  H   UNL     1      -8.530   4.253 124.739  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1      -8.889   0.946 124.493  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  O   UNL     1      -8.238  -0.141 123.832  0.00  0.00    +0.000 OA
+BRANCH   6   7
+ATOM      7  C   UNL     1      -8.819  -1.374 123.893  0.00  0.00    +0.000 C 
+ATOM      8  N   UNL     1      -8.391  -2.250 124.848  0.00  0.00    +0.000 N 
+ATOM      9  O   UNL     1      -9.691  -1.715 123.097  0.00  0.00    +0.000 OA
+ATOM     10  H   UNL     1      -7.689  -2.078 125.550  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -8.799  -3.176 124.820  0.00  0.00    +0.000 HD
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   1  12
+ATOM     12  C   UNL     1      -8.939   2.585 122.517  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1      -7.939   3.360 121.678  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      -8.286   3.898 120.431  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      -7.315   4.288 119.518  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      -6.005   4.417 119.946  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1      -5.664   4.062 121.250  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1      -6.619   3.503 122.105  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -5.3      2.809      5.407
+REMARK  Name = Solriamfetol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_8
+REMARK    4  A    between atoms: C_3  and  O_4
+REMARK    5  A    between atoms: O_4  and  C_5
+REMARK    6  A    between atoms: C_8  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -11.996   6.237 130.770  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     -12.833   7.138 131.585  0.00  0.00    +0.000 NA
+ATOM      3  H   UNL     1     -13.259   6.572 132.326  0.00  0.00    +0.000 HD
+ATOM      4  H   UNL     1     -13.617   7.473 131.026  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1     -12.178   6.563 129.274  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  O   UNL     1     -11.012   6.350 128.475  0.00  0.00    +0.000 OA
+BRANCH   6   7
+ATOM      7  C   UNL     1     -10.740   7.242 127.479  0.00  0.00    +0.000 C 
+ATOM      8  N   UNL     1     -10.763   8.575 127.773  0.00  0.00    +0.000 N 
+ATOM      9  O   UNL     1     -10.504   6.873 126.331  0.00  0.00    +0.000 OA
+ATOM     10  H   UNL     1     -10.940   8.988 128.674  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1     -10.621   9.206 126.995  0.00  0.00    +0.000 HD
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   1  12
+ATOM     12  C   UNL     1     -10.506   6.367 131.213  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1      -9.930   5.096 131.808  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      -9.903   3.893 131.088  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      -9.714   2.674 131.725  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      -9.263   2.664 133.034  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1      -9.100   3.867 133.720  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1      -9.465   5.078 133.123  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -5.2      2.226      2.593
+REMARK  Name = Solriamfetol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_8
+REMARK    4  A    between atoms: C_3  and  O_4
+REMARK    5  A    between atoms: O_4  and  C_5
+REMARK    6  A    between atoms: C_8  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.773   5.719 130.918  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1     -10.967   4.262 131.045  0.00  0.00    +0.000 NA
+ATOM      3  H   UNL     1     -11.107   3.890 130.100  0.00  0.00    +0.000 HD
+ATOM      4  H   UNL     1     -11.842   4.076 131.532  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1      -9.426   6.126 131.549  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  O   UNL     1      -9.461   6.287 132.968  0.00  0.00    +0.000 OA
+BRANCH   6   7
+ATOM      7  C   UNL     1      -8.883   5.323 133.741  0.00  0.00    +0.000 C 
+ATOM      8  N   UNL     1      -9.580   4.173 133.980  0.00  0.00    +0.000 N 
+ATOM      9  O   UNL     1      -7.770   5.478 134.241  0.00  0.00    +0.000 OA
+ATOM     10  H   UNL     1     -10.491   3.939 133.622  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -9.146   3.511 134.610  0.00  0.00    +0.000 HD
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   1  12
+ATOM     12  C   UNL     1     -10.855   6.127 129.414  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1     -11.960   7.120 129.107  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1     -13.025   6.794 128.255  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1     -13.829   7.779 127.696  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1     -13.765   9.065 128.203  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1     -12.832   9.374 129.192  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1     -11.908   8.416 129.620  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -5.1      2.401      2.669
+REMARK  Name = Solriamfetol
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_8
+REMARK    4  A    between atoms: C_3  and  O_4
+REMARK    5  A    between atoms: O_4  and  C_5
+REMARK    6  A    between atoms: C_8  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.615   5.955 130.838  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1      -7.534   6.695 131.516  0.00  0.00    +0.000 NA
+ATOM      3  H   UNL     1      -7.967   7.474 132.022  0.00  0.00    +0.000 HD
+ATOM      4  H   UNL     1      -6.934   7.136 130.819  0.00  0.00    +0.000 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   UNL     1      -8.472   4.445 131.116  0.00  0.00    +0.000 C 
+BRANCH   5   6
+ATOM      6  O   UNL     1      -7.957   4.127 132.411  0.00  0.00    +0.000 OA
+BRANCH   6   7
+ATOM      7  C   UNL     1      -8.721   3.355 133.237  0.00  0.00    +0.000 C 
+ATOM      8  N   UNL     1      -9.726   3.953 133.943  0.00  0.00    +0.000 N 
+ATOM      9  O   UNL     1      -8.508   2.153 133.375  0.00  0.00    +0.000 OA
+ATOM     10  H   UNL     1      -9.991   4.923 133.905  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1     -10.228   3.361 134.592  0.00  0.00    +0.000 HD
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   1   5
+BRANCH   1  12
+ATOM     12  C   UNL     1      -9.997   6.502 131.312  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  C   UNL     1     -10.801   7.172 130.214  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1     -10.209   7.575 129.010  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1     -10.833   8.484 128.167  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1     -12.171   8.777 128.368  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1     -12.841   8.235 129.465  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1     -12.153   7.463 130.405  0.00  0.00    +0.000 A 
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL

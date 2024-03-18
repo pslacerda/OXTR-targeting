@@ -1,0 +1,414 @@
+MODEL 1
+REMARK VINA RESULT:      -4.4      0.000      0.000
+REMARK  Name = Succimer
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_4  and  S_5
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK    5  A    between atoms: C_6  and  S_7
+REMARK    6  A    between atoms: C_6  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -11.332   7.338 129.959  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -12.116   6.688 131.098  0.00  0.00    +0.000 C 
+ATOM      3  O   UNL     1     -13.100   7.177 131.638  0.00  0.00    +0.000 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1     -11.639   5.482 131.492  0.00  0.00    +0.000 OA
+ATOM      5  H   UNL     1     -12.160   5.022 132.179  0.00  0.00    +0.000 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  S   UNL     1      -9.531   7.050 130.303  0.00  0.00    +0.000 S 
+ATOM      7  H   UNL     1      -9.250   8.256 130.836  0.00  0.00    +0.000 HD
+ENDBRANCH   1   6
+BRANCH   1   8
+ATOM      8  C   UNL     1     -11.755   6.823 128.570  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  S   UNL     1     -13.561   7.152 128.225  0.00  0.00    +0.000 S 
+ATOM     10  H   UNL     1     -13.818   7.978 129.248  0.00  0.00    +0.000 HD
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   UNL     1     -10.985   7.385 127.365  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1     -10.558   6.675 126.461  0.00  0.00    +0.000 OA
+BRANCH  11  13
+ATOM     13  O   UNL     1     -10.797   8.720 127.306  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1     -10.230   9.143 127.978  0.00  0.00    +0.000 HD
+ENDBRANCH  11  13
+ENDBRANCH   8  11
+ENDBRANCH   1   8
+TORSDOF 7
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -4.4      2.009      3.147
+REMARK  Name = Succimer
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_4  and  S_5
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK    5  A    between atoms: C_6  and  S_7
+REMARK    6  A    between atoms: C_6  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -12.180   8.019 129.731  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -12.876   9.376 129.643  0.00  0.00    +0.000 C 
+ATOM      3  O   UNL     1     -13.157  10.081 130.603  0.00  0.00    +0.000 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1     -13.175   9.774 128.383  0.00  0.00    +0.000 OA
+ATOM      5  H   UNL     1     -13.322  10.733 128.262  0.00  0.00    +0.000 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  S   UNL     1     -13.239   6.802 128.812  0.00  0.00    +0.000 S 
+ATOM      7  H   UNL     1     -12.387   5.757 128.842  0.00  0.00    +0.000 HD
+ENDBRANCH   1   6
+BRANCH   1   8
+ATOM      8  C   UNL     1     -10.733   8.053 129.205  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  S   UNL     1      -9.601   6.955 130.207  0.00  0.00    +0.000 S 
+ATOM     10  H   UNL     1      -8.618   6.800 129.311  0.00  0.00    +0.000 HD
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   UNL     1     -10.524   7.647 127.738  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1     -10.900   8.339 126.798  0.00  0.00    +0.000 OA
+BRANCH  11  13
+ATOM     13  O   UNL     1      -9.881   6.486 127.492  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1      -9.051   6.301 127.969  0.00  0.00    +0.000 HD
+ENDBRANCH  11  13
+ENDBRANCH   8  11
+ENDBRANCH   1   8
+TORSDOF 7
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -4.2      2.186      2.608
+REMARK  Name = Succimer
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_4  and  S_5
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK    5  A    between atoms: C_6  and  S_7
+REMARK    6  A    between atoms: C_6  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -11.612   6.296 129.504  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -10.096   6.294 129.315  0.00  0.00    +0.000 C 
+ATOM      3  O   UNL     1      -9.447   5.355 128.875  0.00  0.00    +0.000 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1      -9.484   7.448 129.677  0.00  0.00    +0.000 OA
+ATOM      5  H   UNL     1      -8.763   7.750 129.090  0.00  0.00    +0.000 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  S   UNL     1     -11.941   6.746 131.275  0.00  0.00    +0.000 S 
+ATOM      7  H   UNL     1     -13.242   7.076 131.143  0.00  0.00    +0.000 HD
+ENDBRANCH   1   6
+BRANCH   1   8
+ATOM      8  C   UNL     1     -12.339   7.227 128.516  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  S   UNL     1     -12.660   8.913 129.255  0.00  0.00    +0.000 S 
+ATOM     10  H   UNL     1     -11.791   8.860 130.273  0.00  0.00    +0.000 HD
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   UNL     1     -11.641   7.482 127.172  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1     -10.876   8.423 126.988  0.00  0.00    +0.000 OA
+BRANCH  11  13
+ATOM     13  O   UNL     1     -11.877   6.613 126.166  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1     -12.608   6.801 125.548  0.00  0.00    +0.000 HD
+ENDBRANCH  11  13
+ENDBRANCH   8  11
+ENDBRANCH   1   8
+TORSDOF 7
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -4.1      2.190      3.483
+REMARK  Name = Succimer
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_4  and  S_5
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK    5  A    between atoms: C_6  and  S_7
+REMARK    6  A    between atoms: C_6  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -11.848   8.122 128.288  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -12.616   7.138 127.407  0.00  0.00    +0.000 C 
+ATOM      3  O   UNL     1     -13.755   6.748 127.624  0.00  0.00    +0.000 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1     -11.932   6.706 126.320  0.00  0.00    +0.000 OA
+ATOM      5  H   UNL     1     -11.647   7.399 125.692  0.00  0.00    +0.000 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  S   UNL     1     -13.058   9.414 128.847  0.00  0.00    +0.000 S 
+ATOM      7  H   UNL     1     -12.178  10.415 129.052  0.00  0.00    +0.000 HD
+ENDBRANCH   1   6
+BRANCH   1   8
+ATOM      8  C   UNL     1     -11.132   7.437 129.468  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  S   UNL     1     -12.297   7.101 130.889  0.00  0.00    +0.000 S 
+ATOM     10  H   UNL     1     -12.006   5.809 131.092  0.00  0.00    +0.000 HD
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   UNL     1     -10.435   6.101 129.168  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1     -10.723   5.058 129.745  0.00  0.00    +0.000 OA
+BRANCH  11  13
+ATOM     13  O   UNL     1      -9.482   6.090 128.212  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1      -8.757   5.441 128.284  0.00  0.00    +0.000 HD
+ENDBRANCH  11  13
+ENDBRANCH   8  11
+ENDBRANCH   1   8
+TORSDOF 7
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -4.1      0.550      3.980
+REMARK  Name = Succimer
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_4  and  S_5
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK    5  A    between atoms: C_6  and  S_7
+REMARK    6  A    between atoms: C_6  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.843   6.823 128.985  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -10.566   7.331 127.570  0.00  0.00    +0.000 C 
+ATOM      3  O   UNL     1     -10.309   6.618 126.609  0.00  0.00    +0.000 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1     -10.629   8.678 127.435  0.00  0.00    +0.000 OA
+ATOM      5  H   UNL     1     -11.527   9.065 127.435  0.00  0.00    +0.000 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  S   UNL     1      -9.359   7.246 130.016  0.00  0.00    +0.000 S 
+ATOM      7  H   UNL     1      -9.183   8.509 129.578  0.00  0.00    +0.000 HD
+ENDBRANCH   1   6
+BRANCH   1   8
+ATOM      8  C   UNL     1     -12.150   7.381 129.578  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  S   UNL     1     -13.623   7.011 128.491  0.00  0.00    +0.000 S 
+ATOM     10  H   UNL     1     -13.435   5.694 128.332  0.00  0.00    +0.000 HD
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   UNL     1     -12.530   6.895 130.984  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1     -13.272   7.528 131.728  0.00  0.00    +0.000 OA
+BRANCH  11  13
+ATOM     13  O   UNL     1     -12.033   5.709 131.396  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1     -11.091   5.515 131.231  0.00  0.00    +0.000 HD
+ENDBRANCH  11  13
+ENDBRANCH   8  11
+ENDBRANCH   1   8
+TORSDOF 7
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -4.0      1.981      3.424
+REMARK  Name = Succimer
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_4  and  S_5
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK    5  A    between atoms: C_6  and  S_7
+REMARK    6  A    between atoms: C_6  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.867   7.898 129.058  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      -9.608   7.096 129.384  0.00  0.00    +0.000 C 
+ATOM      3  O   UNL     1      -8.828   7.357 130.289  0.00  0.00    +0.000 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1      -9.400   6.026 128.579  0.00  0.00    +0.000 OA
+ATOM      5  H   UNL     1      -9.464   5.150 129.008  0.00  0.00    +0.000 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  S   UNL     1     -10.998   7.978 127.208  0.00  0.00    +0.000 S 
+ATOM      7  H   UNL     1     -11.283   9.292 127.100  0.00  0.00    +0.000 HD
+ENDBRANCH   1   6
+BRANCH   1   8
+ATOM      8  C   UNL     1     -12.134   7.318 129.713  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  S   UNL     1     -13.491   7.021 128.463  0.00  0.00    +0.000 S 
+ATOM     10  H   UNL     1     -12.731   6.738 127.398  0.00  0.00    +0.000 HD
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   UNL     1     -11.969   5.996 130.478  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1     -11.783   4.922 129.916  0.00  0.00    +0.000 OA
+BRANCH  11  13
+ATOM     13  O   UNL     1     -12.016   6.040 131.827  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1     -11.249   5.710 132.332  0.00  0.00    +0.000 HD
+ENDBRANCH  11  13
+ENDBRANCH   8  11
+ENDBRANCH   1   8
+TORSDOF 7
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -4.0      1.841      3.921
+REMARK  Name = Succimer
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_4  and  S_5
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK    5  A    between atoms: C_6  and  S_7
+REMARK    6  A    between atoms: C_6  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -11.395   6.445 128.800  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -12.621   6.825 127.972  0.00  0.00    +0.000 C 
+ATOM      3  O   UNL     1     -13.653   7.301 128.427  0.00  0.00    +0.000 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1     -12.493   6.599 126.642  0.00  0.00    +0.000 OA
+ATOM      5  H   UNL     1     -12.855   7.292 126.054  0.00  0.00    +0.000 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  S   UNL     1     -10.450   8.009 129.127  0.00  0.00    +0.000 S 
+ATOM      7  H   UNL     1      -9.884   7.642 130.294  0.00  0.00    +0.000 HD
+ENDBRANCH   1   6
+BRANCH   1   8
+ATOM      8  C   UNL     1     -11.757   5.695 130.096  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  S   UNL     1     -10.460   4.432 130.556  0.00  0.00    +0.000 S 
+ATOM     10  H   UNL     1      -9.789   5.149 131.467  0.00  0.00    +0.000 HD
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   UNL     1     -11.972   6.555 131.351  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1     -11.125   6.669 132.231  0.00  0.00    +0.000 OA
+BRANCH  11  13
+ATOM     13  O   UNL     1     -13.140   7.222 131.465  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1     -13.524   7.632 130.667  0.00  0.00    +0.000 HD
+ENDBRANCH  11  13
+ENDBRANCH   8  11
+ENDBRANCH   1   8
+TORSDOF 7
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -3.9      1.459      4.253
+REMARK  Name = Succimer
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_4  and  S_5
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK    5  A    between atoms: C_6  and  S_7
+REMARK    6  A    between atoms: C_6  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -11.107   7.715 129.194  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -11.267   7.584 127.680  0.00  0.00    +0.000 C 
+ATOM      3  O   UNL     1     -10.728   8.309 126.854  0.00  0.00    +0.000 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1     -12.074   6.569 127.286  0.00  0.00    +0.000 OA
+ATOM      5  H   UNL     1     -11.892   5.698 127.690  0.00  0.00    +0.000 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  S   UNL     1     -12.590   8.639 129.820  0.00  0.00    +0.000 S 
+ATOM      7  H   UNL     1     -13.317   8.613 128.685  0.00  0.00    +0.000 HD
+ENDBRANCH   1   6
+BRANCH   1   8
+ATOM      8  C   UNL     1     -10.920   6.357 129.896  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  S   UNL     1      -9.308   5.542 129.420  0.00  0.00    +0.000 S 
+ATOM     10  H   UNL     1      -8.882   6.439 128.521  0.00  0.00    +0.000 HD
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   UNL     1     -10.949   6.368 131.432  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1      -9.974   6.667 132.113  0.00  0.00    +0.000 OA
+BRANCH  11  13
+ATOM     13  O   UNL     1     -12.111   6.052 132.042  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1     -12.239   6.319 132.972  0.00  0.00    +0.000 HD
+ENDBRANCH  11  13
+ENDBRANCH   8  11
+ENDBRANCH   1   8
+TORSDOF 7
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -3.9      1.829      2.441
+REMARK  Name = Succimer
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_4
+REMARK    3  A    between atoms: C_4  and  S_5
+REMARK    4  A    between atoms: C_4  and  C_6
+REMARK    5  A    between atoms: C_6  and  S_7
+REMARK    6  A    between atoms: C_6  and  C_8
+REMARK    7  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.596   6.078 130.410  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -10.341   4.587 130.196  0.00  0.00    +0.000 C 
+ATOM      3  O   UNL     1      -9.543   4.122 129.393  0.00  0.00    +0.000 OA
+BRANCH   2   4
+ATOM      4  O   UNL     1     -11.081   3.772 130.986  0.00  0.00    +0.000 OA
+ATOM      5  H   UNL     1     -10.577   3.171 131.570  0.00  0.00    +0.000 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  S   UNL     1      -8.951   6.872 130.735  0.00  0.00    +0.000 S 
+ATOM      7  H   UNL     1      -8.795   7.473 129.538  0.00  0.00    +0.000 HD
+ENDBRANCH   1   6
+BRANCH   1   8
+ATOM      8  C   UNL     1     -11.343   6.733 129.232  0.00  0.00    +0.000 C 
+BRANCH   8   9
+ATOM      9  S   UNL     1     -12.438   8.137 129.796  0.00  0.00    +0.000 S 
+ATOM     10  H   UNL     1     -12.415   8.877 128.679  0.00  0.00    +0.000 HD
+ENDBRANCH   8   9
+BRANCH   8  11
+ATOM     11  C   UNL     1     -10.475   7.304 128.100  0.00  0.00    +0.000 C 
+ATOM     12  O   UNL     1     -10.332   8.508 127.915  0.00  0.00    +0.000 OA
+BRANCH  11  13
+ATOM     13  O   UNL     1      -9.834   6.428 127.296  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1      -9.581   6.717 126.399  0.00  0.00    +0.000 HD
+ENDBRANCH  11  13
+ENDBRANCH   8  11
+ENDBRANCH   1   8
+TORSDOF 7
+ENDMDL

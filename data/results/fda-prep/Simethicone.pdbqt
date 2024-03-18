@@ -1,0 +1,53 @@
+REMARK  Name = Simethicone
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  O_5
+REMARK    2  A    between atoms: O_5  and  SI_6
+REMARK    3  A    between atoms: SI_6  and  C_7
+REMARK    4  A    between atoms: SI_6  and  C_8
+REMARK    5  A    between atoms: SI_6  and  O_9
+REMARK    6  A    between atoms: O_9  and  SI_10
+REMARK    7  A    between atoms: SI_10  and  C_11
+REMARK    8  A    between atoms: SI_10  and  C_12
+REMARK    9  A    between atoms: SI_10  and  C_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  O   UNL     1       2.806  -0.608   1.583  0.00  0.00    +0.000 OA
+ATOM      2 SI   UNL     1       3.949  -1.253   0.928  0.00  0.00    +0.000 Si
+ATOM      3  O   UNL     1       4.091  -1.031  -0.536  0.00  0.00    +0.000 OA
+ENDROOT
+TORSDOF 0
+REMARK  Name = Simethicone
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  O_5
+REMARK    2  A    between atoms: O_5  and  SI_6
+REMARK    3  A    between atoms: SI_6  and  C_7
+REMARK    4  A    between atoms: SI_6  and  C_8
+REMARK    5  A    between atoms: SI_6  and  O_9
+REMARK    6  A    between atoms: O_9  and  SI_10
+REMARK    7  A    between atoms: SI_10  and  C_11
+REMARK    8  A    between atoms: SI_10  and  C_12
+REMARK    9  A    between atoms: SI_10  and  C_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1 SI   UNL     1       2.521   1.982  -0.633  0.00  0.00    +0.000 Si
+ATOM      2  C   UNL     1       1.997   2.453  -2.343  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1       1.962   2.916   0.881  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   5
+ATOM      4  C   UNL     1       0.478   0.234  -0.385  0.00  0.00    +0.000 C 
+ATOM      5  O   UNL     1       1.856   0.449  -0.632  0.00  0.00    +0.000 OA
+ENDBRANCH   1   5
+BRANCH   1   6
+ATOM      6  O   UNL     1       4.260   2.027  -0.561  0.00  0.00    +0.000 OA
+BRANCH   6   7
+ATOM      7 SI   UNL     1       5.296   3.369  -0.811  0.00  0.00    +0.000 Si
+ATOM      8  C   UNL     1       4.908   4.019  -2.529  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1       4.871   4.672   0.481  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1       7.164   3.211  -0.765  0.00  0.00    +0.000 C 
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 3

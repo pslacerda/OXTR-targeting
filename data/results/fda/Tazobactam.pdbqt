@@ -1,0 +1,405 @@
+MODEL 1
+REMARK VINA RESULT:      -6.2      0.000      0.000
+REMARK  Name = Tazobactam
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_7  and  C_8
+REMARK    2  A    between atoms: C_8  and  O_9
+REMARK    3  A    between atoms: C_11  and  C_12
+REMARK    4  A    between atoms: C_11  and  C_13
+REMARK    5  A    between atoms: C_13  and  N_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.290   4.474 130.802  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -7.287   4.241 129.277  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -8.362   3.177 129.570  0.00  0.00    +0.000 C 
+ATOM      4  O   UNL     1      -9.143   2.541 128.913  0.00  0.00    +0.000 OA
+ATOM      5  N   UNL     1      -8.371   3.481 130.903  0.00  0.00    +0.000 N 
+ATOM      6  C   UNL     1      -9.605   3.871 131.636  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -9.876   5.370 131.263  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1     -10.938   6.067 132.151  0.00  0.00    +0.000 C 
+ATOM      9  S   UNL     1      -8.112   5.942 131.454  0.00  0.00    +0.000 S 
+ATOM     10  O   UNL     1      -7.653   7.001 130.596  0.00  0.00    +0.000 OA
+ATOM     11  O   UNL     1      -7.902   6.065 132.886  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   6  12
+ATOM     12  C   UNL     1      -9.288   3.470 133.114  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1      -8.601   2.490 133.386  0.00  0.00    +0.000 OA
+BRANCH  12  14
+ATOM     14  O   UNL     1      -9.836   4.165 134.123  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1      -9.307   4.352 134.918  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   6  12
+BRANCH   7  16
+ATOM     16  C   UNL     1     -10.451   5.537 129.823  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  N   UNL     1     -11.298   6.712 129.632  0.00  0.00    +0.000 N 
+ATOM     18  C   UNL     1     -12.645   6.778 129.553  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1     -12.941   8.073 129.260  0.00  0.00    +0.000 A 
+ATOM     20  N   UNL     1     -11.782   8.769 129.163  0.00  0.00    +0.000 NA
+ATOM     21  N   UNL     1     -10.770   7.925 129.376  0.00  0.00    +0.000 NA
+ENDBRANCH  16  17
+ENDBRANCH   7  16
+TORSDOF 4
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.1      1.612      3.123
+REMARK  Name = Tazobactam
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_7  and  C_8
+REMARK    2  A    between atoms: C_8  and  O_9
+REMARK    3  A    between atoms: C_11  and  C_12
+REMARK    4  A    between atoms: C_11  and  C_13
+REMARK    5  A    between atoms: C_13  and  N_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.799   3.318 131.281  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -8.915   2.488 131.949  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -8.775   3.482 133.117  0.00  0.00    +0.000 C 
+ATOM      4  O   UNL     1      -9.416   3.750 134.099  0.00  0.00    +0.000 OA
+ATOM      5  N   UNL     1      -7.842   4.220 132.444  0.00  0.00    +0.000 N 
+ATOM      6  C   UNL     1      -7.994   5.677 132.186  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -9.000   5.804 130.988  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -9.067   7.217 130.358  0.00  0.00    +0.000 C 
+ATOM      9  S   UNL     1      -8.240   4.454 129.951  0.00  0.00    +0.000 S 
+ATOM     10  O   UNL     1      -9.115   3.678 129.114  0.00  0.00    +0.000 OA
+ATOM     11  O   UNL     1      -7.055   5.048 129.357  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   6  12
+ATOM     12  C   UNL     1      -6.518   6.172 132.033  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1      -5.611   5.728 132.729  0.00  0.00    +0.000 OA
+BRANCH  12  14
+ATOM     14  O   UNL     1      -6.235   7.160 131.170  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1      -6.632   7.148 130.282  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   6  12
+BRANCH   7  16
+ATOM     16  C   UNL     1     -10.475   5.532 131.412  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  N   UNL     1     -11.485   6.105 130.525  0.00  0.00    +0.000 N 
+ATOM     18  C   UNL     1     -12.406   7.055 130.796  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1     -13.178   7.159 129.681  0.00  0.00    +0.000 A 
+ATOM     20  N   UNL     1     -12.723   6.277 128.758  0.00  0.00    +0.000 NA
+ATOM     21  N   UNL     1     -11.690   5.617 129.286  0.00  0.00    +0.000 NA
+ENDBRANCH  16  17
+ENDBRANCH   7  16
+TORSDOF 4
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.0      7.020      9.230
+REMARK  Name = Tazobactam
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_7  and  C_8
+REMARK    2  A    between atoms: C_8  and  O_9
+REMARK    3  A    between atoms: C_11  and  C_12
+REMARK    4  A    between atoms: C_11  and  C_13
+REMARK    5  A    between atoms: C_13  and  N_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.620  -3.016 126.257  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -7.812  -2.455 127.681  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -6.695  -1.465 127.300  0.00  0.00    +0.000 C 
+ATOM      4  O   UNL     1      -6.253  -0.448 127.766  0.00  0.00    +0.000 OA
+ATOM      5  N   UNL     1      -6.623  -1.959 126.028  0.00  0.00    +0.000 N 
+ATOM      6  C   UNL     1      -6.782  -1.107 124.819  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -8.323  -0.855 124.664  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -8.736  -0.246 123.301  0.00  0.00    +0.000 C 
+ATOM      9  S   UNL     1      -8.842  -2.615 124.993  0.00  0.00    +0.000 S 
+ATOM     10  O   UNL     1     -10.101  -2.830 125.654  0.00  0.00    +0.000 OA
+ATOM     11  O   UNL     1      -8.573  -3.331 123.759  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   6  12
+ATOM     12  C   UNL     1      -5.996  -1.893 123.718  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1      -5.013  -2.575 123.988  0.00  0.00    +0.000 OA
+BRANCH  12  14
+ATOM     14  O   UNL     1      -6.353  -1.768 122.431  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1      -5.945  -1.072 121.887  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   6  12
+BRANCH   7  16
+ATOM     16  C   UNL     1      -8.869   0.178 125.697  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  N   UNL     1      -8.473   1.563 125.450  0.00  0.00    +0.000 N 
+ATOM     18  C   UNL     1      -7.292   2.163 125.712  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1      -7.462   3.477 125.404  0.00  0.00    +0.000 A 
+ATOM     20  N   UNL     1      -8.732   3.656 124.965  0.00  0.00    +0.000 NA
+ATOM     21  N   UNL     1      -9.358   2.478 125.009  0.00  0.00    +0.000 NA
+ENDBRANCH  16  17
+ENDBRANCH   7  16
+TORSDOF 4
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.9      1.713      3.446
+REMARK  Name = Tazobactam
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_7  and  C_8
+REMARK    2  A    between atoms: C_8  and  O_9
+REMARK    3  A    between atoms: C_11  and  C_12
+REMARK    4  A    between atoms: C_11  and  C_13
+REMARK    5  A    between atoms: C_13  and  N_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -6.715   4.444 131.607  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -6.484   5.779 132.345  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -6.892   6.435 131.013  0.00  0.00    +0.000 C 
+ATOM      4  O   UNL     1      -7.195   7.544 130.658  0.00  0.00    +0.000 OA
+ATOM      5  N   UNL     1      -7.150   5.223 130.437  0.00  0.00    +0.000 N 
+ATOM      6  C   UNL     1      -8.461   4.880 129.824  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -9.425   4.549 131.017  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1     -10.754   3.874 130.596  0.00  0.00    +0.000 C 
+ATOM      9  S   UNL     1      -8.210   3.501 131.965  0.00  0.00    +0.000 S 
+ATOM     10  O   UNL     1      -8.288   3.516 133.401  0.00  0.00    +0.000 OA
+ATOM     11  O   UNL     1      -8.195   2.219 131.283  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   6  12
+ATOM     12  C   UNL     1      -8.093   3.777 128.778  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1      -7.030   3.795 128.165  0.00  0.00    +0.000 OA
+BRANCH  12  14
+ATOM     14  O   UNL     1      -8.985   2.819 128.481  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1      -8.769   1.889 128.668  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   6  12
+BRANCH   7  16
+ATOM     16  C   UNL     1      -9.899   5.825 131.777  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  N   UNL     1     -11.068   6.485 131.201  0.00  0.00    +0.000 N 
+ATOM     18  C   UNL     1     -11.147   7.237 130.081  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1     -12.421   7.713 130.038  0.00  0.00    +0.000 A 
+ATOM     20  N   UNL     1     -13.091   7.251 131.122  0.00  0.00    +0.000 NA
+ATOM     21  N   UNL     1     -12.251   6.508 131.846  0.00  0.00    +0.000 NA
+ENDBRANCH  16  17
+ENDBRANCH   7  16
+TORSDOF 4
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.7      1.691      2.116
+REMARK  Name = Tazobactam
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_7  and  C_8
+REMARK    2  A    between atoms: C_8  and  O_9
+REMARK    3  A    between atoms: C_11  and  C_12
+REMARK    4  A    between atoms: C_11  and  C_13
+REMARK    5  A    between atoms: C_13  and  N_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.486   2.925 131.138  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -9.299   2.375 129.948  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1     -10.475   3.160 130.557  0.00  0.00    +0.000 C 
+ATOM      4  O   UNL     1     -11.571   3.491 130.187  0.00  0.00    +0.000 OA
+ATOM      5  N   UNL     1      -9.685   3.674 131.547  0.00  0.00    +0.000 N 
+ATOM      6  C   UNL     1      -9.541   5.134 131.792  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -8.556   5.664 130.692  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -8.028   7.098 130.945  0.00  0.00    +0.000 C 
+ATOM      9  S   UNL     1      -7.324   4.273 130.846  0.00  0.00    +0.000 S 
+ATOM     10  O   UNL     1      -6.619   3.867 129.661  0.00  0.00    +0.000 OA
+ATOM     11  O   UNL     1      -6.558   4.571 132.044  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   6  12
+ATOM     12  C   UNL     1      -9.149   5.209 133.304  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1      -8.746   6.248 133.818  0.00  0.00    +0.000 OA
+BRANCH  12  14
+ATOM     14  O   UNL     1      -9.181   4.097 134.055  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1      -9.341   4.169 135.011  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   6  12
+BRANCH   7  16
+ATOM     16  C   UNL     1      -9.226   5.773 129.288  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  N   UNL     1     -10.203   6.851 129.156  0.00  0.00    +0.000 N 
+ATOM     18  C   UNL     1     -11.424   6.958 129.722  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1     -11.983   8.083 129.200  0.00  0.00    +0.000 A 
+ATOM     20  N   UNL     1     -11.103   8.639 128.331  0.00  0.00    +0.000 NA
+ATOM     21  N   UNL     1     -10.014   7.869 128.293  0.00  0.00    +0.000 NA
+ENDBRANCH  16  17
+ENDBRANCH   7  16
+TORSDOF 4
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -5.7      2.704      4.149
+REMARK  Name = Tazobactam
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_7  and  C_8
+REMARK    2  A    between atoms: C_8  and  O_9
+REMARK    3  A    between atoms: C_11  and  C_12
+REMARK    4  A    between atoms: C_11  and  C_13
+REMARK    5  A    between atoms: C_13  and  N_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -9.552   5.679 131.552  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -8.561   6.813 131.217  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -7.484   5.857 131.765  0.00  0.00    +0.000 C 
+ATOM      4  O   UNL     1      -6.282   5.814 131.743  0.00  0.00    +0.000 OA
+ATOM      5  N   UNL     1      -8.400   4.864 131.971  0.00  0.00    +0.000 N 
+ATOM      6  C   UNL     1      -8.265   3.503 131.385  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -8.700   3.631 129.884  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -8.926   2.276 129.167  0.00  0.00    +0.000 C 
+ATOM      9  S   UNL     1     -10.211   4.675 130.206  0.00  0.00    +0.000 S 
+ATOM     10  O   UNL     1     -10.583   5.642 129.209  0.00  0.00    +0.000 OA
+ATOM     11  O   UNL     1     -11.220   3.750 130.690  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   6  12
+ATOM     12  C   UNL     1      -9.082   2.604 132.370  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1      -9.186   1.392 132.205  0.00  0.00    +0.000 OA
+BRANCH  12  14
+ATOM     14  O   UNL     1      -9.751   3.169 133.387  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1      -9.343   3.903 133.879  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   6  12
+BRANCH   7  16
+ATOM     16  C   UNL     1      -7.618   4.325 129.001  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  N   UNL     1      -7.837   4.215 127.561  0.00  0.00    +0.000 N 
+ATOM     18  C   UNL     1      -7.267   3.361 126.683  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1      -7.714   3.734 125.453  0.00  0.00    +0.000 A 
+ATOM     20  N   UNL     1      -8.539   4.799 125.598  0.00  0.00    +0.000 NA
+ATOM     21  N   UNL     1      -8.600   5.105 126.896  0.00  0.00    +0.000 NA
+ENDBRANCH  16  17
+ENDBRANCH   7  16
+TORSDOF 4
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -5.7      4.659      6.787
+REMARK  Name = Tazobactam
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_7  and  C_8
+REMARK    2  A    between atoms: C_8  and  O_9
+REMARK    3  A    between atoms: C_11  and  C_12
+REMARK    4  A    between atoms: C_11  and  C_13
+REMARK    5  A    between atoms: C_13  and  N_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -5.871   2.857 124.333  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -4.918   3.959 124.841  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -6.171   4.854 124.855  0.00  0.00    +0.000 C 
+ATOM      4  O   UNL     1      -6.453   5.930 125.313  0.00  0.00    +0.000 OA
+ATOM      5  N   UNL     1      -6.977   3.818 124.474  0.00  0.00    +0.000 N 
+ATOM      6  C   UNL     1      -8.170   3.392 125.252  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -7.625   2.558 126.463  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -8.710   1.764 127.232  0.00  0.00    +0.000 C 
+ATOM      9  S   UNL     1      -6.393   1.565 125.478  0.00  0.00    +0.000 S 
+ATOM     10  O   UNL     1      -5.173   1.172 126.130  0.00  0.00    +0.000 OA
+ATOM     11  O   UNL     1      -7.176   0.549 124.797  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   6  12
+ATOM     12  C   UNL     1      -9.081   2.716 124.174  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1      -8.921   2.917 122.975  0.00  0.00    +0.000 OA
+BRANCH  12  14
+ATOM     14  O   UNL     1     -10.113   1.951 124.562  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1     -10.339   1.156 124.049  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   6  12
+BRANCH   7  16
+ATOM     16  C   UNL     1      -6.987   3.453 127.570  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  N   UNL     1      -7.936   4.276 128.317  0.00  0.00    +0.000 N 
+ATOM     18  C   UNL     1      -8.276   4.198 129.622  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1      -9.275   5.103 129.804  0.00  0.00    +0.000 A 
+ATOM     20  N   UNL     1      -9.527   5.712 128.619  0.00  0.00    +0.000 NA
+ATOM     21  N   UNL     1      -8.712   5.189 127.700  0.00  0.00    +0.000 NA
+ENDBRANCH  16  17
+ENDBRANCH   7  16
+TORSDOF 4
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -5.7      7.056      8.516
+REMARK  Name = Tazobactam
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_7  and  C_8
+REMARK    2  A    between atoms: C_8  and  O_9
+REMARK    3  A    between atoms: C_11  and  C_12
+REMARK    4  A    between atoms: C_11  and  C_13
+REMARK    5  A    between atoms: C_13  and  N_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -6.817  -2.992 124.947  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -7.269  -2.887 123.475  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -8.693  -3.056 124.037  0.00  0.00    +0.000 C 
+ATOM      4  O   UNL     1      -9.808  -2.914 123.609  0.00  0.00    +0.000 OA
+ATOM      5  N   UNL     1      -8.237  -3.068 125.326  0.00  0.00    +0.000 N 
+ATOM      6  C   UNL     1      -8.728  -2.127 126.367  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -8.005  -0.762 126.095  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -8.138   0.271 127.243  0.00  0.00    +0.000 C 
+ATOM      9  S   UNL     1      -6.313  -1.490 125.809  0.00  0.00    +0.000 S 
+ATOM     10  O   UNL     1      -5.448  -0.830 124.869  0.00  0.00    +0.000 OA
+ATOM     11  O   UNL     1      -5.798  -1.796 127.133  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   6  12
+ATOM     12  C   UNL     1      -8.475  -2.902 127.702  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1      -8.709  -4.102 127.808  0.00  0.00    +0.000 OA
+BRANCH  12  14
+ATOM     14  O   UNL     1      -8.058  -2.235 128.789  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1      -7.258  -2.533 129.256  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   6  12
+BRANCH   7  16
+ATOM     16  C   UNL     1      -8.592  -0.005 124.865  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  N   UNL     1      -8.340   1.434 124.850  0.00  0.00    +0.000 N 
+ATOM     18  C   UNL     1      -7.160   2.083 124.740  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1      -7.444   3.405 124.891  0.00  0.00    +0.000 A 
+ATOM     20  N   UNL     1      -8.778   3.540 125.090  0.00  0.00    +0.000 NA
+ATOM     21  N   UNL     1      -9.326   2.323 125.081  0.00  0.00    +0.000 NA
+ENDBRANCH  16  17
+ENDBRANCH   7  16
+TORSDOF 4
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -5.6      3.042      4.584
+REMARK  Name = Tazobactam
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_7  and  C_8
+REMARK    2  A    between atoms: C_8  and  O_9
+REMARK    3  A    between atoms: C_11  and  C_12
+REMARK    4  A    between atoms: C_11  and  C_13
+REMARK    5  A    between atoms: C_13  and  N_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -9.136   3.899 133.200  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -7.899   3.084 133.631  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -7.805   2.687 132.146  0.00  0.00    +0.000 C 
+ATOM      4  O   UNL     1      -6.977   2.163 131.448  0.00  0.00    +0.000 OA
+ATOM      5  N   UNL     1      -8.863   3.486 131.814  0.00  0.00    +0.000 N 
+ATOM      6  C   UNL     1      -8.780   4.550 130.777  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -8.043   5.759 131.453  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -8.120   7.082 130.651  0.00  0.00    +0.000 C 
+ATOM      9  S   UNL     1      -8.988   5.691 133.058  0.00  0.00    +0.000 S 
+ATOM     10  O   UNL     1      -8.297   6.073 134.260  0.00  0.00    +0.000 OA
+ATOM     11  O   UNL     1     -10.275   6.300 132.772  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   6  12
+ATOM     12  C   UNL     1     -10.260   4.698 130.293  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1     -10.573   5.474 129.397  0.00  0.00    +0.000 OA
+BRANCH  12  14
+ATOM     14  O   UNL     1     -11.234   4.016 130.916  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1     -11.858   3.486 130.392  0.00  0.00    +0.000 HD
+ENDBRANCH  12  14
+ENDBRANCH   6  12
+BRANCH   7  16
+ATOM     16  C   UNL     1      -6.510   5.520 131.602  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  N   UNL     1      -5.754   5.582 130.353  0.00  0.00    +0.000 N 
+ATOM     18  C   UNL     1      -5.534   4.603 129.450  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1      -4.684   5.127 128.526  0.00  0.00    +0.000 A 
+ATOM     20  N   UNL     1      -4.400   6.406 128.878  0.00  0.00    +0.000 NA
+ATOM     21  N   UNL     1      -5.047   6.678 130.013  0.00  0.00    +0.000 NA
+ENDBRANCH  16  17
+ENDBRANCH   7  16
+TORSDOF 4
+ENDMDL

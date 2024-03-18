@@ -1,0 +1,54 @@
+REMARK  Name = Finafloxacin
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_4  and  C_12
+REMARK    2  A    between atoms: C_19  and  C_29
+REMARK    3  A    between atoms: N_21  and  C_22
+REMARK    4  A    between atoms: C_26  and  C_27
+REMARK    5  A    between atoms: C_29  and  O_30
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       3.108  -1.634   3.165  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1       4.156  -2.567   3.134  0.00  0.00    +0.000 A 
+ATOM      3  F   UNL     1       5.040  -2.543   2.124  0.00  0.00    +0.000 F 
+ATOM      4  C   UNL     1       4.338  -3.502   4.134  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1       3.442  -3.543   5.204  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1       3.655  -4.587   6.233  0.00  0.00    +0.000 A 
+ATOM      7  O   UNL     1       4.611  -5.343   6.101  0.00  0.00    +0.000 OA
+ATOM      8  C   UNL     1       2.704  -4.674   7.378  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1       1.701  -3.781   7.363  0.00  0.00    +0.000 A 
+ATOM     10  N   UNL     1       1.460  -2.803   6.412  0.00  0.00    +0.000 N 
+ATOM     11  C   UNL     1       2.364  -2.636   5.305  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1       2.235  -1.652   4.278  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1  15
+ATOM     13  C   UNL     1       2.175  -0.032   0.013  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1       2.655  -1.281   0.760  0.00  0.00    +0.000 C 
+ATOM     15  N   UNL     1       2.918  -0.777   2.108  0.00  0.00    +0.000 N 
+ATOM     16  C   UNL     1       2.889   0.687   2.187  0.00  0.00    +0.000 C 
+ATOM     17  C   UNL     1       2.927   1.110   0.722  0.00  0.00    +0.000 C 
+ATOM     18  O   UNL     1       2.305   2.352   0.386  0.00  0.00    +0.000 OA
+ATOM     19  C   UNL     1       2.453   2.557  -1.037  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1       1.911   1.371  -1.874  0.00  0.00    +0.000 C 
+ATOM     21  N   UNL     1       2.421   0.047  -1.440  0.00  0.00    +0.000 NA
+ATOM     22  H   UNL     1       3.432   0.028  -1.590  0.00  0.00    +0.000 HD
+ENDBRANCH   1  15
+BRANCH  10  23
+ATOM     23  C   UNL     1       0.306  -1.905   6.570  0.00  0.00    +0.000 C 
+ATOM     24  C   UNL     1      -0.869  -1.834   7.484  0.00  0.00    +0.000 C 
+ATOM     25  C   UNL     1       0.318  -0.976   7.770  0.00  0.00    +0.000 C 
+ENDBRANCH  10  23
+BRANCH  12  26
+ATOM     26  C   UNL     1       1.185  -0.670   4.259  0.00  0.00    +0.000 C 
+ATOM     27  N   UNL     1       0.314   0.109   4.243  0.00  0.00    +0.000 NA
+ENDBRANCH  12  26
+BRANCH   8  28
+ATOM     28  C   UNL     1       2.906  -5.706   8.429  0.00  0.00    +0.000 C 
+ATOM     29  O   UNL     1       3.822  -6.514   8.416  0.00  0.00    +0.000 OA
+BRANCH  28  30
+ATOM     30  O   UNL     1       2.014  -5.730   9.442  0.00  0.00    +0.000 OA
+ATOM     31  H   UNL     1       1.286  -5.092   9.459  0.00  0.00    +0.000 HD
+ENDBRANCH  28  30
+ENDBRANCH   8  28
+TORSDOF 5

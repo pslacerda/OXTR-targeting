@@ -1,0 +1,414 @@
+MODEL 1
+REMARK VINA RESULT:      -6.4      0.000      0.000
+REMARK  Name = Baclofen
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_3  and  C_8
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  O_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -11.875   7.920 128.954  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -10.982   7.320 130.050  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -11.524   6.725 131.205  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     -10.710   6.177 132.194  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -9.331   6.227 132.053  0.00  0.00    +0.000 A 
+ATOM      6 CL   UNL     1      -8.333   5.572 133.291  0.00  0.00    +0.000 Cl
+ATOM      7  C   UNL     1      -8.763   6.806 130.921  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      -9.583   7.351 129.923  0.00  0.00    +0.000 A 
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1     -12.719   9.094 129.517  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     -13.429   9.859 128.494  0.00  0.00    +0.000 NA
+ATOM     11  H   UNL     1     -14.398   9.510 128.467  0.00  0.00    +0.000 HD
+ATOM     12  H   UNL     1     -13.073   9.632 127.561  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+BRANCH   1  13
+ATOM     13  C   UNL     1     -11.016   8.348 127.741  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1     -11.210   7.659 126.400  0.00  0.00    +0.000 C 
+ATOM     15  O   UNL     1     -10.690   8.074 125.369  0.00  0.00    +0.000 OA
+BRANCH  14  16
+ATOM     16  O   UNL     1     -11.880   6.495 126.415  0.00  0.00    +0.000 OA
+ATOM     17  H   UNL     1     -11.273   5.776 126.131  0.00  0.00    +0.000 HD
+ENDBRANCH  14  16
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.0      2.379      3.120
+REMARK  Name = Baclofen
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_3  and  C_8
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  O_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -11.283   8.375 128.267  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -10.811   7.543 129.469  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -9.466   7.537 129.885  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -9.044   6.785 130.979  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -9.961   6.009 131.673  0.00  0.00    +0.000 A 
+ATOM      6 CL   UNL     1      -9.427   5.063 133.006  0.00  0.00    +0.000 Cl
+ATOM      7  C   UNL     1     -11.300   5.995 131.289  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1     -11.726   6.757 130.192  0.00  0.00    +0.000 A 
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1     -10.895   7.681 126.935  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1     -11.940   6.820 126.387  0.00  0.00    +0.000 NA
+ATOM     11  H   UNL     1     -11.473   6.046 125.894  0.00  0.00    +0.000 HD
+ATOM     12  H   UNL     1     -12.449   7.300 125.639  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+BRANCH   1  13
+ATOM     13  C   UNL     1     -12.804   8.640 128.365  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1     -13.308   9.852 129.132  0.00  0.00    +0.000 C 
+ATOM     15  O   UNL     1     -13.113   9.994 130.336  0.00  0.00    +0.000 OA
+BRANCH  14  16
+ATOM     16  O   UNL     1     -13.874  10.829 128.405  0.00  0.00    +0.000 OA
+ATOM     17  H   UNL     1     -13.419  11.678 128.605  0.00  0.00    +0.000 HD
+ENDBRANCH  14  16
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -5.7      8.447     10.237
+REMARK  Name = Baclofen
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_3  and  C_8
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  O_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.734   2.160 123.826  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      -7.548   2.850 122.466  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -6.270   3.137 121.949  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -6.106   3.757 120.712  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -7.222   4.118 119.972  0.00  0.00    +0.000 A 
+ATOM      6 CL   UNL     1      -7.011   4.908 118.460  0.00  0.00    +0.000 Cl
+ATOM      7  C   UNL     1      -8.500   3.847 120.455  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      -8.665   3.216 121.696  0.00  0.00    +0.000 A 
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1      -8.948   2.761 124.582  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1      -8.738   4.130 125.049  0.00  0.00    +0.000 NA
+ATOM     11  H   UNL     1      -9.330   4.745 124.472  0.00  0.00    +0.000 HD
+ATOM     12  H   UNL     1      -7.789   4.445 124.828  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+BRANCH   1  13
+ATOM     13  C   UNL     1      -7.864   0.631 123.636  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1      -9.238  -0.017 123.666  0.00  0.00    +0.000 C 
+ATOM     15  O   UNL     1     -10.011   0.041 122.714  0.00  0.00    +0.000 OA
+BRANCH  14  16
+ATOM     16  O   UNL     1      -9.525  -0.769 124.741  0.00  0.00    +0.000 OA
+ATOM     17  H   UNL     1     -10.111  -0.255 125.341  0.00  0.00    +0.000 HD
+ENDBRANCH  14  16
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.6      3.917      5.267
+REMARK  Name = Baclofen
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_3  and  C_8
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  O_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -9.558   5.987 131.161  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -10.573   6.926 130.492  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -10.257   7.654 129.329  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     -11.182   8.500 128.723  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     -12.445   8.646 129.279  0.00  0.00    +0.000 A 
+ATOM      6 CL   UNL     1     -13.573   9.713 128.539  0.00  0.00    +0.000 Cl
+ATOM      7  C   UNL     1     -12.791   7.939 130.427  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1     -11.861   7.082 131.033  0.00  0.00    +0.000 A 
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1      -9.985   5.669 132.618  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1      -9.051   6.157 133.630  0.00  0.00    +0.000 NA
+ATOM     11  H   UNL     1      -8.153   5.676 133.476  0.00  0.00    +0.000 HD
+ATOM     12  H   UNL     1      -9.329   5.838 134.563  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+BRANCH   1  13
+ATOM     13  C   UNL     1      -9.377   4.706 130.313  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1     -10.246   3.490 130.591  0.00  0.00    +0.000 C 
+ATOM     15  O   UNL     1      -9.823   2.506 131.191  0.00  0.00    +0.000 OA
+BRANCH  14  16
+ATOM     16  O   UNL     1     -11.543   3.590 130.259  0.00  0.00    +0.000 OA
+ATOM     17  H   UNL     1     -11.638   4.264 129.549  0.00  0.00    +0.000 HD
+ENDBRANCH  14  16
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.4      9.355     10.204
+REMARK  Name = Baclofen
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_3  and  C_8
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  O_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.753   1.396 123.585  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      -6.982   0.077 123.742  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -6.908  -0.868 122.701  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -6.204  -2.061 122.847  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -5.568  -2.340 124.048  0.00  0.00    +0.000 A 
+ATOM      6 CL   UNL     1      -4.723  -3.827 124.228  0.00  0.00    +0.000 Cl
+ATOM      7  C   UNL     1      -5.619  -1.426 125.097  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      -6.323  -0.222 124.948  0.00  0.00    +0.000 A 
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1      -8.389   1.822 124.935  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1      -9.174   3.053 124.858  0.00  0.00    +0.000 NA
+ATOM     11  H   UNL     1      -9.178   3.353 123.873  0.00  0.00    +0.000 HD
+ATOM     12  H   UNL     1      -8.690   3.820 125.334  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+BRANCH   1  13
+ATOM     13  C   UNL     1      -6.825   2.490 123.006  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1      -7.309   3.353 121.852  0.00  0.00    +0.000 C 
+ATOM     15  O   UNL     1      -6.605   3.598 120.876  0.00  0.00    +0.000 OA
+BRANCH  14  16
+ATOM     16  O   UNL     1      -8.595   3.737 121.887  0.00  0.00    +0.000 OA
+ATOM     17  H   UNL     1      -8.642   4.706 121.730  0.00  0.00    +0.000 HD
+ENDBRANCH  14  16
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -5.3     11.049     11.477
+REMARK  Name = Baclofen
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_3  and  C_8
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  O_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.317  -2.540 125.392  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      -7.357  -2.670 126.922  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -6.300  -2.215 127.733  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -6.343  -2.330 129.121  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -7.443  -2.919 129.727  0.00  0.00    +0.000 A 
+ATOM      6 CL   UNL     1      -7.476  -3.082 131.438  0.00  0.00    +0.000 Cl
+ATOM      7  C   UNL     1      -8.506  -3.379 128.953  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      -8.466  -3.256 127.557  0.00  0.00    +0.000 A 
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1      -5.879  -2.777 124.860  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1      -5.660  -2.284 123.502  0.00  0.00    +0.000 NA
+ATOM     11  H   UNL     1      -4.767  -2.679 123.172  0.00  0.00    +0.000 HD
+ATOM     12  H   UNL     1      -5.481  -1.276 123.508  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+BRANCH   1  13
+ATOM     13  C   UNL     1      -8.344  -3.501 124.749  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1      -9.124  -3.057 123.521  0.00  0.00    +0.000 C 
+ATOM     15  O   UNL     1      -8.640  -2.316 122.670  0.00  0.00    +0.000 OA
+BRANCH  14  16
+ATOM     16  O   UNL     1     -10.332  -3.614 123.344  0.00  0.00    +0.000 OA
+ATOM     17  H   UNL     1     -10.804  -3.631 124.206  0.00  0.00    +0.000 HD
+ENDBRANCH  14  16
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -5.2      4.560      5.873
+REMARK  Name = Baclofen
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_3  and  C_8
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  O_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.372   5.458 131.152  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1     -11.162   6.658 130.608  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1     -10.772   7.332 129.435  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1     -11.495   8.417 128.943  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1     -12.618   8.859 129.625  0.00  0.00    +0.000 A 
+ATOM      6 CL   UNL     1     -13.489  10.216 129.026  0.00  0.00    +0.000 Cl
+ATOM      7  C   UNL     1     -13.032   8.213 130.788  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1     -12.308   7.117 131.279  0.00  0.00    +0.000 A 
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1      -9.318   4.982 130.118  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1      -9.589   3.659 129.560  0.00  0.00    +0.000 NA
+ATOM     11  H   UNL     1     -10.381   3.262 130.084  0.00  0.00    +0.000 HD
+ATOM     12  H   UNL     1      -8.822   3.014 129.771  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+BRANCH   1  13
+ATOM     13  C   UNL     1      -9.735   5.813 132.515  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1      -9.041   4.730 133.327  0.00  0.00    +0.000 C 
+ATOM     15  O   UNL     1      -7.819   4.627 133.373  0.00  0.00    +0.000 OA
+BRANCH  14  16
+ATOM     16  O   UNL     1      -9.828   3.961 134.097  0.00  0.00    +0.000 OA
+ATOM     17  H   UNL     1      -9.259   3.403 134.674  0.00  0.00    +0.000 HD
+ENDBRANCH  14  16
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -5.2      9.293     10.189
+REMARK  Name = Baclofen
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_3  and  C_8
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  O_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.326   1.664 124.419  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      -6.757   0.243 124.288  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -6.904  -0.509 123.107  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -6.382  -1.796 122.991  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -5.712  -2.364 124.064  0.00  0.00    +0.000 A 
+ATOM      6 CL   UNL     1      -5.094  -3.962 123.922  0.00  0.00    +0.000 Cl
+ATOM      7  C   UNL     1      -5.548  -1.646 125.247  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      -6.067  -0.349 125.361  0.00  0.00    +0.000 A 
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1      -7.648   2.255 123.021  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1      -8.419   3.496 123.065  0.00  0.00    +0.000 NA
+ATOM     11  H   UNL     1      -7.973   4.109 123.763  0.00  0.00    +0.000 HD
+ATOM     12  H   UNL     1      -9.349   3.329 123.461  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+BRANCH   1  13
+ATOM     13  C   UNL     1      -8.560   1.660 125.350  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1      -9.780   0.832 124.979  0.00  0.00    +0.000 C 
+ATOM     15  O   UNL     1      -9.980  -0.286 125.445  0.00  0.00    +0.000 OA
+BRANCH  14  16
+ATOM     16  O   UNL     1     -10.702   1.433 124.209  0.00  0.00    +0.000 OA
+ATOM     17  H   UNL     1     -11.546   0.933 124.275  0.00  0.00    +0.000 HD
+ENDBRANCH  14  16
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -5.1     10.501     10.983
+REMARK  Name = Baclofen
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_3  and  C_8
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_5  and  O_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -9.000  -2.434 124.995  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1      -8.625  -2.572 126.479  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -8.980  -3.708 127.231  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      -8.633  -3.831 128.574  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      -7.935  -2.809 129.199  0.00  0.00    +0.000 A 
+ATOM      6 CL   UNL     1      -7.535  -2.956 130.865  0.00  0.00    +0.000 Cl
+ATOM      7  C   UNL     1      -7.568  -1.672 128.483  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      -7.911  -1.551 127.129  0.00  0.00    +0.000 A 
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   UNL     1      -9.016  -0.942 124.571  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1      -9.489  -0.718 123.207  0.00  0.00    +0.000 NA
+ATOM     11  H   UNL     1      -9.168  -1.513 122.637  0.00  0.00    +0.000 HD
+ATOM     12  H   UNL     1      -9.007   0.082 122.784  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+BRANCH   1  13
+ATOM     13  C   UNL     1      -8.042  -3.278 124.123  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  C   UNL     1      -6.649  -2.753 123.810  0.00  0.00    +0.000 C 
+ATOM     15  O   UNL     1      -5.673  -3.033 124.501  0.00  0.00    +0.000 OA
+BRANCH  14  16
+ATOM     16  O   UNL     1      -6.509  -2.066 122.666  0.00  0.00    +0.000 OA
+ATOM     17  H   UNL     1      -6.795  -1.137 122.816  0.00  0.00    +0.000 HD
+ENDBRANCH  14  16
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 6
+ENDMDL

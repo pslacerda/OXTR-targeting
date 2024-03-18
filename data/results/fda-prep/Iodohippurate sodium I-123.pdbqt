@@ -1,0 +1,44 @@
+REMARK  Name = Iodohippurate sodium I-123
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  C_5
+REMARK    2  A    between atoms: C_5  and  N_6
+REMARK    3  A    between atoms: C_7  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1 NA   UNL     1       0.280   0.900  -0.936  0.00  0.00    +0.000 Na
+ENDROOT
+TORSDOF 0
+REMARK  Name = Iodohippurate sodium I-123
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  C_5
+REMARK    2  A    between atoms: C_5  and  N_6
+REMARK    3  A    between atoms: C_7  and  C_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     2       4.691   0.952  -0.228  0.00  0.00    +0.000 N 
+ATOM      2  C   UNL     2       5.508   2.014  -0.540  0.00  0.00    +0.000 C 
+ATOM      3  O   UNL     2       5.069   3.098  -0.883  0.00  0.00    +0.000 OA
+ATOM      4  H   UNL     2       5.043   0.038   0.048  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   2   5
+ATOM      5  C   UNL     2       6.975   1.749  -0.420  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     2       7.499   0.554  -0.949  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     2       8.837   0.203  -0.730  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     2       9.693   1.092  -0.088  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     2       9.216   2.336   0.322  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     2       7.851   2.647   0.212  0.00  0.00    +0.000 A 
+ATOM     11  I   UNL     2       7.246   4.425   1.158  0.00  0.00    +0.000 I 
+ENDBRANCH   2   5
+BRANCH   1  12
+ATOM     12  C   UNL     2       3.245   1.053  -0.158  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  O   UNL     2       1.294  -0.164   0.359  0.00  0.00    +0.000 OA
+ATOM     14  C   UNL     2       2.560  -0.270   0.261  0.00  0.00    +0.000 C 
+ATOM     15  O   UNL     2       3.294  -1.287   0.309  0.00  0.00    +0.000 OA
+ENDBRANCH  12  14
+ENDBRANCH   1  12
+TORSDOF 3

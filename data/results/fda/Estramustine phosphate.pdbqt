@@ -1,0 +1,693 @@
+MODEL 1
+REMARK VINA RESULT:      -7.7      0.000      0.000
+REMARK  Name = Estramustine phosphate
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_5  and  O_6
+REMARK    2  A    between atoms: O_6  and  P_7
+REMARK    3  A    between atoms: P_7  and  O_8
+REMARK    4  A    between atoms: P_7  and  O_9
+REMARK    5  A    between atoms: C_11  and  C_12
+REMARK    6  A    between atoms: C_24  and  O_25
+REMARK    7  A    between atoms: O_25  and  C_26
+REMARK    8  A    between atoms: N_28  and  C_29
+REMARK    9  A    between atoms: N_28  and  C_32
+REMARK   10  A    between atoms: C_29  and  C_30
+REMARK   11  A    between atoms: C_32  and  C_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.658   1.752 123.949  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -8.900   2.196 123.180  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -9.641   0.885 122.866  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -8.863  -0.219 123.597  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -8.137   0.518 124.731  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -9.134   0.822 125.881  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -6.904  -0.193 125.307  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -6.109   0.728 126.213  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1      -5.742   2.052 125.519  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1      -4.992   3.012 126.412  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -5.043   4.409 126.207  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      -5.973   5.007 125.170  0.00  0.00    +0.000 C 
+ATOM     13  C   UNL     1      -6.461   3.988 124.137  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1      -6.965   2.745 124.869  0.00  0.00    +0.000 C 
+ATOM     15  C   UNL     1      -4.236   5.246 127.004  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      -3.376   4.679 127.958  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1      -3.362   3.315 128.160  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1      -4.150   2.491 127.393  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   4  19
+ATOM     19  O   UNL     1      -9.729  -1.226 124.091  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  P   UNL     1      -8.859  -2.707 124.284  0.00  0.00    +0.000 P 
+ATOM     21  O   UNL     1      -8.078  -4.034 124.455  0.00  0.00    +0.000 OA
+BRANCH  20  22
+ATOM     22  O   UNL     1      -9.651  -2.787 125.713  0.00  0.00    +0.000 OA
+ATOM     23  H   UNL     1      -9.064  -3.067 126.432  0.00  0.00    +0.000 HD
+ENDBRANCH  20  22
+BRANCH  20  24
+ATOM     24  O   UNL     1     -10.065  -3.354 123.385  0.00  0.00    +0.000 OA
+ATOM     25  H   UNL     1      -9.770  -4.087 122.824  0.00  0.00    +0.000 HD
+ENDBRANCH  20  24
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH  16  26
+ATOM     26  O   UNL     1      -2.501   5.517 128.692  0.00  0.00    +0.000 OA
+BRANCH  26  27
+ATOM     27  C   UNL     1      -2.879   6.531 129.590  0.00  0.00    +0.000 C 
+ATOM     28  O   UNL     1      -3.209   7.670 129.260  0.00  0.00    +0.000 OA
+ATOM     29  N   UNL     1      -2.861   6.171 130.936  0.00  0.00    +0.000 N 
+BRANCH  29  30
+ATOM     30  C   UNL     1      -2.521   4.843 131.479  0.00  0.00    +0.000 C 
+BRANCH  30  31
+ATOM     31  C   UNL     1      -3.637   4.046 132.136  0.00  0.00    +0.000 C 
+ATOM     32 CL   UNL     1      -5.124   4.059 131.175  0.00  0.00    +0.000 Cl
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+BRANCH  29  33
+ATOM     33  C   UNL     1      -3.224   7.258 131.867  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  C   UNL     1      -2.068   7.917 132.607  0.00  0.00    +0.000 C 
+ATOM     35 CL   UNL     1      -2.291   9.671 132.748  0.00  0.00    +0.000 Cl
+ENDBRANCH  33  34
+ENDBRANCH  29  33
+ENDBRANCH  26  27
+ENDBRANCH  16  26
+TORSDOF 10
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -7.3      6.561      9.860
+REMARK  Name = Estramustine phosphate
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_5  and  O_6
+REMARK    2  A    between atoms: O_6  and  P_7
+REMARK    3  A    between atoms: P_7  and  O_8
+REMARK    4  A    between atoms: P_7  and  O_9
+REMARK    5  A    between atoms: C_11  and  C_12
+REMARK    6  A    between atoms: C_24  and  O_25
+REMARK    7  A    between atoms: O_25  and  C_26
+REMARK    8  A    between atoms: N_28  and  C_29
+REMARK    9  A    between atoms: N_28  and  C_32
+REMARK   10  A    between atoms: C_29  and  C_30
+REMARK   11  A    between atoms: C_32  and  C_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -5.009  -1.957 131.545  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -3.907  -1.105 132.170  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -3.139  -2.083 133.075  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -3.749  -3.467 132.806  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -4.361  -3.343 131.403  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -3.241  -3.434 130.333  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -5.464  -4.357 131.067  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -6.186  -3.980 129.786  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1      -6.716  -2.537 129.820  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1      -7.397  -2.115 128.539  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -7.455  -0.761 128.141  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      -6.706   0.307 128.913  0.00  0.00    +0.000 C 
+ATOM     13  C   UNL     1      -6.299  -0.139 130.321  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1      -5.632  -1.510 130.231  0.00  0.00    +0.000 C 
+ATOM     15  C   UNL     1      -8.197  -0.417 126.993  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      -8.891  -1.415 126.290  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1      -8.799  -2.735 126.680  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1      -8.072  -3.080 127.793  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   4  19
+ATOM     19  O   UNL     1      -2.768  -4.488 132.866  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  P   UNL     1      -2.497  -4.946 134.512  0.00  0.00    +0.000 P 
+ATOM     21  O   UNL     1      -2.256  -5.354 135.986  0.00  0.00    +0.000 OA
+BRANCH  20  22
+ATOM     22  O   UNL     1      -2.185  -6.418 133.870  0.00  0.00    +0.000 OA
+ATOM     23  H   UNL     1      -2.142  -6.384 132.902  0.00  0.00    +0.000 HD
+ENDBRANCH  20  22
+BRANCH  20  24
+ATOM     24  O   UNL     1      -0.997  -4.335 134.274  0.00  0.00    +0.000 OA
+ATOM     25  H   UNL     1      -0.956  -3.374 134.388  0.00  0.00    +0.000 HD
+ENDBRANCH  20  24
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH  16  26
+ATOM     26  O   UNL     1      -9.709  -1.052 125.191  0.00  0.00    +0.000 OA
+BRANCH  26  27
+ATOM     27  C   UNL     1      -9.809   0.227 124.615  0.00  0.00    +0.000 C 
+ATOM     28  O   UNL     1     -10.557   1.118 125.016  0.00  0.00    +0.000 OA
+ATOM     29  N   UNL     1      -8.984   0.448 123.514  0.00  0.00    +0.000 N 
+BRANCH  29  30
+ATOM     30  C   UNL     1      -8.018  -0.506 122.941  0.00  0.00    +0.000 C 
+BRANCH  30  31
+ATOM     31  C   UNL     1      -6.652  -0.604 123.601  0.00  0.00    +0.000 C 
+ATOM     32 CL   UNL     1      -6.225  -2.273 124.013  0.00  0.00    +0.000 Cl
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+BRANCH  29  33
+ATOM     33  C   UNL     1      -9.129   1.783 122.899  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  C   UNL     1      -7.940   2.721 123.052  0.00  0.00    +0.000 C 
+ATOM     35 CL   UNL     1      -7.376   2.801 124.733  0.00  0.00    +0.000 Cl
+ENDBRANCH  33  34
+ENDBRANCH  29  33
+ENDBRANCH  26  27
+ENDBRANCH  16  26
+TORSDOF 10
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -7.2      5.502      8.382
+REMARK  Name = Estramustine phosphate
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_5  and  O_6
+REMARK    2  A    between atoms: O_6  and  P_7
+REMARK    3  A    between atoms: P_7  and  O_8
+REMARK    4  A    between atoms: P_7  and  O_9
+REMARK    5  A    between atoms: C_11  and  C_12
+REMARK    6  A    between atoms: C_24  and  O_25
+REMARK    7  A    between atoms: O_25  and  C_26
+REMARK    8  A    between atoms: N_28  and  C_29
+REMARK    9  A    between atoms: N_28  and  C_32
+REMARK   10  A    between atoms: C_29  and  C_30
+REMARK   11  A    between atoms: C_32  and  C_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -4.177   4.400 131.177  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -3.942   3.010 130.592  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -5.267   2.663 129.891  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -6.132   3.929 129.986  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -5.117   5.068 130.160  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -4.465   5.402 128.792  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -5.664   6.358 130.787  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -4.541   7.305 131.168  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1      -3.487   6.628 132.061  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1      -2.330   7.532 132.417  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -1.052   7.014 132.724  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      -0.756   5.536 132.565  0.00  0.00    +0.000 C 
+ATOM     13  C   UNL     1      -2.017   4.672 132.491  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1      -2.979   5.287 131.477  0.00  0.00    +0.000 C 
+ATOM     15  C   UNL     1      -0.042   7.899 133.154  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      -0.330   9.264 133.302  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1      -1.577   9.753 132.971  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1      -2.566   8.900 132.543  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   4  19
+ATOM     19  O   UNL     1      -6.927   4.103 128.826  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  P   UNL     1      -8.588   4.277 129.274  0.00  0.00    +0.000 P 
+ATOM     21  O   UNL     1     -10.076   4.433 129.677  0.00  0.00    +0.000 OA
+BRANCH  20  22
+ATOM     22  O   UNL     1      -8.684   5.173 127.908  0.00  0.00    +0.000 OA
+ATOM     23  H   UNL     1      -7.805   5.367 127.546  0.00  0.00    +0.000 HD
+ENDBRANCH  20  22
+BRANCH  20  24
+ATOM     24  O   UNL     1      -8.779   2.827 128.539  0.00  0.00    +0.000 OA
+ATOM     25  H   UNL     1      -9.694   2.510 128.555  0.00  0.00    +0.000 HD
+ENDBRANCH  20  24
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH  16  26
+ATOM     26  O   UNL     1       0.660  10.134 133.821  0.00  0.00    +0.000 OA
+BRANCH  26  27
+ATOM     27  C   UNL     1       0.437  11.255 134.640  0.00  0.00    +0.000 C 
+ATOM     28  O   UNL     1      -0.034  11.209 135.776  0.00  0.00    +0.000 OA
+ATOM     29  N   UNL     1       0.788  12.481 134.077  0.00  0.00    +0.000 N 
+BRANCH  29  30
+ATOM     30  C   UNL     1       1.389  12.690 132.748  0.00  0.00    +0.000 C 
+BRANCH  30  31
+ATOM     31  C   UNL     1       0.448  12.761 131.555  0.00  0.00    +0.000 C 
+ATOM     32 CL   UNL     1      -1.201  13.198 132.028  0.00  0.00    +0.000 Cl
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+BRANCH  29  33
+ATOM     33  C   UNL     1       0.513  13.650 134.935  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  C   UNL     1       1.733  14.389 135.469  0.00  0.00    +0.000 C 
+ATOM     35 CL   UNL     1       1.309  15.994 136.096  0.00  0.00    +0.000 Cl
+ENDBRANCH  33  34
+ENDBRANCH  29  33
+ENDBRANCH  26  27
+ENDBRANCH  16  26
+TORSDOF 10
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -7.2      5.944      7.798
+REMARK  Name = Estramustine phosphate
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_5  and  O_6
+REMARK    2  A    between atoms: O_6  and  P_7
+REMARK    3  A    between atoms: P_7  and  O_8
+REMARK    4  A    between atoms: P_7  and  O_9
+REMARK    5  A    between atoms: C_11  and  C_12
+REMARK    6  A    between atoms: C_24  and  O_25
+REMARK    7  A    between atoms: O_25  and  C_26
+REMARK    8  A    between atoms: N_28  and  C_29
+REMARK    9  A    between atoms: N_28  and  C_32
+REMARK   10  A    between atoms: C_29  and  C_30
+REMARK   11  A    between atoms: C_32  and  C_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.096  -2.458 127.256  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -8.872  -3.567 126.549  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -9.389  -2.905 125.260  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -8.760  -1.504 125.229  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -7.503  -1.635 126.101  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -6.382  -2.349 125.300  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -6.954  -0.324 126.680  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -5.896  -0.587 127.736  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1      -6.397  -1.540 128.835  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1      -5.350  -1.861 129.875  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -5.380  -3.067 130.610  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      -6.384  -4.153 130.276  0.00  0.00    +0.000 C 
+ATOM     13  C   UNL     1      -7.562  -3.649 129.438  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1      -7.022  -2.836 128.264  0.00  0.00    +0.000 C 
+ATOM     15  C   UNL     1      -4.440  -3.262 131.642  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      -3.519  -2.247 131.944  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1      -3.489  -1.088 131.197  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1      -4.396  -0.892 130.184  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   4  19
+ATOM     19  O   UNL     1      -8.445  -1.105 123.906  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  P   UNL     1      -9.141   0.445 123.580  0.00  0.00    +0.000 P 
+ATOM     21  O   UNL     1      -9.764   1.833 123.289  0.00  0.00    +0.000 OA
+BRANCH  20  22
+ATOM     22  O   UNL     1     -10.138  -0.402 122.596  0.00  0.00    +0.000 OA
+ATOM     23  H   UNL     1     -10.623  -1.087 123.082  0.00  0.00    +0.000 HD
+ENDBRANCH  20  22
+BRANCH  20  24
+ATOM     24  O   UNL     1      -9.993   0.180 124.953  0.00  0.00    +0.000 OA
+ATOM     25  H   UNL     1     -10.280   0.998 125.386  0.00  0.00    +0.000 HD
+ENDBRANCH  20  24
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH  16  26
+ATOM     26  O   UNL     1      -2.637  -2.410 133.041  0.00  0.00    +0.000 OA
+BRANCH  26  27
+ATOM     27  C   UNL     1      -2.640  -3.475 133.960  0.00  0.00    +0.000 C 
+ATOM     28  O   UNL     1      -2.011  -4.523 133.817  0.00  0.00    +0.000 OA
+ATOM     29  N   UNL     1      -3.427  -3.279 135.093  0.00  0.00    +0.000 N 
+BRANCH  29  30
+ATOM     30  C   UNL     1      -4.207  -2.071 135.416  0.00  0.00    +0.000 C 
+BRANCH  30  31
+ATOM     31  C   UNL     1      -5.646  -2.012 134.928  0.00  0.00    +0.000 C 
+ATOM     32 CL   UNL     1      -5.949  -0.600 133.904  0.00  0.00    +0.000 Cl
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+BRANCH  29  33
+ATOM     33  C   UNL     1      -3.448  -4.421 136.028  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  C   UNL     1      -4.749  -5.211 136.088  0.00  0.00    +0.000 C 
+ATOM     35 CL   UNL     1      -5.352  -5.611 134.468  0.00  0.00    +0.000 Cl
+ENDBRANCH  33  34
+ENDBRANCH  29  33
+ENDBRANCH  26  27
+ENDBRANCH  16  26
+TORSDOF 10
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -7.2      6.797      9.780
+REMARK  Name = Estramustine phosphate
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_5  and  O_6
+REMARK    2  A    between atoms: O_6  and  P_7
+REMARK    3  A    between atoms: P_7  and  O_8
+REMARK    4  A    between atoms: P_7  and  O_9
+REMARK    5  A    between atoms: C_11  and  C_12
+REMARK    6  A    between atoms: C_24  and  O_25
+REMARK    7  A    between atoms: O_25  and  C_26
+REMARK    8  A    between atoms: N_28  and  C_29
+REMARK    9  A    between atoms: N_28  and  C_32
+REMARK   10  A    between atoms: C_29  and  C_30
+REMARK   11  A    between atoms: C_32  and  C_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -5.351  -4.058 131.019  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -5.987  -4.543 132.319  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -4.792  -4.806 133.251  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -3.552  -4.319 132.486  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -4.104  -3.292 131.487  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -4.396  -1.955 132.218  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -3.222  -3.015 130.261  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -3.971  -2.211 129.214  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1      -5.310  -2.863 128.829  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1      -6.103  -2.060 127.824  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -7.511  -2.149 127.750  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      -8.294  -2.943 128.776  0.00  0.00    +0.000 C 
+ATOM     13  C   UNL     1      -7.429  -3.937 129.558  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1      -6.180  -3.216 130.061  0.00  0.00    +0.000 C 
+ATOM     15  C   UNL     1      -8.185  -1.459 126.721  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      -7.448  -0.731 125.773  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1      -6.076  -0.636 125.881  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1      -5.411  -1.298 126.884  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   4  19
+ATOM     19  O   UNL     1      -2.595  -3.745 133.360  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  P   UNL     1      -2.469  -4.696 134.798  0.00  0.00    +0.000 P 
+ATOM     21  O   UNL     1      -2.357  -5.549 136.087  0.00  0.00    +0.000 OA
+BRANCH  20  22
+ATOM     22  O   UNL     1      -0.860  -4.603 134.512  0.00  0.00    +0.000 OA
+ATOM     23  H   UNL     1      -0.449  -5.481 134.491  0.00  0.00    +0.000 HD
+ENDBRANCH  20  22
+BRANCH  20  24
+ATOM     24  O   UNL     1      -2.587  -3.259 135.574  0.00  0.00    +0.000 OA
+ATOM     25  H   UNL     1      -1.923  -3.149 136.272  0.00  0.00    +0.000 HD
+ENDBRANCH  20  24
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH  16  26
+ATOM     26  O   UNL     1      -8.122  -0.116 124.690  0.00  0.00    +0.000 OA
+BRANCH  26  27
+ATOM     27  C   UNL     1      -7.522   0.564 123.615  0.00  0.00    +0.000 C 
+ATOM     28  O   UNL     1      -6.800   0.036 122.769  0.00  0.00    +0.000 OA
+ATOM     29  N   UNL     1      -7.793   1.929 123.550  0.00  0.00    +0.000 N 
+BRANCH  29  30
+ATOM     30  C   UNL     1      -8.659   2.691 124.467  0.00  0.00    +0.000 C 
+BRANCH  30  31
+ATOM     31  C   UNL     1      -7.985   3.652 125.434  0.00  0.00    +0.000 C 
+ATOM     32 CL   UNL     1      -6.442   3.024 126.036  0.00  0.00    +0.000 Cl
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+BRANCH  29  33
+ATOM     33  C   UNL     1      -7.125   2.634 122.438  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  C   UNL     1      -8.019   3.510 121.570  0.00  0.00    +0.000 C 
+ATOM     35 CL   UNL     1      -7.206   3.999 120.070  0.00  0.00    +0.000 Cl
+ENDBRANCH  33  34
+ENDBRANCH  29  33
+ENDBRANCH  26  27
+ENDBRANCH  16  26
+TORSDOF 10
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -7.1      6.608      8.283
+REMARK  Name = Estramustine phosphate
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_5  and  O_6
+REMARK    2  A    between atoms: O_6  and  P_7
+REMARK    3  A    between atoms: P_7  and  O_8
+REMARK    4  A    between atoms: P_7  and  O_9
+REMARK    5  A    between atoms: C_11  and  C_12
+REMARK    6  A    between atoms: C_24  and  O_25
+REMARK    7  A    between atoms: O_25  and  C_26
+REMARK    8  A    between atoms: N_28  and  C_29
+REMARK    9  A    between atoms: N_28  and  C_32
+REMARK   10  A    between atoms: C_29  and  C_30
+REMARK   11  A    between atoms: C_32  and  C_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -6.238  -2.544 127.216  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -5.652  -1.683 126.099  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -6.828  -1.464 125.133  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -8.054  -2.083 125.821  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -7.696  -2.070 127.314  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -7.880  -0.638 127.883  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -8.467  -3.065 128.192  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -7.854  -3.168 129.577  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1      -6.349  -3.486 129.523  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1      -5.699  -3.546 130.886  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -4.324  -3.274 131.063  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      -3.479  -2.766 129.912  0.00  0.00    +0.000 C 
+ATOM     13  C   UNL     1      -4.117  -3.008 128.542  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1      -5.569  -2.535 128.582  0.00  0.00    +0.000 C 
+ATOM     15  C   UNL     1      -3.752  -3.452 132.339  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      -4.544  -3.928 133.396  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1      -5.890  -4.162 133.208  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1      -6.458  -3.984 131.969  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   4  19
+ATOM     19  O   UNL     1      -9.231  -1.341 125.553  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  P   UNL     1      -8.929  -0.198 124.290  0.00  0.00    +0.000 P 
+ATOM     21  O   UNL     1      -8.657   0.827 123.160  0.00  0.00    +0.000 OA
+BRANCH  20  22
+ATOM     22  O   UNL     1      -9.839  -1.215 123.388  0.00  0.00    +0.000 OA
+ATOM     23  H   UNL     1      -9.942  -0.892 122.479  0.00  0.00    +0.000 HD
+ENDBRANCH  20  22
+BRANCH  20  24
+ATOM     24  O   UNL     1     -10.187   0.622 124.942  0.00  0.00    +0.000 OA
+ATOM     25  H   UNL     1     -11.042   0.195 124.783  0.00  0.00    +0.000 HD
+ENDBRANCH  20  24
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH  16  26
+ATOM     26  O   UNL     1      -3.944  -4.192 134.652  0.00  0.00    +0.000 OA
+BRANCH  26  27
+ATOM     27  C   UNL     1      -2.646  -4.689 134.867  0.00  0.00    +0.000 C 
+ATOM     28  O   UNL     1      -2.230  -5.766 134.440  0.00  0.00    +0.000 OA
+ATOM     29  N   UNL     1      -1.813  -3.866 135.622  0.00  0.00    +0.000 N 
+BRANCH  29  30
+ATOM     30  C   UNL     1      -2.157  -2.543 136.170  0.00  0.00    +0.000 C 
+BRANCH  30  31
+ATOM     31  C   UNL     1      -2.552  -1.455 135.184  0.00  0.00    +0.000 C 
+ATOM     32 CL   UNL     1      -1.338  -1.228 133.915  0.00  0.00    +0.000 Cl
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+BRANCH  29  33
+ATOM     33  C   UNL     1      -0.467  -4.420 135.869  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  C   UNL     1       0.676  -3.413 135.889  0.00  0.00    +0.000 C 
+ATOM     35 CL   UNL     1       1.439  -3.251 134.296  0.00  0.00    +0.000 Cl
+ENDBRANCH  33  34
+ENDBRANCH  29  33
+ENDBRANCH  26  27
+ENDBRANCH  16  26
+TORSDOF 10
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -7.1      5.522     10.986
+REMARK  Name = Estramustine phosphate
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_5  and  O_6
+REMARK    2  A    between atoms: O_6  and  P_7
+REMARK    3  A    between atoms: P_7  and  O_8
+REMARK    4  A    between atoms: P_7  and  O_9
+REMARK    5  A    between atoms: C_11  and  C_12
+REMARK    6  A    between atoms: C_24  and  O_25
+REMARK    7  A    between atoms: O_25  and  C_26
+REMARK    8  A    between atoms: N_28  and  C_29
+REMARK    9  A    between atoms: N_28  and  C_32
+REMARK   10  A    between atoms: C_29  and  C_30
+REMARK   11  A    between atoms: C_32  and  C_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -3.071   5.251 131.775  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -3.599   5.539 133.178  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -2.970   6.893 133.550  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -2.239   7.374 132.287  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -2.951   6.645 131.138  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -4.304   7.342 130.834  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -2.149   6.510 129.836  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -2.818   5.547 128.873  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1      -3.104   4.182 129.521  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1      -3.817   3.217 128.602  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -4.638   2.184 129.105  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      -4.955   2.095 130.584  0.00  0.00    +0.000 C 
+ATOM     13  C   UNL     1      -3.989   2.901 131.458  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1      -3.849   4.305 130.874  0.00  0.00    +0.000 C 
+ATOM     15  C   UNL     1      -5.188   1.249 128.204  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      -4.883   1.339 126.836  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1      -4.101   2.372 126.363  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1      -3.567   3.292 127.233  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   4  19
+ATOM     19  O   UNL     1      -2.315   8.781 132.147  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  P   UNL     1      -1.946   9.542 133.655  0.00  0.00    +0.000 P 
+ATOM     21  O   UNL     1      -1.618  10.224 135.007  0.00  0.00    +0.000 OA
+BRANCH  20  22
+ATOM     22  O   UNL     1      -0.402   9.459 133.122  0.00  0.00    +0.000 OA
+ATOM     23  H   UNL     1       0.092   8.753 133.566  0.00  0.00    +0.000 HD
+ENDBRANCH  20  22
+BRANCH  20  24
+ATOM     24  O   UNL     1      -2.321  10.930 132.871  0.00  0.00    +0.000 OA
+ATOM     25  H   UNL     1      -1.766  11.678 133.136  0.00  0.00    +0.000 HD
+ENDBRANCH  20  24
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH  16  26
+ATOM     26  O   UNL     1      -5.363   0.345 125.949  0.00  0.00    +0.000 OA
+BRANCH  26  27
+ATOM     27  C   UNL     1      -6.712   0.052 125.679  0.00  0.00    +0.000 C 
+ATOM     28  O   UNL     1      -7.623   0.880 125.684  0.00  0.00    +0.000 OA
+ATOM     29  N   UNL     1      -6.984  -1.285 125.393  0.00  0.00    +0.000 N 
+BRANCH  29  30
+ATOM     30  C   UNL     1      -5.999  -2.379 125.318  0.00  0.00    +0.000 C 
+BRANCH  30  31
+ATOM     31  C   UNL     1      -5.242  -2.555 124.011  0.00  0.00    +0.000 C 
+ATOM     32 CL   UNL     1      -4.681  -4.218 123.780  0.00  0.00    +0.000 Cl
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+BRANCH  29  33
+ATOM     33  C   UNL     1      -8.409  -1.581 125.149  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  C   UNL     1      -8.815  -1.756 123.691  0.00  0.00    +0.000 C 
+ATOM     35 CL   UNL     1      -9.550  -3.344 123.398  0.00  0.00    +0.000 Cl
+ENDBRANCH  33  34
+ENDBRANCH  29  33
+ENDBRANCH  26  27
+ENDBRANCH  16  26
+TORSDOF 10
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -7.1      7.121      9.070
+REMARK  Name = Estramustine phosphate
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_5  and  O_6
+REMARK    2  A    between atoms: O_6  and  P_7
+REMARK    3  A    between atoms: P_7  and  O_8
+REMARK    4  A    between atoms: P_7  and  O_9
+REMARK    5  A    between atoms: C_11  and  C_12
+REMARK    6  A    between atoms: C_24  and  O_25
+REMARK    7  A    between atoms: O_25  and  C_26
+REMARK    8  A    between atoms: N_28  and  C_29
+REMARK    9  A    between atoms: N_28  and  C_32
+REMARK   10  A    between atoms: C_29  and  C_30
+REMARK   11  A    between atoms: C_32  and  C_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -9.764   5.747 131.549  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1     -11.005   6.367 132.186  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1     -11.743   7.032 131.012  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1     -10.964   6.631 129.749  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1     -10.241   5.337 130.147  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1     -11.241   4.150 130.120  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -9.008   4.977 129.306  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -8.216   3.850 129.943  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1      -7.851   4.152 131.407  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1      -7.105   3.026 132.084  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -7.158   2.838 133.483  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      -8.087   3.672 134.343  0.00  0.00    +0.000 C 
+ATOM     13  C   UNL     1      -8.572   4.947 133.648  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1      -9.074   4.588 132.251  0.00  0.00    +0.000 C 
+ATOM     15  C   UNL     1      -6.354   1.839 134.069  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      -5.494   1.077 133.263  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1      -5.477   1.259 131.896  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1      -6.263   2.225 131.315  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   4  19
+ATOM     19  O   UNL     1     -11.829   6.436 128.645  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  P   UNL     1     -11.279   7.369 127.296  0.00  0.00    +0.000 P 
+ATOM     21  O   UNL     1     -10.784   8.204 126.089  0.00  0.00    +0.000 OA
+BRANCH  20  22
+ATOM     22  O   UNL     1     -12.424   6.538 126.475  0.00  0.00    +0.000 OA
+ATOM     23  H   UNL     1     -12.695   5.737 126.950  0.00  0.00    +0.000 HD
+ENDBRANCH  20  22
+BRANCH  20  24
+ATOM     24  O   UNL     1     -12.288   8.520 127.877  0.00  0.00    +0.000 OA
+ATOM     25  H   UNL     1     -11.832   9.194 128.403  0.00  0.00    +0.000 HD
+ENDBRANCH  20  24
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH  16  26
+ATOM     26  O   UNL     1      -4.622   0.138 133.867  0.00  0.00    +0.000 OA
+BRANCH  26  27
+ATOM     27  C   UNL     1      -4.960  -1.162 134.284  0.00  0.00    +0.000 C 
+ATOM     28  O   UNL     1      -5.713  -1.423 135.221  0.00  0.00    +0.000 OA
+ATOM     29  N   UNL     1      -4.371  -2.192 133.552  0.00  0.00    +0.000 N 
+BRANCH  29  30
+ATOM     30  C   UNL     1      -3.478  -2.036 132.390  0.00  0.00    +0.000 C 
+BRANCH  30  31
+ATOM     31  C   UNL     1      -4.121  -1.960 131.014  0.00  0.00    +0.000 C 
+ATOM     32 CL   UNL     1      -3.110  -2.695 129.760  0.00  0.00    +0.000 Cl
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+BRANCH  29  33
+ATOM     33  C   UNL     1      -4.706  -3.549 134.026  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  C   UNL     1      -5.861  -4.239 133.312  0.00  0.00    +0.000 C 
+ATOM     35 CL   UNL     1      -5.294  -5.246 131.965  0.00  0.00    +0.000 Cl
+ENDBRANCH  33  34
+ENDBRANCH  29  33
+ENDBRANCH  26  27
+ENDBRANCH  16  26
+TORSDOF 10
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -7.1      5.970      7.857
+REMARK  Name = Estramustine phosphate
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_5  and  O_6
+REMARK    2  A    between atoms: O_6  and  P_7
+REMARK    3  A    between atoms: P_7  and  O_8
+REMARK    4  A    between atoms: P_7  and  O_9
+REMARK    5  A    between atoms: C_11  and  C_12
+REMARK    6  A    between atoms: C_24  and  O_25
+REMARK    7  A    between atoms: O_25  and  C_26
+REMARK    8  A    between atoms: N_28  and  C_29
+REMARK    9  A    between atoms: N_28  and  C_32
+REMARK   10  A    between atoms: C_29  and  C_30
+REMARK   11  A    between atoms: C_32  and  C_33
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.715  -0.138 125.724  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -7.400  -0.723 124.350  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -7.179   0.507 123.454  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -7.233   1.722 124.393  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -6.875   1.149 125.772  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -5.342   0.923 125.863  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1      -7.336   1.978 126.978  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -7.183   1.201 128.273  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1      -7.878  -0.170 128.213  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1      -7.701  -0.989 129.470  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      -7.751  -2.401 129.448  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1      -7.838  -3.154 128.136  0.00  0.00    +0.000 C 
+ATOM     13  C   UNL     1      -8.298  -2.278 126.967  0.00  0.00    +0.000 C 
+ATOM     14  C   UNL     1      -7.478  -0.990 126.961  0.00  0.00    +0.000 C 
+ATOM     15  C   UNL     1      -7.688  -3.106 130.668  0.00  0.00    +0.000 A 
+ATOM     16  C   UNL     1      -7.613  -2.397 131.877  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     1      -7.538  -1.020 131.874  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     1      -7.591  -0.324 130.690  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   4  19
+ATOM     19  O   UNL     1      -6.325   2.732 123.989  0.00  0.00    +0.000 OA
+BRANCH  19  20
+ATOM     20  P   UNL     1      -6.762   3.320 122.423  0.00  0.00    +0.000 P 
+ATOM     21  O   UNL     1      -7.151   3.847 121.019  0.00  0.00    +0.000 OA
+BRANCH  20  22
+ATOM     22  O   UNL     1      -8.127   3.813 123.178  0.00  0.00    +0.000 OA
+ATOM     23  H   UNL     1      -8.549   3.087 123.663  0.00  0.00    +0.000 HD
+ENDBRANCH  20  22
+BRANCH  20  24
+ATOM     24  O   UNL     1      -5.861   4.625 122.832  0.00  0.00    +0.000 OA
+ATOM     25  H   UNL     1      -5.532   4.589 123.742  0.00  0.00    +0.000 HD
+ENDBRANCH  20  24
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH  16  26
+ATOM     26  O   UNL     1      -7.642  -3.106 133.103  0.00  0.00    +0.000 OA
+BRANCH  26  27
+ATOM     27  C   UNL     1      -6.849  -2.845 134.234  0.00  0.00    +0.000 C 
+ATOM     28  O   UNL     1      -7.019  -1.901 135.006  0.00  0.00    +0.000 OA
+ATOM     29  N   UNL     1      -5.808  -3.747 134.450  0.00  0.00    +0.000 N 
+BRANCH  29  30
+ATOM     30  C   UNL     1      -5.501  -4.936 133.636  0.00  0.00    +0.000 C 
+BRANCH  30  31
+ATOM     31  C   UNL     1      -4.715  -4.724 132.351  0.00  0.00    +0.000 C 
+ATOM     32 CL   UNL     1      -5.520  -5.441 130.947  0.00  0.00    +0.000 Cl
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+BRANCH  29  33
+ATOM     33  C   UNL     1      -4.962  -3.436 135.620  0.00  0.00    +0.000 C 
+BRANCH  33  34
+ATOM     34  C   UNL     1      -3.556  -2.939 135.313  0.00  0.00    +0.000 C 
+ATOM     35 CL   UNL     1      -3.559  -1.688 134.055  0.00  0.00    +0.000 Cl
+ENDBRANCH  33  34
+ENDBRANCH  29  33
+ENDBRANCH  26  27
+ENDBRANCH  16  26
+TORSDOF 10
+ENDMDL

@@ -1,0 +1,441 @@
+MODEL 1
+REMARK VINA RESULT:      -6.5      0.000      0.000
+REMARK  Name = Cladribine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: N_6  and  C1*_7
+REMARK    3  A    between atoms: C3*_9  and  O3*_10
+REMARK    4  A    between atoms: C4*_11  and  C5*_12
+REMARK    5  A    between atoms: C5*_12  and  O5*_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.410   5.941 133.107  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -9.546   6.150 132.305  0.00  0.00    +0.000 A 
+ATOM      3  N   UNL     1     -10.888   6.102 132.598  0.00  0.00    +0.000 NA
+ATOM      4  C   UNL     1     -11.488   6.390 131.464  0.00  0.00    +0.000 A 
+ATOM      5  N   UNL     1     -10.596   6.598 130.441  0.00  0.00    +0.000 N 
+ATOM      6  C   UNL     1      -9.335   6.456 130.965  0.00  0.00    +0.000 A 
+ATOM      7  N   UNL     1      -8.145   6.570 130.350  0.00  0.00    +0.000 NA
+ATOM      8  C   UNL     1      -7.137   6.358 131.231  0.00  0.00    +0.000 A 
+ATOM      9 CL   UNL     1      -5.555   6.480 130.586  0.00  0.00    +0.000 Cl
+ATOM     10  N   UNL     1      -7.191   6.055 132.546  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   5  11
+ATOM     11  C1* UNL     1     -10.955   6.866 129.063  0.00  0.00    +0.000 C 
+ATOM     12  C2* UNL     1     -12.321   6.321 128.658  0.00  0.00    +0.000 C 
+ATOM     13  C3* UNL     1     -12.761   7.289 127.584  0.00  0.00    +0.000 C 
+ATOM     14  C4* UNL     1     -12.153   8.616 128.039  0.00  0.00    +0.000 C 
+ATOM     15  O4* UNL     1     -11.006   8.295 128.857  0.00  0.00    +0.000 OA
+BRANCH  13  16
+ATOM     16  O3* UNL     1     -12.231   6.873 126.325  0.00  0.00    +0.000 OA
+ATOM     17  H3* UNL     1     -11.412   7.360 126.133  0.00  0.00    +0.000 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  C5* UNL     1     -13.137   9.462 128.856  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5* UNL     1     -12.781   9.497 130.232  0.00  0.00    +0.000 OA
+ATOM     20  H5* UNL     1     -12.416   8.627 130.474  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   5  11
+BRANCH   1  21
+ATOM     21  N   UNL     1      -8.509   5.619 134.442  0.00  0.00    +0.000 N 
+ATOM     22  H   UNL     1      -7.763   5.900 135.063  0.00  0.00    +0.000 HD
+ATOM     23  H   UNL     1      -9.294   5.073 134.761  0.00  0.00    +0.000 HD
+ENDBRANCH   1  21
+TORSDOF 5
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.4      2.093      2.162
+REMARK  Name = Cladribine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: N_6  and  C1*_7
+REMARK    3  A    between atoms: C3*_9  and  O3*_10
+REMARK    4  A    between atoms: C4*_11  and  C5*_12
+REMARK    5  A    between atoms: C5*_12  and  O5*_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -9.344   4.010 132.670  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -9.996   5.102 132.072  0.00  0.00    +0.000 A 
+ATOM      3  N   UNL     1     -10.523   6.252 132.609  0.00  0.00    +0.000 NA
+ATOM      4  C   UNL     1     -11.000   6.915 131.578  0.00  0.00    +0.000 A 
+ATOM      5  N   UNL     1     -10.828   6.234 130.398  0.00  0.00    +0.000 N 
+ATOM      6  C   UNL     1     -10.174   5.064 130.693  0.00  0.00    +0.000 A 
+ATOM      7  N   UNL     1      -9.786   4.079 129.865  0.00  0.00    +0.000 NA
+ATOM      8  C   UNL     1      -9.164   3.096 130.561  0.00  0.00    +0.000 A 
+ATOM      9 CL   UNL     1      -8.606   1.772 129.629  0.00  0.00    +0.000 Cl
+ATOM     10  N   UNL     1      -8.923   2.998 131.886  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   5  11
+ATOM     11  C1* UNL     1     -11.308   6.676 129.104  0.00  0.00    +0.000 C 
+ATOM     12  C2* UNL     1     -12.787   6.396 128.858  0.00  0.00    +0.000 C 
+ATOM     13  C3* UNL     1     -13.187   7.512 127.922  0.00  0.00    +0.000 C 
+ATOM     14  C4* UNL     1     -12.309   8.679 128.375  0.00  0.00    +0.000 C 
+ATOM     15  O4* UNL     1     -11.139   8.108 129.002  0.00  0.00    +0.000 OA
+BRANCH  13  16
+ATOM     16  O3* UNL     1     -12.900   7.129 126.576  0.00  0.00    +0.000 OA
+ATOM     17  H3* UNL     1     -12.176   6.480 126.564  0.00  0.00    +0.000 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  C5* UNL     1     -13.022   9.597 129.375  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5* UNL     1     -13.471  10.797 128.757  0.00  0.00    +0.000 OA
+ATOM     20  H5* UNL     1     -12.835  11.036 128.058  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   5  11
+BRANCH   1  21
+ATOM     21  N   UNL     1      -9.130   3.941 134.029  0.00  0.00    +0.000 N 
+ATOM     22  H   UNL     1      -9.892   3.644 134.623  0.00  0.00    +0.000 HD
+ATOM     23  H   UNL     1      -8.241   4.231 134.403  0.00  0.00    +0.000 HD
+ENDBRANCH   1  21
+TORSDOF 5
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.2      3.652      5.652
+REMARK  Name = Cladribine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: N_6  and  C1*_7
+REMARK    3  A    between atoms: C3*_9  and  O3*_10
+REMARK    4  A    between atoms: C4*_11  and  C5*_12
+REMARK    5  A    between atoms: C5*_12  and  O5*_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -12.307   8.585 129.457  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -11.838   7.490 130.203  0.00  0.00    +0.000 A 
+ATOM      3  N   UNL     1     -11.988   7.162 131.530  0.00  0.00    +0.000 NA
+ATOM      4  C   UNL     1     -11.343   6.025 131.668  0.00  0.00    +0.000 A 
+ATOM      5  N   UNL     1     -10.759   5.612 130.496  0.00  0.00    +0.000 N 
+ATOM      6  C   UNL     1     -11.073   6.541 129.534  0.00  0.00    +0.000 A 
+ATOM      7  N   UNL     1     -10.730   6.564 128.235  0.00  0.00    +0.000 NA
+ATOM      8  C   UNL     1     -11.251   7.658 127.630  0.00  0.00    +0.000 A 
+ATOM      9 CL   UNL     1     -10.900   7.815 125.960  0.00  0.00    +0.000 Cl
+ATOM     10  N   UNL     1     -12.003   8.653 128.146  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   5  11
+ATOM     11  C1* UNL     1      -9.927   4.435 130.349  0.00  0.00    +0.000 C 
+ATOM     12  C2* UNL     1      -8.430   4.715 130.431  0.00  0.00    +0.000 C 
+ATOM     13  C3* UNL     1      -7.880   3.424 130.989  0.00  0.00    +0.000 C 
+ATOM     14  C4* UNL     1      -8.999   2.934 131.909  0.00  0.00    +0.000 C 
+ATOM     15  O4* UNL     1     -10.230   3.507 131.414  0.00  0.00    +0.000 OA
+BRANCH  13  16
+ATOM     16  O3* UNL     1      -7.640   2.508 129.919  0.00  0.00    +0.000 OA
+ATOM     17  H3* UNL     1      -6.694   2.499 129.697  0.00  0.00    +0.000 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  C5* UNL     1      -8.791   3.363 133.366  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5* UNL     1     -10.003   3.814 133.958  0.00  0.00    +0.000 OA
+ATOM     20  H5* UNL     1     -10.142   4.742 133.696  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   5  11
+BRANCH   1  21
+ATOM     21  N   UNL     1     -13.060   9.588 130.025  0.00  0.00    +0.000 N 
+ATOM     22  H   UNL     1     -12.616  10.476 130.217  0.00  0.00    +0.000 HD
+ATOM     23  H   UNL     1     -14.017   9.402 130.280  0.00  0.00    +0.000 HD
+ENDBRANCH   1  21
+TORSDOF 5
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -6.2      9.343     10.309
+REMARK  Name = Cladribine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: N_6  and  C1*_7
+REMARK    3  A    between atoms: C3*_9  and  O3*_10
+REMARK    4  A    between atoms: C4*_11  and  C5*_12
+REMARK    5  A    between atoms: C5*_12  and  O5*_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.749  -2.829 123.644  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -8.733  -1.424 123.590  0.00  0.00    +0.000 A 
+ATOM      3  N   UNL     1      -9.737  -0.511 123.377  0.00  0.00    +0.000 NA
+ATOM      4  C   UNL     1      -9.143   0.660 123.442  0.00  0.00    +0.000 A 
+ATOM      5  N   UNL     1      -7.793   0.547 123.663  0.00  0.00    +0.000 N 
+ATOM      6  C   UNL     1      -7.507  -0.792 123.770  0.00  0.00    +0.000 A 
+ATOM      7  N   UNL     1      -6.324  -1.391 123.988  0.00  0.00    +0.000 NA
+ATOM      8  C   UNL     1      -6.478  -2.737 124.029  0.00  0.00    +0.000 A 
+ATOM      9 CL   UNL     1      -5.046  -3.635 124.311  0.00  0.00    +0.000 Cl
+ATOM     10  N   UNL     1      -7.592  -3.482 123.873  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   5  11
+ATOM     11  C1* UNL     1      -6.861   1.656 123.715  0.00  0.00    +0.000 C 
+ATOM     12  C2* UNL     1      -7.195   2.798 122.762  0.00  0.00    +0.000 C 
+ATOM     13  C3* UNL     1      -6.638   4.005 123.478  0.00  0.00    +0.000 C 
+ATOM     14  C4* UNL     1      -6.836   3.658 124.954  0.00  0.00    +0.000 C 
+ATOM     15  O4* UNL     1      -6.870   2.217 125.047  0.00  0.00    +0.000 OA
+BRANCH  13  16
+ATOM     16  O3* UNL     1      -5.254   4.151 123.154  0.00  0.00    +0.000 OA
+ATOM     17  H3* UNL     1      -5.161   4.470 122.240  0.00  0.00    +0.000 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  C5* UNL     1      -8.139   4.234 125.522  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5* UNL     1      -8.184   5.649 125.398  0.00  0.00    +0.000 OA
+ATOM     20  H5* UNL     1      -9.093   5.905 125.159  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   5  11
+BRANCH   1  21
+ATOM     21  N   UNL     1      -9.906  -3.554 123.465  0.00  0.00    +0.000 N 
+ATOM     22  H   UNL     1     -10.038  -4.044 122.591  0.00  0.00    +0.000 HD
+ATOM     23  H   UNL     1     -10.611  -3.542 124.184  0.00  0.00    +0.000 HD
+ENDBRANCH   1  21
+TORSDOF 5
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -6.2      8.790     10.247
+REMARK  Name = Cladribine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: N_6  and  C1*_7
+REMARK    3  A    between atoms: C3*_9  and  O3*_10
+REMARK    4  A    between atoms: C4*_11  and  C5*_12
+REMARK    5  A    between atoms: C5*_12  and  O5*_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -5.025   4.620 121.434  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -5.876   4.041 122.391  0.00  0.00    +0.000 A 
+ATOM      3  N   UNL     1      -5.697   3.778 123.728  0.00  0.00    +0.000 NA
+ATOM      4  C   UNL     1      -6.831   3.238 124.117  0.00  0.00    +0.000 A 
+ATOM      5  N   UNL     1      -7.729   3.115 123.087  0.00  0.00    +0.000 N 
+ATOM      6  C   UNL     1      -7.136   3.635 121.963  0.00  0.00    +0.000 A 
+ATOM      7  N   UNL     1      -7.627   3.737 120.716  0.00  0.00    +0.000 NA
+ATOM      8  C   UNL     1      -6.716   4.319 119.898  0.00  0.00    +0.000 A 
+ATOM      9 CL   UNL     1      -7.211   4.522 118.271  0.00  0.00    +0.000 Cl
+ATOM     10  N   UNL     1      -5.470   4.758 120.170  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   5  11
+ATOM     11  C1* UNL     1      -9.036   2.496 123.190  0.00  0.00    +0.000 C 
+ATOM     12  C2* UNL     1      -9.099   1.076 122.636  0.00  0.00    +0.000 C 
+ATOM     13  C3* UNL     1     -10.183   0.440 123.475  0.00  0.00    +0.000 C 
+ATOM     14  C4* UNL     1     -10.026   1.128 124.831  0.00  0.00    +0.000 C 
+ATOM     15  O4* UNL     1      -9.409   2.410 124.583  0.00  0.00    +0.000 OA
+BRANCH  13  16
+ATOM     16  O3* UNL     1     -11.457   0.715 122.890  0.00  0.00    +0.000 OA
+ATOM     17  H3* UNL     1     -12.147   0.697 123.576  0.00  0.00    +0.000 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  C5* UNL     1      -9.151   0.323 125.799  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5* UNL     1      -9.429  -1.069 125.723  0.00  0.00    +0.000 OA
+ATOM     20  H5* UNL     1      -9.498  -1.416 126.631  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   5  11
+BRANCH   1  21
+ATOM     21  N   UNL     1      -3.752   5.042 121.749  0.00  0.00    +0.000 N 
+ATOM     22  H   UNL     1      -3.535   6.026 121.665  0.00  0.00    +0.000 HD
+ATOM     23  H   UNL     1      -3.057   4.361 122.009  0.00  0.00    +0.000 HD
+ENDBRANCH   1  21
+TORSDOF 5
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -6.1      9.227     10.556
+REMARK  Name = Cladribine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: N_6  and  C1*_7
+REMARK    3  A    between atoms: C3*_9  and  O3*_10
+REMARK    4  A    between atoms: C4*_11  and  C5*_12
+REMARK    5  A    between atoms: C5*_12  and  O5*_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -6.326   3.183 124.008  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -6.707   1.941 124.548  0.00  0.00    +0.000 A 
+ATOM      3  N   UNL     1      -6.212   1.219 125.607  0.00  0.00    +0.000 NA
+ATOM      4  C   UNL     1      -6.961   0.140 125.655  0.00  0.00    +0.000 A 
+ATOM      5  N   UNL     1      -7.905   0.117 124.658  0.00  0.00    +0.000 N 
+ATOM      6  C   UNL     1      -7.764   1.276 123.935  0.00  0.00    +0.000 A 
+ATOM      7  N   UNL     1      -8.463   1.699 122.869  0.00  0.00    +0.000 NA
+ATOM      8  C   UNL     1      -8.006   2.906 122.455  0.00  0.00    +0.000 A 
+ATOM      9 CL   UNL     1      -8.814   3.575 121.101  0.00  0.00    +0.000 Cl
+ATOM     10  N   UNL     1      -7.001   3.662 122.945  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   5  11
+ATOM     11  C1* UNL     1      -8.830  -0.971 124.411  0.00  0.00    +0.000 C 
+ATOM     12  C2* UNL     1      -8.181  -2.221 123.825  0.00  0.00    +0.000 C 
+ATOM     13  C3* UNL     1      -9.064  -3.330 124.345  0.00  0.00    +0.000 C 
+ATOM     14  C4* UNL     1      -9.508  -2.813 125.713  0.00  0.00    +0.000 C 
+ATOM     15  O4* UNL     1      -9.433  -1.371 125.662  0.00  0.00    +0.000 OA
+BRANCH  13  16
+ATOM     16  O3* UNL     1     -10.175  -3.505 123.463  0.00  0.00    +0.000 OA
+ATOM     17  H3* UNL     1     -10.116  -4.370 123.024  0.00  0.00    +0.000 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  C5* UNL     1      -8.617  -3.326 126.851  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5* UNL     1      -9.346  -4.142 127.759  0.00  0.00    +0.000 OA
+ATOM     20  H5* UNL     1      -9.868  -4.782 127.242  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   5  11
+BRANCH   1  21
+ATOM     21  N   UNL     1      -5.284   3.917 124.529  0.00  0.00    +0.000 N 
+ATOM     22  H   UNL     1      -4.663   3.472 125.191  0.00  0.00    +0.000 HD
+ATOM     23  H   UNL     1      -5.191   4.888 124.277  0.00  0.00    +0.000 HD
+ENDBRANCH   1  21
+TORSDOF 5
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -6.1      3.329      5.318
+REMARK  Name = Cladribine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: N_6  and  C1*_7
+REMARK    3  A    between atoms: C3*_9  and  O3*_10
+REMARK    4  A    between atoms: C4*_11  and  C5*_12
+REMARK    5  A    between atoms: C5*_12  and  O5*_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -12.294   8.762 128.798  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1     -12.205   7.896 129.902  0.00  0.00    +0.000 A 
+ATOM      3  N   UNL     1     -12.758   7.964 131.159  0.00  0.00    +0.000 NA
+ATOM      4  C   UNL     1     -12.340   6.876 131.767  0.00  0.00    +0.000 A 
+ATOM      5  N   UNL     1     -11.520   6.117 130.970  0.00  0.00    +0.000 N 
+ATOM      6  C   UNL     1     -11.425   6.754 129.757  0.00  0.00    +0.000 A 
+ATOM      7  N   UNL     1     -10.738   6.390 128.661  0.00  0.00    +0.000 NA
+ATOM      8  C   UNL     1     -10.916   7.299 127.671  0.00  0.00    +0.000 A 
+ATOM      9 CL   UNL     1     -10.101   6.959 126.203  0.00  0.00    +0.000 Cl
+ATOM     10  N   UNL     1     -11.635   8.441 127.668  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   5  11
+ATOM     11  C1* UNL     1     -10.852   4.899 131.382  0.00  0.00    +0.000 C 
+ATOM     12  C2* UNL     1     -11.000   3.742 130.400  0.00  0.00    +0.000 C 
+ATOM     13  C3* UNL     1      -9.728   2.957 130.615  0.00  0.00    +0.000 C 
+ATOM     14  C4* UNL     1      -8.702   4.038 130.955  0.00  0.00    +0.000 C 
+ATOM     15  O4* UNL     1      -9.435   5.156 131.503  0.00  0.00    +0.000 OA
+BRANCH  13  16
+ATOM     16  O3* UNL     1      -9.911   2.046 131.700  0.00  0.00    +0.000 OA
+ATOM     17  H3* UNL     1      -9.519   1.184 131.479  0.00  0.00    +0.000 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  C5* UNL     1      -7.911   4.504 129.726  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5* UNL     1      -7.953   5.917 129.582  0.00  0.00    +0.000 OA
+ATOM     20  H5* UNL     1      -8.350   6.123 128.716  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   5  11
+BRANCH   1  21
+ATOM     21  N   UNL     1     -13.027   9.927 128.841  0.00  0.00    +0.000 N 
+ATOM     22  H   UNL     1     -14.035   9.863 128.868  0.00  0.00    +0.000 HD
+ATOM     23  H   UNL     1     -12.548  10.813 128.797  0.00  0.00    +0.000 HD
+ENDBRANCH   1  21
+TORSDOF 5
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -6.1      8.590      9.452
+REMARK  Name = Cladribine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: N_6  and  C1*_7
+REMARK    3  A    between atoms: C3*_9  and  O3*_10
+REMARK    4  A    between atoms: C4*_11  and  C5*_12
+REMARK    5  A    between atoms: C5*_12  and  O5*_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.372  -2.860 127.279  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -8.184  -1.466 127.278  0.00  0.00    +0.000 A 
+ATOM      3  N   UNL     1      -7.748  -0.606 128.257  0.00  0.00    +0.000 NA
+ATOM      4  C   UNL     1      -7.764   0.580 127.691  0.00  0.00    +0.000 A 
+ATOM      5  N   UNL     1      -8.214   0.532 126.395  0.00  0.00    +0.000 N 
+ATOM      6  C   UNL     1      -8.484  -0.782 126.105  0.00  0.00    +0.000 A 
+ATOM      7  N   UNL     1      -8.943  -1.320 124.962  0.00  0.00    +0.000 NA
+ATOM      8  C   UNL     1      -9.069  -2.663 125.092  0.00  0.00    +0.000 A 
+ATOM      9 CL   UNL     1      -9.640  -3.488 123.702  0.00  0.00    +0.000 Cl
+ATOM     10  N   UNL     1      -8.819  -3.454 126.156  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   5  11
+ATOM     11  C1* UNL     1      -8.407   1.684 125.537  0.00  0.00    +0.000 C 
+ATOM     12  C2* UNL     1      -7.430   1.762 124.368  0.00  0.00    +0.000 C 
+ATOM     13  C3* UNL     1      -8.231   2.487 123.312  0.00  0.00    +0.000 C 
+ATOM     14  C4* UNL     1      -9.662   2.014 123.571  0.00  0.00    +0.000 C 
+ATOM     15  O4* UNL     1      -9.732   1.628 124.962  0.00  0.00    +0.000 OA
+BRANCH  13  16
+ATOM     16  O3* UNL     1      -8.100   3.897 123.503  0.00  0.00    +0.000 OA
+ATOM     17  H3* UNL     1      -7.823   4.083 124.416  0.00  0.00    +0.000 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  C5* UNL     1     -10.053   0.820 122.693  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5* UNL     1     -11.453   0.572 122.739  0.00  0.00    +0.000 OA
+ATOM     20  H5* UNL     1     -11.651   0.102 123.569  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   5  11
+BRANCH   1  21
+ATOM     21  N   UNL     1      -8.119  -3.630 128.393  0.00  0.00    +0.000 N 
+ATOM     22  H   UNL     1      -8.762  -3.580 129.171  0.00  0.00    +0.000 HD
+ATOM     23  H   UNL     1      -7.279  -4.186 128.427  0.00  0.00    +0.000 HD
+ENDBRANCH   1  21
+TORSDOF 5
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -5.9      9.002     10.693
+REMARK  Name = Cladribine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: N_6  and  C1*_7
+REMARK    3  A    between atoms: C3*_9  and  O3*_10
+REMARK    4  A    between atoms: C4*_11  and  C5*_12
+REMARK    5  A    between atoms: C5*_12  and  O5*_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -6.482   4.601 119.653  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -6.567   4.040 120.939  0.00  0.00    +0.000 A 
+ATOM      3  N   UNL     1      -5.611   3.822 121.902  0.00  0.00    +0.000 NA
+ATOM      4  C   UNL     1      -6.264   3.277 122.904  0.00  0.00    +0.000 A 
+ATOM      5  N   UNL     1      -7.597   3.108 122.626  0.00  0.00    +0.000 N 
+ATOM      6  C   UNL     1      -7.817   3.602 121.364  0.00  0.00    +0.000 A 
+ATOM      7  N   UNL     1      -8.963   3.657 120.663  0.00  0.00    +0.000 NA
+ATOM      8  C   UNL     1      -8.748   4.227 119.453  0.00  0.00    +0.000 A 
+ATOM      9 CL   UNL     1     -10.129   4.371 118.450  0.00  0.00    +0.000 Cl
+ATOM     10  N   UNL     1      -7.603   4.693 118.910  0.00  0.00    +0.000 NA
+ENDROOT
+BRANCH   5  11
+ATOM     11  C1* UNL     1      -8.558   2.474 123.506  0.00  0.00    +0.000 C 
+ATOM     12  C2* UNL     1      -8.390   0.963 123.628  0.00  0.00    +0.000 C 
+ATOM     13  C3* UNL     1      -8.901   0.682 125.022  0.00  0.00    +0.000 C 
+ATOM     14  C4* UNL     1      -8.509   1.939 125.799  0.00  0.00    +0.000 C 
+ATOM     15  O4* UNL     1      -8.406   3.013 124.838  0.00  0.00    +0.000 OA
+BRANCH  13  16
+ATOM     16  O3* UNL     1     -10.319   0.511 124.981  0.00  0.00    +0.000 OA
+ATOM     17  H3* UNL     1     -10.745   1.134 125.593  0.00  0.00    +0.000 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  C5* UNL     1      -7.169   1.783 126.529  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5* UNL     1      -6.433   2.999 126.538  0.00  0.00    +0.000 OA
+ATOM     20  H5* UNL     1      -6.925   3.649 127.071  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   5  11
+BRANCH   1  21
+ATOM     21  N   UNL     1      -5.291   5.053 119.130  0.00  0.00    +0.000 N 
+ATOM     22  H   UNL     1      -5.258   5.982 118.735  0.00  0.00    +0.000 HD
+ATOM     23  H   UNL     1      -4.496   4.434 119.110  0.00  0.00    +0.000 HD
+ENDBRANCH   1  21
+TORSDOF 5
+ENDMDL

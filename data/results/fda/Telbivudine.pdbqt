@@ -1,0 +1,396 @@
+MODEL 1
+REMARK VINA RESULT:      -7.5      0.000      0.000
+REMARK  Name = Telbivudine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5M_1  and  C5_2
+REMARK    2  A    between atoms: N1_4  and  C1*_5
+REMARK    3  A    between atoms: C3*_7  and  O3*_8
+REMARK    4  A    between atoms: C4*_9  and  C5*_10
+REMARK    5  A    between atoms: C5*_10  and  O5*_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C5M   T A   1      -6.941   6.722 131.409  0.00  0.00    +0.000 C 
+ATOM      2  C5    T A   1      -8.417   6.502 131.495  0.00  0.00    +0.000 A 
+ATOM      3  C6    T A   1      -9.287   6.829 130.529  0.00  0.00    +0.000 A 
+ATOM      4  N1    T A   1     -10.664   6.825 130.706  0.00  0.00    +0.000 N 
+ATOM      5  C2    T A   1     -11.204   6.368 131.912  0.00  0.00    +0.000 A 
+ATOM      6  O2    T A   1     -12.376   6.505 132.250  0.00  0.00    +0.000 OA
+ATOM      7  N3    T A   1     -10.314   5.773 132.775  0.00  0.00    +0.000 N 
+ATOM      8  C4    T A   1      -8.963   5.941 132.744  0.00  0.00    +0.000 A 
+ATOM      9  O4    T A   1      -8.239   5.645 133.698  0.00  0.00    +0.000 OA
+ATOM     10  H3    T A   1     -10.698   5.451 133.650  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   4  11
+ATOM     11  C1*   T A   1     -11.474   7.781 129.939  0.00  0.00    +0.000 C 
+ATOM     12  C2*   T A   1     -12.752   7.396 129.185  0.00  0.00    +0.000 C 
+ATOM     13  C3*   T A   1     -12.714   8.400 128.032  0.00  0.00    +0.000 C 
+ATOM     14  C4*   T A   1     -11.238   8.422 127.673  0.00  0.00    +0.000 C 
+ATOM     15  O4*   T A   1     -10.582   8.373 128.958  0.00  0.00    +0.000 OA
+BRANCH  13  16
+ATOM     16  O3*   T A   1     -13.119   9.699 128.485  0.00  0.00    +0.000 OA
+ATOM     17  H3*   T A   1     -12.828   9.813 129.408  0.00  0.00    +0.000 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  C5*   T A   1     -10.804   7.270 126.736  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5*   T A   1     -11.877   6.738 125.960  0.00  0.00    +0.000 OA
+ATOM     20  H5*   T A   1     -11.508   6.056 125.369  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   4  11
+TORSDOF 4
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.8      8.213     10.412
+REMARK  Name = Telbivudine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5M_1  and  C5_2
+REMARK    2  A    between atoms: N1_4  and  C1*_5
+REMARK    3  A    between atoms: C3*_7  and  O3*_8
+REMARK    4  A    between atoms: C4*_9  and  C5*_10
+REMARK    5  A    between atoms: C5*_10  and  O5*_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C5M   T A   1      -7.610   4.368 118.873  0.00  0.00    +0.000 C 
+ATOM      2  C5    T A   1      -6.818   4.181 120.128  0.00  0.00    +0.000 A 
+ATOM      3  C6    T A   1      -7.209   3.424 121.162  0.00  0.00    +0.000 A 
+ATOM      4  N1    T A   1      -6.579   3.432 122.399  0.00  0.00    +0.000 N 
+ATOM      5  C2    T A   1      -5.415   4.187 122.575  0.00  0.00    +0.000 A 
+ATOM      6  O2    T A   1      -4.894   4.426 123.661  0.00  0.00    +0.000 OA
+ATOM      7  N3    T A   1      -4.875   4.724 121.431  0.00  0.00    +0.000 N 
+ATOM      8  C4    T A   1      -5.550   4.920 120.265  0.00  0.00    +0.000 A 
+ATOM      9  O4    T A   1      -5.131   5.667 119.377  0.00  0.00    +0.000 OA
+ATOM     10  H3    T A   1      -4.042   5.277 121.555  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   4  11
+ATOM     11  C1*   T A   1      -7.383   3.166 123.599  0.00  0.00    +0.000 C 
+ATOM     12  C2*   T A   1      -7.184   1.939 124.497  0.00  0.00    +0.000 C 
+ATOM     13  C3*   T A   1      -8.612   1.726 125.005  0.00  0.00    +0.000 C 
+ATOM     14  C4*   T A   1      -9.440   2.007 123.764  0.00  0.00    +0.000 C 
+ATOM     15  O4*   T A   1      -8.767   3.134 123.162  0.00  0.00    +0.000 OA
+BRANCH  13  16
+ATOM     16  O3*   T A   1      -8.929   2.684 126.024  0.00  0.00    +0.000 OA
+ATOM     17  H3*   T A   1      -9.223   2.206 126.822  0.00  0.00    +0.000 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  C5*   T A   1      -9.560   0.800 122.804  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5*   T A   1     -10.909   0.406 122.556  0.00  0.00    +0.000 OA
+ATOM     20  H5*   T A   1     -11.492   1.011 123.050  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   4  11
+TORSDOF 4
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.5      2.407      5.025
+REMARK  Name = Telbivudine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5M_1  and  C5_2
+REMARK    2  A    between atoms: N1_4  and  C1*_5
+REMARK    3  A    between atoms: C3*_7  and  O3*_8
+REMARK    4  A    between atoms: C4*_9  and  C5*_10
+REMARK    5  A    between atoms: C5*_10  and  O5*_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C5M   T A   1     -11.074   7.958 126.833  0.00  0.00    +0.000 C 
+ATOM      2  C5    T A   1     -11.367   7.755 128.285  0.00  0.00    +0.000 A 
+ATOM      3  C6    T A   1     -10.715   6.889 129.073  0.00  0.00    +0.000 A 
+ATOM      4  N1    T A   1     -11.137   6.551 130.352  0.00  0.00    +0.000 N 
+ATOM      5  C2    T A   1     -12.240   7.205 130.910  0.00  0.00    +0.000 A 
+ATOM      6  O2    T A   1     -12.816   6.853 131.937  0.00  0.00    +0.000 OA
+ATOM      7  N3    T A   1     -12.715   8.283 130.202  0.00  0.00    +0.000 N 
+ATOM      8  C4    T A   1     -12.482   8.514 128.880  0.00  0.00    +0.000 A 
+ATOM      9  O4    T A   1     -13.158   9.306 128.219  0.00  0.00    +0.000 OA
+ATOM     10  H3    T A   1     -13.516   8.750 130.596  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   4  11
+ATOM     11  C1*   T A   1     -10.842   5.204 130.857  0.00  0.00    +0.000 C 
+ATOM     12  C2*   T A   1      -9.728   4.903 131.867  0.00  0.00    +0.000 C 
+ATOM     13  C3*   T A   1      -9.340   3.484 131.446  0.00  0.00    +0.000 C 
+ATOM     14  C4*   T A   1      -9.400   3.571 129.931  0.00  0.00    +0.000 C 
+ATOM     15  O4*   T A   1     -10.568   4.385 129.690  0.00  0.00    +0.000 OA
+BRANCH  13  16
+ATOM     16  O3*   T A   1     -10.311   2.539 131.914  0.00  0.00    +0.000 OA
+ATOM     17  H3*   T A   1     -10.009   2.175 132.767  0.00  0.00    +0.000 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  C5*   T A   1      -8.121   4.155 129.286  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5*   T A   1      -8.346   4.714 127.992  0.00  0.00    +0.000 OA
+ATOM     20  H5*   T A   1      -9.003   4.157 127.536  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   4  11
+TORSDOF 4
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -6.3      7.558     10.272
+REMARK  Name = Telbivudine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5M_1  and  C5_2
+REMARK    2  A    between atoms: N1_4  and  C1*_5
+REMARK    3  A    between atoms: C3*_7  and  O3*_8
+REMARK    4  A    between atoms: C4*_9  and  C5*_10
+REMARK    5  A    between atoms: C5*_10  and  O5*_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C5M   T A   1      -9.014   3.458 120.870  0.00  0.00    +0.000 C 
+ATOM      2  C5    T A   1      -7.556   3.685 121.114  0.00  0.00    +0.000 A 
+ATOM      3  C6    T A   1      -6.934   3.423 122.272  0.00  0.00    +0.000 A 
+ATOM      4  N1    T A   1      -5.641   3.840 122.558  0.00  0.00    +0.000 N 
+ATOM      5  C2    T A   1      -4.889   4.484 121.570  0.00  0.00    +0.000 A 
+ATOM      6  O2    T A   1      -3.826   5.065 121.768  0.00  0.00    +0.000 OA
+ATOM      7  N3    T A   1      -5.439   4.487 120.311  0.00  0.00    +0.000 N 
+ATOM      8  C4    T A   1      -6.758   4.290 120.032  0.00  0.00    +0.000 A 
+ATOM      9  O4    T A   1      -7.256   4.596 118.946  0.00  0.00    +0.000 OA
+ATOM     10  H3    T A   1      -4.905   4.959 119.598  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   4  11
+ATOM     11  C1*   T A   1      -5.289   4.134 123.953  0.00  0.00    +0.000 C 
+ATOM     12  C2*   T A   1      -5.449   3.126 125.098  0.00  0.00    +0.000 C 
+ATOM     13  C3*   T A   1      -5.729   4.069 126.269  0.00  0.00    +0.000 C 
+ATOM     14  C4*   T A   1      -6.642   5.106 125.636  0.00  0.00    +0.000 C 
+ATOM     15  O4*   T A   1      -6.062   5.304 124.328  0.00  0.00    +0.000 OA
+BRANCH  13  16
+ATOM     16  O3*   T A   1      -4.517   4.697 126.708  0.00  0.00    +0.000 OA
+ATOM     17  H3*   T A   1      -4.452   4.608 127.677  0.00  0.00    +0.000 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  C5*   T A   1      -8.127   4.678 125.573  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5*   T A   1      -9.028   5.703 125.990  0.00  0.00    +0.000 OA
+ATOM     20  H5*   T A   1      -9.702   5.810 125.294  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   4  11
+TORSDOF 4
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.9      1.950      2.487
+REMARK  Name = Telbivudine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5M_1  and  C5_2
+REMARK    2  A    between atoms: N1_4  and  C1*_5
+REMARK    3  A    between atoms: C3*_7  and  O3*_8
+REMARK    4  A    between atoms: C4*_9  and  C5*_10
+REMARK    5  A    between atoms: C5*_10  and  O5*_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C5M   T A   1     -10.504   2.803 130.659  0.00  0.00    +0.000 C 
+ATOM      2  C5    T A   1      -9.919   4.175 130.764  0.00  0.00    +0.000 A 
+ATOM      3  C6    T A   1     -10.639   5.305 130.761  0.00  0.00    +0.000 A 
+ATOM      4  N1    T A   1     -10.079   6.570 130.638  0.00  0.00    +0.000 N 
+ATOM      5  C2    T A   1      -8.687   6.708 130.610  0.00  0.00    +0.000 A 
+ATOM      6  O2    T A   1      -8.093   7.739 130.307  0.00  0.00    +0.000 OA
+ATOM      7  N3    T A   1      -7.970   5.572 130.900  0.00  0.00    +0.000 N 
+ATOM      8  C4    T A   1      -8.451   4.301 130.818  0.00  0.00    +0.000 A 
+ATOM      9  O4    T A   1      -7.710   3.315 130.789  0.00  0.00    +0.000 OA
+ATOM     10  H3    T A   1      -6.967   5.665 130.872  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   4  11
+ATOM     11  C1*   T A   1     -10.861   7.624 129.980  0.00  0.00    +0.000 C 
+ATOM     12  C2*   T A   1     -12.265   7.402 129.404  0.00  0.00    +0.000 C 
+ATOM     13  C3*   T A   1     -12.259   8.406 128.250  0.00  0.00    +0.000 C 
+ATOM     14  C4*   T A   1     -10.853   8.253 127.697  0.00  0.00    +0.000 C 
+ATOM     15  O4*   T A   1     -10.043   8.113 128.884  0.00  0.00    +0.000 OA
+BRANCH  13  16
+ATOM     16  O3*   T A   1     -12.441   9.740 128.743  0.00  0.00    +0.000 OA
+ATOM     17  H3*   T A   1     -11.568  10.114 128.962  0.00  0.00    +0.000 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  C5*   T A   1     -10.689   7.066 126.720  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5*   T A   1     -11.899   6.714 126.050  0.00  0.00    +0.000 OA
+ATOM     20  H5*   T A   1     -12.517   6.360 126.716  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   4  11
+TORSDOF 4
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -5.8      1.979      2.254
+REMARK  Name = Telbivudine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5M_1  and  C5_2
+REMARK    2  A    between atoms: N1_4  and  C1*_5
+REMARK    3  A    between atoms: C3*_7  and  O3*_8
+REMARK    4  A    between atoms: C4*_9  and  C5*_10
+REMARK    5  A    between atoms: C5*_10  and  O5*_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C5M   T A   1      -8.257   4.886 134.338  0.00  0.00    +0.000 C 
+ATOM      2  C5    T A   1      -8.962   4.785 133.023  0.00  0.00    +0.000 A 
+ATOM      3  C6    T A   1      -9.312   5.838 132.272  0.00  0.00    +0.000 A 
+ATOM      4  N1    T A   1     -10.154   5.748 131.171  0.00  0.00    +0.000 N 
+ATOM      5  C2    T A   1     -10.597   4.492 130.744  0.00  0.00    +0.000 A 
+ATOM      6  O2    T A   1     -11.489   4.309 129.920  0.00  0.00    +0.000 OA
+ATOM      7  N3    T A   1     -10.001   3.412 131.349  0.00  0.00    +0.000 N 
+ATOM      8  C4    T A   1      -9.350   3.446 132.545  0.00  0.00    +0.000 A 
+ATOM      9  O4    T A   1      -9.100   2.425 133.190  0.00  0.00    +0.000 OA
+ATOM     10  H3    T A   1     -10.325   2.506 131.051  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   4  11
+ATOM     11  C1*   T A   1     -11.006   6.897 130.841  0.00  0.00    +0.000 C 
+ATOM     12  C2*   T A   1     -12.429   6.765 130.286  0.00  0.00    +0.000 C 
+ATOM     13  C3*   T A   1     -12.519   8.031 129.432  0.00  0.00    +0.000 C 
+ATOM     14  C4*   T A   1     -11.138   8.092 128.802  0.00  0.00    +0.000 C 
+ATOM     15  O4*   T A   1     -10.263   7.690 129.878  0.00  0.00    +0.000 OA
+BRANCH  13  16
+ATOM     16  O3*   T A   1     -12.722   9.182 130.262  0.00  0.00    +0.000 OA
+ATOM     17  H3*   T A   1     -12.224   9.062 131.091  0.00  0.00    +0.000 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  C5*   T A   1     -10.982   7.206 127.544  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5*   T A   1      -9.818   6.381 127.574  0.00  0.00    +0.000 OA
+ATOM     20  H5*   T A   1      -9.230   6.668 126.852  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   4  11
+TORSDOF 4
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -5.7      8.971     10.205
+REMARK  Name = Telbivudine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5M_1  and  C5_2
+REMARK    2  A    between atoms: N1_4  and  C1*_5
+REMARK    3  A    between atoms: C3*_7  and  O3*_8
+REMARK    4  A    between atoms: C4*_9  and  C5*_10
+REMARK    5  A    between atoms: C5*_10  and  O5*_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C5M   T A   1      -5.072  -2.614 123.265  0.00  0.00    +0.000 C 
+ATOM      2  C5    T A   1      -6.450  -2.208 123.681  0.00  0.00    +0.000 A 
+ATOM      3  C6    T A   1      -6.929  -0.960 123.590  0.00  0.00    +0.000 A 
+ATOM      4  N1    T A   1      -8.119  -0.552 124.177  0.00  0.00    +0.000 N 
+ATOM      5  C2    T A   1      -8.928  -1.493 124.821  0.00  0.00    +0.000 A 
+ATOM      6  O2    T A   1      -9.887  -1.217 125.538  0.00  0.00    +0.000 OA
+ATOM      7  N3    T A   1      -8.562  -2.807 124.655  0.00  0.00    +0.000 N 
+ATOM      8  C4    T A   1      -7.323  -3.232 124.283  0.00  0.00    +0.000 A 
+ATOM      9  O4    T A   1      -6.951  -4.398 124.437  0.00  0.00    +0.000 OA
+ATOM     10  H3    T A   1      -9.137  -3.487 125.126  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   4  11
+ATOM     11  C1*   T A   1      -8.240   0.842 124.626  0.00  0.00    +0.000 C 
+ATOM     12  C2*   T A   1      -9.201   1.855 123.992  0.00  0.00    +0.000 C 
+ATOM     13  C3*   T A   1      -8.424   3.155 124.207  0.00  0.00    +0.000 C 
+ATOM     14  C4*   T A   1      -6.995   2.727 123.917  0.00  0.00    +0.000 C 
+ATOM     15  O4*   T A   1      -6.911   1.418 124.522  0.00  0.00    +0.000 OA
+BRANCH  13  16
+ATOM     16  O3*   T A   1      -8.532   3.585 125.570  0.00  0.00    +0.000 OA
+ATOM     17  H3*   T A   1      -8.258   2.852 126.152  0.00  0.00    +0.000 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  C5*   T A   1      -6.637   2.714 122.413  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5*   T A   1      -6.930   3.944 121.752  0.00  0.00    +0.000 OA
+ATOM     20  H5*   T A   1      -7.871   3.931 121.498  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   4  11
+TORSDOF 4
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -5.7      8.373      9.395
+REMARK  Name = Telbivudine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5M_1  and  C5_2
+REMARK    2  A    between atoms: N1_4  and  C1*_5
+REMARK    3  A    between atoms: C3*_7  and  O3*_8
+REMARK    4  A    between atoms: C4*_9  and  C5*_10
+REMARK    5  A    between atoms: C5*_10  and  O5*_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C5M   T A   1      -7.600  -0.160 129.177  0.00  0.00    +0.000 C 
+ATOM      2  C5    T A   1      -7.828  -1.020 127.976  0.00  0.00    +0.000 A 
+ATOM      3  C6    T A   1      -8.034  -0.550 126.738  0.00  0.00    +0.000 A 
+ATOM      4  N1    T A   1      -8.460  -1.340 125.679  0.00  0.00    +0.000 N 
+ATOM      5  C2    T A   1      -8.597  -2.720 125.860  0.00  0.00    +0.000 A 
+ATOM      6  O2    T A   1      -9.149  -3.478 125.067  0.00  0.00    +0.000 OA
+ATOM      7  N3    T A   1      -8.109  -3.217 127.045  0.00  0.00    +0.000 N 
+ATOM      8  C4    T A   1      -7.887  -2.480 128.170  0.00  0.00    +0.000 A 
+ATOM      9  O4    T A   1      -7.744  -2.998 129.280  0.00  0.00    +0.000 OA
+ATOM     10  H3    T A   1      -8.215  -4.209 127.184  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   4  11
+ATOM     11  C1*   T A   1      -9.285  -0.726 124.631  0.00  0.00    +0.000 C 
+ATOM     12  C2*   T A   1      -8.728  -0.257 123.281  0.00  0.00    +0.000 C 
+ATOM     13  C3*   T A   1      -9.670   0.909 122.976  0.00  0.00    +0.000 C 
+ATOM     14  C4*   T A   1      -9.829   1.559 124.339  0.00  0.00    +0.000 C 
+ATOM     15  O4*   T A   1      -9.916   0.432 125.237  0.00  0.00    +0.000 OA
+BRANCH  13  16
+ATOM     16  O3*   T A   1     -10.940   0.422 122.522  0.00  0.00    +0.000 OA
+ATOM     17  H3*   T A   1     -10.788  -0.270 121.852  0.00  0.00    +0.000 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  C5*   T A   1      -8.682   2.530 124.708  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5*   T A   1      -9.143   3.787 125.201  0.00  0.00    +0.000 OA
+ATOM     20  H5*   T A   1     -10.114   3.804 125.116  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   4  11
+TORSDOF 4
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -5.7      2.704      3.873
+REMARK  Name = Telbivudine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C5M_1  and  C5_2
+REMARK    2  A    between atoms: N1_4  and  C1*_5
+REMARK    3  A    between atoms: C3*_7  and  O3*_8
+REMARK    4  A    between atoms: C4*_9  and  C5*_10
+REMARK    5  A    between atoms: C5*_10  and  O5*_11
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C5M   T A   1      -9.987   1.742 131.866  0.00  0.00    +0.000 C 
+ATOM      2  C5    T A   1      -9.240   2.990 131.520  0.00  0.00    +0.000 A 
+ATOM      3  C6    T A   1      -9.819   4.126 131.107  0.00  0.00    +0.000 A 
+ATOM      4  N1    T A   1      -9.111   5.199 130.582  0.00  0.00    +0.000 N 
+ATOM      5  C2    T A   1      -7.713   5.158 130.558  0.00  0.00    +0.000 A 
+ATOM      6  O2    T A   1      -7.001   5.948 129.945  0.00  0.00    +0.000 OA
+ATOM      7  N3    T A   1      -7.137   4.115 131.243  0.00  0.00    +0.000 N 
+ATOM      8  C4    T A   1      -7.768   2.957 131.580  0.00  0.00    +0.000 A 
+ATOM      9  O4    T A   1      -7.151   1.942 131.915  0.00  0.00    +0.000 OA
+ATOM     10  H3    T A   1      -6.130   4.077 131.220  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   4  11
+ATOM     11  C1*   T A   1      -9.764   6.048 129.577  0.00  0.00    +0.000 C 
+ATOM     12  C2*   T A   1      -9.750   7.581 129.624  0.00  0.00    +0.000 C 
+ATOM     13  C3*   T A   1     -11.090   7.897 128.957  0.00  0.00    +0.000 C 
+ATOM     14  C4*   T A   1     -11.999   6.828 129.540  0.00  0.00    +0.000 C 
+ATOM     15  O4*   T A   1     -11.161   5.652 129.558  0.00  0.00    +0.000 OA
+BRANCH  13  16
+ATOM     16  O3*   T A   1     -10.996   7.728 127.537  0.00  0.00    +0.000 OA
+ATOM     17  H3*   T A   1     -10.635   6.842 127.350  0.00  0.00    +0.000 HD
+ENDBRANCH  13  16
+BRANCH  14  18
+ATOM     18  C5*   T A   1     -12.565   7.179 130.936  0.00  0.00    +0.000 C 
+BRANCH  18  19
+ATOM     19  O5*   T A   1     -12.294   6.183 131.922  0.00  0.00    +0.000 OA
+ATOM     20  H5*   T A   1     -11.610   6.534 132.521  0.00  0.00    +0.000 HD
+ENDBRANCH  18  19
+ENDBRANCH  14  18
+ENDBRANCH   4  11
+TORSDOF 4
+ENDMDL

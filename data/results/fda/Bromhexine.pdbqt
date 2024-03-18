@@ -1,0 +1,396 @@
+MODEL 1
+REMARK VINA RESULT:      -6.9      0.000      0.000
+REMARK  Name = Bromhexine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_13
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.973   5.969 131.326  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -7.766   6.385 130.726  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -6.595   6.516 131.460  0.00  0.00    +0.000 A 
+ATOM      4 BR   UNL     1      -5.074   7.274 130.636  0.00  0.00    +0.000 Br
+ATOM      5  C   UNL     1      -6.563   6.103 132.775  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -7.723   5.585 133.362  0.00  0.00    +0.000 A 
+ATOM      7 BR   UNL     1      -7.583   4.924 135.140  0.00  0.00    +0.000 Br
+ATOM      8  C   UNL     1      -8.959   5.550 132.671  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   8   9
+ATOM      9  N   UNL     1     -10.076   4.935 133.245  0.00  0.00    +0.000 N 
+ATOM     10  H   UNL     1     -10.235   3.959 133.022  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1     -10.444   5.254 134.134  0.00  0.00    +0.000 HD
+ENDBRANCH   8   9
+BRANCH   1  12
+ATOM     12  C   UNL     1     -10.274   5.961 130.533  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1     -12.254   6.899 131.587  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1     -11.123   7.164 130.674  0.00  0.00    +0.000 NA
+BRANCH  14  15
+ATOM     15  C   UNL     1     -11.628   7.624 129.349  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1     -10.527   7.470 128.276  0.00  0.00    +0.000 C 
+ATOM     17  C   UNL     1     -10.970   7.901 126.895  0.00  0.00    +0.000 C 
+ATOM     18  C   UNL     1     -12.209   7.142 126.462  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1     -13.330   7.315 127.479  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1     -12.898   6.870 128.880  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH  12  14
+ENDBRANCH   1  12
+TORSDOF 4
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.6      1.248      1.985
+REMARK  Name = Bromhexine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_13
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.840   6.604 131.496  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -6.494   6.770 131.107  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -5.446   6.488 131.973  0.00  0.00    +0.000 A 
+ATOM      4 BR   UNL     1      -3.684   6.928 131.457  0.00  0.00    +0.000 Br
+ATOM      5  C   UNL     1      -5.708   5.902 133.194  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -7.031   5.629 133.557  0.00  0.00    +0.000 A 
+ATOM      7 BR   UNL     1      -7.316   4.714 135.200  0.00  0.00    +0.000 Br
+ATOM      8  C   UNL     1      -8.124   6.014 132.743  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   8   9
+ATOM      9  N   UNL     1      -9.428   5.639 133.081  0.00  0.00    +0.000 N 
+ATOM     10  H   UNL     1     -10.066   6.374 133.360  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -9.852   4.813 132.672  0.00  0.00    +0.000 HD
+ENDBRANCH   8   9
+BRANCH   1  12
+ATOM     12  C   UNL     1      -8.974   7.047 130.580  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1      -9.059   4.884 129.474  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1      -9.856   5.971 130.078  0.00  0.00    +0.000 NA
+BRANCH  14  15
+ATOM     15  C   UNL     1     -10.839   6.499 129.088  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1     -12.272   6.400 129.655  0.00  0.00    +0.000 C 
+ATOM     17  C   UNL     1     -13.329   6.935 128.713  0.00  0.00    +0.000 C 
+ATOM     18  C   UNL     1     -13.035   8.372 128.329  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1     -11.642   8.494 127.722  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1     -10.562   7.966 128.672  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH  12  14
+ENDBRANCH   1  12
+TORSDOF 4
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.5      1.854      2.488
+REMARK  Name = Bromhexine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_13
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -9.287   5.529 131.612  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -8.626   5.899 132.802  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -8.394   4.985 133.821  0.00  0.00    +0.000 A 
+ATOM      4 BR   UNL     1      -7.691   5.599 135.463  0.00  0.00    +0.000 Br
+ATOM      5  C   UNL     1      -8.687   3.652 133.623  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -9.246   3.244 132.407  0.00  0.00    +0.000 A 
+ATOM      7 BR   UNL     1      -9.517   1.378 132.152  0.00  0.00    +0.000 Br
+ATOM      8  C   UNL     1      -9.600   4.172 131.397  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   8   9
+ATOM      9  N   UNL     1     -10.062   3.728 130.154  0.00  0.00    +0.000 N 
+ATOM     10  H   UNL     1      -9.366   3.505 129.453  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1     -10.946   3.238 130.074  0.00  0.00    +0.000 HD
+ENDBRANCH   8   9
+BRANCH   1  12
+ATOM     12  C   UNL     1      -9.651   6.575 130.566  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1     -11.855   6.475 131.588  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1     -10.923   7.298 130.792  0.00  0.00    +0.000 NA
+BRANCH  14  15
+ATOM     15  C   UNL     1     -11.555   7.689 129.499  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1     -10.509   7.656 128.363  0.00  0.00    +0.000 C 
+ATOM     17  C   UNL     1     -11.081   8.025 127.011  0.00  0.00    +0.000 C 
+ATOM     18  C   UNL     1     -12.246   7.125 126.651  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1     -13.317   7.172 127.734  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1     -12.754   6.789 129.106  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH  12  14
+ENDBRANCH   1  12
+TORSDOF 4
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -6.2      9.229     10.542
+REMARK  Name = Bromhexine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_13
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.458   1.377 124.647  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -7.391   2.054 125.275  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -6.638   3.007 124.603  0.00  0.00    +0.000 A 
+ATOM      4 BR   UNL     1      -5.100   3.719 125.439  0.00  0.00    +0.000 Br
+ATOM      5  C   UNL     1      -7.015   3.410 123.339  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -8.136   2.829 122.738  0.00  0.00    +0.000 A 
+ATOM      7 BR   UNL     1      -8.673   3.511 121.045  0.00  0.00    +0.000 Br
+ATOM      8  C   UNL     1      -8.852   1.773 123.353  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   8   9
+ATOM      9  N   UNL     1     -10.027   1.280 122.777  0.00  0.00    +0.000 N 
+ATOM     10  H   UNL     1     -10.546   1.906 122.173  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1     -10.138   0.290 122.591  0.00  0.00    +0.000 HD
+ENDBRANCH   8   9
+BRANCH   1  12
+ATOM     12  C   UNL     1      -9.184   0.241 125.357  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1      -9.348  -2.151 125.761  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1      -8.997  -1.107 124.777  0.00  0.00    +0.000 NA
+BRANCH  14  15
+ATOM     15  C   UNL     1      -7.597  -1.297 124.301  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1      -6.852  -2.291 125.220  0.00  0.00    +0.000 C 
+ATOM     17  C   UNL     1      -5.425  -2.551 124.790  0.00  0.00    +0.000 C 
+ATOM     18  C   UNL     1      -5.371  -3.048 123.359  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1      -6.058  -2.063 122.421  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -7.509  -1.800 122.838  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH  12  14
+ENDBRANCH   1  12
+TORSDOF 4
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -6.2      8.403      9.808
+REMARK  Name = Bromhexine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_13
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.653   2.716 124.178  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -7.073   3.019 125.429  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -5.829   3.628 125.526  0.00  0.00    +0.000 A 
+ATOM      4 BR   UNL     1      -5.028   3.815 127.226  0.00  0.00    +0.000 Br
+ATOM      5  C   UNL     1      -5.197   4.076 124.385  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -5.805   3.881 123.140  0.00  0.00    +0.000 A 
+ATOM      7 BR   UNL     1      -4.939   4.626 121.618  0.00  0.00    +0.000 Br
+ATOM      8  C   UNL     1      -7.016   3.160 123.003  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   8   9
+ATOM      9  N   UNL     1      -7.652   3.069 121.761  0.00  0.00    +0.000 N 
+ATOM     10  H   UNL     1      -8.403   2.395 121.672  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -7.699   3.871 121.143  0.00  0.00    +0.000 HD
+ENDBRANCH   8   9
+BRANCH   1  12
+ATOM     12  C   UNL     1      -8.954   1.928 124.096  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1     -10.285   0.640 122.519  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1      -8.959   0.786 123.154  0.00  0.00    +0.000 NA
+BRANCH  14  15
+ATOM     15  C   UNL     1      -8.575  -0.480 123.843  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1      -9.101  -0.477 125.295  0.00  0.00    +0.000 C 
+ATOM     17  C   UNL     1      -8.766  -1.740 126.057  0.00  0.00    +0.000 C 
+ATOM     18  C   UNL     1      -9.289  -2.965 125.332  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1      -8.748  -3.020 123.909  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -9.091  -1.751 123.122  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH  12  14
+ENDBRANCH   1  12
+TORSDOF 4
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -6.2     10.452     11.930
+REMARK  Name = Bromhexine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_13
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -6.519  -1.866 125.995  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -5.423  -2.478 125.350  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -5.602  -3.381 124.311  0.00  0.00    +0.000 A 
+ATOM      4 BR   UNL     1      -4.104  -4.314 123.637  0.00  0.00    +0.000 Br
+ATOM      5  C   UNL     1      -6.864  -3.588 123.795  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -7.954  -2.909 124.350  0.00  0.00    +0.000 A 
+ATOM      7 BR   UNL     1      -9.649  -3.148 123.519  0.00  0.00    +0.000 Br
+ATOM      8  C   UNL     1      -7.816  -2.073 125.485  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   8   9
+ATOM      9  N   UNL     1      -8.901  -1.328 125.955  0.00  0.00    +0.000 N 
+ATOM     10  H   UNL     1      -9.239  -0.576 125.366  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -9.583  -1.742 126.581  0.00  0.00    +0.000 HD
+ENDBRANCH   8   9
+BRANCH   1  12
+ATOM     12  C   UNL     1      -6.307  -0.984 127.219  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1      -6.811  -0.463 129.540  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1      -6.857  -1.503 128.491  0.00  0.00    +0.000 NA
+BRANCH  14  15
+ATOM     15  C   UNL     1      -6.119  -2.719 128.939  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1      -4.619  -2.396 129.120  0.00  0.00    +0.000 C 
+ATOM     17  C   UNL     1      -3.804  -3.580 129.592  0.00  0.00    +0.000 C 
+ATOM     18  C   UNL     1      -4.360  -4.141 130.886  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1      -5.829  -4.513 130.724  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -6.668  -3.319 130.258  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH  12  14
+ENDBRANCH   1  12
+TORSDOF 4
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -6.1      3.128      3.394
+REMARK  Name = Bromhexine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_13
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -9.435   3.676 130.120  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -8.467   3.773 129.098  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -7.451   2.835 128.967  0.00  0.00    +0.000 A 
+ATOM      4 BR   UNL     1      -6.076   3.140 127.710  0.00  0.00    +0.000 Br
+ATOM      5  C   UNL     1      -7.457   1.706 129.760  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -8.471   1.538 130.709  0.00  0.00    +0.000 A 
+ATOM      7 BR   UNL     1      -8.489  -0.094 131.688  0.00  0.00    +0.000 Br
+ATOM      8  C   UNL     1      -9.450   2.533 130.943  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   8   9
+ATOM      9  N   UNL     1     -10.510   2.295 131.824  0.00  0.00    +0.000 N 
+ATOM     10  H   UNL     1     -10.289   2.229 132.810  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1     -11.450   2.601 131.599  0.00  0.00    +0.000 HD
+ENDBRANCH   8   9
+BRANCH   1  12
+ATOM     12  C   UNL     1     -10.459   4.786 130.329  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1     -10.246   6.002 132.423  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1      -9.953   6.017 130.976  0.00  0.00    +0.000 NA
+BRANCH  14  15
+ATOM     15  C   UNL     1     -10.538   7.235 130.344  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1     -10.200   7.268 128.837  0.00  0.00    +0.000 C 
+ATOM     17  C   UNL     1     -10.777   8.470 128.120  0.00  0.00    +0.000 C 
+ATOM     18  C   UNL     1     -12.280   8.541 128.303  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1     -12.641   8.558 129.784  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1     -12.074   7.339 130.519  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH  12  14
+ENDBRANCH   1  12
+TORSDOF 4
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -5.9      8.901      9.969
+REMARK  Name = Bromhexine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_13
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -5.823   0.761 125.544  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -6.785   1.003 124.541  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -7.273   2.278 124.293  0.00  0.00    +0.000 A 
+ATOM      4 BR   UNL     1      -8.705   2.495 123.080  0.00  0.00    +0.000 Br
+ATOM      5  C   UNL     1      -6.715   3.361 124.939  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -5.684   3.155 125.861  0.00  0.00    +0.000 A 
+ATOM      7 BR   UNL     1      -4.877   4.697 126.630  0.00  0.00    +0.000 Br
+ATOM      8  C   UNL     1      -5.248   1.856 126.219  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   8   9
+ATOM      9  N   UNL     1      -4.149   1.682 127.065  0.00  0.00    +0.000 N 
+ATOM     10  H   UNL     1      -3.867   0.732 127.272  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -3.419   2.384 127.117  0.00  0.00    +0.000 HD
+ENDBRANCH   8   9
+BRANCH   1  12
+ATOM     12  C   UNL     1      -5.402  -0.662 125.891  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1      -5.277  -1.902 127.979  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1      -6.180  -1.323 126.963  0.00  0.00    +0.000 NA
+BRANCH  14  15
+ATOM     15  C   UNL     1      -7.073  -2.378 126.406  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1      -8.539  -1.889 126.404  0.00  0.00    +0.000 C 
+ATOM     17  C   UNL     1      -9.508  -2.902 125.835  0.00  0.00    +0.000 C 
+ATOM     18  C   UNL     1      -9.108  -3.306 124.429  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1      -7.680  -3.837 124.408  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -6.686  -2.816 124.971  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH  12  14
+ENDBRANCH   1  12
+TORSDOF 4
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -5.9      2.266      2.912
+REMARK  Name = Bromhexine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: N_2  and  C_13
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_11  and  N_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -9.059   4.360 131.427  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -9.383   2.993 131.305  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -8.795   2.030 132.114  0.00  0.00    +0.000 A 
+ATOM      4 BR   UNL     1      -9.120   0.204 131.756  0.00  0.00    +0.000 Br
+ATOM      5  C   UNL     1      -7.979   2.419 133.156  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -7.729   3.780 133.362  0.00  0.00    +0.000 A 
+ATOM      7 BR   UNL     1      -6.692   4.257 134.885  0.00  0.00    +0.000 Br
+ATOM      8  C   UNL     1      -8.221   4.773 132.481  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   8   9
+ATOM      9  N   UNL     1      -8.042   6.130 132.769  0.00  0.00    +0.000 N 
+ATOM     10  H   UNL     1      -7.126   6.525 132.593  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -8.821   6.777 132.723  0.00  0.00    +0.000 HD
+ENDBRANCH   8   9
+BRANCH   1  12
+ATOM     12  C   UNL     1      -9.613   5.381 130.441  0.00  0.00    +0.000 C 
+BRANCH  12  14
+ATOM     13  C   UNL     1     -11.518   6.069 131.786  0.00  0.00    +0.000 C 
+ATOM     14  N   UNL     1     -10.332   6.530 131.036  0.00  0.00    +0.000 NA
+BRANCH  14  15
+ATOM     15  C   UNL     1     -10.734   7.513 129.990  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1     -10.413   6.956 128.585  0.00  0.00    +0.000 C 
+ATOM     17  C   UNL     1     -10.810   7.892 127.464  0.00  0.00    +0.000 C 
+ATOM     18  C   UNL     1     -12.283   8.242 127.545  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1     -12.620   8.838 128.907  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1     -12.234   7.894 130.050  0.00  0.00    +0.000 C 
+ENDBRANCH  14  15
+ENDBRANCH  12  14
+ENDBRANCH   1  12
+TORSDOF 4
+ENDMDL

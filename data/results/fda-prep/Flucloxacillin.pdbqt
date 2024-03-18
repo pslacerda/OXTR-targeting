@@ -1,0 +1,58 @@
+REMARK  Name = Flucloxacillin
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_5
+REMARK    2  A    between atoms: C_4  and  C_6
+REMARK    3  A    between atoms: CA_7  and  C_29
+REMARK    4  A    between atoms: CA_11  and  N_12
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_16  and  C_17
+REMARK    7  A    between atoms: C_20  and  C_21
+REMARK    8  A    between atoms: C_29  and  O_30
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1       3.423   1.746  -1.517  0.00  0.00    +0.000 N 
+ATOM      2  C   UNL     1       4.036   2.976  -1.642  0.00  0.00    +0.000 C 
+ATOM      3  O   UNL     1       4.063   3.782  -0.719  0.00  0.00    +0.000 OA
+ATOM      4  H   UNL     1       3.495   1.071  -2.271  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   1  14
+ATOM      5  C   UNL     1       2.115  -0.018  -0.140  0.00  0.00    +0.000 C 
+ATOM      6  S   UNL     1       2.548  -1.276  -1.393  0.00  0.00    +0.000 S 
+ATOM      7  C   UNL     1       2.895  -2.534  -0.048  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1       3.835  -3.578  -0.657  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1       1.520  -3.125   0.320  0.00  0.00    +0.000 C 
+ATOM     10  CA  UNL     1       3.581  -1.703   1.062  0.00  0.00    +0.000 C 
+ATOM     11  N   UNL     1       2.961  -0.359   1.018  0.00  0.00    +0.000 N 
+ATOM     12  C   UNL     1       3.728   0.775   0.892  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1       4.805   1.059   1.376  0.00  0.00    +0.000 OA
+ATOM     14  CA  UNL     1       2.800   1.357  -0.214  0.00  0.00    +0.000 C 
+BRANCH  10  15
+ATOM     15  C   UNL     1       3.620  -2.255   2.509  0.00  0.00    +0.000 C 
+ATOM     16  OXT UNL     1       4.068  -1.610   3.450  0.00  0.00    +0.000 OA
+BRANCH  15  17
+ATOM     17  O   UNL     1       3.175  -3.505   2.752  0.00  0.00    +0.000 OA
+ATOM     18  H   UNL     1       3.013  -4.131   2.030  0.00  0.00    +0.000 HD
+ENDBRANCH  15  17
+ENDBRANCH  10  15
+ENDBRANCH   1  14
+BRANCH   2  19
+ATOM     19  C   UNL     1       4.648   3.273  -2.919  0.00  0.00    +0.000 A 
+ATOM     20  C   UNL     1       4.149   3.071  -4.186  0.00  0.00    +0.000 A 
+ATOM     21  C   UNL     1       2.916   2.490  -4.742  0.00  0.00    +0.000 C 
+ATOM     22  O   UNL     1       5.014   3.594  -5.098  0.00  0.00    +0.000 OA
+ATOM     23  N   UNL     1       6.106   4.134  -4.450  0.00  0.00    +0.000 NA
+ATOM     24  C   UNL     1       5.880   3.959  -3.139  0.00  0.00    +0.000 A 
+BRANCH  24  25
+ATOM     25  C   UNL     1       6.817   4.413  -2.122  0.00  0.00    +0.000 A 
+ATOM     26  C   UNL     1       7.117   5.766  -1.920  0.00  0.00    +0.000 A 
+ATOM     27 CL   UNL     1       6.480   7.025  -2.921  0.00  0.00    +0.000 Cl
+ATOM     28  C   UNL     1       7.931   6.154  -0.847  0.00  0.00    +0.000 A 
+ATOM     29  C   UNL     1       8.449   5.200   0.031  0.00  0.00    +0.000 A 
+ATOM     30  C   UNL     1       8.173   3.851  -0.174  0.00  0.00    +0.000 A 
+ATOM     31  C   UNL     1       7.370   3.469  -1.246  0.00  0.00    +0.000 A 
+ATOM     32  F   UNL     1       7.119   2.160  -1.416  0.00  0.00    +0.000 F 
+ENDBRANCH  24  25
+ENDBRANCH   2  19
+TORSDOF 5

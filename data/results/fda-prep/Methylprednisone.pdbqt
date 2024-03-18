@@ -1,0 +1,52 @@
+REMARK  Name = Methylprednisone
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_8  and  O_9
+REMARK    3  A    between atoms: C_8  and  C_10
+REMARK    4  A    between atoms: C_10  and  C_12
+REMARK    5  A    between atoms: C_12  and  O_13
+REMARK    6  A    between atoms: C_14  and  C_15
+REMARK    7  A    between atoms: C_20  and  C_21
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       1.087   0.217  -0.093  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1       2.624   0.297  -0.202  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1       3.194  -1.188  -0.825  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1       4.798  -1.316  -1.036  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1       5.767  -2.359  -2.192  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1       7.619  -2.718  -3.021  0.00  0.00    +0.000 C 
+ATOM      7  C   UNL     1       8.259  -3.990  -2.477  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1       6.861  -4.061  -2.190  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1       6.926  -2.433  -1.416  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1       7.262  -2.418   0.034  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1       7.206  -0.859  -2.320  0.00  0.00    +0.000 C 
+ATOM     12  C   UNL     1       6.639   0.065  -1.440  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1       7.409   0.636  -0.744  0.00  0.00    +0.000 OA
+ATOM     14  C   UNL     1       5.136   0.001  -1.533  0.00  0.00    +0.000 C 
+ATOM     15  C   UNL     1       4.795   1.235  -0.852  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1       5.282   1.369   0.629  0.00  0.00    +0.000 C 
+ATOM     17  C   UNL     1       5.296   1.987  -2.114  0.00  0.00    +0.000 C 
+ATOM     18  C   UNL     1       6.124   2.931  -1.798  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1       4.940   3.804  -1.580  0.00  0.00    +0.000 C 
+ATOM     20  O   UNL     1       5.071   4.865  -2.177  0.00  0.00    +0.000 OA
+ATOM     21  C   UNL     1       3.397   2.988  -1.072  0.00  0.00    +0.000 C 
+ATOM     22  C   UNL     1       3.398   1.639  -0.706  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   8  23
+ATOM     23  O   UNL     1       6.533  -5.105  -1.340  0.00  0.00    +0.000 OA
+ATOM     24  H   UNL     1       6.766  -5.905  -1.840  0.00  0.00    +0.000 HD
+ENDBRANCH   8  23
+BRANCH   8  25
+ATOM     25  C   UNL     1       6.049  -4.103  -3.817  0.00  0.00    +0.000 C 
+ATOM     26  O   UNL     1       5.305  -3.229  -4.296  0.00  0.00    +0.000 OA
+BRANCH  25  27
+ATOM     27  C   UNL     1       6.507  -5.187  -4.716  0.00  0.00    +0.000 C 
+BRANCH  27  28
+ATOM     28  O   UNL     1       5.811  -5.047  -5.946  0.00  0.00    +0.000 OA
+ATOM     29  H   UNL     1       4.930  -4.679  -5.717  0.00  0.00    +0.000 HD
+ENDBRANCH  27  28
+ENDBRANCH  25  27
+ENDBRANCH   8  25
+TORSDOF 4

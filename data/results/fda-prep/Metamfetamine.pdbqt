@@ -1,0 +1,31 @@
+REMARK  Name = Metamfetamine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  N_2
+REMARK    2  A    between atoms: N_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_3  and  C_5
+REMARK    5  A    between atoms: C_5  and  C_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       4.514  -1.135  -0.947  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1       5.040  -2.285  -1.783  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1       4.531  -3.581  -1.595  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1       4.953  -4.634  -2.403  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1       5.880  -4.405  -3.410  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1       6.404  -3.125  -3.602  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1       5.990  -2.068  -2.786  0.00  0.00    +0.000 A 
+ENDBRANCH   1   2
+BRANCH   1   8
+ATOM      8  C   UNL     1       2.965  -1.065  -0.971  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1       2.474  -0.874  -2.414  0.00  0.00    +0.000 C 
+BRANCH   8  11
+ATOM     10  C   UNL     1       1.023   0.008   0.012  0.00  0.00    +0.000 C 
+ATOM     11  N   UNL     1       2.481   0.005  -0.077  0.00  0.00    +0.000 NA
+ATOM     12  H   UNL     1       2.858  -0.155   0.859  0.00  0.00    +0.000 HD
+ENDBRANCH   8  11
+ENDBRANCH   1   8
+TORSDOF 3

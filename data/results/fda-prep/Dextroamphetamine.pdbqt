@@ -1,0 +1,30 @@
+REMARK  Name = Dextroamphetamine
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  N_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_4  and  C_5
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       2.990   0.850  -1.093  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1       4.504   0.942  -1.078  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1       5.274   0.479   0.004  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1       6.661   0.589   0.003  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1       7.302   1.175  -1.075  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1       6.559   1.657  -2.154  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1       5.165   1.541  -2.155  0.00  0.00    +0.000 A 
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      8  C   UNL     1       2.815  -1.574  -0.345  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1       2.383  -0.130  -0.064  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1       0.917  -0.075  -0.062  0.00  0.00    +0.000 NA
+ATOM     11  H   UNL     1       0.562  -0.338  -0.979  0.00  0.00    +0.000 HD
+ATOM     12  H   UNL     1       0.610   0.882   0.106  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 3

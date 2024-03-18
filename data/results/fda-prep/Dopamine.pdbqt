@@ -1,0 +1,38 @@
+REMARK  Name = Dopamine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_3  and  C_4
+REMARK    4  A    between atoms: C_6  and  O_7
+REMARK    5  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       4.461   1.309   0.332  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1       5.215   0.125   0.231  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1       6.605   0.180   0.215  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1       7.260   1.398   0.310  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1       6.542   2.579   0.433  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1       5.144   2.533   0.445  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  O   UNL     1       7.360  -0.956   0.103  0.00  0.00    +0.000 OA
+ATOM      8  H   UNL     1       6.756  -1.717   0.062  0.00  0.00    +0.000 HD
+ENDBRANCH   3   7
+BRANCH   4   9
+ATOM      9  O   UNL     1       8.624   1.447   0.281  0.00  0.00    +0.000 OA
+ATOM     10  H   UNL     1       8.900   0.514   0.180  0.00  0.00    +0.000 HD
+ENDBRANCH   4   9
+BRANCH   1  11
+ATOM     11  C   UNL     1       2.942   1.313   0.341  0.00  0.00    +0.000 C 
+BRANCH  11  12
+ATOM     12  C   UNL     1       2.303  -0.030  -0.043  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  N   UNL     1       0.845   0.010  -0.046  0.00  0.00    +0.000 NA
+ATOM     14  H   UNL     1       0.495  -0.906  -0.331  0.00  0.00    +0.000 HD
+ATOM     15  H   UNL     1       0.520   0.668  -0.752  0.00  0.00    +0.000 HD
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 5

@@ -1,0 +1,531 @@
+MODEL 1
+REMARK VINA RESULT:      -7.0      0.000      0.000
+REMARK  Name = Dicyclomine
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  N_3
+REMARK    3  A    between atoms: N_3  and  C_4
+REMARK    4  A    between atoms: N_3  and  C_6
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK    8  A    between atoms: O_8  and  C_9
+REMARK    9  A    between atoms: C_9  and  C_11
+REMARK   10  A    between atoms: C_11  and  C_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.142  -1.600 124.768  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -7.892  -2.906 123.947  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -6.627  -3.689 124.295  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -5.382  -2.815 124.419  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -5.541  -1.450 125.087  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -6.840  -0.746 124.692  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1      -8.618  -1.927 126.246  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -8.948  -3.410 126.474  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1      -9.088  -3.950 127.868  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1      -7.939  -3.481 128.725  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1      -7.864  -1.965 128.687  0.00  0.00    +0.000 C 
+ATOM     12  C   UNL     1      -7.590  -1.450 127.287  0.00  0.00    +0.000 C 
+ENDBRANCH   1   7
+BRANCH   1  13
+ATOM     13  C   UNL     1      -9.292  -0.835 124.041  0.00  0.00    +0.000 C 
+ATOM     14  O   UNL     1      -9.758  -1.170 122.945  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  O   UNL     1      -9.761   0.235 124.754  0.00  0.00    +0.000 OA
+BRANCH  15  16
+ATOM     16  C   UNL     1      -9.980   1.425 123.965  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C   UNL     1      -9.070   2.594 124.419  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  N   UNL     1      -8.260   3.224 123.323  0.00  0.00    +0.000 NA
+BRANCH  18  20
+ATOM     19  C   UNL     1      -5.854   4.048 123.076  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -6.821   2.975 123.578  0.00  0.00    +0.000 C 
+ENDBRANCH  18  20
+BRANCH  18  21
+ATOM     21  C   UNL     1      -8.718   2.714 122.013  0.00  0.00    +0.000 C 
+ATOM     22  C   UNL     1      -8.800   3.714 120.869  0.00  0.00    +0.000 C 
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 8
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.9      1.018      1.778
+REMARK  Name = Dicyclomine
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  N_3
+REMARK    3  A    between atoms: N_3  and  C_4
+REMARK    4  A    between atoms: N_3  and  C_6
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK    8  A    between atoms: O_8  and  C_9
+REMARK    9  A    between atoms: C_9  and  C_11
+REMARK   10  A    between atoms: C_11  and  C_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.150  -1.248 125.166  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -8.429  -2.357 124.101  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -7.477  -3.552 124.108  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -6.004  -3.160 124.187  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -5.633  -1.992 125.100  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -6.648  -0.849 125.039  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1      -8.575  -1.720 126.620  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -8.872  -3.224 126.718  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1      -8.960  -3.894 128.059  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1      -7.793  -3.483 128.923  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1      -7.746  -1.969 129.025  0.00  0.00    +0.000 C 
+ATOM     12  C   UNL     1      -7.524  -1.321 127.671  0.00  0.00    +0.000 C 
+ENDBRANCH   1   7
+BRANCH   1  13
+ATOM     13  C   UNL     1      -9.034  -0.024 124.770  0.00  0.00    +0.000 C 
+ATOM     14  O   UNL     1     -10.088   0.280 125.342  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  O   UNL     1      -8.508   0.708 123.739  0.00  0.00    +0.000 OA
+BRANCH  15  16
+ATOM     16  C   UNL     1      -9.121   2.004 123.560  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C   UNL     1      -8.256   2.933 122.670  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  N   UNL     1      -6.774   2.748 122.821  0.00  0.00    +0.000 NA
+BRANCH  18  20
+ATOM     19  C   UNL     1      -5.204   4.323 121.561  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -6.110   3.090 121.540  0.00  0.00    +0.000 C 
+ENDBRANCH  18  20
+BRANCH  18  21
+ATOM     21  C   UNL     1      -6.288   3.550 123.963  0.00  0.00    +0.000 C 
+ATOM     22  C   UNL     1      -5.800   2.790 125.188  0.00  0.00    +0.000 C 
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 8
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.3      1.463      3.780
+REMARK  Name = Dicyclomine
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  N_3
+REMARK    3  A    between atoms: N_3  and  C_4
+REMARK    4  A    between atoms: N_3  and  C_6
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK    8  A    between atoms: O_8  and  C_9
+REMARK    9  A    between atoms: C_9  and  C_11
+REMARK   10  A    between atoms: C_11  and  C_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.380  -0.967 125.622  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -7.979  -0.743 127.115  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -7.437  -1.963 127.858  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -8.269  -3.225 127.648  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -8.830  -3.476 126.249  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -9.336  -2.198 125.577  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1      -7.102  -1.103 124.692  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -5.935  -1.851 125.353  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1      -4.791  -2.359 124.523  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1      -5.313  -3.076 123.302  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1      -6.237  -2.153 122.528  0.00  0.00    +0.000 C 
+ATOM     12  C   UNL     1      -7.454  -1.761 123.346  0.00  0.00    +0.000 C 
+ENDBRANCH   1   7
+BRANCH   1  13
+ATOM     13  C   UNL     1      -9.173   0.304 125.182  0.00  0.00    +0.000 C 
+ATOM     14  O   UNL     1     -10.367   0.498 125.445  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  O   UNL     1      -8.405   1.208 124.499  0.00  0.00    +0.000 OA
+BRANCH  15  16
+ATOM     16  C   UNL     1      -8.918   2.558 124.520  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C   UNL     1      -7.782   3.605 124.649  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  N   UNL     1      -6.420   3.108 124.259  0.00  0.00    +0.000 NA
+BRANCH  18  20
+ATOM     19  C   UNL     1      -6.401   3.553 121.742  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -5.906   3.932 123.139  0.00  0.00    +0.000 C 
+ENDBRANCH  18  20
+BRANCH  18  21
+ATOM     21  C   UNL     1      -5.533   3.110 125.442  0.00  0.00    +0.000 C 
+ATOM     22  C   UNL     1      -5.272   1.772 126.118  0.00  0.00    +0.000 C 
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 8
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -6.3      1.442      2.425
+REMARK  Name = Dicyclomine
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  N_3
+REMARK    3  A    between atoms: N_3  and  C_4
+REMARK    4  A    between atoms: N_3  and  C_6
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK    8  A    between atoms: O_8  and  C_9
+REMARK    9  A    between atoms: C_9  and  C_11
+REMARK   10  A    between atoms: C_11  and  C_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.040  -1.235 125.078  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -9.032  -1.653 123.946  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -8.490  -2.627 122.901  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -7.108  -2.250 122.373  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -6.096  -1.697 123.376  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -6.730  -0.744 124.390  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1      -7.824  -2.409 126.124  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -7.080  -1.973 127.395  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1      -7.083  -2.850 128.614  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1      -8.483  -3.331 128.906  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1      -9.047  -4.026 127.679  0.00  0.00    +0.000 C 
+ATOM     12  C   UNL     1      -9.157  -3.081 126.497  0.00  0.00    +0.000 C 
+ENDBRANCH   1   7
+BRANCH   1  13
+ATOM     13  C   UNL     1      -8.701  -0.032 125.822  0.00  0.00    +0.000 C 
+ATOM     14  O   UNL     1      -9.924   0.150 125.889  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  O   UNL     1      -7.791   0.793 126.427  0.00  0.00    +0.000 OA
+BRANCH  15  16
+ATOM     16  C   UNL     1      -8.301   2.106 126.745  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C   UNL     1      -7.483   3.225 126.052  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  N   UNL     1      -7.119   2.946 124.623  0.00  0.00    +0.000 NA
+BRANCH  18  20
+ATOM     19  C   UNL     1      -8.760   2.017 122.898  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -8.302   3.192 123.764  0.00  0.00    +0.000 C 
+ENDBRANCH  18  20
+BRANCH  18  21
+ATOM     21  C   UNL     1      -5.942   3.757 124.243  0.00  0.00    +0.000 C 
+ATOM     22  C   UNL     1      -5.736   4.029 122.761  0.00  0.00    +0.000 C 
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 8
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -6.2      7.060      9.794
+REMARK  Name = Dicyclomine
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  N_3
+REMARK    3  A    between atoms: N_3  and  C_4
+REMARK    4  A    between atoms: N_3  and  C_6
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK    8  A    between atoms: O_8  and  C_9
+REMARK    9  A    between atoms: C_9  and  C_11
+REMARK   10  A    between atoms: C_11  and  C_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -9.209   5.391 131.001  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -9.202   4.730 132.416  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -8.462   5.493 133.514  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -7.087   5.999 133.085  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -6.947   6.546 131.665  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -7.731   5.728 130.638  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1     -10.190   6.638 130.948  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1     -10.417   7.184 129.531  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1     -11.552   8.128 129.254  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1     -12.824   7.608 129.877  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1     -12.602   7.374 131.361  0.00  0.00    +0.000 C 
+ATOM     12  C   UNL     1     -11.541   6.319 131.612  0.00  0.00    +0.000 C 
+ENDBRANCH   1   7
+BRANCH   1  13
+ATOM     13  C   UNL     1      -9.739   4.308 130.010  0.00  0.00    +0.000 C 
+ATOM     14  O   UNL     1     -10.836   3.746 130.124  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  O   UNL     1      -8.881   4.062 128.972  0.00  0.00    +0.000 OA
+BRANCH  15  16
+ATOM     16  C   UNL     1      -8.545   2.668 128.799  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C   UNL     1      -7.165   2.326 129.415  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  N   UNL     1      -7.212   1.378 130.577  0.00  0.00    +0.000 NA
+BRANCH  18  20
+ATOM     19  C   UNL     1      -5.510   2.929 131.686  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -6.785   2.092 131.804  0.00  0.00    +0.000 C 
+ENDBRANCH  18  20
+BRANCH  18  21
+ATOM     21  C   UNL     1      -8.564   0.790 130.683  0.00  0.00    +0.000 C 
+ATOM     22  C   UNL     1      -9.328   1.035 131.976  0.00  0.00    +0.000 C 
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 8
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -6.2      7.032      9.970
+REMARK  Name = Dicyclomine
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  N_3
+REMARK    3  A    between atoms: N_3  and  C_4
+REMARK    4  A    between atoms: N_3  and  C_6
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK    8  A    between atoms: O_8  and  C_9
+REMARK    9  A    between atoms: C_9  and  C_11
+REMARK   10  A    between atoms: C_11  and  C_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1     -10.614   6.175 130.047  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1     -10.329   6.835 128.660  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1     -10.680   8.316 128.533  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1     -12.058   8.668 129.088  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1     -12.497   7.974 130.377  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1     -12.092   6.500 130.422  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1      -9.553   6.633 131.135  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -9.658   5.862 132.460  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1      -8.543   5.924 133.464  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1      -7.215   5.711 132.780  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1      -7.053   6.721 131.659  0.00  0.00    +0.000 C 
+ATOM     12  C   UNL     1      -8.117   6.550 130.590  0.00  0.00    +0.000 C 
+ENDBRANCH   1   7
+BRANCH   1  13
+ATOM     13  C   UNL     1     -10.471   4.634 129.841  0.00  0.00    +0.000 C 
+ATOM     14  O   UNL     1     -11.289   3.804 130.258  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  O   UNL     1      -9.360   4.288 129.121  0.00  0.00    +0.000 OA
+BRANCH  15  16
+ATOM     16  C   UNL     1      -8.913   2.932 129.336  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C   UNL     1      -7.943   2.829 130.541  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  N   UNL     1      -7.718   1.434 131.049  0.00  0.00    +0.000 NA
+BRANCH  18  20
+ATOM     19  C   UNL     1      -5.975  -0.319 130.400  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -6.282   1.092 130.905  0.00  0.00    +0.000 C 
+ENDBRANCH  18  20
+BRANCH  18  21
+ATOM     21  C   UNL     1      -8.207   1.329 132.440  0.00  0.00    +0.000 C 
+ATOM     22  C   UNL     1      -9.231   2.357 132.897  0.00  0.00    +0.000 C 
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 8
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -6.2      2.539      6.139
+REMARK  Name = Dicyclomine
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  N_3
+REMARK    3  A    between atoms: N_3  and  C_4
+REMARK    4  A    between atoms: N_3  and  C_6
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK    8  A    between atoms: O_8  and  C_9
+REMARK    9  A    between atoms: C_9  and  C_11
+REMARK   10  A    between atoms: C_11  and  C_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.546  -0.576 124.688  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -9.510  -0.048 123.579  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -9.282   1.390 123.115  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -9.096   2.379 124.262  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -8.278   1.917 125.468  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -8.562   0.463 125.851  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1      -7.100  -0.876 124.106  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -6.174  -1.596 125.098  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1      -4.908  -2.247 124.618  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1      -5.184  -3.075 123.387  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1      -5.837  -2.207 122.327  0.00  0.00    +0.000 C 
+ATOM     12  C   UNL     1      -7.179  -1.668 122.789  0.00  0.00    +0.000 C 
+ENDBRANCH   1   7
+BRANCH   1  13
+ATOM     13  C   UNL     1      -9.156  -1.918 125.202  0.00  0.00    +0.000 C 
+ATOM     14  O   UNL     1      -9.657  -2.776 124.464  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  O   UNL     1      -9.053  -2.072 126.559  0.00  0.00    +0.000 OA
+BRANCH  15  16
+ATOM     16  C   UNL     1      -8.683  -3.403 126.978  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C   UNL     1      -8.594  -3.518 128.521  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  N   UNL     1      -7.376  -2.887 129.130  0.00  0.00    +0.000 NA
+BRANCH  18  20
+ATOM     19  C   UNL     1      -7.629  -0.352 129.338  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -7.793  -1.737 129.968  0.00  0.00    +0.000 C 
+ENDBRANCH  18  20
+BRANCH  18  21
+ATOM     21  C   UNL     1      -6.610  -3.907 129.878  0.00  0.00    +0.000 C 
+ATOM     22  C   UNL     1      -5.097  -3.751 129.915  0.00  0.00    +0.000 C 
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 8
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -6.1      1.673      3.542
+REMARK  Name = Dicyclomine
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  N_3
+REMARK    3  A    between atoms: N_3  and  C_4
+REMARK    4  A    between atoms: N_3  and  C_6
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK    8  A    between atoms: O_8  and  C_9
+REMARK    9  A    between atoms: C_9  and  C_11
+REMARK   10  A    between atoms: C_11  and  C_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.179  -1.362 127.082  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1      -5.690  -1.230 127.532  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1      -5.075  -2.461 128.196  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -5.967  -3.089 129.264  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -7.468  -3.146 128.985  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -7.992  -1.879 128.308  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1      -7.316  -2.266 125.785  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -8.746  -2.766 125.530  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1      -9.121  -3.343 124.195  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1      -8.619  -2.452 123.085  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1      -7.123  -2.247 123.237  0.00  0.00    +0.000 C 
+ATOM     12  C   UNL     1      -6.781  -1.542 124.536  0.00  0.00    +0.000 C 
+ENDBRANCH   1   7
+BRANCH   1  13
+ATOM     13  C   UNL     1      -7.663   0.080 126.727  0.00  0.00    +0.000 C 
+ATOM     14  O   UNL     1      -8.849   0.386 126.553  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  O   UNL     1      -6.641   0.989 126.659  0.00  0.00    +0.000 OA
+BRANCH  15  16
+ATOM     16  C   UNL     1      -7.001   2.240 126.035  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C   UNL     1      -6.414   2.361 124.605  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  N   UNL     1      -7.236   3.183 123.655  0.00  0.00    +0.000 NA
+BRANCH  18  20
+ATOM     19  C   UNL     1      -5.549   4.081 121.958  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -6.654   3.079 122.295  0.00  0.00    +0.000 C 
+ENDBRANCH  18  20
+BRANCH  18  21
+ATOM     21  C   UNL     1      -8.649   2.751 123.720  0.00  0.00    +0.000 C 
+ATOM     22  C   UNL     1      -8.987   1.389 123.134  0.00  0.00    +0.000 C 
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 8
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -6.1      7.258      9.510
+REMARK  Name = Dicyclomine
+REMARK  10 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  N_3
+REMARK    3  A    between atoms: N_3  and  C_4
+REMARK    4  A    between atoms: N_3  and  C_6
+REMARK    5  A    between atoms: C_4  and  C_5
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK    8  A    between atoms: O_8  and  C_9
+REMARK    9  A    between atoms: C_9  and  C_11
+REMARK   10  A    between atoms: C_11  and  C_17
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -9.448   6.257 130.849  0.00  0.00    +0.000 C 
+ATOM      2  C   UNL     1     -10.556   6.334 131.948  0.00  0.00    +0.000 C 
+ATOM      3  C   UNL     1     -11.994   6.462 131.448  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1     -12.168   7.511 130.351  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1     -11.069   7.615 129.294  0.00  0.00    +0.000 C 
+ATOM      6  C   UNL     1      -9.666   7.461 129.883  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C   UNL     1      -9.442   4.841 130.131  0.00  0.00    +0.000 C 
+ATOM      8  C   UNL     1      -8.294   4.666 129.125  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1      -7.938   3.301 128.611  0.00  0.00    +0.000 C 
+ATOM     10  C   UNL     1      -7.853   2.320 129.754  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1      -9.156   2.334 130.533  0.00  0.00    +0.000 C 
+ATOM     12  C   UNL     1      -9.426   3.692 131.154  0.00  0.00    +0.000 C 
+ENDBRANCH   1   7
+BRANCH   1  13
+ATOM     13  C   UNL     1      -8.083   6.439 131.584  0.00  0.00    +0.000 C 
+ATOM     14  O   UNL     1      -7.844   5.997 132.715  0.00  0.00    +0.000 OA
+BRANCH  13  15
+ATOM     15  O   UNL     1      -7.155   7.113 130.836  0.00  0.00    +0.000 OA
+BRANCH  15  16
+ATOM     16  C   UNL     1      -5.786   6.839 131.203  0.00  0.00    +0.000 C 
+BRANCH  16  17
+ATOM     17  C   UNL     1      -4.807   7.129 130.037  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  N   UNL     1      -4.671   6.017 129.038  0.00  0.00    +0.000 NA
+BRANCH  18  20
+ATOM     19  C   UNL     1      -2.168   6.473 128.799  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -3.535   6.314 128.132  0.00  0.00    +0.000 C 
+ENDBRANCH  18  20
+BRANCH  18  21
+ATOM     21  C   UNL     1      -4.531   4.727 129.746  0.00  0.00    +0.000 C 
+ATOM     22  C   UNL     1      -4.246   3.496 128.899  0.00  0.00    +0.000 C 
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  13  15
+ENDBRANCH   1  13
+TORSDOF 8
+ENDMDL

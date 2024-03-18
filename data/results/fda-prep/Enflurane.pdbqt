@@ -1,0 +1,27 @@
+REMARK  Name = Enflurane
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  O_4
+REMARK    2  A    between atoms: O_4  and  C_5
+REMARK    3  A    between atoms: C_5  and  C_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       4.306   0.922  -0.921  0.00  0.00    +0.000 C 
+ATOM      2  F   UNL     1       4.699   1.234   0.339  0.00  0.00    +0.000 F 
+ATOM      3  F   UNL     1       4.792  -0.313  -1.202  0.00  0.00    +0.000 F 
+ENDROOT
+BRANCH   1   4
+ATOM      4  C   UNL     1       4.837   1.939  -1.939  0.00  0.00    +0.000 C 
+ATOM      5  F   UNL     1       4.383   3.190  -1.641  0.00  0.00    +0.000 F 
+ATOM      6 CL   UNL     1       6.619   1.984  -1.983  0.00  0.00    +0.000 Cl
+ENDBRANCH   1   4
+BRANCH   1   7
+ATOM      7  O   UNL     1       2.894   0.858  -0.947  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      8  F   UNL     1       1.089   0.040   0.042  0.00  0.00    +0.000 F 
+ATOM      9  C   UNL     1       2.445  -0.008   0.064  0.00  0.00    +0.000 C 
+ATOM     10  F   UNL     1       2.786  -1.275  -0.263  0.00  0.00    +0.000 F 
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+TORSDOF 3

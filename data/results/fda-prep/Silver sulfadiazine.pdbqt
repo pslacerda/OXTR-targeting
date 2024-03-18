@@ -1,0 +1,52 @@
+REMARK  Name = Silver sulfadiazine
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  C_3
+REMARK    2  A    between atoms: C_6  and  S_9
+REMARK    3  A    between atoms: S_9  and  N_12
+REMARK    4  A    between atoms: N_12  and  C_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1 AG   UNL     1       0.975   0.067  -0.070  0.00  0.00    +0.000 Ag
+ENDROOT
+TORSDOF 0
+REMARK  Name = Silver sulfadiazine
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_2  and  C_3
+REMARK    2  A    between atoms: C_6  and  S_9
+REMARK    3  A    between atoms: S_9  and  N_12
+REMARK    4  A    between atoms: N_12  and  C_13
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  S   UNL     2      -3.647   0.001   0.012  0.00  0.00    +0.000 S 
+ATOM      2  O   UNL     2      -4.163  -0.714  -1.239  0.00  0.00    +0.000 OA
+ATOM      3  O   UNL     2      -4.152  -0.727   1.260  0.00  0.00    +0.000 OA
+ENDROOT
+BRANCH   1   7
+ATOM      4  C   UNL     2       0.956  -0.001   0.002  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     2       0.240  -1.207   0.000  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     2      -1.143  -1.208  -0.005  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     2      -1.837   0.000   0.004  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     2      -1.140   1.211   0.007  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     2       0.238   1.204  -0.012  0.00  0.00    +0.000 A 
+BRANCH   4  10
+ATOM     10  N   UNL     2       2.304   0.001   0.004  0.00  0.00    +0.000 N 
+ATOM     11  H   UNL     2       2.798  -0.851   0.014  0.00  0.00    +0.000 HD
+ATOM     12  H   UNL     2       2.795   0.854  -0.004  0.00  0.00    +0.000 HD
+ENDBRANCH   4  10
+ENDBRANCH   1   7
+BRANCH   1  13
+ATOM     13  N   UNL     2      -4.233   1.660   0.023  0.00  0.00    +0.000 NA
+BRANCH  13  14
+ATOM     14  C   UNL     2      -5.678   1.929   0.030  0.00  0.00    +0.000 A 
+ATOM     15  N   UNL     2      -6.113   2.876  -0.811  0.00  0.00    +0.000 NA
+ATOM     16  C   UNL     2      -7.441   3.061  -0.784  0.00  0.00    +0.000 A 
+ATOM     17  C   UNL     2      -8.288   2.384   0.033  0.00  0.00    +0.000 A 
+ATOM     18  C   UNL     2      -7.721   1.458   0.877  0.00  0.00    +0.000 A 
+ATOM     19  N   UNL     2      -6.421   1.197   0.883  0.00  0.00    +0.000 NA
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 4

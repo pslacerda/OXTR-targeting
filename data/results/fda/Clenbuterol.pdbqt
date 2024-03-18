@@ -1,0 +1,477 @@
+MODEL 1
+REMARK VINA RESULT:      -6.5      0.000      0.000
+REMARK  Name = Clenbuterol
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_2  and  N_5
+REMARK    5  A    between atoms: N_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK    8  A    between atoms: C_7  and  C_9
+REMARK    9  A    between atoms: C_13  and  N_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -9.612   6.351 131.599  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -9.502   5.672 132.821  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -8.251   5.443 133.398  0.00  0.00    +0.000 A 
+ATOM      4 CL   UNL     1      -8.195   4.570 134.894  0.00  0.00    +0.000 Cl
+ATOM      5  C   UNL     1      -7.062   5.884 132.785  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -7.192   6.606 131.582  0.00  0.00    +0.000 A 
+ATOM      7 CL   UNL     1      -5.794   7.224 130.767  0.00  0.00    +0.000 Cl
+ATOM      8  C   UNL     1      -8.437   6.832 131.001  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   5   9
+ATOM      9  N   UNL     1      -5.827   5.776 133.425  0.00  0.00    +0.000 N 
+ATOM     10  H   UNL     1      -5.178   6.554 133.344  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -5.776   5.201 134.261  0.00  0.00    +0.000 HD
+ENDBRANCH   5   9
+BRANCH   1  12
+ATOM     12  C   UNL     1     -10.980   6.626 131.007  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  O   UNL     1     -11.998   6.030 131.816  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1     -12.437   5.349 131.285  0.00  0.00    +0.000 HD
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  C   UNL     1     -11.021   6.065 129.572  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  N   UNL     1     -12.268   6.384 128.866  0.00  0.00    +0.000 NA
+ATOM     17  H   UNL     1     -12.603   5.549 128.383  0.00  0.00    +0.000 HD
+BRANCH  16  19
+ATOM     18  C   UNL     1     -12.676   7.056 126.563  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1     -12.157   7.522 127.935  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1     -10.697   7.977 127.773  0.00  0.00    +0.000 C 
+ATOM     21  C   UNL     1     -13.036   8.692 128.410  0.00  0.00    +0.000 C 
+ENDBRANCH  16  19
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.4      0.092      2.209
+REMARK  Name = Clenbuterol
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_2  and  N_5
+REMARK    5  A    between atoms: N_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK    8  A    between atoms: C_7  and  C_9
+REMARK    9  A    between atoms: C_13  and  N_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -9.623   6.377 131.659  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -8.458   6.827 131.019  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -7.201   6.584 131.578  0.00  0.00    +0.000 A 
+ATOM      4 CL   UNL     1      -5.811   7.198 130.745  0.00  0.00    +0.000 Cl
+ATOM      5  C   UNL     1      -7.053   5.881 132.790  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -8.228   5.395 133.395  0.00  0.00    +0.000 A 
+ATOM      7 CL   UNL     1      -8.153   4.488 134.868  0.00  0.00    +0.000 Cl
+ATOM      8  C   UNL     1      -9.484   5.639 132.844  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   5   9
+ATOM      9  N   UNL     1      -5.795   5.522 133.277  0.00  0.00    +0.000 N 
+ATOM     10  H   UNL     1      -5.233   4.884 132.719  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -5.310   6.188 133.869  0.00  0.00    +0.000 HD
+ENDBRANCH   5   9
+BRANCH   1  12
+ATOM     12  C   UNL     1     -10.976   6.614 131.019  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  O   UNL     1     -12.006   6.000 131.798  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1     -12.851   6.157 131.350  0.00  0.00    +0.000 HD
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  C   UNL     1     -10.955   6.044 129.588  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  N   UNL     1     -12.190   6.316 128.843  0.00  0.00    +0.000 NA
+ATOM     17  H   UNL     1     -12.461   5.478 128.325  0.00  0.00    +0.000 HD
+BRANCH  16  19
+ATOM     18  C   UNL     1     -12.620   7.051 126.563  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1     -12.106   7.485 127.948  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1     -10.657   7.976 127.796  0.00  0.00    +0.000 C 
+ATOM     21  C   UNL     1     -13.008   8.621 128.462  0.00  0.00    +0.000 C 
+ENDBRANCH  16  19
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -6.4      9.377     11.218
+REMARK  Name = Clenbuterol
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_2  and  N_5
+REMARK    5  A    between atoms: N_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK    8  A    between atoms: C_7  and  C_9
+REMARK    9  A    between atoms: C_13  and  N_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.334   2.964 122.396  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -6.970   3.275 122.491  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -6.302   3.879 121.423  0.00  0.00    +0.000 A 
+ATOM      4 CL   UNL     1      -4.610   4.205 121.603  0.00  0.00    +0.000 Cl
+ATOM      5  C   UNL     1      -6.966   4.202 120.223  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -8.346   3.926 120.161  0.00  0.00    +0.000 A 
+ATOM      7 CL   UNL     1      -9.262   4.317 118.744  0.00  0.00    +0.000 Cl
+ATOM      8  C   UNL     1      -9.015   3.320 121.221  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   5   9
+ATOM      9  N   UNL     1      -6.334   4.925 119.210  0.00  0.00    +0.000 N 
+ATOM     10  H   UNL     1      -6.912   5.310 118.468  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -5.474   5.413 119.444  0.00  0.00    +0.000 HD
+ENDBRANCH   5   9
+BRANCH   1  12
+ATOM     12  C   UNL     1      -9.052   2.346 123.579  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  O   UNL     1      -9.093   3.268 124.671  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1      -8.845   4.141 124.331  0.00  0.00    +0.000 HD
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  C   UNL     1      -8.321   1.051 123.981  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  N   UNL     1      -8.734  -0.113 123.188  0.00  0.00    +0.000 NA
+ATOM     17  H   UNL     1      -9.748  -0.223 123.257  0.00  0.00    +0.000 HD
+BRANCH  16  19
+ATOM     18  C   UNL     1      -7.758  -1.319 125.062  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1      -8.043  -1.364 123.550  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -6.704  -1.504 122.807  0.00  0.00    +0.000 C 
+ATOM     21  C   UNL     1      -8.945  -2.578 123.266  0.00  0.00    +0.000 C 
+ENDBRANCH  16  19
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -6.2      9.269     11.150
+REMARK  Name = Clenbuterol
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_2  and  N_5
+REMARK    5  A    between atoms: N_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK    8  A    between atoms: C_7  and  C_9
+REMARK    9  A    between atoms: C_13  and  N_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.217   2.922 122.484  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -9.015   3.254 121.379  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -8.460   3.893 120.267  0.00  0.00    +0.000 A 
+ATOM      4 CL   UNL     1      -9.515   4.297 118.954  0.00  0.00    +0.000 Cl
+ATOM      5  C   UNL     1      -7.092   4.223 120.210  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -6.295   3.841 121.308  0.00  0.00    +0.000 A 
+ATOM      7 CL   UNL     1      -4.594   4.168 121.321  0.00  0.00    +0.000 Cl
+ATOM      8  C   UNL     1      -6.845   3.208 122.420  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   5   9
+ATOM      9  N   UNL     1      -6.512   4.737 119.049  0.00  0.00    +0.000 N 
+ATOM     10  H   UNL     1      -5.964   4.106 118.471  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -6.979   5.515 118.593  0.00  0.00    +0.000 HD
+ENDBRANCH   5   9
+BRANCH   1  12
+ATOM     12  C   UNL     1      -8.827   2.194 123.664  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  O   UNL     1      -9.268   3.131 124.651  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1      -8.517   3.701 124.874  0.00  0.00    +0.000 HD
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  C   UNL     1      -7.775   1.233 124.251  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  N   UNL     1      -8.349  -0.041 124.703  0.00  0.00    +0.000 NA
+ATOM     17  H   UNL     1      -8.063  -0.214 125.668  0.00  0.00    +0.000 HD
+BRANCH  16  19
+ATOM     18  C   UNL     1      -9.154  -1.356 122.820  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1      -8.014  -1.189 123.841  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -7.896  -2.489 124.654  0.00  0.00    +0.000 C 
+ATOM     21  C   UNL     1      -6.712  -0.919 123.068  0.00  0.00    +0.000 C 
+ENDBRANCH  16  19
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -6.1      8.785     10.253
+REMARK  Name = Clenbuterol
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_2  and  N_5
+REMARK    5  A    between atoms: N_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK    8  A    between atoms: C_7  and  C_9
+REMARK    9  A    between atoms: C_13  and  N_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.358   2.592 122.966  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -7.392   2.824 123.957  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -6.195   3.472 123.646  0.00  0.00    +0.000 A 
+ATOM      4 CL   UNL     1      -5.038   3.694 124.916  0.00  0.00    +0.000 Cl
+ATOM      5  C   UNL     1      -5.913   3.918 122.339  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -6.912   3.720 121.366  0.00  0.00    +0.000 A 
+ATOM      7 CL   UNL     1      -6.680   4.265 119.739  0.00  0.00    +0.000 Cl
+ATOM      8  C   UNL     1      -8.105   3.070 121.671  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   5   9
+ATOM      9  N   UNL     1      -4.780   4.683 122.058  0.00  0.00    +0.000 N 
+ATOM     10  H   UNL     1      -4.180   4.950 122.834  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -4.352   4.576 121.143  0.00  0.00    +0.000 HD
+ENDBRANCH   5   9
+BRANCH   1  12
+ATOM     12  C   UNL     1      -9.668   1.923 123.329  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  O   UNL     1      -9.964   2.133 124.712  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1      -9.552   1.415 125.216  0.00  0.00    +0.000 HD
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  C   UNL     1      -9.561   0.419 123.013  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  N   UNL     1      -9.444  -0.414 124.216  0.00  0.00    +0.000 NA
+ATOM     17  H   UNL     1      -9.211   0.179 125.014  0.00  0.00    +0.000 HD
+BRANCH  16  19
+ATOM     18  C   UNL     1      -9.209  -2.695 123.399  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1      -8.483  -1.525 124.086  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -7.984  -2.002 125.460  0.00  0.00    +0.000 C 
+ATOM     21  C   UNL     1      -7.297  -1.107 123.199  0.00  0.00    +0.000 C 
+ENDBRANCH  16  19
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -6.1      8.711     10.337
+REMARK  Name = Clenbuterol
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_2  and  N_5
+REMARK    5  A    between atoms: N_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK    8  A    between atoms: C_7  and  C_9
+REMARK    9  A    between atoms: C_13  and  N_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.201   2.736 123.031  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -7.956   3.145 121.711  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -6.780   3.823 121.383  0.00  0.00    +0.000 A 
+ATOM      4 CL   UNL     1      -6.564   4.323 119.738  0.00  0.00    +0.000 Cl
+ATOM      5  C   UNL     1      -5.800   4.116 122.351  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -6.038   3.658 123.662  0.00  0.00    +0.000 A 
+ATOM      7 CL   UNL     1      -4.879   3.935 124.919  0.00  0.00    +0.000 Cl
+ATOM      8  C   UNL     1      -7.212   2.986 123.995  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   5   9
+ATOM      9  N   UNL     1      -4.569   4.672 121.999  0.00  0.00    +0.000 N 
+ATOM     10  H   UNL     1      -4.556   5.375 121.265  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -3.849   4.719 122.714  0.00  0.00    +0.000 HD
+ENDBRANCH   5   9
+BRANCH   1  12
+ATOM     12  C   UNL     1      -9.463   1.967 123.363  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  O   UNL     1      -9.850   2.211 124.718  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1     -10.557   2.874 124.710  0.00  0.00    +0.000 HD
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  C   UNL     1      -9.206   0.467 123.127  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  N   UNL     1      -9.616  -0.372 124.260  0.00  0.00    +0.000 NA
+ATOM     17  H   UNL     1      -9.629   0.196 125.109  0.00  0.00    +0.000 HD
+BRANCH  16  19
+ATOM     18  C   UNL     1      -9.052  -2.112 125.864  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1      -8.789  -1.578 124.445  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -7.290  -1.259 124.316  0.00  0.00    +0.000 C 
+ATOM     21  C   UNL     1      -9.196  -2.668 123.437  0.00  0.00    +0.000 C 
+ENDBRANCH  16  19
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -5.9      9.585     10.826
+REMARK  Name = Clenbuterol
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_2  and  N_5
+REMARK    5  A    between atoms: N_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK    8  A    between atoms: C_7  and  C_9
+REMARK    9  A    between atoms: C_13  and  N_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.965  -0.801 124.915  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -9.064  -0.009 123.761  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -8.966   1.382 123.842  0.00  0.00    +0.000 A 
+ATOM      4 CL   UNL     1      -9.129   2.293 122.377  0.00  0.00    +0.000 Cl
+ATOM      5  C   UNL     1      -8.762   2.039 125.071  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -8.618   1.228 126.214  0.00  0.00    +0.000 A 
+ATOM      7 CL   UNL     1      -8.328   1.935 127.768  0.00  0.00    +0.000 Cl
+ATOM      8  C   UNL     1      -8.719  -0.159 126.139  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   5   9
+ATOM      9  N   UNL     1      -8.531   3.414 125.135  0.00  0.00    +0.000 N 
+ATOM     10  H   UNL     1      -8.248   3.889 124.281  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -9.045   3.949 125.827  0.00  0.00    +0.000 HD
+ENDBRANCH   5   9
+BRANCH   1  12
+ATOM     12  C   UNL     1      -9.033  -2.310 124.804  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  O   UNL     1     -10.136  -2.813 125.563  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1     -10.952  -2.530 125.124  0.00  0.00    +0.000 HD
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  C   UNL     1      -7.704  -2.905 125.308  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  N   UNL     1      -6.918  -3.539 124.242  0.00  0.00    +0.000 NA
+ATOM     17  H   UNL     1      -6.634  -4.472 124.545  0.00  0.00    +0.000 HD
+BRANCH  16  19
+ATOM     18  C   UNL     1      -6.144  -2.016 122.509  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1      -5.753  -2.750 123.804  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -4.542  -3.650 123.505  0.00  0.00    +0.000 C 
+ATOM     21  C   UNL     1      -5.390  -1.695 124.864  0.00  0.00    +0.000 C 
+ENDBRANCH  16  19
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -5.8      8.970      9.844
+REMARK  Name = Clenbuterol
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_2  and  N_5
+REMARK    5  A    between atoms: N_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK    8  A    between atoms: C_7  and  C_9
+REMARK    9  A    between atoms: C_13  and  N_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.914   0.161 124.450  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -9.233  -0.779 125.442  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -8.653  -2.049 125.433  0.00  0.00    +0.000 A 
+ATOM      4 CL   UNL     1      -9.121  -3.164 126.673  0.00  0.00    +0.000 Cl
+ATOM      5  C   UNL     1      -7.729  -2.433 124.441  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -7.382  -1.463 123.480  0.00  0.00    +0.000 A 
+ATOM      7 CL   UNL     1      -6.228  -1.822 122.239  0.00  0.00    +0.000 Cl
+ATOM      8  C   UNL     1      -7.962  -0.197 123.482  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   5   9
+ATOM      9  N   UNL     1      -7.049  -3.650 124.508  0.00  0.00    +0.000 N 
+ATOM     10  H   UNL     1      -6.076  -3.668 124.213  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -7.343  -4.317 125.214  0.00  0.00    +0.000 HD
+ENDBRANCH   5   9
+BRANCH   1  12
+ATOM     12  C   UNL     1      -9.522   1.547 124.497  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  O   UNL     1     -10.898   1.498 124.109  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1     -11.039   2.174 123.430  0.00  0.00    +0.000 HD
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  C   UNL     1      -8.721   2.473 123.562  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  N   UNL     1      -8.207   3.670 124.240  0.00  0.00    +0.000 NA
+ATOM     17  H   UNL     1      -8.615   4.501 123.808  0.00  0.00    +0.000 HD
+BRANCH  16  19
+ATOM     18  C   UNL     1      -6.361   5.080 124.964  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1      -6.736   3.759 124.270  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -6.144   3.771 122.850  0.00  0.00    +0.000 C 
+ATOM     21  C   UNL     1      -6.144   2.599 125.089  0.00  0.00    +0.000 C 
+ENDBRANCH  16  19
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -5.8      9.747     11.142
+REMARK  Name = Clenbuterol
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_2  and  N_5
+REMARK    5  A    between atoms: N_5  and  C_6
+REMARK    6  A    between atoms: C_6  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK    8  A    between atoms: C_7  and  C_9
+REMARK    9  A    between atoms: C_13  and  N_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -6.846   0.908 125.014  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      -6.184   2.091 124.653  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      -6.685   2.905 123.635  0.00  0.00    +0.000 A 
+ATOM      4 CL   UNL     1      -5.795   4.333 123.225  0.00  0.00    +0.000 Cl
+ATOM      5  C   UNL     1      -7.866   2.576 122.939  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      -8.545   1.411 123.345  0.00  0.00    +0.000 A 
+ATOM      7 CL   UNL     1     -10.024   0.938 122.579  0.00  0.00    +0.000 Cl
+ATOM      8  C   UNL     1      -8.046   0.594 124.357  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   5   9
+ATOM      9  N   UNL     1      -8.438   3.455 122.017  0.00  0.00    +0.000 N 
+ATOM     10  H   UNL     1      -9.129   3.082 121.371  0.00  0.00    +0.000 HD
+ATOM     11  H   UNL     1      -8.511   4.433 122.278  0.00  0.00    +0.000 HD
+ENDBRANCH   5   9
+BRANCH   1  12
+ATOM     12  C   UNL     1      -6.311   0.058 126.148  0.00  0.00    +0.000 C 
+BRANCH  12  13
+ATOM     13  O   UNL     1      -4.897   0.234 126.274  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1      -4.539   0.397 125.388  0.00  0.00    +0.000 HD
+ENDBRANCH  12  13
+BRANCH  12  15
+ATOM     15  C   UNL     1      -6.658  -1.417 125.869  0.00  0.00    +0.000 C 
+BRANCH  15  16
+ATOM     16  N   UNL     1      -5.551  -2.162 125.257  0.00  0.00    +0.000 NA
+ATOM     17  H   UNL     1      -4.821  -1.505 124.974  0.00  0.00    +0.000 HD
+BRANCH  16  19
+ATOM     18  C   UNL     1      -6.059  -2.126 122.877  0.00  0.00    +0.000 C 
+ATOM     19  C   UNL     1      -5.955  -3.018 124.127  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1      -7.327  -3.668 124.375  0.00  0.00    +0.000 C 
+ATOM     21  C   UNL     1      -4.890  -4.096 123.861  0.00  0.00    +0.000 C 
+ENDBRANCH  16  19
+ENDBRANCH  15  16
+ENDBRANCH  12  15
+ENDBRANCH   1  12
+TORSDOF 6
+ENDMDL

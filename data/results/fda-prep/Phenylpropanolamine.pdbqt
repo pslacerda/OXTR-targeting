@@ -1,0 +1,35 @@
+REMARK  Name = Phenylpropanolamine
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  N_3
+REMARK    3  A    between atoms: C_2  and  C_4
+REMARK    4  A    between atoms: C_4  and  O_5
+REMARK    5  A    between atoms: C_4  and  C_6
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       2.977  -0.547   1.268  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1       4.495  -0.567   1.339  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1       5.238  -1.757   1.363  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1       6.627  -1.720   1.500  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1       7.299  -0.504   1.553  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1       6.583   0.688   1.493  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1       5.193   0.650   1.412  0.00  0.00    +0.000 A 
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      8  C   UNL     1       0.894  -0.037  -0.096  0.00  0.00    +0.000 C 
+ATOM      9  C   UNL     1       2.425  -0.009  -0.093  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  N   UNL     1       2.853   1.363  -0.413  0.00  0.00    +0.000 NA
+ATOM     11  H   UNL     1       2.511   2.005   0.301  0.00  0.00    +0.000 HD
+ATOM     12  H   UNL     1       2.455   1.665  -1.299  0.00  0.00    +0.000 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+BRANCH   1  13
+ATOM     13  O   UNL     1       2.435  -1.847   1.535  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1       2.702  -2.421   0.798  0.00  0.00    +0.000 HD
+ENDBRANCH   1  13
+TORSDOF 4

@@ -1,0 +1,531 @@
+MODEL 1
+REMARK VINA RESULT:      -8.1      0.000      0.000
+REMARK  Name = Pheneticillin
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_5
+REMARK    2  A    between atoms: C_4  and  C_6
+REMARK    3  A    between atoms: CA_7  and  C_24
+REMARK    4  A    between atoms: CA_11  and  N_12
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_15  and  C_16
+REMARK    7  A    between atoms: C_15  and  O_17
+REMARK    8  A    between atoms: O_17  and  C_18
+REMARK    9  A    between atoms: C_24  and  O_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -9.024  -0.282 124.571  0.00  0.00    +0.000 C 
+ATOM      2  S   UNL     1      -7.812  -1.090 123.466  0.00  0.00    +0.000 S 
+ATOM      3  C   UNL     1      -7.879  -2.656 124.494  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -6.572  -3.408 124.232  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -9.113  -3.426 123.987  0.00  0.00    +0.000 C 
+ATOM      6  CA  UNL     1      -7.973  -2.133 125.947  0.00  0.00    +0.000 C 
+ATOM      7  N   UNL     1      -8.769  -0.887 125.890  0.00  0.00    +0.000 N 
+ATOM      8  C   UNL     1      -8.290   0.283 126.423  0.00  0.00    +0.000 C 
+ATOM      9  O   UNL     1      -7.627   0.483 127.426  0.00  0.00    +0.000 OA
+ATOM     10  CA  UNL     1      -8.679   1.098 125.162  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH  10  11
+ATOM     11  N   UNL     1      -7.587   1.878 124.505  0.00  0.00    +0.000 N 
+ATOM     12  C   UNL     1      -7.712   3.252 124.334  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1      -8.713   3.844 124.730  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1      -6.764   1.391 124.166  0.00  0.00    +0.000 HD
+BRANCH  12  15
+ATOM     15  C   UNL     1      -6.547   3.945 123.576  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1      -5.393   4.054 124.577  0.00  0.00    +0.000 C 
+BRANCH  15  17
+ATOM     17  O   UNL     1      -6.256   3.181 122.381  0.00  0.00    +0.000 OA
+BRANCH  17  18
+ATOM     18  C   UNL     1      -6.305   3.812 121.165  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1      -5.235   4.617 120.774  0.00  0.00    +0.000 A 
+ATOM     20  C   UNL     1      -5.320   5.371 119.590  0.00  0.00    +0.000 A 
+ATOM     21  C   UNL     1      -6.420   5.239 118.742  0.00  0.00    +0.000 A 
+ATOM     22  C   UNL     1      -7.491   4.459 119.139  0.00  0.00    +0.000 A 
+ATOM     23  C   UNL     1      -7.452   3.835 120.378  0.00  0.00    +0.000 A 
+ENDBRANCH  17  18
+ENDBRANCH  15  17
+ENDBRANCH  12  15
+ENDBRANCH  10  11
+BRANCH   6  24
+ATOM     24  C   UNL     1      -8.494  -3.073 127.062  0.00  0.00    +0.000 C 
+ATOM     25  OXT UNL     1      -9.561  -3.671 126.977  0.00  0.00    +0.000 OA
+BRANCH  24  26
+ATOM     26  O   UNL     1      -7.771  -3.223 128.190  0.00  0.00    +0.000 OA
+ATOM     27  H   UNL     1      -7.412  -4.087 128.444  0.00  0.00    +0.000 HD
+ENDBRANCH  24  26
+ENDBRANCH   6  24
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -7.8      3.546      6.121
+REMARK  Name = Pheneticillin
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_5
+REMARK    2  A    between atoms: C_4  and  C_6
+REMARK    3  A    between atoms: CA_7  and  C_24
+REMARK    4  A    between atoms: CA_11  and  N_12
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_15  and  C_16
+REMARK    7  A    between atoms: C_15  and  O_17
+REMARK    8  A    between atoms: O_17  and  C_18
+REMARK    9  A    between atoms: C_24  and  O_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -5.907   3.351 127.181  0.00  0.00    +0.000 C 
+ATOM      2  S   UNL     1      -4.570   2.245 126.603  0.00  0.00    +0.000 S 
+ATOM      3  C   UNL     1      -3.275   3.384 127.338  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -1.972   3.109 126.584  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -3.187   2.995 128.826  0.00  0.00    +0.000 C 
+ATOM      6  CA  UNL     1      -3.831   4.799 127.053  0.00  0.00    +0.000 C 
+ATOM      7  N   UNL     1      -5.303   4.695 127.148  0.00  0.00    +0.000 N 
+ATOM      8  C   UNL     1      -6.110   5.119 126.122  0.00  0.00    +0.000 C 
+ATOM      9  O   UNL     1      -5.998   6.070 125.369  0.00  0.00    +0.000 OA
+ATOM     10  CA  UNL     1      -6.964   3.824 126.166  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH  10  11
+ATOM     11  N   UNL     1      -7.087   3.059 124.888  0.00  0.00    +0.000 N 
+ATOM     12  C   UNL     1      -8.337   2.845 124.317  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1      -9.352   3.290 124.847  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1      -6.253   2.679 124.454  0.00  0.00    +0.000 HD
+BRANCH  12  15
+ATOM     15  C   UNL     1      -8.348   1.978 123.029  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1      -8.980   0.639 123.423  0.00  0.00    +0.000 C 
+BRANCH  15  17
+ATOM     17  O   UNL     1      -9.046   2.706 121.990  0.00  0.00    +0.000 OA
+BRANCH  17  18
+ATOM     18  C   UNL     1      -8.313   3.415 121.074  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1      -8.939   3.886 119.920  0.00  0.00    +0.000 A 
+ATOM     20  C   UNL     1      -8.178   4.504 118.912  0.00  0.00    +0.000 A 
+ATOM     21  C   UNL     1      -6.818   4.753 119.099  0.00  0.00    +0.000 A 
+ATOM     22  C   UNL     1      -6.192   4.268 120.233  0.00  0.00    +0.000 A 
+ATOM     23  C   UNL     1      -6.929   3.533 121.152  0.00  0.00    +0.000 A 
+ENDBRANCH  17  18
+ENDBRANCH  15  17
+ENDBRANCH  12  15
+ENDBRANCH  10  11
+BRANCH   6  24
+ATOM     24  C   UNL     1      -3.307   6.002 127.874  0.00  0.00    +0.000 C 
+ATOM     25  OXT UNL     1      -4.054   6.830 128.383  0.00  0.00    +0.000 OA
+BRANCH  24  26
+ATOM     26  O   UNL     1      -1.977   6.176 128.016  0.00  0.00    +0.000 OA
+ATOM     27  H   UNL     1      -1.610   7.023 128.312  0.00  0.00    +0.000 HD
+ENDBRANCH  24  26
+ENDBRANCH   6  24
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -7.6      5.410      8.015
+REMARK  Name = Pheneticillin
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_5
+REMARK    2  A    between atoms: C_4  and  C_6
+REMARK    3  A    between atoms: CA_7  and  C_24
+REMARK    4  A    between atoms: CA_11  and  N_12
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_15  and  C_16
+REMARK    7  A    between atoms: C_15  and  O_17
+REMARK    8  A    between atoms: O_17  and  C_18
+REMARK    9  A    between atoms: C_24  and  O_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.164   2.948 126.872  0.00  0.00    +0.000 C 
+ATOM      2  S   UNL     1      -8.320   1.565 127.177  0.00  0.00    +0.000 S 
+ATOM      3  C   UNL     1      -8.565   1.328 125.333  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -9.910   0.620 125.157  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -7.379   0.461 124.871  0.00  0.00    +0.000 C 
+ATOM      6  CA  UNL     1      -8.587   2.773 124.781  0.00  0.00    +0.000 C 
+ATOM      7  N   UNL     1      -7.647   3.552 125.617  0.00  0.00    +0.000 N 
+ATOM      8  C   UNL     1      -8.046   4.711 126.236  0.00  0.00    +0.000 C 
+ATOM      9  O   UNL     1      -8.797   5.592 125.857  0.00  0.00    +0.000 OA
+ATOM     10  CA  UNL     1      -7.413   4.289 127.588  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH  10  11
+ATOM     11  N   UNL     1      -8.317   4.280 128.777  0.00  0.00    +0.000 N 
+ATOM     12  C   UNL     1      -8.069   5.127 129.852  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1      -7.114   5.899 129.833  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1      -9.100   3.635 128.802  0.00  0.00    +0.000 HD
+BRANCH  12  15
+ATOM     15  C   UNL     1      -9.034   4.980 131.061  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1      -8.715   6.145 132.003  0.00  0.00    +0.000 C 
+BRANCH  15  17
+ATOM     17  O   UNL     1     -10.393   4.944 130.563  0.00  0.00    +0.000 OA
+BRANCH  17  18
+ATOM     18  C   UNL     1     -11.083   6.122 130.440  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1     -12.031   6.459 131.406  0.00  0.00    +0.000 A 
+ATOM     20  C   UNL     1     -12.837   7.598 131.231  0.00  0.00    +0.000 A 
+ATOM     21  C   UNL     1     -12.624   8.460 130.155  0.00  0.00    +0.000 A 
+ATOM     22  C   UNL     1     -11.701   8.116 129.186  0.00  0.00    +0.000 A 
+ATOM     23  C   UNL     1     -11.014   6.915 129.298  0.00  0.00    +0.000 A 
+ENDBRANCH  17  18
+ENDBRANCH  15  17
+ENDBRANCH  12  15
+ENDBRANCH  10  11
+BRANCH   6  24
+ATOM     24  C   UNL     1      -8.320   3.017 123.275  0.00  0.00    +0.000 C 
+ATOM     25  OXT UNL     1      -9.063   2.596 122.396  0.00  0.00    +0.000 OA
+BRANCH  24  26
+ATOM     26  O   UNL     1      -7.214   3.691 122.902  0.00  0.00    +0.000 OA
+ATOM     27  H   UNL     1      -7.015   4.569 123.263  0.00  0.00    +0.000 HD
+ENDBRANCH  24  26
+ENDBRANCH   6  24
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -7.5      3.361      7.060
+REMARK  Name = Pheneticillin
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_5
+REMARK    2  A    between atoms: C_4  and  C_6
+REMARK    3  A    between atoms: CA_7  and  C_24
+REMARK    4  A    between atoms: CA_11  and  N_12
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_15  and  C_16
+REMARK    7  A    between atoms: C_15  and  O_17
+REMARK    8  A    between atoms: O_17  and  C_18
+REMARK    9  A    between atoms: C_24  and  O_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -6.053   3.306 127.085  0.00  0.00    +0.000 C 
+ATOM      2  S   UNL     1      -4.735   2.169 126.522  0.00  0.00    +0.000 S 
+ATOM      3  C   UNL     1      -3.421   3.295 127.242  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -2.122   2.987 126.492  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -3.339   2.926 128.735  0.00  0.00    +0.000 C 
+ATOM      6  CA  UNL     1      -3.952   4.716 126.937  0.00  0.00    +0.000 C 
+ATOM      7  N   UNL     1      -5.426   4.638 127.033  0.00  0.00    +0.000 N 
+ATOM      8  C   UNL     1      -6.225   5.062 126.001  0.00  0.00    +0.000 C 
+ATOM      9  O   UNL     1      -6.097   6.000 125.235  0.00  0.00    +0.000 OA
+ATOM     10  CA  UNL     1      -7.101   3.783 126.062  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH  10  11
+ATOM     11  N   UNL     1      -7.238   3.003 124.796  0.00  0.00    +0.000 N 
+ATOM     12  C   UNL     1      -8.471   2.481 124.423  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1      -9.465   2.664 125.122  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1      -6.417   2.839 124.223  0.00  0.00    +0.000 HD
+BRANCH  12  15
+ATOM     15  C   UNL     1      -8.478   1.629 123.125  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1      -8.424   2.624 121.962  0.00  0.00    +0.000 C 
+BRANCH  15  17
+ATOM     17  O   UNL     1      -7.376   0.690 123.185  0.00  0.00    +0.000 OA
+BRANCH  17  18
+ATOM     18  C   UNL     1      -7.642  -0.622 123.473  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1      -6.635  -1.415 124.024  0.00  0.00    +0.000 A 
+ATOM     20  C   UNL     1      -6.849  -2.793 124.210  0.00  0.00    +0.000 A 
+ATOM     21  C   UNL     1      -8.097  -3.359 123.952  0.00  0.00    +0.000 A 
+ATOM     22  C   UNL     1      -9.089  -2.580 123.386  0.00  0.00    +0.000 A 
+ATOM     23  C   UNL     1      -8.816  -1.254 123.075  0.00  0.00    +0.000 A 
+ENDBRANCH  17  18
+ENDBRANCH  15  17
+ENDBRANCH  12  15
+ENDBRANCH  10  11
+BRANCH   6  24
+ATOM     24  C   UNL     1      -3.407   5.921 127.741  0.00  0.00    +0.000 C 
+ATOM     25  OXT UNL     1      -4.137   6.791 128.203  0.00  0.00    +0.000 OA
+BRANCH  24  26
+ATOM     26  O   UNL     1      -2.077   6.047 127.922  0.00  0.00    +0.000 OA
+ATOM     27  H   UNL     1      -1.541   5.305 128.241  0.00  0.00    +0.000 HD
+ENDBRANCH  24  26
+ENDBRANCH   6  24
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -7.3      4.870      7.834
+REMARK  Name = Pheneticillin
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_5
+REMARK    2  A    between atoms: C_4  and  C_6
+REMARK    3  A    between atoms: CA_7  and  C_24
+REMARK    4  A    between atoms: CA_11  and  N_12
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_15  and  C_16
+REMARK    7  A    between atoms: C_15  and  O_17
+REMARK    8  A    between atoms: O_17  and  C_18
+REMARK    9  A    between atoms: C_24  and  O_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -6.646   2.749 125.793  0.00  0.00    +0.000 C 
+ATOM      2  S   UNL     1      -8.290   2.152 125.259  0.00  0.00    +0.000 S 
+ATOM      3  C   UNL     1      -7.764   2.232 123.462  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -9.047   2.347 122.635  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -7.010   0.915 123.198  0.00  0.00    +0.000 C 
+ATOM      6  CA  UNL     1      -6.903   3.515 123.391  0.00  0.00    +0.000 C 
+ATOM      7  N   UNL     1      -6.201   3.617 124.689  0.00  0.00    +0.000 N 
+ATOM      8  C   UNL     1      -6.281   4.758 125.448  0.00  0.00    +0.000 C 
+ATOM      9  O   UNL     1      -6.314   5.929 125.115  0.00  0.00    +0.000 OA
+ATOM     10  CA  UNL     1      -6.573   3.957 126.745  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH  10  11
+ATOM     11  N   UNL     1      -7.812   4.324 127.494  0.00  0.00    +0.000 N 
+ATOM     12  C   UNL     1      -7.728   4.804 128.796  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1      -6.637   4.945 129.342  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1      -8.716   4.198 127.051  0.00  0.00    +0.000 HD
+BRANCH  12  15
+ATOM     15  C   UNL     1      -9.085   5.085 129.499  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1      -9.174   4.095 130.664  0.00  0.00    +0.000 C 
+BRANCH  15  17
+ATOM     17  O   UNL     1      -9.128   6.484 129.874  0.00  0.00    +0.000 OA
+BRANCH  17  18
+ATOM     18  C   UNL     1     -10.253   7.210 129.587  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1     -11.297   7.242 130.513  0.00  0.00    +0.000 A 
+ATOM     20  C   UNL     1     -12.508   7.876 130.184  0.00  0.00    +0.000 A 
+ATOM     21  C   UNL     1     -12.642   8.573 128.983  0.00  0.00    +0.000 A 
+ATOM     22  C   UNL     1     -11.617   8.524 128.055  0.00  0.00    +0.000 A 
+ATOM     23  C   UNL     1     -10.484   7.773 128.335  0.00  0.00    +0.000 A 
+ENDBRANCH  17  18
+ENDBRANCH  15  17
+ENDBRANCH  12  15
+ENDBRANCH  10  11
+BRANCH   6  24
+ATOM     24  C   UNL     1      -5.918   3.707 122.212  0.00  0.00    +0.000 C 
+ATOM     25  OXT UNL     1      -5.859   2.929 121.267  0.00  0.00    +0.000 OA
+BRANCH  24  26
+ATOM     26  O   UNL     1      -5.063   4.750 122.229  0.00  0.00    +0.000 OA
+ATOM     27  H   UNL     1      -4.838   5.227 121.416  0.00  0.00    +0.000 HD
+ENDBRANCH  24  26
+ENDBRANCH   6  24
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -7.3      3.455      4.562
+REMARK  Name = Pheneticillin
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_5
+REMARK    2  A    between atoms: C_4  and  C_6
+REMARK    3  A    between atoms: CA_7  and  C_24
+REMARK    4  A    between atoms: CA_11  and  N_12
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_15  and  C_16
+REMARK    7  A    between atoms: C_15  and  O_17
+REMARK    8  A    between atoms: O_17  and  C_18
+REMARK    9  A    between atoms: C_24  and  O_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.645   0.641 123.879  0.00  0.00    +0.000 C 
+ATOM      2  S   UNL     1      -6.100   0.010 124.628  0.00  0.00    +0.000 S 
+ATOM      3  C   UNL     1      -6.637  -1.757 124.310  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -5.870  -2.633 125.302  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -6.248  -2.045 122.847  0.00  0.00    +0.000 C 
+ATOM      6  CA  UNL     1      -8.156  -1.734 124.600  0.00  0.00    +0.000 C 
+ATOM      7  N   UNL     1      -8.641  -0.403 124.173  0.00  0.00    +0.000 N 
+ATOM      8  C   UNL     1      -9.347   0.401 125.033  0.00  0.00    +0.000 C 
+ATOM      9  O   UNL     1     -10.176   0.118 125.879  0.00  0.00    +0.000 OA
+ATOM     10  CA  UNL     1      -8.494   1.647 124.677  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH  10  11
+ATOM     11  N   UNL     1      -7.838   2.357 125.816  0.00  0.00    +0.000 N 
+ATOM     12  C   UNL     1      -8.010   3.727 125.982  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1      -8.711   4.368 125.203  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1      -7.248   1.833 126.454  0.00  0.00    +0.000 HD
+BRANCH  12  15
+ATOM     15  C   UNL     1      -7.224   4.367 127.158  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1      -6.913   3.227 128.133  0.00  0.00    +0.000 C 
+BRANCH  15  17
+ATOM     17  O   UNL     1      -6.066   5.051 126.620  0.00  0.00    +0.000 OA
+BRANCH  17  18
+ATOM     18  C   UNL     1      -4.822   4.531 126.859  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1      -3.974   5.180 127.757  0.00  0.00    +0.000 A 
+ATOM     20  C   UNL     1      -2.650   4.734 127.920  0.00  0.00    +0.000 A 
+ATOM     21  C   UNL     1      -2.205   3.580 127.276  0.00  0.00    +0.000 A 
+ATOM     22  C   UNL     1      -3.036   2.948 126.370  0.00  0.00    +0.000 A 
+ATOM     23  C   UNL     1      -4.291   3.484 126.112  0.00  0.00    +0.000 A 
+ENDBRANCH  17  18
+ENDBRANCH  15  17
+ENDBRANCH  12  15
+ENDBRANCH  10  11
+BRANCH   6  24
+ATOM     24  C   UNL     1      -9.057  -2.859 124.034  0.00  0.00    +0.000 C 
+ATOM     25  OXT UNL     1      -8.852  -4.046 124.260  0.00  0.00    +0.000 OA
+BRANCH  24  26
+ATOM     26  O   UNL     1     -10.093  -2.536 123.234  0.00  0.00    +0.000 OA
+ATOM     27  H   UNL     1     -10.182  -1.644 122.863  0.00  0.00    +0.000 HD
+ENDBRANCH  24  26
+ENDBRANCH   6  24
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -7.1      4.944      8.004
+REMARK  Name = Pheneticillin
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_5
+REMARK    2  A    between atoms: C_4  and  C_6
+REMARK    3  A    between atoms: CA_7  and  C_24
+REMARK    4  A    between atoms: CA_11  and  N_12
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_15  and  C_16
+REMARK    7  A    between atoms: C_15  and  O_17
+REMARK    8  A    between atoms: O_17  and  C_18
+REMARK    9  A    between atoms: C_24  and  O_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.203   1.763 130.386  0.00  0.00    +0.000 C 
+ATOM      2  S   UNL     1      -8.638   2.282 129.378  0.00  0.00    +0.000 S 
+ATOM      3  C   UNL     1      -9.251   3.378 130.770  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1     -10.753   3.573 130.545  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -8.461   4.693 130.634  0.00  0.00    +0.000 C 
+ATOM      6  CA  UNL     1      -8.951   2.552 132.043  0.00  0.00    +0.000 C 
+ATOM      7  N   UNL     1      -7.699   1.812 131.772  0.00  0.00    +0.000 N 
+ATOM      8  C   UNL     1      -7.637   0.449 131.927  0.00  0.00    +0.000 C 
+ATOM      9  O   UNL     1      -8.156  -0.278 132.755  0.00  0.00    +0.000 OA
+ATOM     10  CA  UNL     1      -6.930   0.257 130.559  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH  10  11
+ATOM     11  N   UNL     1      -7.581  -0.680 129.595  0.00  0.00    +0.000 N 
+ATOM     12  C   UNL     1      -6.820  -1.615 128.903  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1      -5.607  -1.692 129.084  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1      -8.580  -0.611 129.433  0.00  0.00    +0.000 HD
+BRANCH  12  15
+ATOM     15  C   UNL     1      -7.593  -2.486 127.876  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1      -8.469  -3.437 128.698  0.00  0.00    +0.000 C 
+BRANCH  15  17
+ATOM     17  O   UNL     1      -8.312  -1.608 126.976  0.00  0.00    +0.000 OA
+BRANCH  17  18
+ATOM     18  C   UNL     1      -8.419  -1.958 125.656  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1      -7.779  -1.179 124.692  0.00  0.00    +0.000 A 
+ATOM     20  C   UNL     1      -7.979  -1.448 123.326  0.00  0.00    +0.000 A 
+ATOM     21  C   UNL     1      -8.723  -2.556 122.922  0.00  0.00    +0.000 A 
+ATOM     22  C   UNL     1      -9.375  -3.316 123.875  0.00  0.00    +0.000 A 
+ATOM     23  C   UNL     1      -9.285  -2.952 125.211  0.00  0.00    +0.000 A 
+ENDBRANCH  17  18
+ENDBRANCH  15  17
+ENDBRANCH  12  15
+ENDBRANCH  10  11
+BRANCH   6  24
+ATOM     24  C   UNL     1      -8.887   3.265 133.416  0.00  0.00    +0.000 C 
+ATOM     25  OXT UNL     1      -7.859   3.328 134.080  0.00  0.00    +0.000 OA
+BRANCH  24  26
+ATOM     26  O   UNL     1     -10.007   3.815 133.927  0.00  0.00    +0.000 OA
+ATOM     27  H   UNL     1     -10.511   3.371 134.625  0.00  0.00    +0.000 HD
+ENDBRANCH  24  26
+ENDBRANCH   6  24
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -7.0      1.953      4.125
+REMARK  Name = Pheneticillin
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_5
+REMARK    2  A    between atoms: C_4  and  C_6
+REMARK    3  A    between atoms: CA_7  and  C_24
+REMARK    4  A    between atoms: CA_11  and  N_12
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_15  and  C_16
+REMARK    7  A    between atoms: C_15  and  O_17
+REMARK    8  A    between atoms: O_17  and  C_18
+REMARK    9  A    between atoms: C_24  and  O_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -8.640   0.044 124.288  0.00  0.00    +0.000 C 
+ATOM      2  S   UNL     1      -7.140  -0.705 123.560  0.00  0.00    +0.000 S 
+ATOM      3  C   UNL     1      -7.633  -2.392 124.213  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -6.348  -3.219 124.303  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -8.626  -2.956 123.179  0.00  0.00    +0.000 C 
+ATOM      6  CA  UNL     1      -8.229  -2.082 125.606  0.00  0.00    +0.000 C 
+ATOM      7  N   UNL     1      -8.904  -0.771 125.487  0.00  0.00    +0.000 N 
+ATOM      8  C   UNL     1      -8.608   0.257 126.348  0.00  0.00    +0.000 C 
+ATOM      9  O   UNL     1      -8.349   0.242 127.538  0.00  0.00    +0.000 OA
+ATOM     10  CA  UNL     1      -8.482   1.282 125.191  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH  10  11
+ATOM     11  N   UNL     1      -7.198   2.041 125.106  0.00  0.00    +0.000 N 
+ATOM     12  C   UNL     1      -7.047   3.060 124.172  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1      -7.968   3.358 123.415  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1      -6.432   1.791 125.720  0.00  0.00    +0.000 HD
+BRANCH  12  15
+ATOM     15  C   UNL     1      -5.647   3.731 124.127  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1      -5.515   4.350 122.733  0.00  0.00    +0.000 C 
+BRANCH  15  17
+ATOM     17  O   UNL     1      -5.549   4.666 125.230  0.00  0.00    +0.000 OA
+BRANCH  17  18
+ATOM     18  C   UNL     1      -4.533   4.514 126.136  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1      -3.747   3.362 126.091  0.00  0.00    +0.000 A 
+ATOM     20  C   UNL     1      -2.784   3.130 127.089  0.00  0.00    +0.000 A 
+ATOM     21  C   UNL     1      -2.526   4.093 128.065  0.00  0.00    +0.000 A 
+ATOM     22  C   UNL     1      -3.318   5.224 128.124  0.00  0.00    +0.000 A 
+ATOM     23  C   UNL     1      -4.360   5.371 127.219  0.00  0.00    +0.000 A 
+ENDBRANCH  17  18
+ENDBRANCH  15  17
+ENDBRANCH  12  15
+ENDBRANCH  10  11
+BRANCH   6  24
+ATOM     24  C   UNL     1      -9.154  -3.121 126.286  0.00  0.00    +0.000 C 
+ATOM     25  OXT UNL     1      -8.740  -3.948 127.090  0.00  0.00    +0.000 OA
+BRANCH  24  26
+ATOM     26  O   UNL     1     -10.464  -3.147 125.968  0.00  0.00    +0.000 OA
+ATOM     27  H   UNL     1     -10.819  -3.810 125.355  0.00  0.00    +0.000 HD
+ENDBRANCH  24  26
+ENDBRANCH   6  24
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -7.0      6.815      8.856
+REMARK  Name = Pheneticillin
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  C_5
+REMARK    2  A    between atoms: C_4  and  C_6
+REMARK    3  A    between atoms: CA_7  and  C_24
+REMARK    4  A    between atoms: CA_11  and  N_12
+REMARK    5  A    between atoms: C_13  and  C_15
+REMARK    6  A    between atoms: C_15  and  C_16
+REMARK    7  A    between atoms: C_15  and  O_17
+REMARK    8  A    between atoms: O_17  and  C_18
+REMARK    9  A    between atoms: C_24  and  O_25
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      -7.447   2.958 130.343  0.00  0.00    +0.000 C 
+ATOM      2  S   UNL     1      -6.824   3.959 131.741  0.00  0.00    +0.000 S 
+ATOM      3  C   UNL     1      -8.572   4.458 132.197  0.00  0.00    +0.000 C 
+ATOM      4  C   UNL     1      -8.463   5.762 132.990  0.00  0.00    +0.000 C 
+ATOM      5  C   UNL     1      -9.119   3.296 133.049  0.00  0.00    +0.000 C 
+ATOM      6  CA  UNL     1      -9.263   4.659 130.828  0.00  0.00    +0.000 C 
+ATOM      7  N   UNL     1      -8.668   3.662 129.911  0.00  0.00    +0.000 N 
+ATOM      8  C   UNL     1      -8.120   4.043 128.712  0.00  0.00    +0.000 C 
+ATOM      9  O   UNL     1      -8.468   4.900 127.920  0.00  0.00    +0.000 OA
+ATOM     10  CA  UNL     1      -6.845   3.189 128.944  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH  10  11
+ATOM     11  N   UNL     1      -5.536   3.905 128.864  0.00  0.00    +0.000 N 
+ATOM     12  C   UNL     1      -4.421   3.268 128.330  0.00  0.00    +0.000 C 
+ATOM     13  O   UNL     1      -4.500   2.118 127.907  0.00  0.00    +0.000 OA
+ATOM     14  H   UNL     1      -5.464   4.851 129.223  0.00  0.00    +0.000 HD
+BRANCH  12  15
+ATOM     15  C   UNL     1      -3.100   4.084 128.362  0.00  0.00    +0.000 C 
+ATOM     16  C   UNL     1      -2.256   3.576 127.190  0.00  0.00    +0.000 C 
+BRANCH  15  17
+ATOM     17  O   UNL     1      -3.429   5.494 128.320  0.00  0.00    +0.000 OA
+BRANCH  17  18
+ATOM     18  C   UNL     1      -3.262   6.246 129.453  0.00  0.00    +0.000 A 
+ATOM     19  C   UNL     1      -3.991   7.427 129.599  0.00  0.00    +0.000 A 
+ATOM     20  C   UNL     1      -3.742   8.274 130.693  0.00  0.00    +0.000 A 
+ATOM     21  C   UNL     1      -2.851   7.895 131.697  0.00  0.00    +0.000 A 
+ATOM     22  C   UNL     1      -2.112   6.736 131.543  0.00  0.00    +0.000 A 
+ATOM     23  C   UNL     1      -2.265   5.983 130.387  0.00  0.00    +0.000 A 
+ENDBRANCH  17  18
+ENDBRANCH  15  17
+ENDBRANCH  12  15
+ENDBRANCH  10  11
+BRANCH   6  24
+ATOM     24  C   UNL     1     -10.808   4.635 130.744  0.00  0.00    +0.000 C 
+ATOM     25  OXT UNL     1     -11.420   3.825 130.057  0.00  0.00    +0.000 OA
+BRANCH  24  26
+ATOM     26  O   UNL     1     -11.521   5.556 131.424  0.00  0.00    +0.000 OA
+ATOM     27  H   UNL     1     -11.939   6.303 130.969  0.00  0.00    +0.000 HD
+ENDBRANCH  24  26
+ENDBRANCH   6  24
+TORSDOF 6
+ENDMDL

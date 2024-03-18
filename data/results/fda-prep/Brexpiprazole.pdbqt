@@ -1,0 +1,61 @@
+REMARK  Name = Brexpiprazole
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_6  and  O_7
+REMARK    2  A    between atoms: O_7  and  C_8
+REMARK    3  A    between atoms: C_8  and  C_9
+REMARK    4  A    between atoms: C_9  and  C_10
+REMARK    5  A    between atoms: C_10  and  C_11
+REMARK    6  A    between atoms: C_11  and  N_12
+REMARK    7  A    between atoms: N_15  and  C_18
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1       4.546   5.589  -0.081  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNL     1       4.828   4.082  -0.055  0.00  0.00    +0.000 C 
+BRANCH   2   3
+ATOM      3  C   UNL     1       3.521   3.298  -0.027  0.00  0.00    +0.000 C 
+BRANCH   3   4
+ATOM      4  O   UNL     1       3.797   1.895  -0.020  0.00  0.00    +0.000 OA
+BRANCH   4  10
+ATOM      5  O   UNL     1      -3.230   0.621  -0.010  0.00  0.00    +0.000 OA
+ATOM      6  C   UNL     1      -2.074   0.199  -0.005  0.00  0.00    +0.000 A 
+ATOM      7  N   UNL     1      -0.994   1.035   0.013  0.00  0.00    +0.000 N 
+ATOM      8  C   UNL     1       0.332   0.582   0.011  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1       1.371   1.511   0.003  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1       2.697   1.074  -0.006  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1       2.963  -0.301  -0.005  0.00  0.00    +0.000 A 
+ATOM     12  C   UNL     1       1.916  -1.233   0.004  0.00  0.00    +0.000 A 
+ATOM     13  C   UNL     1       0.592  -0.793   0.011  0.00  0.00    +0.000 A 
+ATOM     14  C   UNL     1      -0.537  -1.724   0.006  0.00  0.00    +0.000 A 
+ATOM     15  C   UNL     1      -1.793  -1.256  -0.016  0.00  0.00    +0.000 A 
+ATOM     16  H   UNL     1      -1.199   2.025   0.023  0.00  0.00    +0.000 HD
+ENDBRANCH   4  10
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  17
+ATOM     17  C   UNL     1       5.847   6.388  -0.126  0.00  0.00    +0.000 C 
+BRANCH  17  18
+ATOM     18  N   UNL     1       5.749   7.818   0.111  0.00  0.00    +0.000 NA
+ATOM     19  C   UNL     1       5.146   8.133   1.418  0.00  0.00    +0.000 C 
+ATOM     20  C   UNL     1       5.590   9.534   1.851  0.00  0.00    +0.000 C 
+ATOM     21  N   UNL     1       5.127  10.489   0.843  0.00  0.00    +0.000 N 
+ATOM     22  C   UNL     1       5.583  10.207  -0.526  0.00  0.00    +0.000 C 
+ATOM     23  C   UNL     1       5.209   8.736  -0.915  0.00  0.00    +0.000 C 
+BRANCH  21  24
+ATOM     24  C   UNL     1       4.442  11.628   1.210  0.00  0.00    +0.000 A 
+ATOM     25  C   UNL     1       4.936  12.535   2.194  0.00  0.00    +0.000 A 
+ATOM     26  C   UNL     1       6.185  12.530   2.910  0.00  0.00    +0.000 A 
+ATOM     27  C   UNL     1       6.331  13.590   3.769  0.00  0.00    +0.000 A 
+ATOM     28  S   UNL     1       4.975  14.616   3.739  0.00  0.00    +0.000 S 
+ATOM     29  C   UNL     1       4.169  13.647   2.559  0.00  0.00    +0.000 A 
+ATOM     30  C   UNL     1       2.904  13.892   1.998  0.00  0.00    +0.000 A 
+ATOM     31  C   UNL     1       2.420  13.004   1.041  0.00  0.00    +0.000 A 
+ATOM     32  C   UNL     1       3.181  11.906   0.646  0.00  0.00    +0.000 A 
+ENDBRANCH  21  24
+ENDBRANCH  17  18
+ENDBRANCH   1  17
+TORSDOF 7

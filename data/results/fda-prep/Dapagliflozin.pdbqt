@@ -1,0 +1,71 @@
+REMARK  Name = Dapagliflozin
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  O_3
+REMARK    3  A    between atoms: O_3  and  C_4
+REMARK    4  A    between atoms: C_7  and  C_8
+REMARK    5  A    between atoms: C_8  and  C_9
+REMARK    6  A    between atoms: C_14  and  C_16
+REMARK    7  A    between atoms: C_18  and  C_19
+REMARK    8  A    between atoms: C_19  and  O_20
+REMARK    9  A    between atoms: C_21  and  O_22
+REMARK   10  A    between atoms: C_23  and  O_24
+REMARK   11  A    between atoms: C_25  and  O_26
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      11.821   5.554   1.152  0.00  0.00    +0.000 A 
+ATOM      2  C   UNL     1      11.810   6.858   1.659  0.00  0.00    +0.000 A 
+ATOM      3 CL   UNL     1      12.676   8.146   0.907  0.00  0.00    +0.000 Cl
+ATOM      4  C   UNL     1      11.028   7.172   2.775  0.00  0.00    +0.000 A 
+ATOM      5  C   UNL     1      10.160   6.222   3.312  0.00  0.00    +0.000 A 
+ATOM      6  C   UNL     1      10.116   4.932   2.778  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      10.998   4.592   1.757  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   6   8
+ATOM      8  C   UNL     1       9.135   3.890   3.242  0.00  0.00    +0.000 C 
+ATOM      9  O   UNL     1       7.822   4.421   3.040  0.00  0.00    +0.000 OA
+ATOM     10  C   UNL     1       6.797   3.493   3.402  0.00  0.00    +0.000 C 
+ATOM     11  C   UNL     1       6.916   3.107   4.882  0.00  0.00    +0.000 C 
+ATOM     12  C   UNL     1       8.318   2.532   5.167  0.00  0.00    +0.000 C 
+ATOM     13  C   UNL     1       9.415   3.489   4.696  0.00  0.00    +0.000 C 
+BRANCH  11  14
+ATOM     14  O   UNL     1       5.918   2.138   5.219  0.00  0.00    +0.000 OA
+ATOM     15  H   UNL     1       6.104   1.317   4.732  0.00  0.00    +0.000 HD
+ENDBRANCH  11  14
+BRANCH  12  16
+ATOM     16  O   UNL     1       8.475   2.250   6.562  0.00  0.00    +0.000 OA
+ATOM     17  H   UNL     1       8.422   3.094   7.044  0.00  0.00    +0.000 HD
+ENDBRANCH  12  16
+BRANCH  13  18
+ATOM     18  O   UNL     1      10.707   2.874   4.828  0.00  0.00    +0.000 OA
+ATOM     19  H   UNL     1      10.717   2.038   4.332  0.00  0.00    +0.000 HD
+ENDBRANCH  13  18
+BRANCH  10  20
+ATOM     20  C   UNL     1       5.400   4.031   3.039  0.00  0.00    +0.000 C 
+BRANCH  20  21
+ATOM     21  O   UNL     1       5.211   5.399   3.381  0.00  0.00    +0.000 OA
+ATOM     22  H   UNL     1       4.713   5.801   2.645  0.00  0.00    +0.000 HD
+ENDBRANCH  20  21
+ENDBRANCH  10  20
+ENDBRANCH   6   8
+BRANCH   1  23
+ATOM     23  C   UNL     1      12.585   5.106  -0.071  0.00  0.00    +0.000 C 
+BRANCH  23  27
+ATOM     24  C   UNL     1      10.182   3.986  -3.502  0.00  0.00    +0.000 A 
+ATOM     25  C   UNL     1      11.578   3.904  -3.542  0.00  0.00    +0.000 A 
+ATOM     26  C   UNL     1      12.339   4.218  -2.410  0.00  0.00    +0.000 A 
+ATOM     27  C   UNL     1      11.720   4.683  -1.249  0.00  0.00    +0.000 A 
+ATOM     28  C   UNL     1      10.314   4.755  -1.231  0.00  0.00    +0.000 A 
+ATOM     29  C   UNL     1       9.556   4.378  -2.333  0.00  0.00    +0.000 A 
+BRANCH  24  30
+ATOM     30  O   UNL     1       9.515   3.593  -4.629  0.00  0.00    +0.000 OA
+BRANCH  30  32
+ATOM     31  C   UNL     1       7.623   3.644  -6.069  0.00  0.00    +0.000 C 
+ATOM     32  C   UNL     1       8.306   4.310  -4.893  0.00  0.00    +0.000 C 
+ENDBRANCH  30  32
+ENDBRANCH  24  30
+ENDBRANCH  23  27
+ENDBRANCH   1  23
+TORSDOF 10

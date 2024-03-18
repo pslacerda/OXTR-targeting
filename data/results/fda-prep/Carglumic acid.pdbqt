@@ -1,0 +1,47 @@
+REMARK  Name = Carglumic acid
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_4  and  CA_5
+REMARK    2  A    between atoms: CA_5  and  CB_6
+REMARK    3  A    between atoms: CA_5  and  C_11
+REMARK    4  A    between atoms: CB_6  and  CG_7
+REMARK    5  A    between atoms: CG_7  and  CD_8
+REMARK    6  A    between atoms: CD_8  and  OE1_9
+REMARK    7  A    between atoms: C_11  and  O_12
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLU A   1       4.600   0.680  -1.147  0.00  0.00    +0.000 C 
+ENDROOT
+BRANCH   1   5
+ATOM      2  N   UNK A   0       1.128   0.081  -0.152  0.00  0.00    +0.000 N 
+ATOM      3  C   UNK A   0       2.439   0.340   0.066  0.00  0.00    +0.000 C 
+ATOM      4  O   UNK A   0       2.928   0.167   1.172  0.00  0.00    +0.000 OA
+ATOM      5  N   GLU A   1       3.124   0.653  -1.074  0.00  0.00    +0.000 N 
+ATOM      6  H   UNK A   0       0.621  -0.207   0.678  0.00  0.00    +0.000 HD
+ATOM      7  H   UNK A   0       0.586   0.557  -0.855  0.00  0.00    +0.000 HD
+ATOM      8  H   GLU A   1       2.537   0.964  -1.823  0.00  0.00    +0.000 HD
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  C   GLU A   1       5.222   1.374  -2.389  0.00  0.00    +0.000 C 
+ATOM     10  OXT GLU A   1       6.432   1.455  -2.565  0.00  0.00    +0.000 OA
+BRANCH   9  11
+ATOM     11  O   GLU A   1       4.372   1.852  -3.320  0.00  0.00    +0.000 OA
+ATOM     12  H   GLU A   1       3.424   1.767  -3.150  0.00  0.00    +0.000 HD
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+BRANCH   1  13
+ATOM     13  CB  GLU A   1       5.211  -0.750  -1.119  0.00  0.00    +0.000 C 
+BRANCH  13  14
+ATOM     14  CG  GLU A   1       4.829  -1.575   0.105  0.00  0.00    +0.000 C 
+BRANCH  14  15
+ATOM     15  CD  GLU A   1       5.348  -2.979   0.242  0.00  0.00    +0.000 C 
+ATOM     16  OE2 GLU A   1       5.050  -3.686   1.199  0.00  0.00    +0.000 OA
+BRANCH  15  17
+ATOM     17  OE1 GLU A   1       6.101  -3.447  -0.767  0.00  0.00    +0.000 OA
+ATOM     18  HE1 GLU A   1       6.283  -2.823  -1.490  0.00  0.00    +0.000 HD
+ENDBRANCH  15  17
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+ENDBRANCH   1  13
+TORSDOF 7
